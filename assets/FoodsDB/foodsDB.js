@@ -338,25 +338,25 @@ const PinoyFoods = [
         'Transfer to a serving plate. Serve.',
       ],
       nutrition: [
-        { name: 'Serving', amount: '4g' }
-        { name: 'Calories', amount: '490kcal' }
-        { name: 'Carbohydrates', amount: '65g' }
-        { name: 'Protein', amount: '16g' }
-        { name: 'Fat', amount: '19g' }
-        { name: 'Saturated Fat', amount: '3g' }
-        { name: 'Cholesterol', amount: '24mg' }
-        { name: 'Sodium', amount: '1502mg' }
-        { name: 'Potassium', amount: '737mg' }
-        { name: 'Fiber', amount: '8g' }
-        { name: 'Sugar', amount: '9g' }
-        { name: 'Vitamin A', amount: '4865IU' }
-        { name: 'Vitamin C', amount: '102.9mg' }
-        { name: 'Calcium', amount: '127mg' }
-        { name: 'Iron', amount: '2.5mg' }
+        { name: 'Serving', amount: '4g' },
+        { name: 'Calories', amount: '490kcal' },
+        { name: 'Carbohydrates', amount: '65g' },
+        { name: 'Protein', amount: '16g' },
+        { name: 'Fat', amount: '19g' },
+        { name: 'Saturated Fat', amount: '3g' },
+        { name: 'Cholesterol', amount: '24mg' },
+        { name: 'Sodium', amount: '1502mg' },
+        { name: 'Potassium', amount: '737mg' },
+        { name: 'Fiber', amount: '8g' },
+        { name: 'Sugar', amount: '9g' },
+        { name: 'Vitamin A', amount: '4865IU' },
+        { name: 'Vitamin C', amount: '102.9mg' },
+        { name: 'Calcium', amount: '127mg' },
+        { name: 'Iron', amount: '2.5mg' },
       ],
     },
     video: 'https://youtu.be/OV61OS6Elso',
-    image: require('./images/food/000000001.jpg')
+    image: require('./images/food/000000001.jpg'),
   },
 ];
 
