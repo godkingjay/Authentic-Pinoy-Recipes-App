@@ -151,7 +151,7 @@ const PinoyFoods = [
 
         The shrimp and chopped parsley goes next. These cooks quickly. Add the noodles afterwards and cover the pot. Let the noodles absorb the steam. This makes it softer. Toss the noodles and continue to cook until the liquid is completely absorbed. You may want to add more water if the noodles seem dry.
 
-        Finish it by adding back the blanched vegetables and seasoning with ground black pepper. Toss until all ingredients are well distributed.`
+        Finish it by adding back the blanched vegetables and seasoning with ground black pepper. Toss until all ingredients are well distributed.`,
       },
       {
         title: 'Alternative Ingredients for Pancit Canton',
@@ -162,7 +162,7 @@ const PinoyFoods = [
         • Chicken can also be a good alternative to pork.
         • The oyster sauce is an optional ingredient. I like it because it improves the flavor of pancit canton.
         • Sliced long green beans can be added to the dish.
-        • Napa cabbage can be used as an alternative ingredient to regular cabbage.`
+        • Napa cabbage can be used as an alternative ingredient to regular cabbage.`,
       },
       { 
         title: 'Pancit Canton Versions',
@@ -180,7 +180,7 @@ const PinoyFoods = [
 
         Saucy – Pancit canton with extra sauce is always good to have. There are even times when I eat it with rice. It might sound unusual, but the flavorful sauce always complement whatever dish or side dish you eat it with. I like mine with more calamansi, so I squeeze a piece of it over the pancit before eating.
 
-        Pancit Canton and Bihon – another version of pancit canton that is famous in Cebu and its nearby provinces is called Bam-I. It is a combination of both flour sticks and rice stick noodles. Any topping ingredient can be used to make this version. The key here to be able to cook both noodles properly and distribute it evenly to make the dish look good.`
+        Pancit Canton and Bihon – another version of pancit canton that is famous in Cebu and its nearby provinces is called Bam-I. It is a combination of both flour sticks and rice stick noodles. Any topping ingredient can be used to make this version. The key here to be able to cook both noodles properly and distribute it evenly to make the dish look good.`,
       },
       {
         title: 'What is the Best Condiment for Pancit Canton?',
@@ -188,8 +188,8 @@ const PinoyFoods = [
 
         Calamansi or calamondin is a citrus fruit. It is smaller than lime and has a sour and a bit bitter taste. Lemon and lime can also be used a substitutes when calamansi is not available.
         
-        Simply pour a tablespoons or two of toyomansi on your noodle dish and toss until well blended. Yummy!`
-      }
+        Simply pour a tablespoons or two of toyomansi on your noodle dish and toss until well blended. Yummy!`,
+      },
     ],
     recipe: {
       details: {
@@ -360,6 +360,8 @@ const PinoyFoods = [
   },
 ];
 
+
+
 /**************************************************************************************************************
 
 TEMPLATE:
@@ -384,7 +386,7 @@ const PinoyFoods = [
       {
         title: 'Some Title',
         content: `Some text...`
-      }
+      },
     ],
     recipe: {
       details: {
@@ -403,14 +405,14 @@ const PinoyFoods = [
           amount: '0',
           tagalog: 'sangkap',
           type: 'sliced',
-          image: ''
+          image: '',
         },
         {
           name: 'ingredient',
           amount: '0',
           tagalog: 'sangkap',
           type: 'sliced',
-          image: ''
+          image: '',
         }
       ],
       instructions: [
@@ -426,8 +428,8 @@ const PinoyFoods = [
       ],
     },
     video: 'https://domain.com/',
-    image: 'file://path'
-  }
+    image: 'file://path',
+  },
 ],
 
 **************************************************************************************************************/
