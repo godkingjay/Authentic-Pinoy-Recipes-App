@@ -124,3 +124,312 @@
 //     image: '',
 //   }
 // ];
+
+const PinoyFoods = [
+  {
+    id: 1,
+    name: 'Pancit Canton',
+    tagalog: 'Pansit Canton',
+    type: [
+      'Noodle Dish'
+    ],
+    description: `Pancit Canton it is a type of Lo Mein or tossed noodles known as flour sticks. This dish is often served during birthdays and special occasions to symbolize long life. It is prepared using a variety of ingredients, which makes it look festive. There is also a combination of different flavors that make it delicious.
+    
+    This Pancit Canton Recipe makes use of sliced pork, sausage, and shrimp. It also utilizes different kinds of vegetables. I always like to make my noodle dish this way because I believe that food should be both pleasing to the eyes and the palate at the same time.
+
+    Have you tried cooking pancit canton? If not, that’s okay. I am here to guide you. This recipe post and the accompanying video below will help you get started. You will be all set as long as you follow the directions step by step.`,
+    link: 'https://panlasangpinoy.com/pancit-canton-recipe/',
+    author: 'Vanjo Merano',
+    information: [
+      {
+        title: 'How to Cook Pancit Canton',
+        content: `Here is a summary of what I did to achieve this delicious and tasty pancit canton.
+
+        I started by preparing the vegetables. Blanch the snap peas, carrot, and cabbage. Blanching is a cooking method that retains the texture and color of vegetables. Do this by first preparing a large bowl that can accomodate all the vegetables. Fill half of it with cold water and add ice. Set the bowl aside. Meanwhile boil water on a cooking pot and put all the veggies in there. Boil for less than a minute (around 50 seconds) and then transfer the veggies to the bowl with ice water. The temperature of the water stops the vegetable from cooking further.This helps make the veggies crisp and retain its color. Set the vegetables aside. These will be added back towards the end of the process.
+        
+        Saute onion and garlic until soft. Add the meat and continue to cook until the color turns light brown. You can add seasonings and chicken broth. Let boil and continue to cook with the pot covered until the meats are tender.
+
+        The shrimp and chopped parsley goes next. These cooks quickly. Add the noodles afterwards and cover the pot. Let the noodles absorb the steam. This makes it softer. Toss the noodles and continue to cook until the liquid is completely absorbed. You may want to add more water if the noodles seem dry.
+
+        Finish it by adding back the blanched vegetables and seasoning with ground black pepper. Toss until all ingredients are well distributed.`
+      },
+      {
+        title: 'Alternative Ingredients for Pancit Canton',
+        content: `There are many ways to cook pancit canton. The difference between each version has something to do with the main ingredients used.
+
+        You can use snow peas a a substitute for snap peas. These are called chicharo in Filipino.
+        
+        • Chicken can also be a good alternative to pork.
+        • The oyster sauce is an optional ingredient. I like it because it improves the flavor of pancit canton.
+        • Sliced long green beans can be added to the dish.
+        • Napa cabbage can be used as an alternative ingredient to regular cabbage.`
+      },
+      { 
+        title: 'Pancit Canton Versions',
+        content: `Vegetarian – This version is vegetarian and vegan friendly. It had the basic ingredients with the addition of Shiitake mushroom. This is a flavorful mushroom variety that I used most of the time when cooking Asian dishes.
+        
+        Instant – There was a time when instant pancit canton was a staple because of its price and ease of preparation. However, this is not the healthiest food that you can make for yourself or your family. I developed this recipe to introduce a healthier instant pancit canton by adding vegetables.
+
+        Shrimp – I like to have shrimp in my doodle dish. It provides a good flavor and is always pleasant to eat. This particular version makes use of frozen shrimp along with bell peppers. It is one of my go to recipe when I feel like making a quick one with limited time.
+
+        Shrimp and Chicken – A combination of shrimp and chicken for a noodle dish is always a good idea. This recipe has shredded chicken and pan-fried shrimp. I also had some Chinese sausage in it to lift the overall flavor to the next level.
+
+        Squid Ball – Chow mein with squid ball is a budget-friendly dish. It is composed of the same flour noodles with vegetables such as cabbage and carrots. A popular Filipino street food known as squid balls are utilized. A squid ball is a ball-shaped mixture with either fresh chopped squid or squid flavor.
+
+        Seafood – One of my favorite version is seafood. It has shrimp, squid, crabmeat, squiballs, and mushroom. I think that this is one of the tastiest noodle dish that I made. It is perfect during lent when Catholics are abstaining from meat.
+
+        Saucy – Pancit canton with extra sauce is always good to have. There are even times when I eat it with rice. It might sound unusual, but the flavorful sauce always complement whatever dish or side dish you eat it with. I like mine with more calamansi, so I squeeze a piece of it over the pancit before eating.
+
+        Pancit Canton and Bihon – another version of pancit canton that is famous in Cebu and its nearby provinces is called Bam-I. It is a combination of both flour sticks and rice stick noodles. Any topping ingredient can be used to make this version. The key here to be able to cook both noodles properly and distribute it evenly to make the dish look good.`
+      },
+      {
+        title: 'What is the Best Condiment for Pancit Canton?',
+        content: `The best condiment for pancit canton for me is a mixture composed of soy sauce and calamansi. It is also known as “toyomansi”.
+
+        Calamansi or calamondin is a citrus fruit. It is smaller than lime and has a sour and a bit bitter taste. Lemon and lime can also be used a substitutes when calamansi is not available.
+        
+        Simply pour a tablespoons or two of toyomansi on your noodle dish and toss until well blended. Yummy!`
+      }
+    ],
+    recipe: {
+      details: {
+        description: `Tossed flour stick noodles with pork, sausage, shrimp, and a variety of vegetables. This Filipino noodle dish is delicious.`,
+        time: {
+          prep: '15 Minutes',
+          cook: '30 Minutes',
+          total: '45 Minutes'
+        },
+        servings: '4 People',
+        calories: '490 kcal',
+      },
+      ingredients: [
+        {
+          name: 'Flour Stick Noodles',
+          amount: '250 grams',
+          tagalog: null,
+          type: null,
+          image: 'noodles'
+        },
+        {
+          name: 'Pork',
+          amount: '4 Ounces',
+          tagalog: 'Baboy',
+          type: 'Thinly Sliced',
+          image: 'pork'
+        },
+        {
+          name: 'Chinese Sausage',
+          amount: '1 Piece',
+          tagalog: null,
+          type: 'Sliced',
+          image: 'sausage'
+        },
+        {
+          name: 'Onion',
+          amount: '1 Piece',
+          tagalog: 'Sibuyas',
+          type: 'Sliced',
+          image: 'onion'
+        },
+        {
+          name: 'Garlic',
+          amount: '1 Teaspoon',
+          tagalog: 'Bawang',
+          type: 'sliced',
+          image: 'garlic'
+        },
+        {
+          name: 'Shrimp',
+          amount: '8 to 10 Pieces',
+          tagalog: 'Hipon',
+          type: 'Shell Removed',
+          image: 'shrimp'
+        },
+        {
+          name: 'Snap Peas',
+          amount: '10 to 12 Pieces',
+          tagalog: null,
+          type: null,
+          image: 'peas'
+        },
+        {
+          name: 'Carrot',
+          amount: '3/4 Cup',
+          tagalog: 'Karot',
+          type: 'Julienne',
+          image: 'carrot'
+        },
+        {
+          name: 'Cabbage',
+          amount: '1 Piece',
+          tagalog: 'Repolyo',
+          type: 'Small, Chopped',
+          image: 'cabbage',
+        },
+        {
+          name: 'Chicken Broth',
+          amount: '1 1/2 Cups',
+          tagalog: null,
+          type: null,
+          image: 'broth',
+        },
+        {
+          name: 'Oyster Sauce',
+          amount: '1 Tablespoon',
+          tagalog: null,
+          type: 'Optional',
+          image: 'sauce'
+        },
+        {
+          name: 'Soy Sauce',
+          amount: '3 Tablespoons',
+          tagalog: null,
+          type: null,
+          image: 'sauce'
+        },
+        {
+          name: 'Water',
+          amount: '3/4 Cup',
+          tagalog: 'Tubig',
+          type: null,
+          image: 'water'
+        },
+        {
+          name: 'Flat Leaf Parsley',
+          amount: '1/2 Cup',
+          tagalog: null,
+          type: 'Chopped',
+          image: 'parsley'
+        },
+        {
+          name: 'Cooking Oil',
+          amount: '3 Tablespoons',
+          tagalog: 'Mantika',
+          type: null,
+          image: 'cookingOil'
+        },
+        {
+          name: 'Salt',
+          amount: 'Depending on taste',
+          tagalog: 'Asin',
+          type: null,
+          image: 'salt'
+        },
+        {
+          name: 'Pepper',
+          amount: 'Depending on taste',
+          tagalog: 'Paminta',
+          type: null,
+          image: 'pepper'
+        }
+      ],
+      instructions: [
+        'Place 2 cups of ice and 3 cups water in a large bowl. Set aside.',
+        'Boil 6 cups of water in a cooking pot.',
+        'Once the water starts to boil, blanch the snap peas, carrots, and cabbage for 35 to 50 seconds. Quickly remove the vegetables and immerse in bowl with ice cold water. Drain the water after 2 minutes and set aside.',
+        'Heat a large wok or cooking pot and pour-in the cooking oil.',
+        'Saute the onion and garlic.',
+        'Add the pork and sausage slices and continue to cook for 2 minutes.',
+        'Add-in soy sauce and oyster sauce. Stir.',
+        'Pour-in chicken broth and water. Add salt and pepper. Let boil. continue to cook for 5 to 10 minutes.',
+        'Put-in the shrimp and parsley. Cook for 3 minutes. Add more water if needed.',
+        'Put-in the flour noodles. Gently toss until the noodles absorb the liquid.',
+        'Add-in the blanched vegetables. Toss and cook for 1 to 2 minutes.',
+        'Transfer to a serving plate. Serve.',
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '4g' }
+        { name: 'Calories', amount: '490kcal' }
+        { name: 'Carbohydrates', amount: '65g' }
+        { name: 'Protein', amount: '16g' }
+        { name: 'Fat', amount: '19g' }
+        { name: 'Saturated Fat', amount: '3g' }
+        { name: 'Cholesterol', amount: '24mg' }
+        { name: 'Sodium', amount: '1502mg' }
+        { name: 'Potassium', amount: '737mg' }
+        { name: 'Fiber', amount: '8g' }
+        { name: 'Sugar', amount: '9g' }
+        { name: 'Vitamin A', amount: '4865IU' }
+        { name: 'Vitamin C', amount: '9mg' }
+        { name: 'Calcium', amount: '127mg' }
+        { name: 'Iron', amount: '5mg' }
+      ],
+    },
+    video: 'https://youtu.be/OV61OS6Elso',
+    image: require('./images/food/000000001.jpg')
+  }
+];
+
+/**************************************************************************************************************
+
+TEMPLATE:
+
+const PinoyFoods = [
+  {
+    id: 0,
+    name: 'Food Name',
+    tagalog: 'Pagkain',
+    type: [
+      'Type 1',
+      'Type 2'
+    ],
+    description: `Some text...`,
+    link: 'https://domain.com/',
+    author: 'Author Name',
+    information: [
+      {
+        title: 'Some Title',
+        content: `Some text...`
+      },
+      {
+        title: 'Some Title',
+        content: `Some text...`
+      }
+    ],
+    recipe: {
+      details: {
+        description: `Some text`,
+        time: {
+          prep: 'Some time..',
+          cook: 'Some time..',
+          total: 'Some time..'
+        },
+        servings: '0 People',
+        calories: '0 kcal',
+      },
+      ingredients: [
+        {
+          name: 'ingredient',
+          amount: '0',
+          tagalog: 'sangkap',
+          type: 'sliced',
+          image: ''
+        },
+        {
+          name: 'ingredient',
+          amount: '0',
+          tagalog: 'sangkap',
+          type: 'sliced',
+          image: ''
+        }
+      ],
+      instructions: [
+        'Step 1',
+        'Step 2',
+        'Step 3'
+      ],
+      nutrition: [
+        {
+          name: 'Name',
+          amount: '0',
+        },
+      ],
+    },
+    video: 'https://domain.com/',
+    image: 'file://path'
+  }
+],
+
+**************************************************************************************************************/
+
+export default PinoyFoods;
