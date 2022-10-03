@@ -350,9 +350,9 @@ const PinoyFoods = [
         { name: 'Fiber', amount: '8g' }
         { name: 'Sugar', amount: '9g' }
         { name: 'Vitamin A', amount: '4865IU' }
-        { name: 'Vitamin C', amount: '9mg' }
+        { name: 'Vitamin C', amount: '102.9mg' }
         { name: 'Calcium', amount: '127mg' }
-        { name: 'Iron', amount: '5mg' }
+        { name: 'Iron', amount: '2.5mg' }
       ],
     },
     video: 'https://youtu.be/OV61OS6Elso',
