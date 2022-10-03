@@ -1,5 +1,7 @@
 node_modules/
 .expo/
+.expo-shared/
+.vscode/
 dist/
 npm-debug.*
 *.jks
@@ -8,6 +10,8 @@ npm-debug.*
 *.key
 *.mobileprovision
 *.orig.*
+babel.config.js
+package-lock.json
 web-build/
 
 # macOS
