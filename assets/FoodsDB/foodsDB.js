@@ -701,7 +701,7 @@ const PinoyFoods = [
     type: [
 
     ],
-    description: nul,
+    description: null,
     link: null,
     author: null,
     information: [
