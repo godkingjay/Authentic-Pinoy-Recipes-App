@@ -302,7 +302,7 @@ const PinoyFoods = [
           amount: '3 Tablespoons',
           tagalog: 'Mantika',
           type: null,
-          image: 'cookingOil'
+          image: 'cooking-oil'
         },
         {
           name: 'Salt',
@@ -447,7 +447,7 @@ const PinoyFoods = [
           amount: '1 Piece',
           tagalog: null,
           type: null,
-          image: 'mixCube',
+          image: 'mix-cube',
         },
         {
           name: 'Soy Sauce',
@@ -482,6 +482,208 @@ const PinoyFoods = [
     },
     video: null,
     image: require('./images/food/000000002.jpg'),
+  },
+  {
+    id: 3,
+    name: 'Pancit Palabok',
+    tagalog: 'Pansit Palabok',
+    type: [
+      'Noodle Dish'
+    ],
+    description: `A favorite at workplace parties, birthdays, and other celebrations, Pancit Palabok is one of the staple noodles in Filipino cuisine. Tasty and filling, this pancit contains a savory sauce that will make your mouth water. It has become so popular that one of our most frequented fast food chains, Jollibee, has taken it as one of their offerings!`,
+    link: 'https://panlasangpinoy.com/asian-filipino-food-noodles-pansit-pancit-palabok-recipe/',
+    author: 'Vanjo Merano',
+    information: [
+      {
+        title: 'What is a Pancit Palabok',
+        content: `Pancit Palabok is a variation of pancit, a classic dish many Filipinos enjoy. Despite the many different kinds of pancit in the country, palabok is easily recognized by certain trademark characteristics: its thin noodles and orange sauce in particular. Some say that one synonym of palabok is “salsa na malapot” –– meaning, a sauce that is gooey and viscous in nature.
+        
+        However, the orange color of palabok’s sauce doesn’t come from the orange fruit; instead, palabok sauce is usually a combination of pork broth, shrimp cubes, ground pork, and annatto powder. The latter is the reason behind these noodles’ bright and refreshing appearance.
+
+        Aside from its appearance, what sets pancit palabok apart from other popular pancit variations? Let’s find out.`,
+      },
+      {
+        title: 'What is the difference between Pancit Malabon and Palabok?',
+        content: `Tasty and true to its name, Pancit Malabon hails from –– you guessed it –– the city of Malabon! Its bright appearance bears a resemblance to that of Pancit Palabok; the use of hard boiled eggs, chicharon, and shrimp, too, cannot be discounted. Many people consider Pancit Palabok and Pancit Malabon to be one and the same because of this.
+
+        However, one of the biggest differences lies in the type of noodles we use in each kind of pancit. In Pancit Palabok, the noodles are much thinner. The typical noodle of choice is bihon, which are almost clear in nature and known for their narrowness. Meanwhile, Malabon’s noodles are considerably thicker.
+        
+        Another difference is the toppings. Pancit Malabon tends to use more seafood, like shrimp, squid –– even oysters at times! While palabok has shrimps, too, that’s typically as far as seafood toppings go for this kind of pancit. When serving palabok, one usually only puts the toppings and sauce atop the noodles instead of mixing them. With Pancit Malabon, on the other hand, the ingredients, toppings, and sauce are more incorporated.`,
+      },
+      {
+        title: 'What makes Pancit Malabon different from Pancit Luglug?',
+        content: `Essentially, Pancit Luglug is just the Kapampangan version of Pancit Palabok. From the toppings all the way down to its special sauce, Luglug looks even more similar to Palabok than Pancia Malabon does.
+
+        However, the difference, once again, is in the noodles! Luglug is actually a term that refers specifically to the method of cooking thick rice noodles. While some say that you can make pancit luglug with both thick or thin noodles, it is more common to use the former rather than the latter.`,
+      },
+      {
+        title: 'How to Cook Pancit Palabok',
+        content: `Making Pancit Palabok is usually divided into two portions: making the sauce and making the toppings. Altogether, cooking and prep time shouldn’t take longer than 45 minutes! In no time at all, you’ll have enough Pancit Palabok to feed your whole family. 
+
+        Your sauce ingredients don’t require a lot of preparation beforehand, but your toppings sure do. Boil 1 cup of pork, then thinly slice and cut it into small pieces. Cube 2 pieces of fried firm tofu, pound half a cup of chicharon, and slice 2 hard boiled eggs. Don’t forget to boil or steam your shrimp (about half a cup) then finely chop your green onions or scallions.
+        
+        All ready? Let’s start cooking! Soak 1 pack of rice noodles in water for about 15 minutes. Afterwards, drain them and set it aside. We’ll be focusing on the sauce portion of your pancit palabok first; begin by heating some cooking oil in a saucepan. Once your oil is hot enough, pour in half a pound of ground pork, letting it cook for about 5 to 7 minutes. 
+        
+        Take your tablespoon of annatto powder and dilute it in 3 cups of pork broth. If you’re using annatto seeds, it’s important to soak them first in 3 tablespoons of water to bring out the palabok’s trademark color. Pour this mixture into a saucepan and bring it to a boil. Add your shrimp cube and stir, letting the sauce simmer for about 3 minutes. Little by little, pour in, too, your 6 tablespoons of all purpose flour. Stir your pancit palabok sauce gradually as you do so. Add 2 tablespoons of fish sauce and half a teaspoon of ground black pepper and let your sauce simmer until it becomes thick. Once it has, turn the heat off and set it aside. 
+        
+        With your sauce out of the way, let’s now prepare the rest of your pancit! Boil enough water in a pot. Then, take your noodles and put them in a strainer (metal or bamboo), then submerge said strainer in the boiling water. This should only take about a minute or so, until the noodles are cooked. Remove the strainer from the pot, and drain the remaining water.
+        
+        Now it’s time to prepare your pancit palabok serving plate! Place the noodles first before pouring the sauce over them thoroughly. Arrange your toppings –- your tofu, your chicharon, your shrimp, eggs, and others –– around the plate, and over the sauce. Last but not the least, give your pancit palabok that zesty flavor with a slice of lemon or calamansi.`,
+      }
+    ],
+    recipe: {
+      details: {
+        description: `This is a recipe for Pancit Palabok.`,
+        time: {
+          prep: '10 Minutes',
+          cook: '35 Minutes',
+          total: '45 Minutes'
+        },
+        servings: '6 People',
+        calories: '679 kcal',
+      },
+      ingredients: [
+        {
+          name: 'Rice Noodles',
+          amount: '500g',
+          tagalog: 'Bihon',
+          type: null,
+          image: 'noodles'
+        },
+        {
+          name: 'Cooking Oil',
+          amount: '2 Tablespoons',
+          tagalog: 'Mantika',
+          type: 'Sauce Ingredient',
+          image: 'cooking-oil'
+        },
+        {
+          name: 'Ground Pork',
+          amount: '1/2 lb',
+          tagalog: 'Giniling na Baboy',
+          type: 'Sauce Ingredient',
+          image: 'pork'
+        },
+        {
+          name: 'Anatto Powder',
+          amount: '1 Tablspoom',
+          tagalog: null,
+          type: 'Sauce Ingredient',
+          image: 'mix-powder'
+        },
+        {
+          name: 'Pork Broth',
+          amount: '3 Cups',
+          tagalog: null,
+          type: 'Sauce Ingredient',
+          image: 'broth'
+        },
+        {
+          name: 'Shrimp Cubes/Shrimp Bouillon',
+          amount: '1 Piece',
+          tagalog: null,
+          type: 'Sauce Ingredient',
+          image: 'mix-cube'
+        },
+        {
+          name: 'Fish Sauce',
+          amount: '2 Tablespoons',
+          tagalog: null,
+          type: 'Sauce Ingredient',
+          image: 'sauce'
+        },
+        {
+          name: 'Ground Black Pepper',
+          amount: '1/2 Teaspoon',
+          tagalog: 'Dinurog na Paminta',
+          type: 'Sauce Ingredient',
+          image: 'pepper'
+        },
+        {
+          name: 'Pork Belly',
+          amount: '1 Cup',
+          tagalog: 'Baboy',
+          type: 'Boiled and Thinly Sliced',
+          image: 'pork',
+        },
+        {
+          name: 'Firm Tofu',
+          amount: '4 Ounces',
+          tagalog: null,
+          type: 'Fried and Sliced into cubes',
+          image: 'tofu',
+        },
+        {
+          name: 'Tinapa Flakes(Smoked Fish)',
+          amount: '1/2 Cup',
+          tagalog: null,
+          type: null,
+          image: 'fish'
+        },
+        {
+          name: 'Chicharon',
+          amount: '1/2 Cup',
+          tagalog: null,
+          type: 'Pounded',
+          image: 'chicharon',
+        },
+        {
+          name: 'Hard Boiled Eggs',
+          amount: '2',
+          tagalog: null,
+          type: 'Sliced',
+          image: 'egg',
+        },
+        {
+          name: 'Cooked Shrimps',
+          amount: '1/2 Cup',
+          tagalog: 'Hipon',
+          type: 'Boiled or Steamed',
+          image: 'shrimp',
+        },
+        {
+          name: 'Green Onion or Scallion',
+          amount: '1/4 Cup',
+          tagalog: null,
+          type: 'Finely Chopped',
+          image: 'onion',
+        },
+        {
+          name: 'Toasted Garlic',
+          amount: '2 Tablespoons',
+          tagalog: null,
+          type: null,
+          image: 'garlic',
+        },
+        {
+          name: 'Lemons/Calamansi',
+          amount: '2(6 Calamansi)',
+          tagalog: null,
+          type: null,
+          image: 'lemon',
+        },
+      ],
+      instructions: [
+        'Soak the rice noodles in water for about 15 minutes. Drain and set aside.',
+        'Cook the sauce by heating a saucepan. Pour-in the cooking oil.',
+        'When the oil is hot enough, put-in the ground pork and cook for about 5 to 7 minutes.',
+        'Dilute the annato powder in pork broth then pour the mixture in the saucepan. Bring to a boil (If you are using anatto seeds, soak them first in 3 tbsp water to bring-out the color).',
+        'Add the shrimp cube and stir and simmer for 3 minutes.',
+        'Add the flour gradually while stirring.',
+        'Add the fish sauce and ground black pepper then simmer until sauce becomes thick. Set aside.',
+        'Meanwhile, boil enough water in a pot.',
+        'Place the soaked noodles in a strainer (use metal or bamboo strainer) then submerge the strainer in the boiling water for about a minute or until the noodles are cooked. (make sure that the noodles are still firm).',
+        'Remove the strainer from the pot and drain the liquid from the noodles.',
+        'Place the noodles in the serving plate.',
+        'Pour the sauce on top of the noodles then arrange the toppings over the sauce.',
+        'Serve with a slice of lemon or calamansi. Share and enjoy!',
+      ],
+      nutrition: [
+
+      ],
+    },
+    video: 'https://youtu.be/HlMN-zMM5ag',
+    image: require('./images/food/000000003.jpg'),
   },
 ];
 
