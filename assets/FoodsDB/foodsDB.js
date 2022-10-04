@@ -494,66 +494,52 @@ TEMPLATE:
 const PinoyFoods = [
   {
     id: 0,
-    name: 'Food Name',
-    tagalog: 'Pagkain',
+    name: null,
+    tagalog: null,
     type: [
-      'Type 1',
-      'Type 2'
+
     ],
-    description: `Some text...`,
-    link: 'https://domain.com/',
-    author: 'Author Name',
+    description: nul,
+    link: null,
+    author: null,
     information: [
       {
-        title: 'Some Title',
-        content: `Some text...`
-      },
-      {
-        title: 'Some Title',
-        content: `Some text...`
+        title: null,
+        content: null,
       },
     ],
     recipe: {
       details: {
-        description: `Some text`,
+        description: null,
         time: {
-          prep: 'Some time..',
-          cook: 'Some time..',
-          total: 'Some time..'
+          prep: null,
+          cook: null,
+          total: null,
         },
-        servings: '0 People',
-        calories: '0 kcal',
+        servings: null,
+        calories: null,
       },
       ingredients: [
         {
-          name: 'ingredient',
-          amount: '0',
-          tagalog: 'sangkap',
-          type: 'sliced',
-          image: '',
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
         },
-        {
-          name: 'ingredient',
-          amount: '0',
-          tagalog: 'sangkap',
-          type: 'sliced',
-          image: '',
-        }
       ],
       instructions: [
-        'Step 1',
-        'Step 2',
-        'Step 3'
+        
       ],
       nutrition: [
         {
-          name: 'Name',
-          amount: '0',
+          name: null,
+          amount: null,
         },
       ],
     },
-    video: 'https://domain.com/',
-    image: 'file://path',
+    video: null,
+    image: null,
   },
 ],
 
