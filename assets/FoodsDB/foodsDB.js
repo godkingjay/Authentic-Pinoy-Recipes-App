@@ -133,11 +133,7 @@ const PinoyFoods = [
     type: [
       'Noodle Dish'
     ],
-    description: `Pancit Canton it is a type of Lo Mein or tossed noodles known as flour sticks. This dish is often served during birthdays and special occasions to symbolize long life. It is prepared using a variety of ingredients, which makes it look festive. There is also a combination of different flavors that make it delicious.
-    
-    This Pancit Canton Recipe makes use of sliced pork, sausage, and shrimp. It also utilizes different kinds of vegetables. I always like to make my noodle dish this way because I believe that food should be both pleasing to the eyes and the palate at the same time.
-
-    Have you tried cooking pancit canton? If not, that’s okay. I am here to guide you. This recipe post and the accompanying video below will help you get started. You will be all set as long as you follow the directions step by step.`,
+    description: `Pancit Canton it is a type of Lo Mein or tossed noodles known as flour sticks. This dish is often served during birthdays and special occasions to symbolize long life. It is prepared using a variety of ingredients, which makes it look festive. There is also a combination of different flavors that make it delicious.`,
     link: 'https://panlasangpinoy.com/pancit-canton-recipe/',
     author: 'Vanjo Merano',
     information: [
@@ -357,6 +353,135 @@ const PinoyFoods = [
     },
     video: 'https://youtu.be/OV61OS6Elso',
     image: require('./images/food/000000001.jpg'),
+  },
+  {
+    id: 2,
+    name: 'Pancit Bihon/Pancit Guisado',
+    tagalog: 'Pansit Bihon/Pansit Guisado',
+    type: [
+      'Noodle Dish'
+    ],
+    description: `Pancit Bihon or Pancit Guisado is a Filipino noodle dish and is a staple second to rice.  This was brought by the chinese and was localized since then. This Pancit Bihon Recipe uses “Bihon” or rice sticks mixed with pork, chicken, and vegetables. This dish is always served during Fiesta, birthday parties, and other special occasions.`,
+    link: 'https://panlasangpinoy.com/pancit-guisado/',
+    author: 'Vanjo Merano',
+    information: [
+
+    ],
+    recipe: {
+      details: {
+        description: `This is a recipe for Pancit Bihon.`,
+        time: {
+          prep: '15 Minutes',
+          cook: '40 Minutes',
+          total: '55 Minutes'
+        },
+        servings: '8 People',
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: 'Pancit Bihon',
+          amount: '1 lb',
+          tagalog: null,
+          type: 'Rice Noodles',
+          image: 'noodles'
+        },
+        {
+          name: 'Pork',
+          amount: '1/2 lb',
+          tagalog: 'Baboy',
+          type: 'Thinly Sliced',
+          image: 'pork'
+        },
+        {
+          name: 'Chicken',
+          amount: '1/2 lb',
+          tagalog: 'Manok',
+          type: 'Cooked, deboned and thinly sliced',
+          image: 'chicken'
+        },
+        {
+          name: 'Pea Pods or Snow Pea',
+          amount: '1/8 lb',
+          tagalog: null,
+          type: null,
+          image: 'peas'
+        },
+        {
+          name: 'Carrot',
+          amount: '1 Cup',
+          tagalog: 'Karot',
+          type: null,
+          image: 'carrot'
+        },
+        {
+          name: 'Small Cabbage',
+          amount: '1/2',
+          tagalog: 'Repolyo',
+          type: 'Chopped',
+          image: 'cabbage'
+        },
+        {
+          name: 'Celery Leaves',
+          amount: '1 Cup',
+          tagalog: null,
+          type: 'Chopped Finely',
+          image: 'celery'
+        },
+        {
+          name: 'Medium Sized Onion',
+          amount: '1',
+          tagalog: 'Sibuyas',
+          type: 'Chopped',
+          image: 'onion'
+        },
+        {
+          name: 'Garlic',
+          amount: '1/2 Tablespoon',
+          tagalog: 'Bawang',
+          type: 'Minced',
+          image: 'garlic',
+        },
+        {
+          name: 'Chicken Cube',
+          amount: '1 Piece',
+          tagalog: null,
+          type: null,
+          image: 'mixCube',
+        },
+        {
+          name: 'Soy Sauce',
+          amount: '5 Tablespoon',
+          tagalog: null,
+          type: null,
+          image: 'sauce'
+        },
+        {
+          name: 'Water',
+          amount: '3 to 4 Cups',
+          tagalog: 'Tubig',
+          type: null,
+          image: 'water',
+        },
+      ],
+      instructions: [
+        'In a large pot, Saute the garlic and onion.',
+        'Add the pork and chicken then let cook for 2 minutes.',
+        'Add the chicken cube and water then simmer for 15 minutes.',
+        'Put in the carrots, pea pod, cabbage, and celery leaves and simmer for a few minutes.',
+        'Remove all the ingredients in the pot except for the liquid and set them aside.',
+        'Add the pork and sausage slices and continue to cook for 2 minutes.',
+        'In the pot with the liquid in, add the soy sauce and mix well.',
+        'Add the pancit bihon (makes sure to first soak it in water for about 10 minutes) and mix well. Cook until liquid evaporates completely.',
+        'Put-in the vegetables and meat that were previously cooked and simmer for a minute or two.',
+        'Serve hot. Share and enjoy!',
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '8g' },
+      ],
+    },
+    video: null,
+    image: require('./images/food/000000002.jpg'),
   },
 ];
 
