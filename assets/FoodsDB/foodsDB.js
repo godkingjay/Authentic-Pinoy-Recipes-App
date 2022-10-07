@@ -987,7 +987,16 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        'Boil water in a pot. Add pork belly and pig face. Cover and continue to boil for 1 hour in medium heat. Drain water and let the meat cool down.',
+        'Grill boiled meats for 5 minutes per side. Remove from the grill and chop into small pieces. Note: feel free to mince the meat if preferred.',
+        'Heat oil on a pan. Saute onion for 1 minute.',
+        'Add chicken liver. Continue to sauté until thoroughly cooked. Mash the liver while cooking until it breaks down into small pieces.',
+        'Add minced meat and chicharon into the pan. Stir until all ingredients are evenly distributed.',
+        'Add chili flakes, onion powder, and ground black pepper.',
+        'Pour Knorr Liquid Seasoning. Stir.',
+        'Add Lady’s Choice Mayonnaise. Stir and cook for 3 minutes. Set aside.',
+        'Heat a metal plate. Add butter. Tranfer cooked sisig onto the metal plate. Continue to cook until it sizzles. Top with more chicharon.',
+        'Serve with calamansi or lime. Serve. Share and enjoy with white rice.',
       ],
       nutrition: [
         {
