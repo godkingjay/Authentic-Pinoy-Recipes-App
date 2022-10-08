@@ -1100,55 +1100,90 @@ const PinoyFoods = [
     video: `https://youtu.be/NWB3vzadxiE`,
     image: require('./images/food/000000009.jpg'),
   },
-  // {
-  //   id: 10,
-  //   name: `Chicken Adobo`,
-  //   tagalog: `Adobong Manok`,
-  //   type: [
+  {
+    id: 10,
+    name: `Chicken Adobo`,
+    tagalog: `Adobong Manok`,
+    type: [
+      "Stew",
+      "Chicken Dish"
+    ],
+    description: `Chicken Adobo is a type of Filipino chicken stew. Chicken pieces are marinated in soy sauce and spices, pan-fried, and stewed until tender. The dish gained popularity because of its delicious taste and ease in preparation.
+    
+    A dish that is classically and quintessentially Pinoy, chicken adobo is a dish that is beloved by many across the country. While there have been several variations of adobo across the years, chicken adobo remains one of the most popular –– and for good reason!
 
-  //   ],
-  //   description: null,
-  //   link: null,
-  //   author: null,
-  //   information: [
-  //     {
-  //       title: null,
-  //       content: null,
-  //     },
-  //   ],
-  //   recipe: {
-  //     details: {
-  //       description: null,
-  //       time: {
-  //         prep: null,
-  //         cook: null,
-  //         total: null,
-  //       },
-  //       servings: null,
-  //       calories: null,
-  //     },
-  //     ingredients: [
-  //       {
-  //         name: null,
-  //         amount: null,
-  //         tagalog: null,
-  //         type: null,
-  //         image: null,
-  //       },
-  //     ],
-  //     instructions: [
+    The taste of juicy chicken in a succulent, umami adobo sauce makes chicken adobo a comfort food for all ages. From kids to adults, we can’t get enough of this mouthwatering meal!`,
+    link: `https://panlasangpinoy.com/filipino-chicken-adobo-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: `What is Chicken Adobo`,
+        content: `A dish and cooking process native to the Philippines, adobo refers to the method of marinating meat, seafood, or vegetables (pretty much anything!) in a combination of soy sauce and vinegar. This marinade also includes other herbs and flavorings like garlic, bay leaves, and whole peppercorns.
+
+        Cooking food in vinegar is no foreign concept to us Filipinos. In pre-colonial times, our ancestors used to cook seafood in vinegar in order to preserve their freshness. Many regard adobo as a spin on kinilaw, which is another traditional cooking method. Kinilaw refers mainly to cooking raw seafood in vinegar and spices. Another similar process is paksiw, which utilizes meat broth in vinegar and spices.
         
-  //     ],
-  //     nutrition: [
-  //       {
-  //         name: null,
-  //         amount: null,
-  //       },
-  //     ],
-  //   },
-  //   video: null,
-  //   image: null,
-  // },
+        What really sets adobo apart is the presence of soy sauce in its marinade. While vinegar has a pungent aroma and a very distinctly sour taste, soy sauce is on both the sweeter and saltier side. A staple in any Asian household, soy sauce (or toyo) definitely helps in bringing out chicken adobo’s savory taste.
+
+        (Here’s a fun fact: did you know that there are different kinds of soy sauce? In Japan especially, there are five different kinds of soy sauce that each have their own unique flavors and uses. The most common one you’ll find in markets is dark soy sauce, or koikuchi. With a deeper color than most other types, dark soy sauce is packed with flavor –– perfect for your chicken adobo!)
+
+        Adobo also contains dry bay leaves in its recipe. Although you aren’t to eat them whole, bay leaves lend their subtle, deep flavors to this umami dish. It may not be the star of the show, but your chicken adobo wouldn’t be complete without it. However, you can choose to substitute this herb with basil if you can’t find it at stores.`,
+      },
+      {
+        title: `Chicken Adobo Origin`,
+        content: `The famous Chicken Adobo originated in the Philippines. The dish is prepared using the Inadobo style of cooking. It means cooking meat or seafood with vinegar and mostly soy sauce. It is a popular method during the olden days when refrigerators and freezers were not yet available because vinegar helps extend the shelf life of food. Another popular variation is pork adobo using pork belly.`,
+      },
+      {
+        title: `How to Cook Chicken Adobo`,
+        content: `Cooking Chicken Adobo is quick and simple. This recipe suggests marinating the chicken to make it more flavorful. It is the best way to go if you want to experience authentic Filipino chicken adobo. If you are in a hurry, feel free to skip this step, but make sure to simmer the chicken longer than 30 minutes to better extract the flavors from it.
+        
+        Start by marinating the chicken in soy sauce and garlic. The garlic needs to be crushed for best results. This process takes 1 hour to 12 hours depending on how flavorful you want the dish to be. Sometimes marinating for an hour is not enough. I think that 3 hours is optimal. The chicken absorbs most of the flavors from the soy sauce and garlic during this step. It is noticeable when you taste the dish after cooking. Note that it is also possible to include the vinegar in this step.
+        
+        The next step is to separate the chicken from the marinade. Make sure to set the marinade aside because it will be used later on. Pan-fry the chicken pieces for 1 to 1 ½ minutes per side. This will partially cook the outer part. It also makes the skin tough enough to withstand stewing later. This means that it will remain intact, which is nice for presentation.
+
+        Pour marinade into the pot and add water. Let boil. The bay leaves and whole peppercorn can now be added. The process takes 20 to 25 minutes depending on the quality of the chicken. However, feel free to cook longer in low heat for a super tender chicken adobo.
+
+        Add the vinegar. This can also be added as a part of the marinade. Let it cook for 10 minutes and then add sugar and salt. I only add salt if needed. It is important to taste your dish before adding seasonings.
+
+        Filipino chicken adobo can be served with or without sauce. If you like it very tasty then continue to cook on an uncovered cooking pot until the liquid completely evaporates.`,
+      },
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        {
+          name: null,
+          amount: null,
+        },
+      ],
+    },
+    video: `https://youtu.be/a-R4-vaqcOg`,
+    image: require('./images/food/000000010.jpg'),
+  },
   // {
   //   id: 11,
   //   name: `Squid Adobo`,
