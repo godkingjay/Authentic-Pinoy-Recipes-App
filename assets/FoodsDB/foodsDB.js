@@ -1100,6 +1100,398 @@ const PinoyFoods = [
     video: `https://youtu.be/NWB3vzadxiE`,
     image: require('./images/food/000000009.jpg'),
   },
+  // {
+  //   id: 10,
+  //   name: `Chicken Adobo`,
+  //   tagalog: `Adobong Manok`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 11,
+  //   name: `Squid Adobo`,
+  //   tagalog: `Adobong Manok`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 12,
+  //   name: `Pork Adobo`,
+  //   tagalog: `Adobong Baboy`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 13,
+  //   name: `Spinach Adobo`,
+  //   tagalog: `Adobong Kangkong`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 14,
+  //   name: `Octopus Adobo`,
+  //   tagalog: `Adobong Pugita`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 15,
+  //   name: `Turmeric Adobo`,
+  //   tagalog: `Adobong Dilaw`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 16,
+  //   name: `Shrimp Adobo`,
+  //   tagalog: `Adobong Hipon`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 17,
+  //   name: `Beef Adobo`,
+  //   tagalog: `Adobong Baka`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
 ];
 
 
@@ -1170,6 +1562,14 @@ List:
 7. Pancit Sotanghon
 8. Pancit Batil Patong
 9. Sisig
+10. Chicken Adobo
+11. Squid Adobo
+12. Pork Adobo
+13. Spinach Adobo
+14. Octopus Adobo
+15. Turmeric Adobo
+16. Shrimp Adobo
+17. Beef Adobo
 
 **************************************************************************************************************/
 
