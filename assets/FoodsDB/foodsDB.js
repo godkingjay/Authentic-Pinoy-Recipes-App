@@ -1740,13 +1740,13 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Combine all filling ingredients in a bowl. Mix well.`,
+        `Scoop around 1 to 1 1/2 tablespoons of filling and place over a piece of lumpia wrapper. Spread the filling and then fold both sides of the wrapper. Fold the bottom. Brush beaten egg mixture on the top end of the wrapper. Roll-up until completely wrapped. Perform the same step until all mixture are consumed.`,
+        `Heat oil in a cooking pot. Deep fry lumpia in medium heat until it floats.`,
+        `Remove from the pot. Let excess oil drip. Serve. Share and enjoy.`
       ],
       nutrition: [
-        {
-          name: null,
-          amount: null,
-        },
+        
       ],
     },
     video: `https://youtu.be/BIarUjm4U-0`,
