@@ -1651,13 +1651,13 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Crispy and delicious deep fried Filipino egg rolls or lumpiang Shanghai.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `15 Minutes`,
+          cook: `10 Minutes`,
+          total: `25 Minutes`,
         },
-        servings: null,
+        servings: `6 People`,
         calories: null,
       },
       ingredients: [
