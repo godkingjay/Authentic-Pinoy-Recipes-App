@@ -1605,6 +1605,57 @@ const PinoyFoods = [
   //   video: null,
   //   image: null,
   // },
+  {
+    id: 18,
+    name: `Lumpia`,
+    tagalog: `Lumpia`,
+    type: [
+      `Snack`,
+      `Side Dish`,
+      `Deep-Fried Dish`
+    ],
+    description: `Lumpia or Lumpiang Shanghai is a type of Filipino egg roll. The basic filling is composed of ground pork along with minced onions, carrots, and seasonings such as salt and ground black pepper. This recipe post is all about how to make basic lumpia. Feel free to use this as a baseline.`,
+    link: `https://panlasangpinoy.com/filipino-lumpia-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        {
+          name: null,
+          amount: null,
+        },
+      ],
+    },
+    video: `https://youtu.be/BIarUjm4U-0`,
+    image: require('./images/food/000000018.jpg'),
+  },
 ];
 
 
@@ -1683,6 +1734,7 @@ List:
 15. Turmeric Adobo
 16. Shrimp Adobo
 17. Beef Adobo
+18. Lumpia
 
 **************************************************************************************************************/
 
