@@ -1619,8 +1619,34 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `Lumpia Ingredients`,
+        content: `This deep fried lumpia recipe still tastes great even if I kept the ingredients at a minimum. The main protein for this version is ground pork. I also added carrot for additional sweetness and parsley to make it taste fresh.
+
+        It is important to ensure that the flavor of the lumpia filling is flavorful. I don’t want to rely on the dipping sauce most of the time. Salt, sesame oil, garlic powder, and ground black pepper are simple ingredients that provide great results in terms of flavor.
+        
+        The lumpia wrapper used in this recipe is store-bought. I will talk more about it later. By the way, eggs are used when making the lumpia filling in order to bind all the ingredients together. It prevents the meat mixture from falling apart or separate from each other when frying.`,
+      },
+      {
+        title: `How to Cook Lumpia`,
+        content: `The procedure in cooking lumpia is simple. First is to combine all the filling ingredients in a bowl, and them mix altogether until well blended. The next step is to wrap the lumpia mixture in egg roll wrapper. I showed how I did it in the video below. The final step is to deep-fry it until brown and crispy.
+
+        Let’s talk about the first step. You can simply add all the ingredients in a bowl and mix thoroughly. It can be done the manual way using your hands. An easier way is to use a stand mixer. Make sure to attach the dough hook when going this route.
+        
+        This is a basic recipe. It will give you a good tasting lumpia. However, you can play around with it by adding more ingredients to bring it up to the next level. A good example is the addition of seasonings to bring-in more flavors. Another good suggestion is to add a bit of Italian sausage to the mixture. You can also try adding veggies such as celery.
+        
+        Wrapping lumpia is easy. It is something that you can get used to after a few tries. The tricky part in this process is when using a wide wrapper. The video below shows my technique on how to wrap lumpia using wide egg roll wrappers. It is quick and easy. You should try it for yourself.
+
+        Deep frying the lumpia has a little trick in order to ensure that the filling gets completely cooked while not getting the wrapper burnt. It has something to do with temperature. Make sure that you do not fry the lumpia on very hot oil. This will quickly brown the wrapper while leaving the meat mixture still under cooked. Try to fry the lumpia while the oil is starting to get hot, around 250 F. Let it slowly cook the inside. The wrapper will gradually brown as it fries. You will know that it is ready when it floats. By the way, I am assuming that you will follow my lead by also deep frying the egg rolls.
+
+        When it comes to the dipping sauce, I love to dip mine in sweet and sour sauce. Banana sauce or banana ketchup works too.`,
+      },
+      {
+        title: `Cooking Lumpia in an Air Fryer`,
+        content: `Using an air fryer is also a good way to cook lumpia without using oil. In fact, it is a healthier option. I usually set the temperature to 370F and air fry my lumpia for 12 minutes. The cooking time can be extended depending on how well you want your food done.
+        
+        The oil from the ground pork also gets extracted during the cooking process. You will end up with less oil crispy lumpia to munch on.
+
+        When using an air frying to cook my lumpia, I usually spray a small amount of cooking oil on the wrapper. This makes it less dry. It depends on ones preference.`,
       },
     ],
     recipe: {
