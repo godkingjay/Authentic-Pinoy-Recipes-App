@@ -1771,8 +1771,12 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `Cooking Lumpia`,
+        content: `There are three major steps in making lumpia. The first is to make the meat mixture by combining and mixing all the filling ingredients. This involves ground pork, minced veggies, and seasonings. It can be done manually by hand or by the use of a tool such as a spatula, or mechanically using a stand mixer. It is important that all the ingredients are properly blended together to balance the flavor.
+
+        The next step involves wrapping the meat mixture in lumpia wrappers. These are thin sheets made from wheat flour. There are several ways to do this. Make sure to watch the video below to see how I wrapped the lumpia for this recipe. It is a good piece of information especially for newbies in cooking Filipino food.
+        
+        The last and final step is to fry the lumpia. Deep-frying is recommended for best results. The Lumpiang Shanghai is simply fried until it turns golden brown.`,
       },
     ],
     recipe: {
