@@ -1778,6 +1778,24 @@ const PinoyFoods = [
         
         The last and final step is to fry the lumpia. Deep-frying is recommended for best results. The Lumpiang Shanghai is simply fried until it turns golden brown.`,
       },
+      {
+        title: `Alternative Ingredients`,
+        content: `Pork is the main protein used in making this dish. Ground chicken and fish flakes can also be utilized. Ground beef might work for some people, but it is something that I do not recommend.
+
+        Additional ingredients can also be added. I sometimes add minced singkamas to the meat mixture. Adding chopped green onions is also a good idea.
+        
+        There are different kinds lumpia wrappers available in the market. The one used in this recipe are called spring roll wrappers. These are the ones traditionally used in the Philippines. Other thicker wrappers such as egg roll wrappers can also be used.`,
+      },
+      {
+        title: `Tips and Tricks`,
+        content: `The best lumpia are the ones that are crispy on the outside and cooked well in the inside. This means that the wrapper should be golden brown and crunchy and the meat mixture should be completely done.
+        
+        It is important to be always aware of the temperature of oil while frying lumpia. Do not use high heat. It will quickly cook the wrapper while leaving the meat mixture inside incompletely cooked. I always recommend setting the heat between low to medium. It will cook the filling while the wrapper slowly gets browned.
+
+        Deep-frying the lumpia yields the best results. It ensures that all the sides of the spring rolls are cooked equal. It also saves you the effort of turning each piece over, compared when using lesser oil. This recommendation might not be ideal if you want to lessen your oil usage for budget reasons. It is up to you.
+
+        It is best to enjoy this with sweet and sour sauce. This classic recipe might be useful. Dipping lumpia in ketchup or in a mixture of soy sauce and calamansi works too.`,
+      },
     ],
     recipe: {
       details: {
