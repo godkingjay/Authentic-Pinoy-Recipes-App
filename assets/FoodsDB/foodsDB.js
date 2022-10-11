@@ -1752,6 +1752,62 @@ const PinoyFoods = [
     video: `https://youtu.be/BIarUjm4U-0`,
     image: require('./images/food/000000018.jpg'),
   },
+  {
+    id: 19,
+    name: `Shanghai Lumpia`,
+    tagalog: `Lumpiang Shanghai`,
+    type: [
+      `Snack`,
+      `Side Dish`,
+      `Deep-Fried Dish`,
+      `Street Food`
+    ],
+    description: `Lumpia or Lumpiang Shanghai is a Filipino egg roll dish. The filling or meat mixture is mainly composed of ground pork, minced carrots, and minced onion. Spices and seasonings are added into the mixture. It is then wrapped and rolled individually in thin flour sheets known as lumpia wrappers.
+    
+    Each piece of lumpia is deep fried until golden brown. This makes it crunchy and more enjoyable to eat. It is served with either sweet and sour sauce, or with banana ketchup.
+    
+    Lumpia is a popular dish in the Philippines. It is served during special occasions. Christmas dinner won’t be complete without this on the table. It is also a popular part of the menu during town fiestas, birthday parties, and weddings. It is best eaten with warm white rice. I personally enjoy eating it with Pancit Canton.`,
+    link: `https://panlasangpinoy.com/how-to-cook-lumpiang-shanghai-lumpia-knr-pc/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        {
+          name: null,
+          amount: null,
+        },
+      ],
+    },
+    video: `https://youtu.be/Xm7kzBzXNzQ`,
+    image: require('./images/food/000000019.jpg'),
+  },
 ];
 
 
@@ -1831,6 +1887,7 @@ List:
 16. Shrimp Adobo
 17. Beef Adobo
 18. Lumpia
+19. Shanghai Lumpia
 
 **************************************************************************************************************/
 
