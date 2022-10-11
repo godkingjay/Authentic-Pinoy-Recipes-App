@@ -1799,14 +1799,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for Fiipino Lumpia or deep fried spring rolls.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `15 Minutes`,
+          cook: `8 Minutes`,
+          total: `23 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `619 kcal`,
       },
       ingredients: [
         {
