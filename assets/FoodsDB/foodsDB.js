@@ -1895,7 +1895,12 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Combine ground pork, carrot, onion, and parsley in a bowl. Mic well.`,
+        `Add egg, ground black pepper, salt, garlic, powder, and Sesame oil. Continue to mix until the ingredients are well blended.`,
+        `Crush the Knorr pork cube and add it into the mixture. Blend the ingredients altogether completely.`,
+        `Put 1 to 1 1/2 tablespoons of meat mixture over a piece of lumpia wrapper. Wrap and roll to secure the mixture. Continue this step until the mixture is completely consumed.`,
+        `Heat oil in a cooking pot in low to medium heat. Deep fry the lumpia until it turns golden brown. Remove from the pot and place in a plate lined with paper towel.`,
+        `Transfer to a serving plate. Serve with sweet and sour sauce. Share and enjoy!`,
       ],
       nutrition: [
         {
