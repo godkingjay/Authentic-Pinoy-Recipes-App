@@ -1936,10 +1936,7 @@ const PinoyFoods = [
     link: `https://panlasangpinoy.com/pork-caldereta/`,
     author: `Vanjo Merano`,
     information: [
-      {
-        title: null,
-        content: null,
-      },
+      
     ],
     recipe: {
       details: {
