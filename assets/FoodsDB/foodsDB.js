@@ -1940,14 +1940,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for pork caldereta.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `5 Minutes`,
+          cook: `1 Hour`,
+          total: `1 Hour 5 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `5 People`,
+        calories: `640kcal`,
       },
       ingredients: [
         {
