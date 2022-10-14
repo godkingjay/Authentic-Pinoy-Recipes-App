@@ -1922,6 +1922,58 @@ const PinoyFoods = [
     video: `https://youtu.be/Xm7kzBzXNzQ`,
     image: require('./images/food/000000019.jpg'),
   },
+  {
+    id: 20,
+    name: `Pork Caldereta`,
+    tagalog: `Kalderetang Baboy`,
+    type: [
+      `Stew`,
+      `Meat Dish`
+    ],
+    description: `Pork Caldereta is a Filipino tomato based stew. It is composed of cubed pork , potato, carrots, tomato sauce,and  liver spread. There are also regions in the Philippines that makes use of peanut butter.
+    
+    One of the great things about food is its ever-evolving nature, and how it usually adjusts to the place where it is eaten. As such, did you know that our favorite Caldereta is actually a local adaptation of a Spanish dish? But like many of the recipes we’ve grown to love and adopt in our cuisine, this dish has faced many adjustments. And not only is it fitted to our local palate, but it’s also used ingredients more accessible to us, hence the birth of Pork Caldereta.`,
+    link: `https://panlasangpinoy.com/pork-caldereta/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        {
+          name: null,
+          amount: null,
+        },
+      ],
+    },
+    video: `https://youtu.be/OwTmXnEWbog`,
+    image: require(`./images/food/000000020.jpg`),
+  },
 ];
 
 
@@ -2002,6 +2054,7 @@ List:
 17. Beef Adobo
 18. Lumpia
 19. Shanghai Lumpia
+20. Caldereta
 
 **************************************************************************************************************/
 
