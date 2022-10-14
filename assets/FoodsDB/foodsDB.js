@@ -2057,7 +2057,16 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Heat the oil in a cooking pot.`,
+        `Once the oil gets hot, saute the garlic and onion.`,
+        `Add the pork. Saute until the color turns light brown.`,
+        `Pour-in the tomato sauce and water. Let boil. Cover and cook in low heat for 60 minutes.`,
+        `Add the liver spread. Stir and cook for 3 minutes.`,
+        `Put-in the potato and carrot. Cover and cook for 8 to 10 minutes.`,
+        `Add the olives and bell peppers. Cook for 5 minutes.`,
+        `Season with salt and ground black pepper.`,
+        `Turn-off the heat. Transfer to a serving plate.`,
+        `Serve. Share and enjoy!`,
       ],
       nutrition: [
         {
