@@ -2132,14 +2132,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for Kare-kare or ox tripe stew.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `2 Hours 30 Minutes`,
+          total: `2 Hours 40 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `934kcal`,
       },
       ingredients: [
         {
