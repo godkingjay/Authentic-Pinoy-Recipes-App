@@ -2094,7 +2094,7 @@ const PinoyFoods = [
   },
   {
     id: 21,
-    name: `Kare-kare`,
+    name: `Beef Kare-kare`,
     tagalog: `Kare-kare`,
     type: [
       `Stew`
@@ -2106,8 +2106,28 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `How to Cook Kare Kare`,
+        content: `There are three main processes: tenderize the meat, make the sauce, and prepare the vegetables.
+        
+        Prepare the meat by boiling it along with chopped onion. This will make it tender while providing flavor at the same time. Oxtail needs to be very tender for best results. It takes around 3 hours to boil when cooking using the traditional method. A quicker way is to use a pressure cooker. It cuts the cooking time by more than half.
+        
+        The peanut sauce can make or break your dish. It is important to have the proper ratio of ingredients to be able to achieve the ideal consistency of the sauce. It should not be too thick or very thin. I use both peanut butter and crushed peanuts to make the sauce. It provides a rich flavor to it. Annatto seeds make the color of the sauce reddish. You will need to extract the color from the seed by soaking it in warm water for around 12 minutes. The colored water is used to make the dish, not the seed. Discard the seed after use. Thicken the sauce with toasted ground rice.
+        
+        Vegetable is an important component of kare kare. It can be cooked with the meat or it can be added when serving the dish. I opted to cook the vegetables separately by sautéing with garlic.`,
+      },
+      {
+        title: `Cooking Tips`,
+        content: `Use a pressure cooker to quickly tenderize the oxtail. It takes me 30 minutes to achieve the result, compared to around 3 hours when done the traditional way.
+
+        Make sure to monitor the amount of water when boiling using the traditional method. Pour more water as needed until the meat tenderizes completely.
+        
+        Bagoong alamang or shrimp paste is an essential component of the dish. It should be cooked completely before serving. Refer to this bagoong recipe for guidance. You can also purchase precooked bottled bagoong alamang from the supermarket.`,
+      },
+      {
+        title: `Alternative Ingredients`,
+        content: `Toasted ground rice is traditionally used to thicken the sauce. This ingredient is nice to have. You can use cornstarch or potato starch as alternatives.
+        
+        Annatto comes in many form. Annatto powder or annatto paste can be used a substitute for the seed. These are also more convenient to use.`,
       },
     ],
     recipe: {
