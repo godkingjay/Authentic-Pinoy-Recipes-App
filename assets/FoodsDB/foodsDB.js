@@ -2092,6 +2092,71 @@ const PinoyFoods = [
     video: `https://youtu.be/OwTmXnEWbog`,
     image: require(`./images/food/000000020.jpg`),
   },
+  {
+    id: 21,
+    name: `Kare-kare`,
+    tagalog: `Kare-kare`,
+    type: [
+      `Stew`
+    ],
+    description: `Kare Kare is a type of Filipino stew with a rich and thick peanut sauce. It is a popular dish in the Philippines served during special occasions. The traditional recipe is composed of ox tail. There are instances wherein both ox tripe and tail are used. The vegetable components of the dish are string beans, eggplant, bok choy, and banana blossoms. Lightly browned toasted ground rice is used to thicken the sauce.
+    
+    Palayok or clay pot is used to cook this dish. It also functions as the serving bowl at the same time.The best way to eat kare-kare is to pair it with plain white rice. Bagoong alamang or fermented shrimp paste completes the dish by providing flavor. Simply combine a spoonful of rice and kare-kare with a small portion of bagoong and enjoy!`,
+    link: `https://panlasangpinoy.com/kare-kare-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/ll0lufTkGq4`,
+    image: require(`./images/food/000000021.jpg`),
+  },
 ];
 
 
@@ -2141,20 +2206,24 @@ const PinoyFoods = [
         
       ],
       nutrition: [
-        { name: 'Calories', amount: '619kcal' },
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
         { name: 'Carbohydrates', amount: '10g' },
-        { name: 'Protein', amount: '33g' },
-        { name: 'Fat', amount: '48g' },
-        { name: 'Saturated Fat', amount: '15g' },
-        { name: 'Cholesterol', amount: '138mg' },
-        { name: 'Sodium', amount: '714mg' },
-        { name: 'Potassium', amount: '673mg' },
-        { name: 'Fiber', amount: '1g' },
-        { name: 'Sugar', amount: '2g' },
-        { name: 'Vitamin A', amount: '2895IU' },
-        { name: 'Vitamin C', amount: '8.3mg' },
-        { name: 'Calcium', amount: '48mg' },
-        { name: 'Iron', amount: '2.2mg' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
       ],
     },
     video: null,
@@ -2163,26 +2232,27 @@ const PinoyFoods = [
 ],
 
 List:
-1. Pancit Canton
-2. Pancit Bihon
-3. Pancit Palabok
-4. Pancit Malabon
-5. Pancit Lomi
-6. Pancit Lucban
-7. Pancit Sotanghon
-8. Pancit Batil Patong
-9. Sisig
-10. Chicken Adobo
-11. Squid Adobo
-12. Pork Adobo
-13. Spinach Adobo
-14. Octopus Adobo
-15. Turmeric Adobo
-16. Shrimp Adobo
-17. Beef Adobo
-18. Lumpia
-19. Shanghai Lumpia
-20. Caldereta
+1.    Pancit Canton
+2.    Pancit Bihon
+3.    Pancit Palabok
+4.    Pancit Malabon
+5.    Pancit Lomi
+6.    Pancit Lucban
+7.    Pancit Sotanghon
+8.    Pancit Batil Patong
+9.    Sisig
+10.   Chicken Adobo
+11.   Squid Adobo
+12.   Pork Adobo
+13.   Spinach Adobo
+14.   Octopus Adobo
+15.   Turmeric Adobo
+16.   Shrimp Adobo
+17.   Beef Adobo
+18.   Lumpia
+19.   Shanghai Lumpia
+20.   Caldereta
+21.   Kare-kare
 
 **************************************************************************************************************/
 
