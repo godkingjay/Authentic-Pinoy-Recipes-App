@@ -2306,11 +2306,32 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
-          tagalog: null,
+          name: `Eggplant`,
+          amount: `4 Pieces`,
+          tagalog: `Talong`,
           type: null,
-          image: null,
+          image: `eggplant`,
+        },
+        {
+          name: `Raw Eggs`,
+          amount: `2 Pieces`,
+          tagalog: `Itlog`,
+          type: null,
+          image: `egg`,
+        },
+        {
+          name: `Salt`,
+          amount: `1 Teaspoon`,
+          tagalog: `Asin`,
+          type: null,
+          image: `salt`,
+        },
+        {
+          name: `Cooking Oil`,
+          amount: `6 Tablespoons`,
+          tagalog: `Mantika`,
+          type: null,
+          image: `cooking-oil`,
         },
       ],
       instructions: [
