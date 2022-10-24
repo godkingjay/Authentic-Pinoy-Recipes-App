@@ -2291,10 +2291,7 @@ const PinoyFoods = [
     link: `https://panlasangpinoy.com/filipino-vegetable-food-eggplant-omelet-tortang-talong-recipe/`,
     author: `Vanjo Merano`,
     information: [
-      {
-        title: null,
-        content: null,
-      },
+      
     ],
     recipe: {
       details: {
