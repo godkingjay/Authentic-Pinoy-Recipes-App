@@ -2335,7 +2335,14 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Grill the eggplant until the color of skin turns almost black.`,
+        `Let the eggplant cool for a while then peel off the skin. Set aside.`,
+        `Crack the eggs and place in a bowl.`,
+        `Add salt and beat.`,
+        `Place the eggplant on a flat surface and flatten using a fork.`,
+        `Dip the flattened eggplant in the beaten egg mixture.`,
+        `Heat the pan and pour the cooking oil.`,
+        `Fry the eggplant (that was dipped in the beaten mixture). Makes sure that both sides are cooked. Frying time will take you about 3 to 4 minutes per side on medium heat.`
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
