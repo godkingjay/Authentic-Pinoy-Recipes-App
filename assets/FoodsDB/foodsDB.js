@@ -2278,6 +2278,71 @@ const PinoyFoods = [
     video: `https://youtu.be/ll0lufTkGq4`,
     image: require(`./images/food/000000021.jpg`),
   },
+  {
+    id: 22,
+    name: `Filipino Eggplant Omelet`,
+    tagalog: `Tortang Talong`,
+    type: [
+      'Egg Dish'
+    ],
+    description: `Beating an egg can make for a great ingredient in several recipes around the world. From baked goods to classic omelettes, it is endlessly versatile, and goes with both sweet and savory dishes. But who knew that some beaten eggs, eggplant, and the right seasonings could create the ever useful and delicious Tortang Talong?
+    
+    This delicious, classic recipe is a perfect go-to in most Filipino households. This is because it is quick, easy, and best of all, absolutely tasty without sacrificing nutritional value. A massive part of this dish is the ingredient eggplant, which is rich in vitamins C, K and B6, among many other nutrients. This is also perfect with some rice and a couple dollops of ketchup.`,
+    link: `https://panlasangpinoy.com/filipino-vegetable-food-eggplant-omelet-tortang-talong-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/hM24u0gRjIM`,
+    image: require('./images/food/000000022.jpg'),
+  },
 ];
 
 
@@ -2374,6 +2439,7 @@ List:
 19.   Shanghai Lumpia
 20.   Caldereta
 21.   Kare-kare
+22.   Tortang Talong 
 
 **************************************************************************************************************/
 
