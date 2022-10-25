@@ -2306,14 +2306,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Pork soup in sour broth with okra, kangkong, eggplant, and string beans. This dish is best during the cold weather.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `1 Hour`,
+          total: `1 Hour 10 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `892kcal`,
       },
       ingredients: [
         {
