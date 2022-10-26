@@ -2557,7 +2557,13 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Boil water in a cooking pot. Add onion, tomato, and radish. Cover and continue to boil for 8 minutes.`,
+        `Add shrimp. Cook for 1 minute.`,
+        `Add Knorr Sinigang sa Sampaloc Recipe Mix. Stir until it dilutes completely. Cover and cook for 3 minutes.`,
+        `Add long green pepper, snake beans, okra, and eggplant. Stir. Cook for 5 minutes.`,
+        `Put the kangkong stalks into the pot. Season with fish salt and ground black pepper.`,
+        `Add kangkong leaves. Cook for 1 minute.`,
+        `Transfer to a serving bowl. Serve warm with rice.`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
