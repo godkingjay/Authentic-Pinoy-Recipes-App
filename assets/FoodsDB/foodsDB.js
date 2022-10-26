@@ -2249,7 +2249,6 @@ const PinoyFoods = [
       `Main Course`,
       `Meat Dish`,
       `Pork Dish`,
-      `Stew`
     ],
     description: `Sinigang is a sour soup native to the Philippines. This recipe uses pork as the main ingredient. Other proteins and seafood can also be used. Beef, shrimp, fish are commonly used to cook sinigang. The chicken version, on the other hand, is called sinampalukang manok. I prefer to use either pork belly or buto-buto when cooking sinigang. The latter refers to cuts with bones intact. These are either pork neck bones, chopped spare ribs, and chopped baby back ribs. Pork shoulder and ham can also be used when cooking sinigang.`,
     link: `https://panlasangpinoy.com/pork-sinigang-na-baboy-recipe/`,
@@ -2427,6 +2426,71 @@ const PinoyFoods = [
     video: `https://youtu.be/kIoY0li1ABk`,
     image: require('./images/food/000000023.jpg'),
   },
+  {
+    id: 24,
+    name: `Shrimp Sinigang`,
+    tagalog: `Sinigang na Hipon`,
+    type: [
+        `Main Course`,
+        `Seafood Dish`,
+        `Shrimp Dish`,
+    ],
+    description: `Sinigang na Hipon is a type of Filipino sour soup, wherein shrimp is used as the main ingredient. This dish also includes a variety of vegetables such as daikon radish, snake beans, okra, and eggplant. This dish is best served during cold weather. It is best enjoyed hot with a cup of white rice.`,
+    link: `https://panlasangpinoy.com/filipino-food-sour-shrimp-soup-sinigang-na-hipon-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/7QKr1oy4Ykc`,
+    image: require('./images/food/000000024.jpg'),
+  },
 ];
 
 
@@ -2524,7 +2588,8 @@ List:
 20.   Caldereta
 21.   Kare-kare
 22.   Tortang Talong
-23.   Pork Sinigang 
+23.   Pork Sinigang
+24.   Shrimp Sinigang
 
 **************************************************************************************************************/
 
