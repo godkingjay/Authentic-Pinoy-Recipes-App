@@ -2440,8 +2440,16 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `Sinigang na Hipon Recipe Tips`,
+        content: `Use fresh shrimp with head attached, if possible. This will make your soup more flavorful.
+
+        Clean the shrimp thoroughly and devein. This do not need an explanation.
+        
+        Make sure not to overcook the shrimp.  The shell of overcooked shrimp has a tendency to stick to the meat. We don’t want that to happen.
+        
+        Always clean the kangkong thoroughly. Wash it twice or thrice for best results.
+        
+        Using powdered sinigang mix is a quick fix for busy people. This provides the same result as the conventional method, in less time.  That is convenience!`,
       },
     ],
     recipe: {
