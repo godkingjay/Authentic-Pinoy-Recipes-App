@@ -2454,14 +2454,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Shrimp and vegetable soup in sour broth.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `20 Minutes`,
+          total: `30 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `4 People`,
+        calories: `283kcal`,
       },
       ingredients: [
         {
