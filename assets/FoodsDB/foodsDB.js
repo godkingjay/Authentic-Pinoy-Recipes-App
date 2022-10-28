@@ -2598,8 +2598,28 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `What is the difference between Leche flan and creme caramel?`,
+        content: `It is a classic Filipino dish that was adopted from the creme caramel of European origins. However, there is a difference between these desserts. Leche flan, for one, does not use cream. And it mainly relies on evaporated milk and condensed milk for the creamy flavor. You also use condensed milk to add a level of sweetness aside from the sugar in the recipe. Furthermore, creme caramel tastes lighter. While Leche flan, at its best and most authentic, usually tastes a bit heavier, with a rich flavor.
+
+        You make this with the process of baking caramel on the bottom of a custard mold. And it is a sweet custard dessert that leaves you wanting more. This is because other than the fact that it is delectably inviting in its rich, sugary flavor, it is traditionally served in a llanera. And while this oblong metal container is very convenient for the baking process, its small size often results in careful division of the dessert among a group of people who want to share the popular custard.`,
+      },
+      {
+        title: `Where did Leche flan actually come from?`,
+        content: `In the 1500s, the Spanish colonized the Philippines. Because of their rule spanning for about 300 years, the Spanish influences had permeated themselves in many parts of Philippine culture. And this, of course, includes the cooking.
+
+        During the Spanish colonization, several Catholic missionaries came over to build churches in the Philippines. And they largely used egg whites to build msot of these churches. This is because they can be a strong adhesive when mixed with quicklime. But because of the widespread usage of egg whites, they had to find ways to utilize the egg yolks left behind.
+        
+        Of course, one of the essential ingredients of a leche flan are the egg yolks. And this was how the dish was born. With leche meaning milk, the original term for the dessert was actually Leche de flan. The direct translation for this was “flan milk”. With time, they shortened the term to leche flan. And the chilled custard with caramelized sugar became even more popular with time.
+        
+        Soon, the American colonization took place, which also brought about some changes for the Leche flan. Because of the arrival of canned food products, such as canned condensed milk and canned evaporated milk, most recipes now call for these ingredients strongly to create a classic Leche flan. This resulted in the largely rich, and dense taste and texture of the dessert we now know and love.`,
+      },
+      {
+        title: `How to Cook Leche Flan`,
+        content: `Making your own leche flan can be easy if you follow the recipe below and watch the cooking video. Start by beating the egg yolks in a mixing bowl. You can do it the manual way using a fork or use a hand mixer or a stand mixer. Ensure that the eggs are smooth. Gradually add the milk. Start with the condensed milk followed by the fresh milk and vanilla extract. Continue to beat all the ingredients in the bowl until these are well blended. Set this aside for the meantime while you prepare for the next process.
+
+        Grab your llanera or baking pan and place some sugar on it. Heat it over a stove top while holding the pan. Wear oven gloves to protect your hands. You will need to heat it until the sugar melts and turns into caramel. Once the happens, spread the caramel evenly on the llanera or mold that you are using. Slowly add the mixture into each mold and then cover the mold with foil.
+        
+        The last process is to steam the mold. Simply arrange all the mold in a steamer and steam for a good 30 minutes or so until the mixture turns into yummy flan. At this point, you will decide if you want to dig in right away, or let it cook down a bit.`,
       },
     ],
     recipe: {
