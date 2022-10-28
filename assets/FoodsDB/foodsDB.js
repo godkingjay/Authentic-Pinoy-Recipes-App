@@ -2624,14 +2624,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a simple and easy version of a famous Filipino dessert known as Leche Flan.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `45 Minutes`,
+          total: `55 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `369kcal`,
       },
       ingredients: [
         {
