@@ -2635,11 +2635,39 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Eggs`,
+          amount: `10 Pieces`,
+          tagalog: `Itlog`,
+          type: null,
+          image: `egg`,
+        },
+        {
+          name: `Condensed Milk`,
+          amount: `1 Can`,
           tagalog: null,
           type: null,
-          image: null,
+          image: `milk-can`,
+        },
+        {
+          name: `Fresh Milk or Evaporated Milk`,
+          amount: `1 Cup`,
+          tagalog: null,
+          type: null,
+          image: `milk`,
+        },
+        {
+          name: `Granulated Sugar`,
+          amount: `1 Cup`,
+          tagalog: null,
+          type: null,
+          image: `sugar`,
+        },
+        {
+          name: `Vanilla Extract`,
+          amount: `1 Teaspoon`,
+          tagalog: null,
+          type: null,
+          image: `vanilla`,
         },
       ],
       instructions: [
