@@ -1539,7 +1539,7 @@ const PinoyFoods = [
           amount: `50 Pieces`,
           tagalog: null,
           type: null,
-          image: `wrapper`,
+          image: `lumpia-wrapper`,
         },
         {
           name: `Cooking Oil`,
@@ -2739,11 +2739,39 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Bananas`,
+          amount: `6 Pieces`,
+          tagalog: `Saging`,
+          type: `Cut in half (lengthwise)`,
+          image: `banana`,
+        },
+        {
+          name: `Jackfruit`,
+          amount: `1 Cup`,
+          tagalog: `Langka`,
+          type: `Sliced`,
+          image: `jackfruit`,
+        },
+        {
+          name: `Sugar`,
+          amount: `1 1/2 Cups`,
+          tagalog: `Asukal`,
+          type: null,
+          image: `sugar`,
+        },
+        {
+          name: `Lumpia Wrapper`,
+          amount: `12 Pieces`,
           tagalog: null,
           type: null,
-          image: null,
+          image: `lumpia-wrapper`,
+        },
+        {
+          name: `Cooking Oil`,
+          amount: `2 Cups`,
+          tagalog: `Mantika`,
+          type: null,
+          image: `cooking-oil`,
         },
       ],
       instructions: [
