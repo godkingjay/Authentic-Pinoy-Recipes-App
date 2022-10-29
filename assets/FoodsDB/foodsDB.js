@@ -2720,8 +2720,10 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `How to Cook Turon`,
+        content: `Start by preparing the filling. It is composed of a piece of saba banana that is sliced in half lengthwise, and a few slices of ripe jackfruit. Dredge the banana in sugar until completely coated. You may use either brown or white sugar. Arrange the banana on a lumpia wrapper and place the jackfruit slices on top of the banana. Secure the filling by wrapping. Refer to the video below on how to wrap turon. Perform this step until all the bananas are completely consumed.
+        
+        The next step is to fry the banana lumpia until golden brown. However, there is an extra step to do in order to achieve the glaze on the outer part. The secret is to first pour the remaining sugar in hot oil. Wait for the sugar to melt completely, and then start to fry the wrapped bananas in batches. The caramel (melted sugar) should automatically stick on the wrapper as you fry.  Remove the fried turon from the pan, and then let the excess oil drip. Let is cool down for 5 minutes before eating.`,
       },
     ],
     recipe: {
