@@ -2704,6 +2704,73 @@ const PinoyFoods = [
     video: `https://youtu.be/vN5G2iBUHO0`,
     image: require('./images/food/000000025.jpg'),
   },
+  {
+    id: 26,
+    name: `Turon`,
+    tagalog: `Turon`,
+    type: [
+      `snack`,
+      `dessert`,
+      `deep-fried dessert`
+    ],
+    description: `Turon is a type of Filipino snack. It is also called deep-fried banana rolls or banana lumpia. A typical Filipino meryenda and dessert, Turon has gained popularity throughout the years.
+    
+    This sweet snack can usually be seen on the streets being peddled along with bananacue or even vegetable lumpia. It is easy to make and the ingredients are inexpensive.`,
+    link: `https://panlasangpinoy.com/turon/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/4QeQ4O6WHkc`,
+    image: require('./images/food/000000026.jpg'),
+  },
 ];
 
 
@@ -2804,6 +2871,7 @@ List:
 23.   Pork Sinigang
 24.   Shrimp Sinigang
 25.   Leche Flan
+26.   Turon
 
 **************************************************************************************************************/
 
