@@ -2775,7 +2775,12 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Roll the banana on the sugar plate and ensure that the banana is coated with enough sugar.`,
+        `Place the banana with sugar coating in the spring roll wrapper and add some ripe jackfruit.`,
+        `Fold and lock the spring roll wrapper, use water to seal the edge.`,
+        `In a pan, heat the oil and put-in some sugar.Wait until the brown sugar floats.`,
+        `Put-in the wrapped banana and fry until the wrapper turns golden brown and the extra sugar sticks on wrapper.`,
+        `Serve hot as a dessert or snack. Share and Enjoy!`
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
