@@ -2922,7 +2922,12 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Slice the pork ham to about ¼ inch thickness.`,
+        `Dissolve the sodium phosphate in 5 tablespoons of water.`,
+        `Except for the meat, combine all ingredients in a large bowl and mix well.`,
+        `Apply the combined mixture to the meat by rubbing. Make sure that the mixture is evenly distributed across the meat.`,
+        `Place the mixed ingredients in a covered container`,
+        `Store the covered container (with meat and mixture) in room temperature for 14 hours. It may also be refrigerated but would take at least 3.5 days to complete.`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
