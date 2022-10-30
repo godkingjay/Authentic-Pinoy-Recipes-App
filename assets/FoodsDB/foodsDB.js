@@ -2819,8 +2819,16 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `Pork Tocino Alternative Ingredients`,
+        content: `This recipe is also applicable with other types of meat. Chicken tocino is a popular version next to pork. Beef slices can also be used to make beef tocino.
+
+        There is no direct alternative to the curing ingredients when making authentic tocino. However, you can make another dish with somewhat similar flavor by initially boiling the pork slices in pineapple juice, sugar, a few pinches of salt, and a piece of star anise. Continue boiling until the liquid evaporates. Quickly fry the meat for 1 minute per side.
+        
+        This version is ideal for those who prefer to make tocino the natural way. It might not look and taste exactly the same, but it is good in its own right.
+        
+        Pork Tocino is usually eaten during breakfast along with warm rice. Tosilog is a popular meal comprised of garlic rice (or sinangag), fried pork tocino, and a piece of fried sunny side up egg.
+
+        One word of advice though, even how good cured meat tastes, moderate consumption is still recommended. Too much intake can still affect our health in the long run. It is best to have pork tocino at least once or twice per month. By the way, it tastes best when dipped in spicy vinegar.`,
       },
     ],
     recipe: {
