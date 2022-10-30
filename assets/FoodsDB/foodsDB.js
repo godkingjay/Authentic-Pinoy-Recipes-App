@@ -2833,14 +2833,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Sweet cured red pork is a Filipino favorite. This is a popular breakfast dish served with fried rice and eggs. This recipe shows you how to make tocino at home.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `12 hours`,
+          cook: `20 Minutes`,
+          total: `12 hours 20 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `325kcal`,
       },
       ingredients: [
         {
