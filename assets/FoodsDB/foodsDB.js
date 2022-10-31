@@ -3030,7 +3030,15 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Boil water in a wide cooking pot.`,
+        `Add bay leaves, garlic, and whole peppercorn.`,
+        `Put the pig leg into the pot. Cover and continue to boil in low to medium heat for 1 hour. Note: you may turn the leg over after 30 minutes in order to equally tenderize the other side.`,
+        `Remove the pig leg from the cooking pot and then put in a clean plate. Let it cool down until you can easily grab it with your hands. Pour cooking wine all over the leg. Rub and make sure that the entire leg is covered. Pour Knorr liquid seasoning all over the pata. Rub again to ensure that the entire leg gets coated.`,
+        `Put the leg on a cooling rack or arrange it in a way that both sides are exposed. Let it air dry for at least 3 hours. Note: you may place a small electric fan in front of the leg to let it dry quickly.`,
+        `Heat oil in a deep cooking pot. When the temperature reaches 320F, slowly put the air-dried pork into the pot. Cover the pot while leaving a portion open for the steam to escape. Deep fry one side for 12 minutes or until crispy. Turn the leg over and deep fry the opposite side using the amount of time. Note: you can remove the cover of the pot and replace it with a splatter screen once the sound of the oil starts to mellow down, but be on guard all the time.`,
+        `Remove the Crispy Pata from the cooking pot. Place it in a plate with a cooling rack or paper towel to let the oil drip.`,
+        `Transfer to a serving plate. Serve with papaya atchara and bowl of spicy vinegar dip.`,
+        `Serve. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
