@@ -3061,8 +3061,28 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `What is Lechon Kawali`,
+        content: `Crispy deep-fried pork is the simplest way to describe lechon kawali. Pork belly or liempo is the cut of pork usually used to cook it. This dish is best served for lunch or dinner with white rice on the side. It is also nice to have with dipping sauce.
+
+        This dish should not be mistaken with Lechon, which is considered as the national dish of the Philippines. Both dishes are prepared in a different manner. These also have different visual appearance.
+        
+        Lechon kawali got its name from the type of cooking pan that is traditionally used to cook it, the Kawali. It is the typical pan that can be found in almost all Filipino household. This is the “goto” pan in everyday cooking.`,
+      },
+      {
+        title: `How to Cook Lechon Kawali`,
+        content: `There are two processes involved in cooking lechon kawali. The first process involves boiling the pork belly, while the next is deep-frying until the skin becomes crispy.
+
+        Let’s talk about the boiling process first. This is necessary to achieve that crispy skin result. Simply frying pork without boiling will have a different outcome.
+        
+        It is important that the pork belly gets really tender during this step. Start by boiling water in a deep cooking pot. I also add salt and other seasonings. The flavors are absorbed by the pork while boiling. The minimum amount of time is 30 minutes. Feel free to go beyond this time as necessary. This is also the same process when making crispy pata.
+        
+        Deep-frying the pork belly makes the skin golden brown and crispy. Do this by heating oil on a deep cooking pot. Make sure to rub salt all over the boiled pork belly before frying. It helps provide more flavor.
+        
+        Carefully put a piece of pork belly into the pan with hot oil and put your guard up always by holding the cover of the pot. Partially cover as necessary when hot oil starts to splatter. Covering the pot totally is not recommended because it traps the steam which forms into water. This causes oil to splatter more when it drips from the base of the cover. Cook in medium heat until the pork belly is crispy. Here is a good forum that talks more about preventing oil from splattering when frying.
+        
+        It is recommended to turn the pork belly over to complexly fry the opposite side when not enough oil is used. This way, your lechon kawali is cooked uniformly.
+
+        Place the deep-fried pork on a wire rack and let it cook down. Chop into serving pieces. This is best served with lechon sauce. You can also use a mixture of soy sauce and calamansi as dipping sauce.`,
       },
     ],
     recipe: {
