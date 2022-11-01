@@ -3087,14 +3087,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for lechon kawali or crispy deep fried pork belly.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `50 Minutes`,
+          total: `1 Hour`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `893kcal`,
       },
       ingredients: [
         {
