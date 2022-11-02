@@ -3170,6 +3170,134 @@ const PinoyFoods = [
     video: `https://youtu.be/87V0NIhr4VA`,
     image: require('./images/food/000000029.jpg'),
   },
+  // {
+  //   id: 30,
+  //   name: `Sorbetes`,
+  //   tagalog: `Sorbetes`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       { name: 'Serving', amount: '5g' },
+  //       { name: 'Calories', amount: '650kcal' },
+  //       { name: 'Carbohydrates', amount: '10g' },
+  //       { name: 'Protein', amount: '37g' },
+  //       { name: 'Fat', amount: '51g' },
+  //       { name: 'Saturated Fat', amount: '16g' },
+  //       { name: 'Polyunsaturated Fat', amount: '6g' },
+  //       { name: 'Monounsaturated Fat', amount: '25g' },
+  //       { name: 'Trans Fat', amount: '1g' },
+  //       { name: 'Cholesterol', amount: '196mg' },
+  //       { name: 'Sodium', amount: '868mg' },
+  //       { name: 'Potassium', amount: '888mg' },
+  //       { name: 'Fiber', amount: '3g' },
+  //       { name: 'Sugar', amount: '5g' },
+  //       { name: 'Vitamin A', amount: '5187IU' },
+  //       { name: 'Vitamin C', amount: '57mg' },
+  //       { name: 'Calcium', amount: '59mg' },
+  //       { name: 'Iron', amount: '4mg' },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  {
+    id: 31,
+    name: `Tapsilog`,
+    tagalog: `Tapsilog`,
+    type: [
+      `Meat Dish`,
+      `Beef Dish`,
+      `Breakfast`
+    ],
+    description: `Tapsilog is one of my favorite breakfast meal options during big days. These are days wherein I need to complete several tasks. Having this meal gives me the needed energy to perform work and it keeps me full longer. I also enjoy starting my day with a delicious breakfast.`,
+    link: `https://panlasangpinoy.com/tapsilog-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/E2uATy7iKkg`,
+    image: require('./images/food/000000031.jpg'),
+  },
 ];
 
 
@@ -3274,6 +3402,8 @@ List:
 27.   Pork Tocino
 28.   Crispy Pata
 29.   Lechon Kawali
+30.   Sorbetes
+31.   Tapsilog
 
 **************************************************************************************************************/
 
