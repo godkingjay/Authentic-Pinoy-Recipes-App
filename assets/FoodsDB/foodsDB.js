@@ -3273,14 +3273,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `A delicious meal composed of fried marinated beef, garlic fried rice, and fried egg. This is best eaten with a saucer of vinegar as dipping sauce for the beef.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `30 Minutes`,
+          total: `40 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `3 People`,
+        calories: `883kcal`,
       },
       ingredients: [
         {
