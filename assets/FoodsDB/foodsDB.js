@@ -3247,8 +3247,28 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `What is Tapsilog?`,
+        content: `The word Tapsilog is an acronym that stands for Tapa Sinangag at Itlog. These are the three components of the meal. Tapa refers to beef tapa. This are fried marinated beef slices.
+
+        Sinangag, on the other hand, is a word used to refer to garlic fried rice. The last three letters of the word tapsilog is derived from the filipino translation for egg, which is itlog. A piece of egg is fried and forms part of the meal.`,
+      },
+      {
+        title: `How to Cook Tapsilog`,
+        content: `Since Tapsilog is composed of three components, each has to be prepared and cooked individually.
+
+        The beef needs to be marinated in a mixture of crushed garlic, pineapple juice, Knorr Liquid Seasoning, sugar, and pepper. The marinade provides flavor to the meat when absorbed completely. It is best to marinate overnight or longer for best results.
+        
+        I am using pineapple juice for this recipe because it provides the right amount of sourness to the beef. This is essential for a successful beef tapa, in my opinion. In addition, pineapple juice is a known meat tenderizer. This means that it tenderizes the meat while providing flavors into it.
+        
+        Cooking beef tapa involves two methods for this recipe. The first method is boiling. Beef is boiled in its marinade with the addition of water in order to make it tender. Cooking oil is added in the process. Once the liquid completely evaporates, the beef gets fried in the remaining oil. Frying using the remaining oil completes the beef tapa.
+
+        Making garlic fried rice or sinangag is easier than you think. It involves four ingredients, leftover rice, salt, garlic, and cooking oil. It is ideal to use leftover rice because it is less likely to stick with each other. The more garlic, the better, as far as I am concerned.
+        
+        Start cooking the rice by first browning the garlic. You can put oil and garlic in the pan at the same time and cook until the garlic turns light brown. Add half of the rice and then stir fry. This will give you enough room to blend the garlic and rice. Add remaining rice afterwards and continue to stir fry until well blended. Season with salt.
+
+        The easiest to cook among the three components is the egg. Fry the eggs based on your preference. You may also want to check other ways in cooking eggs.
+        
+        Assemble your Tapsilog by combining all three components together in a large plate. Serve with spicy vinegar as dipping sauce. Banana ketchup is also nice to have with the egg.`,
       },
     ],
     recipe: {
