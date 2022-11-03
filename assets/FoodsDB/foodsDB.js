@@ -463,7 +463,7 @@ const PinoyFoods = [
           amount: '2 Tablespoons',
           tagalog: null,
           type: 'Sauce Ingredient',
-          image: 'sauce'
+          image: 'sauce-fish'
         },
         {
           name: 'Ground Black Pepper',
@@ -2336,7 +2336,7 @@ const PinoyFoods = [
           amount: `3 Tablespoons`,
           tagalog: null,
           type: null,
-          image: `fish-sauce`,
+          image: `sauce-fish`,
         },
         {
           name: `String Beans`,
@@ -2548,7 +2548,7 @@ const PinoyFoods = [
           amount: `Depends on Taste`,
           tagalog: null,
           type: null,
-          image: `fish-sauce`,
+          image: `sauce-fish`,
         },
         {
           name: `Ground Black Pepper`,
@@ -3790,11 +3790,67 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Beef Shank`,
+          amount: `2 lbs.`,
           tagalog: null,
           type: null,
-          image: null,
+          image: `beef`,
+        },
+        {
+          name: `Cabbage`,
+          amount: `1/2`,
+          tagalog: null,
+          type: `Whole leaf individually detached.`,
+          image: `cabbage`,
+        },
+        {
+          name: `Bok Choy`,
+          amount: `1 Bundle`,
+          tagalog: `Pechay`,
+          type: null,
+          image: `pechay`,
+        },
+        {
+          name: `Corn`,
+          amount: `2 Cobs`,
+          tagalog: `Mais`,
+          type: `Each cut into 3 parts.`,
+          image: `corn`,
+        },
+        {
+          name: `Whole Peppercorn`,
+          amount: `2 Tablespoons`,
+          tagalog: `Paminta`,
+          type: `Whole`,
+          image: `peppercorn`,
+        },
+        {
+          name: `Green Onions`,
+          amount: `1/2 Cup`,
+          tagalog: null,
+          type: `Cut into 1 1/2 inch pieces.`,
+          image: `onion`,
+        },
+        {
+          name: `Onion`,
+          amount: `1 Piece`,
+          tagalog: `Sibuyas`,
+          type: `sliced`,
+          image: `onion`,
+        },
+        {
+          name: `Water`,
+          amount: `34 Ounces`,
+          tagalog: `Tubig`,
+          type: null,
+          image: `water`,
+        },
+        {
+          name: `Fish Sauce`,
+          amount: `Depending on taste.`,
+          tagalog: null,
+          type: null,
+          image: `sauce-fish`,
         },
       ],
       instructions: [
