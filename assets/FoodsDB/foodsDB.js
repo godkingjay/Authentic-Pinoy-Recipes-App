@@ -3765,8 +3765,16 @@ const PinoyFoods = [
         Without question, Bulalo is a quintessential comfort food. It’s no wonder so many restaurants –– bulalohans –– have dedicated themselves to making bulalo their trademark dish. But now you won’t even have to go far to enjoy this meal; with this easy recipe, you can have Bulalo any time you’re craving the comfort of home.`,
       },
       {
-        title: null,
-        content: null,
+        title: `A Step by Step Guide to Making Bulalo`,
+        content: `The steps to making Bulalo are simple, albeit quite long because of the tenderizing process. Nonetheless, you should be able to follow this beef shank stew with ease!
+
+        An optional precursor step to making bulalo is blanching your meat to avoid excess fat and sediments. Boil your beef shanks in water over medium heat, skimming the excess fats and scum that accumulate and float on the water. After 10 minutes, take your beef out and bring it under cold running water, “cleaning” it. Once you’ve removed the excess sediments and thrown out the used water, you can now start officially cooking your bulalo
+        
+        Pour 34 ounces (or about a liter) of water into a large cooking pot, bringing it to a boil. Once it starts boiling, it’s time to put in your beef shank, followed by your medium sized onion and peppercorn. If you’re using a pot, let the meat simmer for about an hour and a half. But for a pressure cooker you’ll only need about half an hour. Let your meat tenderize.
+        
+        Add in your corn. For this recipe I use 3 whole corns, but cut it up into 3 parts each for convenience. Keep the bulalo simmering for another 10 minutes. After your 10 minutes are up, you can now add in your other vegetables: your cabbage, pechay, and green onion (or onion leeks). This is when you can also add in 2 tablespoons of patis, but again, this is an optional step.
+        
+        Once you’ve fully cooked your vegetables, you’re ready to eat your bulalo! Serve it hot and share it with your family and friends. With a steaming cup of rice to pour your soup over, it’s definitely an awesome, unforgettable meal!`,
       },
     ],
     recipe: {
