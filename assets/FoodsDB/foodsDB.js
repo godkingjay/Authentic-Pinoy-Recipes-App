@@ -3389,6 +3389,349 @@ const PinoyFoods = [
     video: `https://youtu.be/E2uATy7iKkg`,
     image: require('./images/food/000000031.jpg'),
   },
+  // {
+  //   id: 32,
+  //   name: `Hotsilog`,
+  //   tagalog: `Hotsilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 33,
+  //   name: `Tosilog`,
+  //   tagalog: `Tosilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 34,
+  //   name: `Longsilog`,
+  //   tagalog: `Longsilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 35,
+  //   name: `Cornsilog`,
+  //   tagalog: `Cornsilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 36,
+  //   name: `Bangsilog`,
+  //   tagalog: `Bangsilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 37,
+  //   name: `Spamsilog`,
+  //   tagalog: `Spamsilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
+  // {
+  //   id: 38,
+  //   name: `Chicksilog`,
+  //   tagalog: `Chicksilog`,
+  //   type: [
+
+  //   ],
+  //   description: null,
+  //   link: null,
+  //   author: null,
+  //   information: [
+  //     {
+  //       title: null,
+  //       content: null,
+  //     },
+  //   ],
+  //   recipe: {
+  //     details: {
+  //       description: null,
+  //       time: {
+  //         prep: null,
+  //         cook: null,
+  //         total: null,
+  //       },
+  //       servings: null,
+  //       calories: null,
+  //     },
+  //     ingredients: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //         tagalog: null,
+  //         type: null,
+  //         image: null,
+  //       },
+  //     ],
+  //     instructions: [
+        
+  //     ],
+  //     nutrition: [
+  //       {
+  //         name: null,
+  //         amount: null,
+  //       },
+  //     ],
+  //   },
+  //   video: null,
+  //   image: null,
+  // },
 ];
 
 
@@ -3495,6 +3838,13 @@ List:
 29.   Lechon Kawali
 30.   Sorbetes
 31.   Tapsilog
+32.   Hotsilog
+33.   Tosilog
+34.   Longsilog
+35.   Cornsilog
+36.   Bangsilog
+37.   Spamsilog
+38.   Chicksilog
 
 **************************************************************************************************************/
 
