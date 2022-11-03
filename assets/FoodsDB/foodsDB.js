@@ -1970,7 +1970,9 @@ const PinoyFoods = [
     name: `Beef Kare-kare`,
     tagalog: `Kare-kare`,
     type: [
-      `Stew`
+      `Stew`,
+      `Beef Dish`,
+      `Meat Dish`
     ],
     description: `Kare Kare is a type of Filipino stew with a rich and thick peanut sauce. It is a popular dish in the Philippines served during special occasions. The traditional recipe is composed of ox tail. There are instances wherein both ox tripe and tail are used. The vegetable components of the dish are string beans, eggplant, bok choy, and banana blossoms. Lightly browned toasted ground rice is used to thicken the sauce.
     
@@ -3732,6 +3734,88 @@ const PinoyFoods = [
   //   video: null,
   //   image: null,
   // },
+  {
+    id: 39,
+    name: `Bulalo`,
+    tagalog: `Bulalo`,
+    type: [
+      `Soup`,
+      `Meat Dish`,
+      `Beef Dish`,
+      `Meat Soup`,
+      `Main Course`,
+      `Stew`
+    ],
+    description: `It’s a well known fact that Filipinos love stew and soup dishes. From the sour sinigang to the sweet tinola, there’s guaranteed to be a soup dish for every flavor palate preference –– all great to sip and enjoy, especially during long, cool nights. But one of the most popular, and arguably most delicious, soups out there, is the classic Bulalo, or beef shank stew.`,
+    link: `https://panlasangpinoy.com/bulalo-stewed-beef-shank/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: `What is Bulalo`,
+        content: `It’s a well known fact that Filipinos love stew and soup dishes. From the sour sinigang to the sweet tinola, there’s guaranteed to be a soup dish for every flavor palate preference –– all great to sip and enjoy, especially during long, cool nights. But one of the most popular, and arguably most delicious, soups out there, is the classic Bulalo, or beef shank stew.
+        
+        One might classify bulalo as a kind of nilaga –– after all, there doesn’t seem to be much difference in ingredients, nor in the cooking process. But what sets bulalo apart is the very specific choice of meat we use for it. The star of a great bulalo is always the meat –– more specifically, the use of beef shank, with marrow still inside the bone. The meat of bulalo is famous for melting in your mouth, practically falling off the bone with how tender it becomes! Doesn’t the mere thought of it make your mouth water?
+        
+        Bulalo may only have a few ingredients, but it takes an awful lot of patience to prepare. This is only because you have to wait for the beef to reach optimal tenderness. In this recipe, we let our bulalo sit and boil for about an hour and a half. If you have a pressure cooker it should take less time, but still a while, compared to other dishes. In fact, one and a half hours might still be short compared to other recipes, which let the bulalo simmer for much longer.
+        
+        The other ingredients of bulalo are also delicious and nutritious contributions; cabbage, pechay, corn and onions are also typical ingredients in this great dish. You can also choose to add in fish sauce or patis as a substitution for salt.
+        
+        Because it’s such a classic dish, there have been many variations of bulalo made by Filipinos, making this humble and already delicious dish more exciting! If you’re a fan of the classic kare-kare, my Bulalo Kare-Kare gives you the best of both worlds, combining delicious beef shank with the trademark peanut sauce. Even more different from the classic recipe is this Deep Fried Bulalo with Teriyaki Sauce! By coating the beef shank in breadcrumbs, eggs and flour, you create a dish crunchy on the outside and soft on the inside. With restaurant style teriyaki sauce on the side, it makes for an amazing, yummy meal –– a great twist on a Filipino favorite!
+        
+        Without question, Bulalo is a quintessential comfort food. It’s no wonder so many restaurants –– bulalohans –– have dedicated themselves to making bulalo their trademark dish. But now you won’t even have to go far to enjoy this meal; with this easy recipe, you can have Bulalo any time you’re craving the comfort of home.`,
+      },
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/25IpyYYIA7Y`,
+    image: require('./images/food/000000039.jpg'),
+  },
 ];
 
 
@@ -3845,6 +3929,7 @@ List:
 36.   Bangsilog
 37.   Spamsilog
 38.   Chicksilog
+39.   Bulalo
 
 **************************************************************************************************************/
 
