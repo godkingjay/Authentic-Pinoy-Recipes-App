@@ -3910,14 +3910,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for Classic Tinolang Manok. It is also known as Filipino Chicken Tinola.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `5 Minutes`,
+          cook: `1 Hour`,
+          total: `1 Hour 5 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `5 People`,
+        calories: `530kcal`,
       },
       ingredients: [
         {
