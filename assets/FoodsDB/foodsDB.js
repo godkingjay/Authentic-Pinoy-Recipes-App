@@ -3883,6 +3883,74 @@ const PinoyFoods = [
     video: `https://youtu.be/25IpyYYIA7Y`,
     image: require('./images/food/000000039.jpg'),
   },
+  {
+    id: 40,
+    name: `Tinolang Manok`,
+    tagalog: `Tinolang Manok`,
+    type: [
+      `Soup Dish`,
+      `Chicken Soup`,
+      `Chicken Dish`,
+      `Meat Dish`
+    ],
+    description: `Tinolang manok or chicken tinola is a nourishing Filipino chicken soup. It can consist of various chicken cuts and internal organs cooked in a flavorful broth alongside green papaya and chili pepper or malunggay leaves. The broth is usually generously seasoned with ginger, garlic, and fish sauce, and the soup is often served over plain white rice.
+
+    Chicken tinola is a staple in every Filipino household and can be enjoyed as a starter or a hearty main course.`,
+    link: `https://panlasangpinoy.com/classic-tinolang-manok-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/pEMMBceYyMw`,
+    image: require('./images/food/000000040.jpg'),
+  },
 ];
 
 
@@ -3997,6 +4065,7 @@ List:
 37.   Spamsilog
 38.   Chicksilog
 39.   Bulalo
+40.   Tinolang Manok
 
 **************************************************************************************************************/
 
