@@ -4006,7 +4006,15 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Heat oil in a pot.`,
+        `Sauté garlic, onion, and ginger. Add the ground black pepper.`,
+        `When the onion starts to get soft, add the chicken. Cook for 5 minutes or until it turns light brown.`,
+        `Pour the water. Let boil. Cover and then set the heat to low. Boil for 40 minutes.`,
+        `Scoop and discard the scums and oil on the soup.`,
+        `Add the Knorr chicken cube and chayote or papaya. Stir. Cover and cook for 5 minutes.`,
+        `Put the malunggay and hot pepper leaves in the pot and pour the fish sauce in. Continue to cook for 2 minutes.`,
+        `Transfer to a serving bowl. Serve.`,
+        `Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
