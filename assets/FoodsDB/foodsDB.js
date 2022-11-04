@@ -3900,8 +3900,12 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `Benefits of Tinolang Manok`,
+        content: `Excellent source of protein – Our muscles rely on amino acids in order to build, repair, and develop. Protein is composed of amino acids. This means that eating high protein food such as chicken can help keep our muscles healthy.
+
+        Protein is important for our babies and kids. They need it to support growth and physical development. Eating more protein together with soup plus with added vegetables like malunggay, will help moms produce more milk resulting to a healthier breastfeeding. Whenever there is a new mommy in our clan, my aunts will always tell them to eat malunggay because it can help increase breast milk production.
+        
+        Source of Vitamin B3 – Vitamin B3 keeps our body healthy by improving cholesterol levels. It can also help improve our cardiovascular health. This means that it is good for the heart.`,
       },
     ],
     recipe: {
