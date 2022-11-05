@@ -4145,7 +4145,12 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Peel mangoes and slice into half-inch cubes.`,
+        `Divide each ingredient into 4 equal parts. Get 4 tall glasses, then place each ingredients layer by layer.`,
+        `Put the one-half cup of shaved ice to each glass.`,
+        `Pour a quarter of milk evap over shaved ice to each glass.`,
+        `Put a scoop of ice cream on top.`,
+        `Drizzle some nuts or rice crispies on top of the ice cream.`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
