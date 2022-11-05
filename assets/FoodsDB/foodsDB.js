@@ -4037,6 +4037,70 @@ const PinoyFoods = [
     video: `https://youtu.be/pEMMBceYyMw`,
     image: require('./images/food/000000040.jpg'),
   },
+  {
+    id: 41,
+    name: `Halo-halo`,
+    tagalog: `Halo-halo`,
+    type: [
+      `Dessert`,
+      `Ice Cream`
+    ],
+    description: `The Halo-Halo Recipe is truly a Pinoy dessert which contains shaved ice, evaporated milk, sugar or some syrup, sweet beans, sweet banana, nata de coco, garbanzos, jelly, macapuno, sago, gulaman, sweet jackfruit, ube halaya and leche flan although it doesn’t necessarily mean you need to have all ingredients to make it but the shaved ice, evaporated milk and sugar needs to be there all the time. This is the best way to do it if you want to know how to make Halo-Halo.`,
+    link: `https://pilipinasrecipes.com/halo-halo-recipe/`,
+    author: `@pilipinasrecipes`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/Aid7VRoNM8s`,
+    image: require('./images/food/000000041.jpg'),
+  },
 ];
 
 
@@ -4152,6 +4216,7 @@ List:
 38.   Chicksilog
 39.   Bulalo
 40.   Tinolang Manok
+41.   Halo-halo
 
 **************************************************************************************************************/
 
