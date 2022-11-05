@@ -4050,8 +4050,8 @@ const PinoyFoods = [
     author: `@pilipinasrecipes`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `Halo-Halo Recipe Preparation`,
+        content: `Okay, so how to make Halo-Halo. The first thing you need to make sure if you’ve got all your ingredients prepared. Some folks buy their sweets ready to be put in the dessert but some like to prepare it themselves, but if you’re cooking all your sweets by yourself then be ready that it takes time since you’ll be cooking them separately like the sweetened bananas, beans and jackfruit which needs to be cooked in sugar syrup. That’s why others just buy the bottled ones although preparing your sweets from scratch result to better tasting Halo-Halo.`,
       },
     ],
     recipe: {
