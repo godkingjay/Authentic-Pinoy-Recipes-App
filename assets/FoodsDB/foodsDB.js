@@ -4056,14 +4056,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `The word “haluhalo” or Halo-Halo can translate to something that’s been mixed together like this halo-halo dessert. The Halo-Halo Recipe is truly a Pinoy dessert which contains shaved ice, evaporated milk, sugar or some syrup, sweet beans, sweet banana, nata de coco, garbanzos, jelly, macapuno, sago, gulaman, sweet jackfruit, ube halaya and leche.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `10 Minutes`,
+          total: `20 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `1 Person`,
+        calories: `153kcal`,
       },
       ingredients: [
         {
