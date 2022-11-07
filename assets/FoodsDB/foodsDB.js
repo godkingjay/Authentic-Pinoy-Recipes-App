@@ -4178,12 +4178,7 @@ const PinoyFoods = [
     description: `Pichi-Pichi is a gelatinous dessert (this can also be eaten as a heavy mid-afternoon snack) made from grated cassava and sugar. The concoction is placed in a mold and steamed until a sticky-gelatinous texture is formed. After steaming, this is coated with grated coconut for additional flavor.`,
     link: `https://panlasangpinoy.com/filipino-asian-dessert-cassava-pichi-pichi-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: [],
     recipe: {
       details: {
         description: null,
