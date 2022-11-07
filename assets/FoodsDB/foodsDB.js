@@ -4168,6 +4168,52 @@ const PinoyFoods = [
     video: `https://youtu.be/Aid7VRoNM8s`,
     image: require('./images/food/000000041.jpg'),
   },
+  {
+    id: 42,
+    name: `Pichi-Pichi`,
+    tagalog: `Pichi-Pichi`,
+    type: [
+      `Dessert`
+    ],
+    description: `Pichi-Pichi is a gelatinous dessert (this can also be eaten as a heavy mid-afternoon snack) made from grated cassava and sugar. The concoction is placed in a mold and steamed until a sticky-gelatinous texture is formed. After steaming, this is coated with grated coconut for additional flavor.`,
+    link: `https://panlasangpinoy.com/filipino-asian-dessert-cassava-pichi-pichi-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+      ],
+    },
+    video: null,
+    image: require('./images/food/000000042.jpg'),
+  },
 ];
 
 
@@ -4284,6 +4330,7 @@ List:
 39.   Bulalo
 40.   Tinolang Manok
 41.   Halo-halo
+42.   Pichi-Pichi
 
 **************************************************************************************************************/
 
