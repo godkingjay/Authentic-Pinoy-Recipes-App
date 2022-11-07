@@ -4235,7 +4235,14 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `In a mixing bowl, combine cassava, sugar, and water then mix thoroughly.`,
+        `Add lye water while continuously stirring the mixture.`,
+        `Put-in the buko-pandan essence then mix again.`,
+        `Once the mixture is evenly distributed, pour in individual cup molds and place in a steamer.`,
+        `Steam the mixture for 45 minutes to 1 hour (or until the color turns translucent).`,
+        `Allow the steamed pichi-pichi to cool down (at least 40 minutes to 1 hour ; you can even place it in the fridge after letting it cool down at least 15 minutes) then remove from the molds.`,
+        `Roll the each piece over the grated coconut.`,
+        `Place in a serving plate then serve. Share and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
