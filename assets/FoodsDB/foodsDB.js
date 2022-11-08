@@ -4384,7 +4384,7 @@ const PinoyFoods = [
         `Serve with sinamak. Share and enjoy!`,
       ],
       nutrition: [
-        { name: 'Serving', amount: '4g' },
+        { name: 'Serving', amount: '4g' }
       ],
     },
     video: `https://youtu.be/WGyPAm9l6p4`,
