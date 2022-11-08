@@ -2961,7 +2961,7 @@ const PinoyFoods = [
     description: `Crispy Pata or crispy pork leg is a popular Filipino pork dish. This dish can be eaten as a main dish along with rice and atcharang papaya. People also consume it as beer food or pulutan. It is best when dipped in a spicy vinegar mixture.`,
     link: `https://panlasangpinoy.com/crispy-pata/`,
     author: `Vanjo Merano`,
-    information: [],
+    information: null,
     recipe: {
       details: {
         description: `This is a recipe for Crispy Pata.`,
@@ -4178,7 +4178,7 @@ const PinoyFoods = [
     description: `Pichi-Pichi is a gelatinous dessert (this can also be eaten as a heavy mid-afternoon snack) made from grated cassava and sugar. The concoction is placed in a mold and steamed until a sticky-gelatinous texture is formed. After steaming, this is coated with grated coconut for additional flavor.`,
     link: `https://panlasangpinoy.com/filipino-asian-dessert-cassava-pichi-pichi-recipe/`,
     author: `Vanjo Merano`,
-    information: [],
+    information: null,
     recipe: {
       details: {
         description: null,
@@ -4263,21 +4263,16 @@ const PinoyFoods = [
     description: `Chicken Inasal is a grilled chicken dish and one of the well known Ilonggo dishes. This is done by marinating chicken pieces in a unique blend of spices and grilling them until done. Sounds like a simple grilled chicken recipe, isn’t it? Well, it might sound like one; however, the special marinade and basting sauce makes this Ilonggo version of the grilled chicken extra special.`,
     link: `https://panlasangpinoy.com/grilled-chicken-inasal-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `1 Hour`,
+          cook: `18 Minutes`,
+          total: `1 Hour 18 Minutes`,
         },
-        servings: null,
+        servings: `4 People`,
         calories: null,
       },
       ingredients: [
@@ -4293,24 +4288,7 @@ const PinoyFoods = [
         
       ],
       nutrition: [
-        { name: 'Serving', amount: '5g' },
-        { name: 'Calories', amount: '650kcal' },
-        { name: 'Carbohydrates', amount: '10g' },
-        { name: 'Protein', amount: '37g' },
-        { name: 'Fat', amount: '51g' },
-        { name: 'Saturated Fat', amount: '16g' },
-        { name: 'Polyunsaturated Fat', amount: '6g' },
-        { name: 'Monounsaturated Fat', amount: '25g' },
-        { name: 'Trans Fat', amount: '1g' },
-        { name: 'Cholesterol', amount: '196mg' },
-        { name: 'Sodium', amount: '868mg' },
-        { name: 'Potassium', amount: '888mg' },
-        { name: 'Fiber', amount: '3g' },
-        { name: 'Sugar', amount: '5g' },
-        { name: 'Vitamin A', amount: '5187IU' },
-        { name: 'Vitamin C', amount: '57mg' },
-        { name: 'Calcium', amount: '59mg' },
-        { name: 'Iron', amount: '4mg' },
+        { name: 'Serving', amount: '4g' },
       ],
     },
     video: `https://youtu.be/WGyPAm9l6p4`,
