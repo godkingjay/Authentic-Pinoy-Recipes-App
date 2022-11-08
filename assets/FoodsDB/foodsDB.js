@@ -470,7 +470,7 @@ const PinoyFoods = [
           amount: '1/2 Teaspoon',
           tagalog: 'Dinurog na Paminta',
           type: 'Sauce Ingredient',
-          image: 'pepper'
+          image: 'peppercorn'
         },
         {
           name: 'Pork Belly',
@@ -912,7 +912,7 @@ const PinoyFoods = [
           amount: `1/4 teaspoon`,
           tagalog: null,
           type: `Ground`,
-          image: `pepper`,
+          image: `peppercorn`,
         },
         {
           name: `Chili Flakes(Optional)`,
@@ -1581,7 +1581,7 @@ const PinoyFoods = [
           amount: `1/2 Teaspoon`,
           tagalog: null,
           type: null,
-          image: `pepper`,
+          image: `peppercorn`,
         },
         {
           name: `Parsley`,
@@ -1736,7 +1736,7 @@ const PinoyFoods = [
           amount: `1/2 Teaspoon`,
           tagalog: `Dinurog na Paminta`,
           type: null,
-          image: `pepper`,
+          image: `peppercorn`,
         },
         {
           name: `Salt`,
@@ -1926,7 +1926,7 @@ const PinoyFoods = [
           amount: `Depends on Taste`,
           tagalog: `Dinurog na Paminta`,
           type: null,
-          image: `pepper`,
+          image: `peppercorn`,
         },
       ],
       instructions: [
@@ -2555,7 +2555,7 @@ const PinoyFoods = [
           amount:  `Depends on Taste`,
           tagalog: null,
           type: null,
-          image: `pepper`,
+          image: `peppercorn`,
         },
       ],
       instructions: [
@@ -3946,7 +3946,7 @@ const PinoyFoods = [
           amount: `1/8 Teaspoon`,
           tagalog: `Paminta`,
           type: `Grounded`,
-          image: `pepper`,
+          image: `peppercorn`,
         },
         {
           name: `Unripe Papaya`,
@@ -4277,11 +4277,102 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Chicken`,
+          amount: `2 lbs.`,
+          tagalog: `Manok`,
+          type: `Cut into serving pieces.`,
+          image: `chicken`,
+        },
+        {
+          name: `Ginger`,
+          amount: `2 Tablespoons`,
+          tagalog: `Luya`,
+          type: `Minced`,
+          image: `ginger`,
+        },
+        {
+          name: `Garlic`,
+          amount: `2 Tablespoons`,
+          tagalog: `Bawang`,
+          type: `Minced`,
+          image: `garlic`,
+        },
+        {
+          name: `Lemongrass`,
+          amount: `3/4 Cup`,
+          tagalog: null,
+          type: `Chopped`,
+          image: `grass`,
+        },
+        {
+          name: `Coconut Vinegar`,
+          amount: `1 Cup`,
           tagalog: null,
           type: null,
-          image: null,
+          image: `vinegar`,
+        },
+        {
+          name: `Lemon or Calamansi Juice`,
+          amount: `1/2 Cup`,
+          tagalog: null,
+          type: null,
+          image: `lemon`,
+        },
+        {
+          name: `Salt`,
+          amount: `1 Tablespoon`,
+          tagalog: `Asin`,
+          type: null,
+          image: `salt`,
+        },
+        {
+          name: `Brown Sugar`,
+          amount: `1/4 Cup`,
+          tagalog: `Asukal`,
+          type: null,
+          image: `sugar`,
+        },
+        {
+          name: `Lemon Soda`,
+          amount: `1 Cup`,
+          tagalog: null,
+          type: null,
+          image: `soda`,
+        },
+        {
+          name: `Ground Black Pepper`,
+          amount: `1/2 Tablespoon`,
+          tagalog: `Paminta`,
+          type: `Grounded`,
+          image: `peppercorn`,
+        },
+        {
+          name: `Anatto Oil`,
+          amount: `3 Tablespoons`,
+          tagalog: null,
+          type: `Basting Sauce | Atsuete Oil`,
+          image: `oil`,
+        },
+        {
+          name: `Margarine`,
+          amount: `1/2 Cup`,
+          tagalog: null,
+          type: `Basting Sauce | Softened`,
+          image: `margarine`,
+        },
+        {
+          name: `Salt`,
+          amount: `1/4 Teaspoon`,
+          tagalog: `Asin`,
+          type: `Basting Sauce`,
+          image: `salt`,
+        },
+        {
+          name: `Lemon or Calamansi Juice`,
+          amount: `1 Teaspoon`,
+          tagalog: null,
+          type: `Basting Sauce`,
+          image: `lemon`,
         },
       ],
       instructions: [
