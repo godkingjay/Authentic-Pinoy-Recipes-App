@@ -4251,6 +4251,71 @@ const PinoyFoods = [
     video: null,
     image: require('./images/food/000000042.jpg'),
   },
+  {
+    id: 43,
+    name: `Chicken Inasal`,
+    tagalog: `Inasal na Manok`,
+    type: [
+      `Chicken Dish`,
+      `Barbeque`,
+      `Meat Dish`
+    ],
+    description: `Chicken Inasal is a grilled chicken dish and one of the well known Ilonggo dishes. This is done by marinating chicken pieces in a unique blend of spices and grilling them until done. Sounds like a simple grilled chicken recipe, isn’t it? Well, it might sound like one; however, the special marinade and basting sauce makes this Ilonggo version of the grilled chicken extra special.`,
+    link: `https://panlasangpinoy.com/grilled-chicken-inasal-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/WGyPAm9l6p4`,
+    image: require('./images/food/000000043.jpg'),
+  },
 ];
 
 
@@ -4368,6 +4433,7 @@ List:
 40.   Tinolang Manok
 41.   Halo-halo
 42.   Pichi-Pichi
+43.   Chicken Inasal
 
 **************************************************************************************************************/
 
