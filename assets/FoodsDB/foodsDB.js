@@ -4376,7 +4376,12 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `In a freezer bag or large bowl, combine chicken, lemongrass, salt, ground black pepper, ginger, garlic, brown sugar, vinegar, lemon-lime soda, and lemon juice.`,
+        `Stir or shake the mixture until every ingredient is well incorporated. Marinade for 1 to 3 hours.`,
+        `In a bowl, combine margarine, annatto oil, salt, and lemon juice then stir. Set aside.`,
+        `Grill the chicken while basting generous amount of the margarine mixture.`,
+        `Transfer the grilled chicken to a serving plate.`,
+        `Serve with sinamak. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '4g' },
