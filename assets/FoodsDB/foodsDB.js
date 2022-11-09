@@ -4408,8 +4408,20 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `How to Cook Bibingka`,
+        content: `The first step to cooking bibingka is to preheat your oven at 375 degrees Fahrenheit. Combine your dry ingredients together in one bowl: rice flour, baking powder, and salt. Mix them well, and set them aside.
+
+        Now it’s time to cream your butter. Creaming refers to the process of making a soft fat light and fluffy. To do this, beat your butter with a whisk while gradually adding in sugar. This gives your butter a creamier, almost whipped cream-like texture. The sweet smell of butter and sugar is impossible to resist!
+        
+        Crack your 3 pieces of raw egg and whisk again, until you’ve incorporated all of the ingredients. Once done, it’s now time to combine them with your dry ingredients; add them to the same bowl, and keep mixing. Then, pour in your coconut milk and fresh milk. You need 1 cup of the former, while just ¼ cup of fresh milk will do. Whisk all of your ingredients together for a minute or two more.
+
+        It’s now time to prepare your bibingka for its first round in the oven. Arrange your pre-cut banana leaf on a cake or baking pan. The leaf should be wide enough to cover not only the bottom of the pan, but also the sides. Pour the mixture onto the leaf-coated pan and put it in the oven, letting it bake for 15 minutes.
+        
+        Once your timer is up, remove your bibingka from the oven. Doesn’t that smell absolutely delicious? The use of a banana leaf also lends to the fragrant aroma. But at this point your bibingka isn’t quite ready to be eaten yet. Top your rice cake with sliced salted egg and grated cheese. At this point in time, your oven should still be kept on –– you’ll still need to use it!
+
+        With its new coat of toppings, put the bibingka back in the oven. Let it bake for another 15 to 20 minutes –– or, wait until the top of your rice cake turns a medium brown. Whichever comes first, remove it from the oven afterwards and let it cool.
+
+        Brush your bibingka with butter and sprinkle sugar on top. If you’re more of a coconut fan, you can opt to top it with that instead of sugar. And just like that, your bibingka is ready to be enjoyed!`,
       },
     ],
     recipe: {
