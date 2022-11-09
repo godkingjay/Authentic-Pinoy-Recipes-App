@@ -4522,7 +4522,20 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Preheat oven to 375 degrees Fahrenheit.`,
+        `Combine rice flour, baking powder, and salt then mix well. Set aside.`,
+        `Cream butter then gradually put-in sugar while whisking.`,
+        `Add the eggs then whisk until every ingredient is well incorporated.`,
+        `Gradually add the rice flour, salt, and baking powder mixture then continue mixing.`,
+        `Pour-in coconut milk and fresh milk then whisk some more for 1 to 2 minutes.`,
+        `Arrange the pre-cut banana leaf on a cake pan or baking pan.`,
+        `Pour the mixture on the pan.`,
+        `Bake for 15 minutes.`,
+        `Remove from the oven then top with sliced salted egg and grated cheese (do not turn the oven off).`,
+        `Put back in the oven and bake for 15 to 20 minutes or until the color of the top turn medium brown.`,
+        `Remove from the oven and let cool.`,
+        `Brush with butter and top with grated coconut.`,
+        `Serve. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
