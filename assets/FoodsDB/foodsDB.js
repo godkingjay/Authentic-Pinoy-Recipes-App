@@ -4390,6 +4390,75 @@ const PinoyFoods = [
     video: `https://youtu.be/WGyPAm9l6p4`,
     image: require('./images/food/000000043.jpg'),
   },
+  {
+    id: 44,
+    name: `Bibingka`,
+    tagalog: `Bibingka`,
+    type: [
+      `Cake`,
+      `Street Food`,
+      `Breakfast`
+    ],
+    description: `In its simplest form, bibingka is a simple Filipino cake that consists of rice flour and water. It was initially prepared in clay pots that were lined with banana leaves, which would impart a distinctive, smoky flavor to the dish. Bibinka is believed to have appeared under the foreign culinary influence, and the first written reference describing a similar cake dates back to 1751.
+
+    Through history, bibinka was adapted with additional ingredients, and nowadays it is typically prepared with milk, eggs, coconut milk, sugar, and butter, while modern variations may include anything from grated cheese, salted duck eggs or grated coconut, and a variety of different sweet and savory toppings.
+    
+    This original Filipino delicacy is usually associated with Christmastime, and it is traditionally enjoyed after the mass on Christmas Day. Bibingka is also often served for breakfast.`,
+    link: `https://panlasangpinoy.com/rice-cake-bibingka-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/rJwHZ3GrTC0`,
+    image: require('./images/food/000000044.jpg'),
+  },
 ];
 
 
@@ -4508,6 +4577,7 @@ List:
 41.   Halo-halo
 42.   Pichi-Pichi
 43.   Chicken Inasal
+44.   Bibingka
 
 **************************************************************************************************************/
 
