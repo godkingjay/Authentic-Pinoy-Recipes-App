@@ -4561,6 +4561,68 @@ const PinoyFoods = [
     video: `https://youtu.be/rJwHZ3GrTC0`,
     image: require('./images/food/000000044.jpg'),
   },
+  {
+    id: 45,
+    name: `Daing na Bangus`,
+    tagalog: `Daing na Bangus`,
+    type: [
+      `Fish Dish`,
+      `Side Dish`
+    ],
+    description: `Daing is a Filipino term which refers to a vast category of marinated or salted sun-dried fish. Depending on the region and the technique, daing can be produced with various types of fish that may differ in texture and moisture levels. Marinated or dried fish is used in numerous Filipino dishes as an ingredient, side dish, topping, or a condiment which gives flavor to various stewed or stir-fried dishes.
+
+    Though it originated as a preservation technique, today it is produced in many traditional Filipino households and sold at numerous markets throughout the country.`,
+    link: `https://panlasangpinoy.com/daing-na-bangus-fried-milkfish-marinated-in-vinegar/`,
+    author: `Vanjo Merano`,
+    information: [
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: null,
+    image: require('./images/food/000000045.jpg'),
+  },
 ];
 
 
@@ -4680,6 +4742,7 @@ List:
 42.   Pichi-Pichi
 43.   Chicken Inasal
 44.   Bibingka
+45.   Daing na Bangus
 
 **************************************************************************************************************/
 
