@@ -4647,7 +4647,13 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Combine vinegar, pepper, salt, garlic, and cayenne pepper powder in a bowl. Stir to mix the ingredients. Set aside.`,
+        `Butterfly the bangus (slice from the top) and the place it inside a large re-sealable plastic bag.`,
+        `Pour the vinegar mixture in the bag and then let all the air out. Seal the bag and refrigerate overnight.`,
+        `Remove the fish from the bag and let the liquid drip.`,
+        `Heat the cooking oil in a pan. Once the oil gets hot, fry the fish in medium heat until one side gets crisp. Turn it over and repeat the process on the other side.`,
+        `Remove from the pan and place in a serving plate. Serve with bowl of spicy vinegar.`,
+        `Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
