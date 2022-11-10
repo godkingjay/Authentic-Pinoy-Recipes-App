@@ -4575,6 +4575,14 @@ const PinoyFoods = [
     link: `https://panlasangpinoy.com/daing-na-bangus-fried-milkfish-marinated-in-vinegar/`,
     author: `Vanjo Merano`,
     information: [
+      {
+        title: `What is Daing na Bangus?`,
+        content: `Daing na Bangus refers to milkfish that is marinated in a mixture composed of vinegar, crushed peppercorn, garlic, and salt. Hot pepper such as cayenne pepper powder can be added to make it spicy. It is usually marinated overnight for best results, and then fried until crispy.
+        
+        Unlike traditional daing wherein the fish is salted and then soaked under the sun for a day or two, this daing na bangus recipe in particular, do not need the heat of the sun. This makes this version more pleasurable because the meat do not get tough ( which often happens to most dried fishes).
+
+        Daing na bangus is best for breakfast and lunch. The term BangSiLog ws coined from a meal combination composed of daing na bangus, Sinangag (garlic fried rice), and fried egg. It can also be eaten simply with warm white rice.`,
+      },
     ],
     recipe: {
       details: {
