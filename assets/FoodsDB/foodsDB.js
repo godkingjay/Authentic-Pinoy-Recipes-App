@@ -4662,6 +4662,75 @@ const PinoyFoods = [
     video: null,
     image: require('./images/food/000000045.jpg'),
   },
+  {
+    id: 46,
+    name: `Taho`,
+    tagalog: `Taho`,
+    type: [
+      `Dessert`,
+      `Snack`,
+      `Street Food`,
+      `Sweets`,
+      `Breakfast`
+    ],
+    description: `Taho is a sweet Filipino dessert which consists of fresh soft tofu doused in arnibal syrup and sprinkled with plump sago pearls. Similar desserts can be found in numerous Asian countries, and most of them call for the usage of the softest tofu variety, known as silky tofu, which has a tender and creamy texture and an incredibly soft consistency.
+
+    Shortly heated or steamed, it is covered in sweet arnibal syrup (made with melted brown sugar) and enriched with mild vanilla flavors. Usually, the dessert is topped with chewy sago pearls which are similar in appearance and texture to tapioca. Taho is usually sold by street vendors who sell this traditional delicacy in the early morning as a sweet, protein-packed breakfast.`,
+    link: `https://panlasangpinoy.com/filipino-street-food-homemade-taho-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/OvQ1tcCQ7x0`,
+    image: require('./images/food/000000046.jpg'),
+  },
 ];
 
 
@@ -4782,6 +4851,7 @@ List:
 43.   Chicken Inasal
 44.   Bibingka
 45.   Daing na Bangus
+46.   Taho
 
 **************************************************************************************************************/
 
