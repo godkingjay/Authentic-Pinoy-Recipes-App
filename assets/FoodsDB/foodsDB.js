@@ -4708,14 +4708,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Soft silken tofu topped with a sweet brown syrup and sago pearls.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `5 Minutes`,
+          cook: `45 Minutes`,
+          total: `50 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `3 People`,
+        calories: `605kcal`,
       },
       ingredients: [
         {
