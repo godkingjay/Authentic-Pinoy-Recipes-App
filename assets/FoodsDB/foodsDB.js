@@ -4680,8 +4680,30 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `What is Taho Made Of?`,
+        content: `The white pudding part of taho is actually tofu. It is called soft silken tofu because of its soft texture and shiny appearance. It had to be made from scratch by the magtataho in the Philippines using soy beans. It can also be bought from the supermarket in its finished form.
+
+        The brown syrup or arinibal is made of brown sugar and water. Vanilla extract can also be added to the syrup for best results.`,
+      },
+      {
+        title: `How to Make Taho at Home`,
+        content: `Making taho in the comfort of your home is easy, at least for the pudding part. Simply purchase soft silken tofu from the supermarket and you are halfway done.
+
+        The next steps are to make the syrup and cook sago. Making the brown arnibal is just like making a simple syrup. Combine 1 part of water to 2 parts brown sugar. Let it boil and stir until well blended. You may also add vanilla extract if desired.
+        
+        The last step is to assemble everything together. Put some soft silken tofu on a mug. Microwave for a minute. Top with arnibal and sago pearls.`,
+      },
+      {
+        title: `Cooking Sago`,
+        content: `Large sago pearls takes awhile to cook completely. I do it by boiling the sago in water for 30 minutes. Add sugar and continue to boil for another 15 to 20 minutes or until cooked all throughout.
+
+        It is best to let the pearls soak in water for a few hours or overnight. Smaller sago pearls are the opposite. These cook quicker. The key when cooking small sago has something to do with the temperature of the water. Always make sure that the water is rapidly boiling before adding these. Otherwise, the small pearls will just get diluted in water.`,
+      },
+      {
+        title: `Is Taho a Good Source of Protein?`,
+        content: `The tofu in taho is high in protein. 3 ounces of it contains 5 grams of protein. It also has other nutrients.
+        
+        The tofu contains essential amino acids, and a good source of calcium and iron.`,
       },
     ],
     recipe: {
