@@ -4748,7 +4748,15 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Pour 4 cups of water in a cooking pot and bring to a boil.`,
+        `Put-in the tapioca pearls and cook for 40 minutes in medium heat.`,
+        `Add 1/4 cup brown sugar and mix well.`,
+        `Turn off the heat and let the sago pearls sit on the cooking pot until room temperature is achieved. Set aside.`,
+        `Heat a saucepan then pour-in 1/2 cup of water.`,
+        `Put-in 1 cup of brown sugar once the water starts to boil. Mix well and simmer until the mixture becomes thick. Set aside.`,
+        `Transfer the extra soft tofu in a glass or mug then heat in a microwave oven for a minute.`,
+        `Top the extra soft tofu with the cooked tapioca pearls and sweet syrup.`,
+        `Serve warm. Share and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
