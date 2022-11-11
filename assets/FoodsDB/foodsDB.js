@@ -4719,11 +4719,32 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Tofu`,
+          amount: `22 Ounces`,
           tagalog: null,
+          type:  `Sof Silken`,
+          image: `tofu`,
+        },
+        {
+          name: `Brown Sugar`,
+          amount: `1 1/4 Cups`,
+          tagalog: `Asukal`,
           type: null,
-          image: null,
+          image: `sugar`,
+        },
+        {
+          name: `Sago Pearls`,
+          amount: `1/2 Cups`,
+          tagalog: null,
+          type: `Uncooked`,
+          image: `sago`,
+        },
+        {
+          name: `Water`,
+          amount: `4 1/2 Cups`,
+          tagalog: `Tubig`,
+          type: null,
+          image: `water`,
         },
       ],
       instructions: [
