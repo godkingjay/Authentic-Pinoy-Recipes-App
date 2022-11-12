@@ -4807,12 +4807,7 @@ const PinoyFoods = [
     Even though they originated as a traditional Chinese delicacy, their Filipino adaptation has become incredibly popular. With their crispy shell, chewy texture, and creamy filling, they can be enjoyed as a satisfying dessert or a quick sweet snack.`,
     link: `https://panlasangpinoy.com/asian-recipe-rice-ball-mochiko-butsi-buchi-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
