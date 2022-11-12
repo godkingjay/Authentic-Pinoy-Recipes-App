@@ -4821,11 +4821,39 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Sweet Rice Flour`,
+          amount: `1 1/2 Cups`,
           tagalog: null,
           type: null,
-          image: null,
+          image: `flour`,
+        },
+        {
+          name: `Water`,
+          amount: `3/4 Cup`,
+          tagalog: `Tubig`,
+          type: null,
+          image: `water`,
+        },
+        {
+          name: `Sweet Red Bean Paste`,
+          amount: `1/4 Cup`,
+          tagalog: null,
+          type: null,
+          image: `paste`,
+        },
+        {
+          name: `Sesame Seeds`,
+          amount: `1/2 Cup`,
+          tagalog: null,
+          type: null,
+          image: `sesame-seed`,
+        },
+        {
+          name: `Cooking Oil`,
+          amount: `2 to 3 Cups`,
+          tagalog: null,
+          type: null,
+          image: `cooking-oil`,
         },
       ],
       instructions: [
