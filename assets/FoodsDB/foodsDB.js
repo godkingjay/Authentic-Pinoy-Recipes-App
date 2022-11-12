@@ -4794,6 +4794,72 @@ const PinoyFoods = [
     video: `https://youtu.be/OvQ1tcCQ7x0`,
     image: require('./images/food/000000046.jpg'),
   },
+  {
+    id: 47,
+    name: `Buchi`,
+    tagalog: `Butsi`,
+    type: [
+      `Snack`,
+      `Dessert`
+    ],
+    description: `Butsi balls are the Filipino version of traditional Chinese jian dui sweets. They are made with glutinous rice flour that is formed in small round shapes and stuffed with a variety of sweet fillings such as sweetened mung bean, creamy lotus, red bean paste, or shredded coconut. Butsi are usually coated in sesame seeds and fried until golden.
+
+    Even though they originated as a traditional Chinese delicacy, their Filipino adaptation has become incredibly popular. With their crispy shell, chewy texture, and creamy filling, they can be enjoyed as a satisfying dessert or a quick sweet snack.`,
+    link: `https://panlasangpinoy.com/asian-recipe-rice-ball-mochiko-butsi-buchi-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/7HYagt-vjPA`,
+    image: require('./images/food/000000047.jpg'),
+  },
 ];
 
 
@@ -4915,6 +4981,7 @@ List:
 44.   Bibingka
 45.   Daing na Bangus
 46.   Taho
+47.   Buchi
 
 **************************************************************************************************************/
 
