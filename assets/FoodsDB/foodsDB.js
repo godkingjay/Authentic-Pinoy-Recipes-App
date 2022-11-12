@@ -4857,7 +4857,17 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `In a mixing bowl, combine the sweet rice flour and water then mix wel (This should form a dough).`,
+        `Separate the dough into individual pieces.`,
+        `Roll each individual piece of dough until a spherical (round) shape is formed.`,
+        `Press the center of the spherical dough until the shape becomes concave (there should be a hollow spot in the center).`,
+        `Scoop the sweet red bean paste using an ordinary teaspoon or measuring spoon then fill it in the hollow space of the dough (amount is up to you, just don't overfill).`,
+        `Seal the dough and roll it once more until the shape is spherical.`,
+        `Place the sesame seeds in a bowl then roll the sphere shaped dough over it. Make sure that the seeds stick on the dough.`,
+        `Heat the pan and pour-in the cooking oil.`,
+        `When the cooking oil is very hot, deep fry the dough until the sesame seed's color turns golden brown (about 2 to 3 minutes)`,
+        `Remove the cooked buchi from the pan and drain excess oil.`,
+        `Serve and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
