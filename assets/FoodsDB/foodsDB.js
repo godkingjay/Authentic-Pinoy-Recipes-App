@@ -4890,8 +4890,16 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `How to Cook Dinuguan`,
+        content: `Start by sautéing garlic and onion. This is a common practice when cooking Filipino dishes. Make sure that the onion softens before adding the pork. Saute the meat until it turns light brown. This recipe suggest the use of any boneless cut of pork. Cook it until it turns light brown. Feel free to add innards. Check this recipe and use it as a guide.
+        
+        Tenderize the pork by boiling. Pour water, cover the pot, and cook in low heat until tender. Adding a piece of pork cube (bouillon) is a big help to make the dish taste meatier.
+        
+        Pour the pork blood while stirring and cook it for at least 8 minutes to make sure that it is fully done. Add vinegar and the remaining ingredients. Some people would add vinegar before the blood. It is up to you to choose the sequence.
+        
+        You will notice that brown sugar is one of the key ingredients in this version. This is not a substitute for MSG as I would say in my other videos. It is added to help improve the overall taste of the stew.
+        
+        Season with salt and pepper. Dinuguan can be enjoyed with rice or with puto.`,
       },
     ],
     recipe: {
