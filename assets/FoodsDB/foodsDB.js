@@ -4904,14 +4904,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Pork sauteed in onion and garlic and cooked with pork blood. This Filipino version of blood stew is something to try by adventurous eaters.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `50 Minutes`,
+          total: `1 Hour`,
         },
-        servings: null,
-        calories: null,
+        servings: `4 People`,
+        calories: `466kcal`,
       },
       ingredients: [
         {
