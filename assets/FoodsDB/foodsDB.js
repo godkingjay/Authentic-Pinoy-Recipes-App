@@ -5000,7 +5000,13 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Heat oil in a pan. Sauté garlic and onion.`,
+        `Once the onion softens, add pork. Continue to sauté for 5 minutes or until light brown.`,
+        `Pour water. Let boil. `,
+        `Add  pork cube. Cook in low heat until the meat tenderizes.`,
+        `Add pork blood. Stir. Cook for 8 to 10 minutes while stirring. `,
+        `Pour vinegar and add sugar and long green pepper. Cook for 12 to 15 minutes.`,
+        `Season with salt and pepper as needed. Serve hot with puto.`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
