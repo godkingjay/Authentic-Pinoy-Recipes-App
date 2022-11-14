@@ -5375,7 +5375,11 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `In a large pan, place water let boil.`,
+        `Put in the anchovy sauce and wait for the mixture to boil once more.`,
+        `Add-in the vegetables starting with the sweet potato then put-in the okra, bitter melon, eggplant, string beans, tomato, and onion and simmer for 15 minutes.`,
+        `Add the bagnet or lechon kawali (cooking procedure available in the recipe section) and simmer for 5 minutes.`,
+        `Serve hot. Share and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
