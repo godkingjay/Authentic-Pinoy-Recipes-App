@@ -5041,12 +5041,7 @@ const PinoyFoods = [
     description: `Pork mechado is a Filipino pork stew. This particular recipe is composed of pork slices, potato, frozen green peas, and bell peppers. It is a simple dish that can easily be prepared by anyone.`,
     link: `https://panlasangpinoy.com/pork-mechado-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
