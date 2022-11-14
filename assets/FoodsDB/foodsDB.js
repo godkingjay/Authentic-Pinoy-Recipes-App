@@ -5161,7 +5161,17 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Combine pork, soy sauce, and juice of 1 lime in a bowl. Mix well and let it stay for 10 minutes.`,
+        `Heat the oil in a cooking pot.`,
+        `Saute the garlic and onion until the onion gets soft.`,
+        `Add the marinated pork (include the remaining marinade). Cook until it pork turns light brown.`,
+        `Pour tomato sauce and water. Let boil.`,
+        `Add the Knorr Pork Cube. Stir. Cover and cook in low heat for 35 to 40 minutes.`,
+        `Add the potato and green peas. Cook for 10 minutes.`,
+        `Stir-in the bell peppers. Continue to cook for 5 minutes.`,
+        `Add salt and ground black pepper to taste.`,
+        `Transfer to a serving plate.`,
+        `Serve. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
