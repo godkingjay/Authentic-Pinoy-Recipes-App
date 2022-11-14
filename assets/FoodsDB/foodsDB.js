@@ -5290,12 +5290,7 @@ const PinoyFoods = [
     description: `Pakbet or pinakbet is a popular vegetable dish that originated from one of the northern provinces of the Philippines, Ilocos. The vegetables used on this dish are usually grown in the back yard of every villager and are available almost all year long. Bitter Melon, eggplant, okra, and string beans are just some of the vegetables that make-up this delightful dish.  Pakbet is cooked in a clay pot called “Palayok” and  Anchovy sauce (bagoong isda) is used to add flavor.`,
     link: `https://panlasangpinoy.com/pakbet/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
