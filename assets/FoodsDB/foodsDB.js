@@ -5293,14 +5293,14 @@ const PinoyFoods = [
     information: null,
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for Pinakbet.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `40 Minutes`,
+          total: `50 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `4 People`,
+        calories: `58 kcal`,
       },
       ingredients: [
         {
