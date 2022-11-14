@@ -5278,6 +5278,71 @@ const PinoyFoods = [
   //   video: null,
   //   image: null,
   // },
+  {
+    id: 52,
+    name: `Pinakbet`,
+    tagalog: `Pinakbet`,
+    type: [
+      `Stew`,
+      `Meat Dish`,
+      `Vegetable Dish`
+    ],
+    description: `Pakbet or pinakbet is a popular vegetable dish that originated from one of the northern provinces of the Philippines, Ilocos. The vegetables used on this dish are usually grown in the back yard of every villager and are available almost all year long. Bitter Melon, eggplant, okra, and string beans are just some of the vegetables that make-up this delightful dish.  Pakbet is cooked in a clay pot called “Palayok” and  Anchovy sauce (bagoong isda) is used to add flavor.`,
+    link: `https://panlasangpinoy.com/pakbet/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: null,
+    image: require('./images/food/000000052.jpg'),
+  },
 ];
 
 
@@ -5404,6 +5469,7 @@ List:
 49.   Pork Mechado
 50.   Chicken Mechado
 51.   Beef Mechado
+52.   Pinakbet
 
 **************************************************************************************************************/
 
