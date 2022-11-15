@@ -5415,8 +5415,36 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `What Makes Arroz Caldo Yellow`,
+        content: `You have the option to make your arroz caldo yellowish if preferred. It may or may not have an effect on the flavor of the dish. It depends on the ingredient that you will use.
+
+        An ingredient known as safflower is traditionally used when cooking this dish. It is locally known in the Philippines as kasubha. The corollas of the safflower plant can be either yellow or red. The red variety is commonly used for arroz caldo. It creates a yellowish color when cooked.
+        
+        Safflower has no flavor at all. It does not affect the overall taste of the dish. However, there is an ingredient that I sometimes used which makes the dish taste better. It is called saffron. This is what’s in my Pina-sosyal na arroz caldo recipe.`,
+      },
+      {
+        title: `How to Cook Arroz Caldo`,
+        content: `Start by sauteeing the garlic and onions. Ground black pepper and a piece of chicken cube are added during the process. Next goes the chicken pieces. Make sure to cook the chicken until the outer parts turn light brown in color.
+
+        I like to infuse the dish with flavors at the start. This is the reason why I also add a bit of fish sauce into it in the early stages. Add the rice afterwards and pour-in water. The amount of water will depend on the consistency of the dish. Make sure to stir every few minutes while cooking until the desired consistency is achieved.
+        
+        Boiled eggs are regular components. I add these during the last steps of the cooking process. You can also add it later when you are about to serve the dish.
+        
+        Add the safflower and adjust the flavor by adding more seasonings if needed. Top with toasted garlic and chopped scallions. It is best to squeeze some lemon or calamansi on top before eating.`,
+      },
+      {
+        title: `Arroz Caldo and Lugaw`,
+        content: `You might be familiar with lugaw and goto. These types of congee closely resembles each other. The distinguishing ingredient of arroz caldo is the use of chicken.
+
+        Lugaw can be as plain as it can get. It can be cooked using only three ingredients. The simplest lugaw is composed of rice, water, and salt. My grandma always makes this for me when I am not feeling well. She adds an ingredient called rousong to make it taste better.
+        
+        Goto is another type of congee. This is usually composed of beef tripe. Beef and pork innards are sometimes added into it.`,
+      },
+      {
+        title: `Cooking Tips`,
+        content: `To make your arroz caldo look and taste better, try topping it with some safflower, toasted garlic, and scallions — squeeze half a lemon and you are done.
+
+        Arroz Caldo is usually served during breakfast because it is filling. It can give you the energy that you will need until lunch time.`,
       },
     ],
     recipe: {
