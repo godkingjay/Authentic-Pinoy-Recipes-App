@@ -5611,11 +5611,11 @@ const PinoyFoods = [
       details: {
         description: null,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `2 Hours`,
+          cook: `1 Minute`,
+          total: `2 Hours 1 Minute`,
         },
-        servings: null,
+        servings: `6 People`,
         calories: null,
       },
       ingredients: [
