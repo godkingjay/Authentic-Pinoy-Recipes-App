@@ -5706,12 +5706,7 @@ const PinoyFoods = [
     Because of their neutral flavor, they can be enjoyed as a quick snack or a dessert, but they are also served as an accompaniment to savory dishes such as hearty Filipino stews.`,
     link: `https://panlasangpinoy.com/cheese-puto-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
