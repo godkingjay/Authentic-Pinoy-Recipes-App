@@ -5770,7 +5770,15 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Pour the water into a steamer or cooking pot. Let boil.`,
+        `Sift flour, sugar, and baking powder. Combine in a bowl. Mix well.`,
+        `Gradually add the milk while stirring. Continue to stir until the texture of the mixture becomes smooth.`,
+        `Stir-in the vanilla extract and half of the cheese.`,
+        `Pour the mixture into small to medium sized molds. Arrange in a steamer. Cover and steam for 25 minutes. Top each puto with the remaining cheese. Steam for 5 minutes more.`,
+        `Take the steamed cheese puto out of the steamer. Let it cool down.`,
+        `Gently remove the puto from the mold with the help of a spatula.`,
+        `Arrange in serving plate. Serve.`,
+        `Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
