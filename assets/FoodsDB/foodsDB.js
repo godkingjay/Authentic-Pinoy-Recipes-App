@@ -5606,12 +5606,7 @@ const PinoyFoods = [
     description: `Kinilaw na Tuna or raw fish salad is an appetizer dish that is usually consumed as “pulutan”; it is best served along with cold beer. This recipe does not involve any manual cooking but the tuna meat is semi-cooked once served. This is made possible by the acids in the vinegar (acetic acid) and calamansi or lemon juice (citric acid). These mild acids slowly cook the fish meat when soaked for a few hours.`,
     link: `https://panlasangpinoy.com/kinilaw-kilawin-na-tuna/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
