@@ -5709,13 +5709,13 @@ const PinoyFoods = [
     information: null,
     recipe: {
       details: {
-        description: null,
+        description: `This is a Recipe for a Filipino rice cake called Puto Cheese or Cheesy Puto.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `5 Minutes`,
+          cook: `30 Minutes`,
+          total: `35 Minutes`,
         },
-        servings: null,
+        servings: `3 People`,
         calories: null,
       },
       ingredients: [
