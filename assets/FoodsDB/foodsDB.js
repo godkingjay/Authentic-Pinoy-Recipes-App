@@ -5406,7 +5406,8 @@ const PinoyFoods = [
     type: [
       `Rice Dish`,
       `Breakfast`,
-      `Porridge`
+      `Porridge`,
+      `Snack`
     ],
     description: `Arroz Caldo literally means warm rice. This congee that closely resembles risotto has been a favorite Filipino snack. What goes with arroz caldo? I enjoy pairing it with tokwat baboy, which is a combination of boiled pork slices and fried tofu soaked in a vinegar mixture.
     
@@ -5449,14 +5450,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Chicken congee with boiled eggs. This arroz caldo recipe is a winner.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `45 Minutes`,
+          total: `55 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `584 kcal`,
       },
       ingredients: [
         {
