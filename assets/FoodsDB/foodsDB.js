@@ -5560,7 +5560,16 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `In a pot, heat the cooking oil then saute the garlic, onion, and ginger.`,
+        `Dash-in some ground black pepper.`,
+        `Add the chicken cube and cook until the cube melts.`,
+        `Put-in the chicken and cook until outer layer color turns golden brown.`,
+        `Add the fish sauce and uncooked rice then mix and cook for a few minutes.`,
+        `Pour-in the water and bring to a boil.`,
+        `Stir occasionally and simmer until the rice is fully cooked (about 30 to 40 minutes).`,
+        `Put-in the hard boiled eggs.`,
+        `Add the safflower for additional color and aroma.`,
+        `Serve hot with garlic, minced scallions, and lemon. Share and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
