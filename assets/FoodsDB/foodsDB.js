@@ -470,7 +470,7 @@ const PinoyFoods = [
           amount: '1/2 Teaspoon',
           tagalog: 'Dinurog na Paminta',
           type: 'Sauce Ingredient',
-          image: 'peppercorn'
+          image: 'black-pepper'
         },
         {
           name: 'Pork Belly',
@@ -929,7 +929,7 @@ const PinoyFoods = [
           amount: `1/4 teaspoon`,
           tagalog: null,
           type: `Ground`,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
         {
           name: `Chili Flakes(Optional)`,
@@ -1598,7 +1598,7 @@ const PinoyFoods = [
           amount: `1/2 Teaspoon`,
           tagalog: null,
           type: null,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
         {
           name: `Parsley`,
@@ -1753,7 +1753,7 @@ const PinoyFoods = [
           amount: `1/2 Teaspoon`,
           tagalog: `Dinurog na Paminta`,
           type: null,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
         {
           name: `Salt`,
@@ -1943,7 +1943,7 @@ const PinoyFoods = [
           amount: `Depends on Taste`,
           tagalog: `Dinurog na Paminta`,
           type: null,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
       ],
       instructions: [
@@ -2572,7 +2572,7 @@ const PinoyFoods = [
           amount:  `Depends on Taste`,
           tagalog: null,
           type: null,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
       ],
       instructions: [
@@ -3963,7 +3963,7 @@ const PinoyFoods = [
           amount: `1/8 Teaspoon`,
           tagalog: `Paminta`,
           type: `Grounded`,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
         {
           name: `Unripe Papaya`,
@@ -4361,7 +4361,7 @@ const PinoyFoods = [
           amount: `1/2 Tablespoon`,
           tagalog: `Paminta`,
           type: `Grounded`,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
         {
           name: `Anatto Oil`,
@@ -5500,7 +5500,7 @@ const PinoyFoods = [
           amount: `1/4 Teaspoon`,
           tagalog: `Paminta`,
           type: null,
-          image: `peppercorn`,
+          image: `black-pepper`,
         },
         {
           name: `Onion`,
