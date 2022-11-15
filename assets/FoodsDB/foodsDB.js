@@ -5692,6 +5692,73 @@ const PinoyFoods = [
     video: `https://youtu.be/lMsIC2Gl1vM`,
     image: require('./images/food/000000054.jpg'),
   },
+  {
+    id: 55,
+    name: `Cheese Puto`,
+    tagalog: `Cheese Puto`,
+    type: [
+      `Dessert`,
+      `Side Dish`,
+      `Snack`
+    ],
+    description: `The lightly sweetened puto are popular Filipino steamed rice cakes traditionally consisting of finely ground soaked rice that is steamed in round containers and served sliced. The popularity of these versatile cakes has caused the development of many modern puto varieties, which often vary in texture, color, shape, size, and flavor.
+
+    Because of their neutral flavor, they can be enjoyed as a quick snack or a dessert, but they are also served as an accompaniment to savory dishes such as hearty Filipino stews.`,
+    link: `https://panlasangpinoy.com/cheese-puto-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: null,
+    image: require('./images/food/000000055.jpg'),
+  },
 ];
 
 
@@ -5821,6 +5888,7 @@ List:
 52.   Pinakbet
 53.   Arroz Caldo
 54.   Tuna Kinilaw
+55.   Cheese Puto
 
 **************************************************************************************************************/
 
