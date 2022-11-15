@@ -5595,6 +5595,70 @@ const PinoyFoods = [
     video: `https://youtu.be/7lka80ZAays`,
     image: require('./images/food/000000053.jpg'),
   },
+  {
+    id: 54,
+    name: `Tuna Kinilaw`,
+    tagalog: `Kinilaw na Tuna`,
+    type: [
+      `Fish Dish`,
+      `Appetizer`
+    ],
+    description: `Kinilaw na Tuna or raw fish salad is an appetizer dish that is usually consumed as “pulutan”; it is best served along with cold beer. This recipe does not involve any manual cooking but the tuna meat is semi-cooked once served. This is made possible by the acids in the vinegar (acetic acid) and calamansi or lemon juice (citric acid). These mild acids slowly cook the fish meat when soaked for a few hours.`,
+    link: `https://panlasangpinoy.com/kinilaw-kilawin-na-tuna/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/lMsIC2Gl1vM`,
+    image: require('./images/food/000000054.jpg'),
+  },
 ];
 
 
@@ -5723,6 +5787,7 @@ List:
 51.   Beef Mechado
 52.   Pinakbet
 53.   Arroz Caldo
+54.   Tuna Kinilaw
 
 **************************************************************************************************************/
 
