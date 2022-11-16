@@ -5899,7 +5899,17 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Place the julienned papaya in a large bowl and combine 1/4 cup salt then mix until the salt is well distributed.`,
+        `Cover the bowl and place inside the refrigerator overnight (the salt will dehydrate the papaya).`,
+        `Place the julienned papaya in a colander or strainer then rinse with running water.`,
+        `Using cheesecloth (or any cloth) as a container, put the rinsed papaya inside the cloth and squeeze until all the liquid comes out.`,
+        `Put the papaya back in the large bowl and combine with carrots, garlic, ginger, onions, whole peppercorn, bell pepper, and raisins.`,
+        `Heat the saucepan and pour-in the vinegar and bring to a boil.`,
+        `Add the sugar and 1 1/2 tsp salt then stir until well diluted.`,
+        `Turn off the heat and allow the syrup to cool down until temperature is low enough to handle.`,
+        `Place the combined vegetables and spices in a sterilized airtight jar and pour-in the syrup.`,
+        `Seal the jar and place inside the refrigerator for a week (or 5 days minimum to achieve the expected texture and flavor).`,
+        `Serve cold with fried dishes. Share and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
