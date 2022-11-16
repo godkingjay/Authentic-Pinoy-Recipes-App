@@ -5966,14 +5966,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for basic pork menudo. It is a delicious dish that makes use pork, liver, and vegetables such as carrot and potato.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `1 Hour`,
+          total: `1 Hour 10 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `6 People`,
+        calories: `524 kcal`,
       },
       ingredients: [
         {
