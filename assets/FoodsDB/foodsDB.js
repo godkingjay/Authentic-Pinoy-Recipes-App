@@ -6120,6 +6120,69 @@ const PinoyFoods = [
     video: `https://youtu.be/__fWaOyChPw`,
     image: require('./images/food/000000057.jpg'),
   },
+  {
+    id: 58,
+    name: `Batchoy`,
+    tagalog: `Batchoy`,
+    type: [
+      `Soup`
+    ],
+    description: `Batchoy is a soup dish composed of sliced pork, pig’s innards, and miki noodles.This dish originated from the district of La Paz in Iloilo City — in the island of Panay. Throughout the years, batchoy gained popularity and has been a favorite soup dish along with beef mami, beef pares, and bulalo. The miki noodles used in this recipe refers to fresh egg noodles. This type of noodle is often used in soup dishes. Since the noodles are fresh, it requires minimal cooking time. Sometimes, pouring hot broth over the noodles is enough to cook it.`,
+    link: `https://panlasangpinoy.com/batchoy/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/RV3b39V18Nk`,
+    image: require('./images/food/000000058.jpg'),
+  },
 ];
 
 
@@ -6252,6 +6315,7 @@ List:
 55.   Cheese Puto
 56.   Atchara
 57.   Pork Menudo
+58.   Batchoy
 
 **************************************************************************************************************/
 
