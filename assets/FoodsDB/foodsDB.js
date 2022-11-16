@@ -6236,7 +6236,16 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Boil water in a cooking pot.`,
+        `Put-in salt, sugar, onion powder, ground black pepper, and shrimp paste. Cook for a minute.`,
+        `Add the pork and cook until tender (about 30 to 45 minutes).`,
+        `Put-in the intestines and liver, and then cook for 6 to 10 minutes.`,
+        `Remove the pork, liver, and intestine from the broth (caldo). Set aside.`,
+        `Slice the pork into strips.`,
+        `Arranged the cooked miki noodles in a single serving bowl.`,
+        `Place the strips of pork, liver, and intestine on top of the miki noodles.`,
+        `Pour the broth in the bowl, and then garnish with spring onions and toasted garlic.`,
+        `Serve hot. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
