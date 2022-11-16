@@ -6090,7 +6090,14 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Combine pork, soysauce, and lemon in a bowl. Marinate for at least 1 hour.`,
+        `Heat oil in a pan.`,
+        `Saute garlic and onion.`,
+        `Add the marinated pork. Cook for 5 to 7 minutes.`,
+        `Pour in tomato sauce and water and then add the bay leaves.Let boil and simmer for 30 minutes to an hour depending on the toughness of the pork. Note: Add water as necessary.`,
+        `Add-in the liver and hot dogs.Cook for 5 minutes.`,
+        `Put-in potatoes, carrots, sugar,salt, and pepper. Stir and cook for 8 to 12 minutes.`,
+        `Serve. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
