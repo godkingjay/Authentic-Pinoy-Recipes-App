@@ -5936,8 +5936,32 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `How to Cook Pork Menudo`,
+        content: `This pork menudo recipe requires the meat to be marinated in soy sauce and lemon first before cooking. Combine the pork, soy sauce and lemon in a bowl. Mix well and let it stay for at least 1 hour. It will be better to store the bowl inside the refrigerator while you marinate to avoid contamination. Make sure to cover the bowl before doing this.
+        
+        Take the pork out of the fridge 15 minutes before cooking. Start to saute the garlic and onion. You will notice that this method is common in Filipino cuisine. Most Filipino foods are cooked starting with sauteing garlic and onion.
+        
+        Once the onions are soft, add the marinated pork and cook until it browns. Add tomato sauce (you can also use crushed tomatoes), water (or beef broth), and bay leaves. We are using dried bay leaves for this recipe. Cover and simmer until the meat gets tender — which is usually 40 to 60 minutes depending on the quality of the meat. Once the meat is done, it is time to add the sliced liver. You can add the liver fresh or you can saute it first in ginger and garlic to make it less gamey. Add the veggies after this step and continue to cook for a few more minutes.
+        
+        Add the salt and pepper depending on your preference. Also, try not to overcook the potato and carrots because it  will get very soft — unless you prefer it that way.`,
+      },
+      {
+        title: `How can I best store it?`,
+        content: `Menudo can make for an incredibly tempting dish to finish all on your own. But considering how jam-packed it is with ingredients, you might find yourself unable to eat all of it in one sitting. But never fear, as this dish can actually get better with more time in storage. With all of your flavors— from the garlic to the tomato sauce— settling in nicely over time, you might get a richer taste from more days of letting it rest. Simply make sure that you’re storing it properly, and that you keep an eye on how long you’re setting it aside so that it doesn’t rot.
+
+        For this, we will be refrigerating the Pork Menudo. With that, you have to make sure that your dish is down to room temperature before we do anything else, as it might still be hot off the stove. When it’s perfectly cool, you can put it in a resealable bag, or any airtight container you might have.
+        
+        Then slip this into your refrigerator for about 3 days of your Menudo staying great for consumption. But if you need it for an event or a meal that’s a little further in the future, feel free to place it in your freezer. You can expect this to last for 2 months when you freeze it.`,
+      },
+      {
+        title: `What if I’m ready to eat it again, and would like to reheat it?`,
+        content: `One of the most ideal ways to go about this is by using your stove again, and pouring your mixture back into a saucepan. You can reheat the Menudo over low heat, until you get an internal temperature of about 165 °F. This would mimic the taste of your freshly cooked Menudo.
+
+        But if you’re in a bit of a hurry, there’s also the option of microwaving. This is also best for if you’ve stored some of this dish to bring to work. All you have to do is take that Menudo you’ve packed away, and microwave it within intervals of 2 to 3 minutes. Keep checking your dish if it’s warm enough for you. Also make sure that you use a microwave-safe container for this.
+        
+        Now you’ve got a lovely plate of Pork Menudo all ready to go! This is definitely a dish that involves numerous ingredients. As such, it really might be best to make a bigger batch, and store the leftovers for later eating.
+        
+        And there are many other recipes that have that similar charm of being a gorgeous, flavorful mix of various components. But there are three in particular that usually get bunched together in Filipino cuisine for how alike they are to one another.`,
       },
     ],
     recipe: {
