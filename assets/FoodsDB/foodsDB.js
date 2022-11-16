@@ -5800,12 +5800,7 @@ const PinoyFoods = [
     This is probably the most famous appetizer in the Philippines because every region seems to have their own version. This sweet and sour tasting appetizer is usually served with fried dishes such as crispy pata, longganisa, tocino, and even lechon manok. In addition, this can also give life to dull dishes.`,
     link: `https://www.tasteatlas.com/atchara`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
