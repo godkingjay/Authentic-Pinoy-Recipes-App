@@ -6382,11 +6382,39 @@ const PinoyFoods = [
       },
       ingredients: [
         {
-          name: null,
-          amount: null,
+          name: `Tablea`,
+          amount: `5 Pieces`,
           tagalog: null,
           type: null,
-          image: null,
+          image: `chocolate`,
+        },
+        {
+          name: `Glutinous Rice`,
+          amount: `1 3/4 Cups`,
+          tagalog: null,
+          type: null,
+          image: `rice`,
+        },
+        {
+          name: `Granulated White Sugar`,
+          amount: `3/4 Cup`,
+          tagalog: null,
+          type: null,
+          image: `sugar`,
+        },
+        {
+          name: `Water`,
+          amount: `6 to 8 Cups`,
+          tagalog: `Tubig`,
+          type: null,
+          image: `water`,
+        },
+        {
+          name: `Condensed Milk`,
+          amount: `Depends on taste`,
+          tagalog: null,
+          type: null,
+          image: `milk-can`,
         },
       ],
       instructions: [
