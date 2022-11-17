@@ -6269,13 +6269,13 @@ const PinoyFoods = [
     information: null,
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for Kewek kwek or Deep Fried Boiled Quail Eggs with Orange Batter.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `5 Minutes`,
+          cook: `5 Minutes`,
+          total: `10 Minutes`,
         },
-        servings: null,
+        servings: `4 People`,
         calories: null,
       },
       ingredients: [
