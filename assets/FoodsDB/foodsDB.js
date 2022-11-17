@@ -6337,7 +6337,15 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Place the cornstarch in a container and dredge the boiled quail eggs. Set aside.`,
+        `In a mixing bowl, combine flour, salt, and pepper then mix thoroughly.`,
+        `Dilute the anatto powder in warm water then pour-in the mixing bowl with the other ingredients. Mix well.`,
+        `Place all the quail eggs in the mixing bowl and coat with the batter.`,
+        `Heat the pan and pour the cooking oil.`,
+        `When the oil is hot enough, deep-fry the quail eggs by scooping them from the mixing bowl using a spoon. Make sure that each is coated with batter.`,
+        `After a few minutes, remove the fried quail eggs from the pan and place in a serving plate.`,
+        `Serve with vinegar or fish ball sauce while still crispy.`,
+        `Share and Enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
