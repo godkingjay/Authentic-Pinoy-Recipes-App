@@ -6368,12 +6368,7 @@ const PinoyFoods = [
     Usually enjoyed as a hearty breakfast or a sweet afternoon snack, Filipino champorado can be served hot or cold, drizzled with condensed milk, or accompanied by salted dry fish.`,
     link: `https://panlasangpinoy.com/easy-champorado-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
