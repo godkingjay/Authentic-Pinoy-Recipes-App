@@ -6418,7 +6418,12 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Pour water in a cooking pot. Bring to a boil.`,
+        `Put-in the tablea and then stir. Let it dissolve in boiling water.`,
+        `Add-in the rice. Let the water re-boil. Set the heat to low-medium and then stir almost constantly to avoid sticking. The rice should be ready when it absorbs the water (about 15 to 25 minutes).`,
+        `Add the sugar. Stir until the sugar dissolves.`,
+        `Transfer the champorado in individual serving bowls. Top with condensed milk.`,
+        `Serve with tuyo. Share and enjoy.`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
