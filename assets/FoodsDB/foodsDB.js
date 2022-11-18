@@ -6563,6 +6563,74 @@ const PinoyFoods = [
     video: `https://youtu.be/aRDR5BMQ8j8`,
     image: require('./images/food/000000061.jpg'),
   },
+  {
+    id: 62,
+    name: `Buko Pie`,
+    tagalog: `Buko Pie`,
+    type: [
+      `Sweet Pie`,
+      `Dessert`
+    ],
+    description: `Buko pie is a traditional Filipino dessert which consists of a flaky pie crust combined with creamy coconut filling. It is prepared with buko, the young coconut flesh which is cooked alongside plain or condensed milk, cream, and sugar until it transforms into a thick and creamy custard.
+
+    According to popular belief, it was invented by Soledad Pahud, a native Filipino who spent some time working in the United States. After she had returned, she wanted to adapt the traditional American apple pie with locally available ingredients. Together with her family, she invented buko pie, a dessert which soon became a favorite throughout the country.
+    
+    Apart from being a delicious dessert, buko pie is one of the most popular Filipino souvenirs.`,
+    link: `https://panlasangpinoy.com/coconut-buko-pie-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/sx0O7x-t0p0`,
+    image: require('./images/food/000000062.jpg'),
+  },
 ];
 
 
@@ -6699,6 +6767,7 @@ List:
 59.   Kwek-Kwek
 60.   Champorado
 61.   Beef Morcon
+62.   Buko Pie
 
 **************************************************************************************************************/
 
