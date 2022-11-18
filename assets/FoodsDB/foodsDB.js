@@ -6663,7 +6663,18 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Create the crust. Combine flour and salt then mix using a balloon whisk. Add butter and shortening then mix using a pastry mixer. Gradually add cold water a tablespoon at a time while mixing the ingredients. When everything is completely mixed, gather the mixture and divide into two equal parts. In a flat surface flatten each of the dough and roll using a rolling pin until wide enough to fit an eight or nine inch cake pan. Note: Sprinkle flour over the flat surface to prevent the dough from sticking or use a silicon mat. Arrange the first dough over the cake pan. This will be the base. Set the second flattened dough aside. This will be needed after arranging the filling in the cake pan.`,
+        `Make the filling by heating a saucepan and pour-in the milk. Let boil.`,
+        `Add the granulated white sugar and stir.`,
+        `Put-in the young coconut meat and cook for 3 minutes.`,
+        `Pour-in the cornstarch diluted in young coconut water and stir thoroughly while cooking. Cook until the texture thickens.`,
+        `Turn-off the heat and allow the mixture to cool down.`,
+        `Preheat oven to 375 degrees Fahrenheit.`,
+        `Arrange the cooked filling in the cake pan.`,
+        `Put the second crust over the filling and seal the sides.`,
+        `Create holes on the secondary crust using a fork. This will serve as exhaust vents that will prevent the crust from deforming.`,
+        `Bake for 45 to 55 minutes or until the color turns golden brown. Note: Baking time may vary; make sure to check the color of the crust to determine if baking is complete.`,
+        `Let cool and serve. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
