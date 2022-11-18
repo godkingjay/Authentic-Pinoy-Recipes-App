@@ -6448,13 +6448,13 @@ const PinoyFoods = [
     information: null,
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for beef morcon.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `1 Hour`,
+          cook: `1 Hour`,
+          total: `2 Hours`,
         },
-        servings: null,
+        servings: `4 People`,
         calories: null,
       },
       ingredients: [
