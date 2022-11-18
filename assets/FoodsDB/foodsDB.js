@@ -6581,13 +6581,13 @@ const PinoyFoods = [
     information: null,
     recipe: {
       details: {
-        description: null,
+        description: `This is a recipe for Buko Pie`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `55 Minutes`,
+          total: `1 Hour 5 Minutes`,
         },
-        servings: null,
+        servings: `6 People`,
         calories: null,
       },
       ingredients: [
