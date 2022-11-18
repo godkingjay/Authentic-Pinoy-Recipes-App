@@ -6544,7 +6544,17 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `Marinate the beef in soy sauce and lemon juice for at least 1 hour.`,
+        `Place the beef in a flat surface and arrange the hotdogs, pickle, carrot, cheese, and egg on one side.`,
+        `Roll the beef enclosing the fillings and tie with a cooking string to ensure that the meat will not open-up.`,
+        `Place cooking oil in a pan and apply heat.`,
+        `Dredge the rolled beef in flour and fry until the color of the outer part turns medium brown.`,
+        `Transfer the fried rolled beef in a casserole and pour-in the beef broth then bring to a boil.`,
+        `Pour-in half of the soy sauce-lemon juice marinade,salt and simmer until the beef is tender (about 2 hours using ordinary casserole or 30 minutes if a pressure cooker is used).`,
+        `Optional: Fry the simmered meat for at least 2 minutes.`,
+        `Remove the strings and slice into serving pieces.`,
+        `Place in a serving dish and add the sauce.`,
+        `Serve hot. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
