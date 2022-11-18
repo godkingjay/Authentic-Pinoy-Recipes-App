@@ -6578,12 +6578,7 @@ const PinoyFoods = [
     Apart from being a delicious dessert, buko pie is one of the most popular Filipino souvenirs.`,
     link: `https://panlasangpinoy.com/coconut-buko-pie-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
