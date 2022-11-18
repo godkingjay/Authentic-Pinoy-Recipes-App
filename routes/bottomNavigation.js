@@ -1,0 +1,60 @@
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import Discover from "../screens/Discover";
+import Categories from "../screens/Categories";
+import Search from "../screens/Search";
+import Favorites from "../screens/Favorites";
+import Settings from "../screens/Settings";
+import { Icon } from "react-native-elements";
+
+const Tab = createBottomTabNavigator();
+
+export default function BottomNavigator(){
+  return(
+    <NavigationContainer>
+      <Tab.Navigator
+        initialRouteName="Discover"
+        screenOptions={{
+          headerShown: true,
+          tabBarActiveTintColor: "#36C464",
+        }}
+      >
+        <Tab.Screen name="Discover" component={Discover}
+          options={{
+            title: "Discover",
+            tabBarIcon: (props) => (
+              <Icon type="ionicon" name="fast-food-outline" color={ props.color }/>
+            )
+          }}/>
+        <Tab.Screen name="Categories" component={Categories}
+          options={{
+            title: "Categories",
+            tabBarIcon: (props) => (
+              <Icon type="material-icons" name="restaurant" color={ props.color }/>
+            )
+          }}/>
+        <Tab.Screen name="Search" component={Search}
+          options={{
+            tabBarIcon: (props) => (
+              <Icon type="material-icons" name="search" color={ props.color }/>
+            )
+          }}/>
+        <Tab.Screen name="Favorites" component={Favorites}
+          options={{
+            title: "Favorites",
+            tabBarIcon: (props) => (
+              <Icon type="material-icons" name="favorite-outline" color={ props.color }/>
+            )
+          }}/>
+        <Tab.Screen name="Settings" component={Settings}
+          options={{
+            title: "Settings",
+            tabBarIcon: (props) => (
+              <Icon type="material-icons" name="settings" color={ props.color }/>
+            )
+          }}/>
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
+}
