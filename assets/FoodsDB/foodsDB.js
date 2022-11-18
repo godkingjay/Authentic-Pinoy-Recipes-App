@@ -6445,12 +6445,7 @@ const PinoyFoods = [
     Morcon is a dish prepared on various special occasions and is commonly enjoyed on New Year’s Day, since many Filipinos believe that eating round-shaped food will ensure prosperity in the following year.`,
     link: `https://panlasangpinoy.com/beef-holiday-christmas-new-year-food-menu-morcon-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
