@@ -5,7 +5,7 @@ import { View } from "react-native";
 export default function Discover() {
   return(
     <View>
-      <Text>DISCOVER</Text>
+      <Text>Discover</Text>
     </View>
   );
 }

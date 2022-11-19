@@ -18,6 +18,13 @@ export default function BottomNavigator(){
         screenOptions={{
           headerShown: true,
           tabBarActiveTintColor: "#36C464",
+          tabBarActiveBackgroundColor: "#0801",
+          tabBarStyle: {
+            height: 70,
+          },
+          tabBarItemStyle: {
+            paddingVertical: 10
+          }
         }}
       >
         <Tab.Screen name="Discover" component={Discover}
