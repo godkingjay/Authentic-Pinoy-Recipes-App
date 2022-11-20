@@ -5,7 +5,7 @@ import DiscoverStack from "./DiscoverStack";
 import CategoriesStack from "./CategoriesStack";
 import SearchStack from "./SearchStack";
 import FavoritesStack from "./FavoritesStack";
-import Settings from "../screens/Settings";
+import SettingsStack from "./SettingsStack";
 import { Icon } from "react-native-elements";
 
 const Tab = createBottomTabNavigator();
@@ -54,7 +54,7 @@ export default function BottomNavigator(){
               <Icon type="material-icons" name="favorite-outline" color={ props.color }/>
             )
           }}/>
-        <Tab.Screen name="Settings" component={Settings}
+        <Tab.Screen name="SettingsStack" component={SettingsStack}
           options={{
             title: "Settings",
             tabBarIcon: (props) => (
