@@ -23,7 +23,7 @@ export default function BottomNavigator(){
             height: 70,
           },
           tabBarItemStyle: {
-            paddingVertical: 14
+            paddingVertical: 12
           }
         }}
       >
