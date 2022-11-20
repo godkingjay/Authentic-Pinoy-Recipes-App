@@ -2,7 +2,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import DiscoverStack from "./DiscoverStack";
-import Categories from "../screens/Categories";
+import CategoriesStack from "./CategoriesStack";
 import Search from "../screens/Search";
 import Favorites from "../screens/Favorites";
 import Settings from "../screens/Settings";
@@ -34,7 +34,7 @@ export default function BottomNavigator(){
               <Icon type="ionicon" name="fast-food-outline" color={ props.color }/>
             )
           }}/>
-        <Tab.Screen name="Categories" component={Categories}
+        <Tab.Screen name="CategoriesStack" component={CategoriesStack}
           options={{
             title: "Categories",
             tabBarIcon: (props) => (
