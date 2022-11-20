@@ -5792,7 +5792,7 @@ const PinoyFoods = [
     name: `Atchara`,
     tagalog: `Atchara`,
     type: [
-      `Pickling`
+      `Pickling`,
       `Side Dish`
     ],
     description: `Atchara or Atcharang Papaya is an appetizer made from pickled green papaya. Julienned or grated green papaya are placed in airtight containers and soaked for a week in cooked vinegar and sugar mixture with onions, garlic, ginger, peppercorn, and red bell pepper.

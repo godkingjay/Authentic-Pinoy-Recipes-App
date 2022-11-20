@@ -1,5 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
+import React from 'react';
 import BottomNavigator from './routes/BottomNavigation';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 

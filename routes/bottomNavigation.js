@@ -23,7 +23,7 @@ export default function BottomNavigator(){
             height: 70,
           },
           tabBarItemStyle: {
-            paddingVertical: 10
+            paddingVertical: 14
           }
         }}
       >
@@ -43,6 +43,7 @@ export default function BottomNavigator(){
           }}/>
         <Tab.Screen name="SearchStack" component={SearchStack}
           options={{
+            title: "Search",
             tabBarIcon: (props) => (
               <Icon type="material-icons" name="search" color={ props.color }/>
             )
