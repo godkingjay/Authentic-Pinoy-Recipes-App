@@ -1,7 +1,7 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Discover from "../screens/Discover";
+import DiscoverStack from "./DiscoverStack";
 import Categories from "../screens/Categories";
 import Search from "../screens/Search";
 import Favorites from "../screens/Favorites";
@@ -14,9 +14,9 @@ export default function BottomNavigator(){
   return(
     <NavigationContainer>
       <Tab.Navigator
-        initialRouteName="Discover"
+        initialRouteName="DiscoverStack"
         screenOptions={{
-          headerShown: true,
+          headerShown: false,
           tabBarActiveTintColor: "#36C464",
           tabBarActiveBackgroundColor: "#0801",
           tabBarStyle: {
@@ -27,7 +27,7 @@ export default function BottomNavigator(){
           }
         }}
       >
-        <Tab.Screen name="Discover" component={Discover}
+        <Tab.Screen name="DiscoverStack" component={ DiscoverStack }
           options={{
             title: "Discover",
             tabBarIcon: (props) => (
