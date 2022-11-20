@@ -3,7 +3,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import DiscoverStack from "./DiscoverStack";
 import CategoriesStack from "./CategoriesStack";
-import Search from "../screens/Search";
+import SearchStack from "./SearchStack";
 import Favorites from "../screens/Favorites";
 import Settings from "../screens/Settings";
 import { Icon } from "react-native-elements";
@@ -41,7 +41,7 @@ export default function BottomNavigator(){
               <Icon type="material-icons" name="restaurant" color={ props.color }/>
             )
           }}/>
-        <Tab.Screen name="Search" component={Search}
+        <Tab.Screen name="SearchStack" component={SearchStack}
           options={{
             tabBarIcon: (props) => (
               <Icon type="material-icons" name="search" color={ props.color }/>
