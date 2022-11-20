@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import DiscoverStack from "./DiscoverStack";
 import CategoriesStack from "./CategoriesStack";
 import SearchStack from "./SearchStack";
-import Favorites from "../screens/Favorites";
+import FavoritesStack from "./FavoritesStack";
 import Settings from "../screens/Settings";
 import { Icon } from "react-native-elements";
 
@@ -47,7 +47,7 @@ export default function BottomNavigator(){
               <Icon type="material-icons" name="search" color={ props.color }/>
             )
           }}/>
-        <Tab.Screen name="Favorites" component={Favorites}
+        <Tab.Screen name="FavoritesStack" component={FavoritesStack}
           options={{
             title: "Favorites",
             tabBarIcon: (props) => (
