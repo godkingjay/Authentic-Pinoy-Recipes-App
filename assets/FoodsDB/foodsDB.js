@@ -6683,6 +6683,69 @@ const PinoyFoods = [
     video: `https://youtu.be/sx0O7x-t0p0`,
     image: require('./images/food/000000062.jpg'),
   },
+  {
+    id: 63,
+    name: `Sapin-Sapin`,
+    tagalog: `Sapin-Sapin`,
+    type: [
+      `Dessert`
+    ],
+    description: `Sapin sapin is a Filipino rice cake made from glutinous rice and coconut milk. This delicious sapin sapin recipe is composed of layers each with a different color and flavor. Normally, sapin-sapin is composed of 3 layers: the bottom layer is colored yellow and has the flavor of ripe jackfruit; the middle layer is white and has the flavor of young coconut or just plain coconut milk; the topmost layer is violet in color and has the flavor of purple yam.`,
+    link: `https://panlasangpinoy.com/sapin-sapin-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: null,
+    image: require('./images/food/000000063.jpg'),
+  },
 ];
 
 
@@ -6820,6 +6883,7 @@ List:
 60.   Champorado
 61.   Beef Morcon
 62.   Buko Pie
+63.   Sapin-Sapin
 
 **************************************************************************************************************/
 
