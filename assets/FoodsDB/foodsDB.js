@@ -6813,6 +6813,72 @@ const PinoyFoods = [
     video: null,
     image: require('./images/food/000000063.jpg'),
   },
+  {
+    id: 64,
+    name: `Bopis`,
+    tagalog: `Bopis`,
+    type: [
+      `Stew`,
+      `Offal Dish`
+    ],
+    description: `Bopis is a spicy Filipino dish made from minced pig’s lungs and heart. This can be served as an appetizer for beer and alcoholic beverages; it is also considered as a main dish and is best served with steamed white rice.
+    
+    The recipe of bopis has continually evolved throughout the years. There are recipes with a little bit of sauce in it, while there are others that require to let all the liquid evaporate.`,
+    link: `https://panlasangpinoy.com/bopis-pulutan-recipe/`,
+    author: `Vanjo Merano`,
+    information: [
+      {
+        title: null,
+        content: null,
+      },
+    ],
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: null,
+          cook: null,
+          total: null,
+        },
+        servings: null,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: null,
+          amount: null,
+          tagalog: null,
+          type: null,
+          image: null,
+        },
+      ],
+      instructions: [
+        
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '5g' },
+        { name: 'Calories', amount: '650kcal' },
+        { name: 'Carbohydrates', amount: '10g' },
+        { name: 'Protein', amount: '37g' },
+        { name: 'Fat', amount: '51g' },
+        { name: 'Saturated Fat', amount: '16g' },
+        { name: 'Polyunsaturated Fat', amount: '6g' },
+        { name: 'Monounsaturated Fat', amount: '25g' },
+        { name: 'Trans Fat', amount: '1g' },
+        { name: 'Cholesterol', amount: '196mg' },
+        { name: 'Sodium', amount: '868mg' },
+        { name: 'Potassium', amount: '888mg' },
+        { name: 'Fiber', amount: '3g' },
+        { name: 'Sugar', amount: '5g' },
+        { name: 'Vitamin A', amount: '5187IU' },
+        { name: 'Vitamin C', amount: '57mg' },
+        { name: 'Calcium', amount: '59mg' },
+        { name: 'Iron', amount: '4mg' },
+      ],
+    },
+    video: `https://youtu.be/_9weQMu2Kvo`,
+    image: require('./images/food/000000064.jpg'),
+  },
 ];
 
 
@@ -6951,6 +7017,7 @@ List:
 61.   Beef Morcon
 62.   Buko Pie
 63.   Sapin-Sapin
+64.   Bopis
 
 **************************************************************************************************************/
 
