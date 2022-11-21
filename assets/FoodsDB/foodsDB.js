@@ -6693,12 +6693,7 @@ const PinoyFoods = [
     description: `Sapin sapin is a Filipino rice cake made from glutinous rice and coconut milk. This delicious sapin sapin recipe is composed of layers each with a different color and flavor. Normally, sapin-sapin is composed of 3 layers: the bottom layer is colored yellow and has the flavor of ripe jackfruit; the middle layer is white and has the flavor of young coconut or just plain coconut milk; the topmost layer is violet in color and has the flavor of purple yam.`,
     link: `https://panlasangpinoy.com/sapin-sapin-recipe/`,
     author: `Vanjo Merano`,
-    information: [
-      {
-        title: null,
-        content: null,
-      },
-    ],
+    information: null,
     recipe: {
       details: {
         description: null,
