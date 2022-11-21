@@ -6828,8 +6828,32 @@ const PinoyFoods = [
     author: `Vanjo Merano`,
     information: [
       {
-        title: null,
-        content: null,
+        title: `What Is Bopis?`,
+        content: `As we mentioned prior, bopis is essentially slices of pig lungs with other ingredients that give it that tart and spicy taste. It is said that bopis has Spanish origins, though there doesn’t seem to be any record of the meaning of the word in the original language. Regardless, the same vibrant flavors you expect of any Spanish-influenced dish are definitely present here! The type of bopis dishes are endless; some opt for simply pork lungs, while others go for the heart, too. Others even use beef! Whatever you prefer, this meat is sautéed and stir-fried until crispy, giving you that extra layer of texture in each bite. It’s delicious!
+        
+        You usually mix the meat with a combination of carrots, onions, and tomatoes. Ginger, annatto powder, and Thai chili peppers are what give you that additional flavor you’ve come to know and love in bopis. Aromatic and addictive, the scent of this dish is only a teaser to the piquancy you and your loved ones are sure to enjoy. Like another Kapampangan favorite, sisig, some opt to serve bopis on a sizzling plate. This adds to the dish’s crunchiness and makes it more exciting — especially when you serve it with rice!
+        
+        The combination of spicy and sour isn’t one you often see executed as well as it is in a perfect plate of bopis. This Kapampangan favorite is an excellent mesh of two seemingly opposite flavors. From the hot and spicy to the zesty and tart, each bite packs a punch that’ll keep you coming back for more. Whether you’re eating it as a standalone or with cups (and cups) of rice, bopis is more than just a staple — it’s loved across the Philippines!
+        
+        Big, bold, bright — these three b words encapsulate bopis perfectly. And when you want to give it a try, you might have to be a little brave, too. After all — did you know that this hearty dish is made with pork lungs? Like many other Filipino dishes, this recipe knows not to waste any single part of the precious pig! While you might scrunch your nose up at the notion of eating pork lungs, don’t worry! Tap into your adventurous side, and you might even find your next favorite meal. Bopis is the perfect place to start on your daring culinary experience.`,
+      },
+      {
+        title: `Tips for Cooking Bopis`,
+        content: `It’s very important that you’ve cleaned your pork lungs properly before continuing your cooking process. This ensures that you can enjoy this scrumptious dish as safely as you possibly can! Another important step is ensuring that your organs are tender enough to chew on, too. You can achieve this by putting your pig parts in a pot of boiling water. Couple this with bay leaves and sibot, and your lungs are sure to not only be tender — but tasty, too!
+
+        Equally important is ensuring that you have just enough vinegar, and that you don’t stir it in right away. Do this, and your dish may end up more sour than it should, completely forsaking the spicy. Wait a few moments before stirring, or even pour the water in first. This will guarantee that your dish is perfectly balanced, as it should be.
+        
+        Armed with these tips, making bopis is sure to be a piece of cake! Read on to find out the easy steps to this Filipino classic.`,
+      },
+      {
+        title: `Bopis Recipe`,
+        content: `Boil 8 cups of water in a large pot alongside 5 dried bay leaves and 25 grams of sibot. Then, put in three pounds of pig’s lungs and let it boil for about an hour. When your time is up, remove the lungs from the pot, letting them cool down before slicing them. Take your small pieces and set them aside for later. Meanwhile, in another pot, heat cooking oil and sauté garlic, onion, and ginger.
+
+        Now, add in the lungs you had diced prior. Do this when your onions softened, and cook these together for about three minutes. Vinegar goes in next; use five tablespoons, and cook for two minutes. After this, pour 2 ½ cups of water into the pot and once again bring it to a boil. Toss in your Knorr Pork Cube and another 5 bay leaves, and stir. Cover your pot and bring your heat between low to medium. The goal is to get your liquid to evaporate by half before continuing to make your bopis.
+        
+        Did your liquid lessen? Now you can add in your carrot, chili peppers, and annatto powder. For 3 minutes, cook your bopis and mix thoroughly. Don’t forget to season with ground black pepper and patis (or fish sauce) to taste!
+        
+        When you’re happy with the end product, it’s time to serve your bopis! Transfer your dish to a serving plate, and share and enjoy! Whether it’s with rice or a cold one, your bopis will be a smashing success. Let us know what you and your family think of this jewel!`,
       },
     ],
     recipe: {
