@@ -2,8 +2,10 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { StyleSheet } from "react-native";
+import { FlatList } from "react-native";
 import { Text, View } from "react-native";
 import { categoryFoods } from "../controller/query";
+import HorizontalCard from "./horizontalCards";
 
 export default function HorizontalCardsContainer({ foodCategory }) {
 
@@ -21,6 +23,15 @@ export default function HorizontalCardsContainer({ foodCategory }) {
   return(
     <View style = { styles.cardsContainer }>
       <Text>{ foodCategory.name }</Text>
+      <FlatList
+        style = { styles.cards }
+        keyExtractor={ foods.id }
+        data={ foods }
+        horizontal={true}
+        renderItem={({ item }) => (
+          <HorizontalCard food={item} />
+        )}
+      />
     </View>
   );
 }
@@ -29,6 +40,8 @@ const styles = StyleSheet.create({
   cardsContainer: {
     marginVertical: 4,
     padding: 4,
-    backgroundColor: "#0002"
+  },
+  cards: {
+    paddingBottom: 4,
   }
 });

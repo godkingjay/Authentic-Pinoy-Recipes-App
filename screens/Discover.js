@@ -24,6 +24,5 @@ const styles = StyleSheet.create({
   horizontalCardsContainer: {
     margin: 4,
     padding: 4,
-    backgroundColor: "#0004"
   }
 });
