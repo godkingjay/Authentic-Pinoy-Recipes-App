@@ -6792,7 +6792,19 @@ const PinoyFoods = [
         },
       ],
       instructions: [
-        
+        `In a large mixing bowl, combine glutinous rice flour and sugar. Mix well.`,
+        `Pour-in the condensed milk, coconut milk, and vanilla extract. Mix until the texture becomes smooth.`,
+        `Divide the mixture into 3 parts.`,
+        `Add the mashed purple yam and ube extract on the first part along with the violet food coloring. Stir thoroughly and then set aside.`,
+        `Shred the jackfruit (without the seed) in a food processor. Add the processed jackfruit on the second part along with the yellow coloring and then mix well. Set aside. Note: leave the 3rd part as it is.`,
+        `Arrange the steamer on your stovetop and pour-in about 1 quart of water. Turn on the heat and let the water boil.`,
+        `Grease a round baking pan by brushing cooking oil or coconut oil.`,
+        `Pour-in the first part (colored violet) on the greased baking pan. Make sure that the mixture settles. Cover the baking pan with a cheesecloth and then steam for 12 to 16 minutes.`,
+        `Remove the baking pan and then pour-in the white mixture. Use a spatula to spread it on top of the violet mixture. Remove excess water from the cheesecloth by squeezing it. Put it back on the baking pan. Steam for another 12 to 16 minutes.`,
+        `Remove the baking pan from the steamer and then pour-in the yellow mixture. Spread the mixture over the succeeding one using a spatula. Try to remove the excess water again from the cloth and then put it back on the baking pan. Steam for 15 to 20 minutes. Note: If you think that the mixture is still a bit runny, try to steam for 5 minutes more.`,
+        `Arrange a clean banana leaf over a wide serving plate. Brush coconut or cooking oil on the leaf. Use a spatula (brushed with oil) and gently run on the side of the baking pan to prevent the mixture from sticking. Turn the baking pan over the banana leaf and let the cooked sapin-sapin fall.`,
+        `Brush oil on top of the sapin-sapin (the violet part should be on top). Sprinkle with latik.`,
+        `Serve for dessert. Share and enjoy!`,
       ],
       nutrition: [
         { name: 'Serving', amount: '5g' },
