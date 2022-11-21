@@ -6858,14 +6858,14 @@ const PinoyFoods = [
     ],
     recipe: {
       details: {
-        description: null,
+        description: `Filipino pulutan and main dish consist of minced pigs lungs and heart.`,
         time: {
-          prep: null,
-          cook: null,
-          total: null,
+          prep: `10 Minutes`,
+          cook: `1 Hour 30 Minutes`,
+          total: `1 Hour 40 Minutes`,
         },
-        servings: null,
-        calories: null,
+        servings: `8 People`,
+        calories: `310 kcal`,
       },
       ingredients: [
         {
