@@ -6,27 +6,72 @@ import { Text } from "react-native";
 import { View } from "react-native";
 import globalStyles from "../assets/styles/globalStyles";
 import window from "../assets/controller/window";
+import { ScrollView } from "react-native";
 
-export default function FoodView({ navigation, route }){
+export default function FoodView({ navigation, route }) {
   const [food, setFood] = useState(route.params);
   React.useLayoutEffect(() => {
     navigation.setOptions({
-      headerTitle: food.name
+      headerTitle: food.name,
     });
-  }, [navigation])
-  
-  return(
-    <View style={ globalStyles.screen }>
-      <Image source={ food.image } style={ styles.image }/>
-      <Text>{ food.name }</Text>
-    </View>
+  }, [navigation]);
+
+  return (
+    <ScrollView style={globalStyles.screen}>
+      <Image source={food.image} style={styles.image} />
+      <View style={styles.articleContainer}>
+        <View style={styles.article}>
+          <Text style={styles.foodName}>{ food.name }</Text>
+          <Text style={styles.foodTagalog}>({ food.tagalog })</Text>
+          <View style={ styles.divider }></View>
+          <Text style={ styles.foodDescription }>{ food.description }</Text>
+          <View style={ styles.divider }></View>
+        </View>
+      </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   image: {
-    height: window.width/2,
+    height: window.width / 1.5,
     width: window.width,
-    resizeMode: 'cover'
+    maxHeight: window.height / 2,
+    resizeMode: "cover",
+  },
+  articleContainer: {
+    marginTop: -64,
+    paddingTop: 32,
+    flex: 1,
+  },
+  article: {
+    borderTopLeftRadius: 16,
+    borderTopRightRadius: 16,
+    padding: 8,
+    paddingHorizontal: 16,
+    backgroundColor: "#fff",
+    elevation: 32,
+    flex: 1,
+  },
+  foodName: {
+    fontSize: 24,
+    fontWeight: "bold",
+    textAlign: "center",
+    color: "#222",
+  },
+  foodTagalog: {
+    fontStyle: "italic",
+    textAlign: "center",
+    marginTop: -4,
+    color: "#444",
+  },
+  divider: {
+    backgroundColor: "#0002",
+    height: 1,
+    width: "100%",
+    marginVertical: 16,
+  },
+  foodDescription: {
+    textAlign: "justify",
   }
 });

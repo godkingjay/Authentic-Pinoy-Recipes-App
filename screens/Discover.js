@@ -10,7 +10,6 @@ export default function Discover({ navigation, route }) {
     <View style={ globalStyles.screen }>
       <View style = { styles.horizontalCardsContainer }>
         <FlatList
-          keyExtractor={ discoverCategories.id }
           data = { discoverCategories }
           renderItem = {({ item }) => (
             <HorizontalCardsContainer navigation={ navigation } route={ route } foodCategory={ item }/>
@@ -23,7 +22,6 @@ export default function Discover({ navigation, route }) {
 
 const styles = StyleSheet.create({
   horizontalCardsContainer: {
-    padding: 0,
     paddingVertical: 8
   },
 });

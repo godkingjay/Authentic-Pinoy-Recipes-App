@@ -229,8 +229,8 @@ const PinoyFoods = [
   },
   {
     id: 2,
-    name: 'Pancit Bihon/Pancit Guisado',
-    tagalog: 'Pansit Bihon/Pansit Guisado',
+    name: 'Pancit Bihon',
+    tagalog: 'Pansit Guisado',
     type: [
       'Noodle Dish'
     ],

@@ -8,7 +8,7 @@ const globalStyles = StyleSheet.create({
     justifyContent: 'center',
   },
   screen: {
-    backgroundColor: 'white',
+    backgroundColor: '#fff',
     minHeight: '100%',
   }
 });
