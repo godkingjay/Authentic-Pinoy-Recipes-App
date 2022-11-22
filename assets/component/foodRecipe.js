@@ -46,6 +46,7 @@ export default function FoodRecipe({ recipe }) {
           </View>
         );
       })}
+      <View style={ styles.divider }></View>
     </View>
   );
 }
@@ -66,10 +67,11 @@ const styles = StyleSheet.create({
   recipeLabel: {
     fontWeight: 'bold',
     textAlign: 'center',
-    fontSize: 20,
+    fontSize: 24,
     marginVertical: 8,
     marginTop: 16,
     color: '#222',
+    textDecorationLine: 'underline',
   },
   ingredientContainer: {
     flexDirection: 'row',
