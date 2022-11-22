@@ -12,7 +12,7 @@ export default function Discover({ navigation, route }) {
           keyExtractor={ discoverCategories.id }
           data = { discoverCategories }
           renderItem = {({ item }) => (
-            <HorizontalCardsContainer foodCategory={ item } />
+            <HorizontalCardsContainer navigation={ navigation } route={ route } foodCategory={ item }/>
           )}
         />
       </View>

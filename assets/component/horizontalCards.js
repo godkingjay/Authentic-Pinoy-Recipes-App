@@ -2,10 +2,10 @@ import React from "react";
 import { TouchableOpacity } from "react-native";
 import { Image, StyleSheet, Text, View } from "react-native";
 
-export default function HorizontalCard({ food }) {
+export default function HorizontalCard({ navigation, route, food }) {
   return(
     <View style={ styles.cardWrapper }>
-      <TouchableOpacity activeOpacity={ 0.6 } style={ styles.cardContainer }>
+      <TouchableOpacity activeOpacity={ 0.6 } style={ styles.cardContainer } onPress={() => navigation.navigate("FoodView", food)}>
         <View style={ styles.foodImageContainer }>
           <Image source={ food.image } style={ styles.foodImage }/>
         </View>
@@ -25,8 +25,6 @@ const styles = StyleSheet.create({
   },
   cardContainer: {
     backgroundColor: "white",
-    width: 128,
-    aspectRatio: 1,
     elevation: 6,
     borderRadius: 8,
     overflow: "hidden"
@@ -42,6 +40,7 @@ const styles = StyleSheet.create({
   },
   foodDetails: {
     padding: 4,
-    paddingHorizontal: 6
+    paddingHorizontal: 6,
+    paddingBottom: 8
   }
 });

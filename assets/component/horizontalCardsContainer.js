@@ -7,7 +7,7 @@ import { Text, View } from "react-native";
 import { categoryFoods } from "../controller/query";
 import HorizontalCard from "./horizontalCards";
 
-export default function HorizontalCardsContainer({ foodCategory }) {
+export default function HorizontalCardsContainer({ navigation, route, foodCategory }) {
 
   const [foods, setFoods] = useState([]);
   useEffect(() => {
@@ -29,7 +29,7 @@ export default function HorizontalCardsContainer({ foodCategory }) {
         data={ foods }
         horizontal={true}
         renderItem={({ item }) => (
-          <HorizontalCard food={item} />
+          <HorizontalCard navigation={ navigation } route={ route } food={ item } />
         )}
       />
     </View>
