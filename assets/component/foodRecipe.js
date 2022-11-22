@@ -30,7 +30,8 @@ export default function FoodRecipe({ recipe }) {
 
 const styles = StyleSheet.create({
   recipeContainer: {
-    marginVertical: 4
+    marginVertical: 4,
+    marginBottom: 128,
   },
   recipeBranchContainer: {
     marginVertical: 8

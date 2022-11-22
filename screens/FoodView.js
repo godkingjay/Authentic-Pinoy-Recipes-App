@@ -22,12 +22,12 @@ export default function FoodView({ navigation, route }) {
   }, [navigation]);
 
   return (
-    <ScrollView style={globalStyles.screen}>
-      <Image source={food.image} style={styles.image} />
-      <View style={styles.articleContainer}>
-        <View style={styles.article}>
-          <Text style={styles.foodName}>{ food.name }</Text>
-          <Text style={styles.foodTagalog}>({ food.tagalog })</Text>
+    <ScrollView style={ globalStyles.screen }>
+      <Image source={ food.image } style={ styles.image } />
+      <View style={ styles.articleContainer }>
+        <View style={ styles.article }>
+          <Text style={ styles.foodName }>{ food.name }</Text>
+          <Text style={ styles.foodTagalog }>({ food.tagalog })</Text>
           <View style={ styles.divider }></View>
           <Text style={ styles.foodDescription }>{ food.description }</Text>
           <View style={ styles.divider }></View>
