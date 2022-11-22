@@ -22,7 +22,7 @@ export default function HorizontalCardsContainer({ foodCategory }) {
 
   return(
     <View style = { styles.cardsContainer }>
-      <Text>{ foodCategory.name }</Text>
+      <Text style = { styles.foodCategoryName }>{ (foodCategory.name).toUpperCase() }</Text>
       <FlatList
         style = { styles.cards }
         keyExtractor={ foods.id }
@@ -38,10 +38,13 @@ export default function HorizontalCardsContainer({ foodCategory }) {
 
 const styles = StyleSheet.create({
   cardsContainer: {
-    marginVertical: 4,
     padding: 4,
   },
   cards: {
     paddingBottom: 4,
+  },
+  foodCategoryName: {
+    fontWeight: 'bold',
+    fontSize: 16
   }
 });
