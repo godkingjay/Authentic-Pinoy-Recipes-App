@@ -10,6 +10,7 @@ import { ScrollView } from "react-native";
 import { FlatList } from "react-native";
 import FoodViewType from "../assets/component/foodViewType";
 import { Icon } from "react-native-elements";
+import FoodRecipe from "../assets/component/foodRecipe";
 
 export default function FoodView({ navigation, route }) {
   let typeNum = 1;
@@ -42,6 +43,7 @@ export default function FoodView({ navigation, route }) {
           <View style={ styles.divider }></View>
           <ScrollView
             horizontal={ true }
+            style={ styles.foodTypesContainer }
           >
             { food.type.map((type, value) => {
               return(
@@ -50,6 +52,7 @@ export default function FoodView({ navigation, route }) {
             })}
           </ScrollView>
           <View style={ styles.divider }></View>
+          <FoodRecipe recipe={ food.recipe }/>
         </View>
       </View>
     </ScrollView>
@@ -120,5 +123,8 @@ const styles = StyleSheet.create({
     textAlign: "justify",
     fontSize: 16,
     marginVertical: 8
+  },
+  foodTypesContainer: {
+    marginVertical: 4
   }
 });
