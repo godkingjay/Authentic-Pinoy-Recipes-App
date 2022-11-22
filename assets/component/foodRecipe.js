@@ -25,12 +25,12 @@ const styles = StyleSheet.create({
     backgroundColor: "#0002",
     height: 1,
     width: "100%",
-    marginVertical: 8,
+    marginTop: 12,
   },
   recipeLabel: {
     fontWeight: 'bold',
     textAlign: 'center',
     fontSize: 20,
-    marginVertical: 4
+    marginVertical: 8
   }
 });
