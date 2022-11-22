@@ -1,22 +1,22 @@
 import React from "react";
-import { FlatList } from "react-native";
+import { ScrollView } from "react-native";
 import { StyleSheet, View } from "react-native";
 import HorizontalCardsContainer from "../assets/component/horizontalCardsContainer";
 import discoverCategories from "../assets/FoodsDB/discoverCategoriesDB";
 import globalStyles from "../assets/styles/globalStyles";
 
 export default function Discover({ navigation, route }) {
+  let categoryNum = 1;
   return(
-    <View style={ globalStyles.screen }>
+    <ScrollView style={ globalStyles.screen }>
       <View style = { styles.horizontalCardsContainer }>
-        <FlatList
-          data = { discoverCategories }
-          renderItem = {({ item }) => (
-            <HorizontalCardsContainer navigation={ navigation } route={ route } foodCategory={ item }/>
-          )}
-        />
+        { discoverCategories.map((category, value) => {
+          return(
+            <HorizontalCardsContainer key={ categoryNum++ } navigation={ navigation } route={ route } foodCategory={ category }/>
+          )
+        })}
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
