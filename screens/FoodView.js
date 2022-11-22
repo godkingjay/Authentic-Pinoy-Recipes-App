@@ -7,8 +7,11 @@ import { View } from "react-native";
 import globalStyles from "../assets/styles/globalStyles";
 import window from "../assets/controller/window";
 import { ScrollView } from "react-native";
+import { FlatList } from "react-native";
+import FoodViewType from "../assets/component/foodViewType";
 
 export default function FoodView({ navigation, route }) {
+  let typeNum = 1;
   const [food, setFood] = useState(route.params);
   React.useLayoutEffect(() => {
     navigation.setOptions({
@@ -25,6 +28,16 @@ export default function FoodView({ navigation, route }) {
           <Text style={styles.foodTagalog}>({ food.tagalog })</Text>
           <View style={ styles.divider }></View>
           <Text style={ styles.foodDescription }>{ food.description }</Text>
+          <View style={ styles.divider }></View>
+          <ScrollView
+            horizontal={ true }
+          >
+            { food.type.map((type, value) => {
+              return(
+                <FoodViewType key={ typeNum++ } foodType={ type }/>
+              )
+            })}
+          </ScrollView>
           <View style={ styles.divider }></View>
         </View>
       </View>
@@ -69,7 +82,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#0002",
     height: 1,
     width: "100%",
-    marginVertical: 16,
+    marginVertical: 8,
   },
   foodDescription: {
     textAlign: "justify",
