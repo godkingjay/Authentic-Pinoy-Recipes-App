@@ -1984,8 +1984,8 @@ const PinoyFoods = [
   },
   {
     id: 21,
-    name: `Beef Kare-kare`,
-    tagalog: `Kare-kare`,
+    name: `Beef Kare-Kare`,
+    tagalog: `Kare-Kare`,
     type: [
       `Stew`,
       `Beef Dish`,
@@ -7118,7 +7118,7 @@ List:
 18.   Lumpia
 19.   Shanghai Lumpia
 20.   Caldereta
-21.   Kare-kare
+21.   Beef Kare-Kare
 22.   Tortang Talong
 23.   Pork Sinigang
 24.   Shrimp Sinigang
