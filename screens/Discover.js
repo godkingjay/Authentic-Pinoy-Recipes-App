@@ -3,10 +3,11 @@ import { FlatList } from "react-native";
 import { StyleSheet, View } from "react-native";
 import HorizontalCardsContainer from "../assets/component/horizontalCardsContainer";
 import discoverCategories from "../assets/FoodsDB/discoverCategoriesDB";
+import globalStyles from "../assets/styles/globalStyles";
 
 export default function Discover({ navigation, route }) {
   return(
-    <View>
+    <View style={ globalStyles.screen }>
       <View style = { styles.horizontalCardsContainer }>
         <FlatList
           keyExtractor={ discoverCategories.id }
@@ -22,7 +23,6 @@ export default function Discover({ navigation, route }) {
 
 const styles = StyleSheet.create({
   horizontalCardsContainer: {
-    margin: 4,
-    padding: 4,
-  }
+    padding: 0,
+  },
 });

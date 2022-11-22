@@ -38,13 +38,14 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 
 const styles = StyleSheet.create({
   cardsContainer: {
-    padding: 4,
+    padding: 0,
   },
   cards: {
     paddingBottom: 4,
   },
   foodCategoryName: {
     fontWeight: 'bold',
-    fontSize: 16
+    fontSize: 16,
+    paddingLeft: 8
   }
 });

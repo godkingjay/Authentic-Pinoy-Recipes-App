@@ -20,7 +20,7 @@ const DiscoverStack = () => (
       name="FoodView"
       component={ FoodView }
       options={({navigation, route}) => ({
-        title: "Food View"
+        title: "Food View",
       })}
     />
   </Stack.Navigator>

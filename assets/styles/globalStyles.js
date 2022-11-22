@@ -7,6 +7,9 @@ const globalStyles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  screen: {
+    backgroundColor: 'white',
+  }
 });
 
 export default globalStyles;
