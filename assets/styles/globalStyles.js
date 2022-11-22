@@ -9,6 +9,7 @@ const globalStyles = StyleSheet.create({
   },
   screen: {
     backgroundColor: 'white',
+    minHeight: '100%',
   }
 });
 

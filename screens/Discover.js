@@ -24,5 +24,6 @@ export default function Discover({ navigation, route }) {
 const styles = StyleSheet.create({
   horizontalCardsContainer: {
     padding: 0,
+    paddingVertical: 8
   },
 });

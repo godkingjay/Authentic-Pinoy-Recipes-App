@@ -9,7 +9,7 @@ const DiscoverStack = () => (
   <Stack.Navigator
     initialRouteName="Discover"
     screenOptions = {{
-      headerShown: true
+      headerShown: true,
     }}
   >
     <Stack.Screen

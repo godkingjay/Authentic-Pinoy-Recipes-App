@@ -27,7 +27,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
         style = { styles.cards }
         keyExtractor={ foods.id }
         data={ foods }
-        horizontal={true}
+        horizontal={ true }
         renderItem={({ item }) => (
           <HorizontalCard navigation={ navigation } route={ route } food={ item } />
         )}
@@ -38,7 +38,8 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 
 const styles = StyleSheet.create({
   cardsContainer: {
-    padding: 0,
+    paddingHorizontal: 8,
+    marginVertical: 4
   },
   cards: {
     paddingBottom: 4,
@@ -46,6 +47,5 @@ const styles = StyleSheet.create({
   foodCategoryName: {
     fontWeight: 'bold',
     fontSize: 16,
-    paddingLeft: 8
   }
 });
