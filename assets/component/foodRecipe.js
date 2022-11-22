@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
   },
   ingredientNumberContainer: {
     height: 96,
-    width: 64,
+    width: 48,
     backgroundColor: '#36C464',
     alignItems: 'center',
     justifyContent: 'center',

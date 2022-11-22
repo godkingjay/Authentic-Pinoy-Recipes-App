@@ -39,7 +39,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 const styles = StyleSheet.create({
   cardsContainer: {
     paddingHorizontal: 8,
-    marginVertical: 4
+    marginVertical: 8
   },
   cards: {
     paddingBottom: 4,
