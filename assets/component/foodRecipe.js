@@ -31,7 +31,6 @@ export default function FoodRecipe({ recipe }) {
 const styles = StyleSheet.create({
   recipeContainer: {
     marginVertical: 4,
-    marginBottom: 128,
   },
   recipeBranchContainer: {
     marginVertical: 8
@@ -60,8 +59,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   ingredientNumberContainer: {
-    height: '100%',
-    maxHeight: 64,
+    height: 64,
     backgroundColor: '#36C464',
     aspectRatio: 1,
     alignItems: 'center',

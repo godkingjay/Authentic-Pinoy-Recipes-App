@@ -79,6 +79,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     elevation: 32,
     flex: 1,
+    paddingBottom: 32,
   },
   foodName: {
     fontSize: 32,
@@ -126,5 +127,5 @@ const styles = StyleSheet.create({
   },
   foodTypesContainer: {
     marginVertical: 4
-  }
+  },
 });
