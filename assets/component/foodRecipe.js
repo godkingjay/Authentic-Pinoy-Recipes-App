@@ -3,21 +3,21 @@ import { StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
+import window from "../controller/window";
 import tableStyles from "../styles/tableStyles";
 import FoodRecipeDetails from "./foodRecipeDetails";
 
 export default function FoodRecipe({ recipe }) {
-  let ingredientNum = 1;
   return(
     <View style={ styles.recipeContainer }>
       <FoodRecipeDetails style={ styles.recipeBranchContainer } details={ recipe.details }/>
       <View style={ styles.divider }></View>
       <Text style={ styles.recipeLabel }>Ingredients</Text>
-      {recipe.ingredients.map((ingredient, value) => {
+      {recipe.ingredients.map((ingredient, index) => {
         return(
-          <View key={ ingredientNum++ } style={ styles.ingredientContainer }>
+          <View key={ index } style={ styles.ingredientContainer }>
             <View style={ styles.ingredientNumberContainer }>
-              <Text style={ styles.ingredientNumber }>{ ingredientNum }</Text>
+              <Text style={ styles.ingredientNumber }>{ index + 1 }</Text>
             </View>
             <View style={ styles.ingredientDetails }>
               <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#222' }}>{ ingredient.name }</Text>
@@ -46,6 +46,18 @@ export default function FoodRecipe({ recipe }) {
           </View>
         );
       })}
+      <View style={ styles.divider }></View>
+      <Text style={ styles.recipeLabel }>Instructions</Text>
+      <FlatList
+        horizontal={ true }
+        data={ recipe.instructions }
+        renderItem={({ item, index }) => (
+          <View style={ styles.instructionContainer }>
+            <Text style={ styles.instruction }>{ item }</Text>
+            <Text style={ styles.instructionNumberContainer }>{ index + 1 }</Text>
+          </View>
+        )}
+      />
       <View style={ styles.divider }></View>
     </View>
   );
@@ -122,5 +134,43 @@ const styles = StyleSheet.create({
   rowDivider: {
     borderBottomWidth: 1,
     borderColor: '#222',
+  },
+  instructionContainer: {
+    width: 320 - 16,
+    marginHorizontal: 12,
+    alignItems: 'center',
+    paddingBottom: 10
+  },
+  instructionNumberContainer: {
+    backgroundColor: '#4280FF',
+    width: 36,
+    fontSize: 20,
+    aspectRatio: 1,
+    fontWeight: 'bold',
+    color: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    borderRadius: 100,
+    elevation: 2,
+    borderWidth: 1,
+    borderColor: '#214088',
+    position: 'absolute',
+  },
+  instruction: {
+    backgroundColor: '#80c0FF',
+    paddingHorizontal: 16,
+    marginTop: 18,
+    paddingTop: 24,
+    paddingBottom: 12,
+    width: "100%",
+    borderRadius: 12,
+    elevation: 2,
+    borderWidth: 1,
+    borderColor: '#214088',
+    textAlign: 'justify',
+    color: '#fff',
+    fontSize: 16
   }
 });
