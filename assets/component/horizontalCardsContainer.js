@@ -47,5 +47,6 @@ const styles = StyleSheet.create({
   foodCategoryName: {
     fontWeight: 'bold',
     fontSize: 16,
+    color: '#222'
   }
 });

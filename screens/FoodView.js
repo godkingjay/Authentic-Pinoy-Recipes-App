@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { StyleSheet } from "react-native";
+import { Linking, StyleSheet } from "react-native";
 import { Image } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
@@ -9,6 +9,7 @@ import window from "../assets/controller/window";
 import { ScrollView } from "react-native";
 import { FlatList } from "react-native";
 import FoodViewType from "../assets/component/foodViewType";
+import { Icon } from "react-native-elements";
 
 export default function FoodView({ navigation, route }) {
   let typeNum = 1;
@@ -28,6 +29,16 @@ export default function FoodView({ navigation, route }) {
           <Text style={styles.foodTagalog}>({ food.tagalog })</Text>
           <View style={ styles.divider }></View>
           <Text style={ styles.foodDescription }>{ food.description }</Text>
+          <View style={ styles.divider }></View>
+          <View style={ styles.foodSocials }>
+            <View style={ styles.foodSocialLogo }>
+              <Icon size={ 24 } color="#444" type="material-icons" name="public" onPress={() => Linking.openURL(food.link)}/>
+            </View>
+            <View style={ styles.foodSocialLogo }>
+              <Icon size={ 24 } color="#444" type="ionicon" name="logo-youtube" onPress={() => Linking.openURL(food.video)}/>
+            </View>
+          </View>
+          <Text style={ styles.foodAuthor }>Recipe By: { food.author }</Text>
           <View style={ styles.divider }></View>
           <ScrollView
             horizontal={ true }
@@ -58,8 +69,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   article: {
-    borderTopLeftRadius: 16,
-    borderTopRightRadius: 16,
+    borderTopLeftRadius: 32,
+    borderTopRightRadius: 32,
     padding: 8,
     paddingHorizontal: 16,
     backgroundColor: "#fff",
@@ -67,16 +78,37 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   foodName: {
-    fontSize: 24,
+    fontSize: 32,
     fontWeight: "bold",
     textAlign: "center",
     color: "#222",
   },
   foodTagalog: {
+    fontSize: 16,
     fontStyle: "italic",
     textAlign: "center",
     marginTop: -4,
     color: "#444",
+  },
+  foodSocials: {
+    marginHorizontal: 'auto',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    margin: 8,
+  },
+  foodSocialLogo: {
+    marginHorizontal: 8
+  },
+  foodAuthor: {
+    marginHorizontal: 'auto',
+    alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
+    fontSize: 12,
+    fontStyle: 'italic',
+    color: "#444",
+    fontWeight: 'bold',
   },
   divider: {
     backgroundColor: "#0002",
@@ -86,5 +118,7 @@ const styles = StyleSheet.create({
   },
   foodDescription: {
     textAlign: "justify",
+    fontSize: 16,
+    marginVertical: 8
   }
 });

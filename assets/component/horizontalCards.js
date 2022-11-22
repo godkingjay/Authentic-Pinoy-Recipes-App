@@ -10,8 +10,8 @@ export default function HorizontalCard({ navigation, route, food }) {
           <Image source={ food.image } style={ styles.foodImage }/>
         </View>
         <View style={ styles.foodDetails }>
-          <Text style={{ fontWeight: "600" }}>{ food.name }</Text>
-          <Text style={{ fontStyle: "italic", fontSize: 10, marginTop: -2 }}>{ food.tagalog }</Text>
+          <Text style={{ fontWeight: "600", fontSize: 16, color: '#222' }}>{ food.name }</Text>
+          <Text style={{ fontStyle: "italic", fontSize: 12, marginTop: -2, color: "#444" }}>{ food.tagalog }</Text>
         </View>
       </TouchableOpacity>
     </View>
@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
     overflow: "hidden"
   },
   foodImageContainer: {
-    width: 128,
-    height: 64
+    width: 144,
+    height: 72
   },
   foodImage: {
     height: "100%",
