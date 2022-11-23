@@ -28,20 +28,28 @@ export default function FoodRecipe({ recipe }) {
               ) : (
                 null
               )}
-              <View style={ [tableStyles.container, tableStyles.border, { marginTop: 8, width: '100%' }] }>
-                {ingredient.type != null ? (
-                  <View style={ [styles.twoColumns, styles.rowDivider] }>
-                    <Text style={ styles.leftColumn }>Type</Text>
-                    <Text style={ styles.rightColumn }>{ ingredient.type }</Text>
-                  </View>
-                ) : (
-                  null
-                )}
-                <View style={ styles.twoColumns }>
-                  <Text style={ styles.leftColumn }>Amount</Text>
-                  <Text style={ styles.rightColumn }>{ ingredient.amount }</Text>
+              {ingredient.type != null || ingredient.amount != null ? (
+                <View style={ [tableStyles.container, tableStyles.border, { marginTop: 8, width: '100%' }] }>
+                  {ingredient.type != null ? (
+                    <View style={ [styles.twoColumns, styles.rowDivider] }>
+                      <Text style={ styles.leftColumn }>Type</Text>
+                      <Text style={ styles.rightColumn }>{ ingredient.type }</Text>
+                    </View>
+                  ) : (
+                    null
+                  )}
+                  {ingredient.amount != null ? (
+                    <View style={ styles.twoColumns }>
+                      <Text style={ styles.leftColumn }>Amount</Text>
+                      <Text style={ styles.rightColumn }>{ ingredient.amount }</Text>
+                    </View>
+                  ) : (
+                    null
+                  )}
                 </View>
-              </View>
+              ) : (
+                null
+              )}
             </View>
           </View>
         );
