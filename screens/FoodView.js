@@ -7,13 +7,11 @@ import { View } from "react-native";
 import globalStyles from "../assets/styles/globalStyles";
 import window from "../assets/controller/window";
 import { ScrollView } from "react-native";
-import { FlatList } from "react-native";
 import FoodViewType from "../assets/component/foodViewType";
 import { Icon } from "react-native-elements";
 import FoodRecipe from "../assets/component/foodRecipe";
 
 export default function FoodView({ navigation, route }) {
-  let typeNum = 1;
   const [food, setFood] = useState(route.params);
   React.useLayoutEffect(() => {
     navigation.setOptions({
@@ -45,9 +43,9 @@ export default function FoodView({ navigation, route }) {
             horizontal={ true }
             style={ styles.foodTypesContainer }
           >
-            { food.type.map((type, value) => {
+            { food.type.map((type, index) => {
               return(
-                <FoodViewType key={ typeNum++ } foodType={ type }/>
+                <FoodViewType key={ index } foodType={ type }/>
               )
             })}
           </ScrollView>
@@ -79,7 +77,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     elevation: 32,
     flex: 1,
-    paddingBottom: 32,
+    paddingBottom: window.height/4,
   },
   foodName: {
     fontSize: 32,
