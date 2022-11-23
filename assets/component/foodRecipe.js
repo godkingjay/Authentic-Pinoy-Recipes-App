@@ -171,7 +171,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     marginTop: 18,
     paddingTop: 24,
-    paddingBottom: 12,
+    paddingBottom: 16,
     width: "100%",
     borderRadius: 12,
     elevation: 2,
