@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     paddingBottom: 10
   },
   instructionNumberContainer: {
-    backgroundColor: '#4280FF',
+    backgroundColor: '#60a0FF',
     width: 36,
     fontSize: 20,
     aspectRatio: 1,
@@ -154,23 +154,21 @@ const styles = StyleSheet.create({
     textAlignVertical: 'center',
     borderRadius: 100,
     elevation: 2,
-    borderWidth: 1,
-    borderColor: '#214088',
     position: 'absolute',
   },
   instruction: {
     backgroundColor: '#80c0FF',
     maxWidth: 480,
-    paddingHorizontal: 16,
+    minHeight: 160,
+    paddingHorizontal: 24,
     marginTop: 18,
     paddingTop: 24,
     paddingBottom: 12,
     width: "100%",
     borderRadius: 12,
     elevation: 2,
-    borderWidth: 1,
-    borderColor: '#214088',
-    textAlign: 'justify',
+    textAlign: 'center',
+    textAlignVertical: 'center',
     color: '#fff',
     fontSize: 16
   }
