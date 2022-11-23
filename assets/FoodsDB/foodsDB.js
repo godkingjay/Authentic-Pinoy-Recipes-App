@@ -2730,7 +2730,8 @@ const PinoyFoods = [
     type: [
       `Snack`,
       `Dessert`,
-      `Deep-Fried Dessert`
+      `Deep-Fried Dessert`,
+      `Deep-Fried Dish`
     ],
     description: `Turon is a type of Filipino snack. It is also called deep-fried banana rolls or banana lumpia. A typical Filipino meryenda and dessert, Turon has gained popularity throughout the years.
     
@@ -3756,10 +3757,9 @@ const PinoyFoods = [
     name: `Bulalo`,
     tagalog: `Bulalo`,
     type: [
-      `Soup`,
+      `Soup Dish`,
       `Meat Dish`,
       `Beef Dish`,
-      `Meat Soup`,
       `Main Course`,
       `Stew`
     ],
@@ -3906,7 +3906,6 @@ const PinoyFoods = [
     tagalog: `Tinolang Manok`,
     type: [
       `Soup Dish`,
-      `Chicken Soup`,
       `Chicken Dish`,
       `Meat Dish`
     ],
