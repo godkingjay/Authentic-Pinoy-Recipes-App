@@ -10,7 +10,10 @@ export default function FoodCategoryFoodCard({ navigation, route, food }) {
         <View style={ styles.cardImageContainer }>
           <Image style={ styles.cardImage } source={ food.image }/>
         </View>
-        <Text>{ food.name }</Text>
+        <View style={ styles.cardDetailsContainer }>
+          <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 16 }}>{ food.name }</Text>
+          <Text style={{ color: '#444', fontStyle: 'italic', fontSize: 12, marginTop: -4 }}>{ food.name }</Text>
+        </View>
       </TouchableOpacity>
     </View>
   );
@@ -22,20 +25,28 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   cardContainer: {
-    backgroundColor: '#FEA11F',
+    backgroundColor: 'white',
     flexDirection: 'row',
     elevation: 4,
     overflow: 'hidden',
     borderRadius: 8,
     alignItems: 'center',
+    flex: 1
   },
   cardImageContainer: {
     aspectRatio: 5/4,
-    maxHeight: 96
+    maxHeight: 96,
+    borderRadius: 8,
+    overflow: 'hidden',
+    elevation: 4,
   },
   cardImage: {
     height: '100%',
     aspectRatio: 5/4,
     resizeMode: 'cover',
+  },
+  cardDetailsContainer: {
+    padding: 8,
+    height: '100%',
   }
 });
