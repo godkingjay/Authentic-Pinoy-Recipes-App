@@ -106,6 +106,7 @@ const foodCategory = [
   {
     name: 'Vegetable Dish',
     image: null,
+    color: '#34C363'
   },
 ];
 
