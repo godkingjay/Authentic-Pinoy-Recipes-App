@@ -8,6 +8,13 @@ import FoodCategoryFoodCard from "../assets/component/foodCategoryFoodCard";
 import { categoryFoods } from "../assets/controller/query";
 import globalStyles from "../assets/styles/globalStyles";
 
+function compareStrings(a, b) {
+  a = a.toLowerCase();
+  b = b.toLowerCase();
+
+  return (a < b) ? -1 : (a > b) ? 1 : 0;
+}
+
 export default function FoodCategory({ navigation, route }){
   const [category, setCategory] = useState(route.params);
   const [foods, setFoods] = useState([]);
@@ -28,12 +35,16 @@ export default function FoodCategory({ navigation, route }){
       });
   }, []);
 
+  foods.sort(function(a, b) {
+    return compareStrings(a.name, b.name);
+  });
+
   return(
     <View style={ globalStyles.screen }>
       <FlatList
         data={ foods }
         renderItem={({ item }) => (
-          <FoodCategoryFoodCard food={ item }/>
+          <FoodCategoryFoodCard navigation={ navigation } route={ route } food={ item }/>
         )}
       />
     </View>

@@ -2,6 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Categories from '../screens/Categories';
 import FoodCategory from '../screens/FoodCategory';
+import FoodView from '../screens/FoodView';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,13 @@ const CategoriesStack = () => (
       component={ FoodCategory }
       options={({ navigation, route }) => ({
         title: 'Food Category'
+      })}
+    />
+    <Stack.Screen
+      name="FoodView"
+      component={ FoodView }
+      options={({navigation, route}) => ({
+        title: "Food View",
       })}
     />
   </Stack.Navigator>
