@@ -7,13 +7,13 @@ import FoodCategoryCard from "../assets/component/foodCategoryCard";
 import foodCategory from "../assets/FoodsDB/foodCategories";
 import globalStyles from "../assets/styles/globalStyles";
 
-export default function Categories() {
+export default function Categories({ navigation, route }) {
   return(
     <ScrollView style={ globalStyles.screen }>
       <View style={ styles.categoryContainer }>
         {foodCategory.map(( item, index ) => {
           return(
-            <FoodCategoryCard key={ index } category={ item }/>
+            <FoodCategoryCard key={ index } navigation={ navigation } route={ route } category={ item }/>
           );
         })}
       </View>

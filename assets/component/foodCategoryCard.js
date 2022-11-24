@@ -2,12 +2,14 @@ import React from 'react';
 import { Image } from 'react-native';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
-export default function FoodCategoryCard({ category }){
+export default function FoodCategoryCard({ navigation, route, category }){
   return(
     <View style={ styles.cardWrapper }>
       <TouchableOpacity activeOpacity={ 0.6 } style={[ styles.cardContainer, {
           backgroundColor: category.color != null ? ( category.color ) : '#FEA11F',
-        } ]}>
+        } ]}
+        onPress={() => navigation.navigate('FoodCategory', category.name)}
+      >
         <View style={ styles.cardLabelContainer }>
           <Text style={ styles.cardCategoryName }>{ category.name }</Text>
         </View>

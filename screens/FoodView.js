@@ -13,6 +13,7 @@ import FoodRecipe from "../assets/component/foodRecipe";
 
 export default function FoodView({ navigation, route }) {
   const [food, setFood] = useState(route.params);
+  
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: food.name,
