@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FlatList } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
+import FoodCategoryFoodCard from "../assets/component/foodCategoryFoodCard";
 import { categoryFoods } from "../assets/controller/query";
 import globalStyles from "../assets/styles/globalStyles";
 
@@ -32,9 +33,7 @@ export default function FoodCategory({ navigation, route }){
       <FlatList
         data={ foods }
         renderItem={({ item }) => (
-          <View>
-            <Text>{ item.name }</Text>
-          </View>
+          <FoodCategoryFoodCard food={ item }/>
         )}
       />
     </View>
