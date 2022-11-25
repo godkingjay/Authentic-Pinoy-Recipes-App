@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { FlatList } from "react-native";
 import { View } from "react-native";
-import FoodCategoryFoodCard from "../assets/component/foodCategoryFoodCard";
+import FoodCard from "../assets/component/foodCard";
 import { categoryFoods } from "../assets/controller/query";
 import window from "../assets/controller/window";
 import globalStyles from "../assets/styles/globalStyles";
@@ -46,7 +46,7 @@ export default function FoodCategory({ navigation, route }){
           showsVerticalScrollIndicator={ false }
           data={ foods }
           renderItem={({ item }) => (
-            <FoodCategoryFoodCard navigation={ navigation } route={ route } food={ item }/>
+            <FoodCard navigation={ navigation } route={ route } food={ item }/>
           )}
         />
       </View>

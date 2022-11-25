@@ -191,6 +191,7 @@ const styles = StyleSheet.create({
     paddingTop: 8,
     paddingBottom: 16,
     width: "100%",
+    flex: 1,
     textAlign: 'center',
     textAlignVertical: 'center',
     fontSize: 16,

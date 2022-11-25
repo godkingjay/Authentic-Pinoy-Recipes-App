@@ -3,10 +3,10 @@ import { Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { Text } from 'react-native';
 import { View } from 'react-native';
 
-export default function FoodCategoryFoodCard({ navigation, route, food }) {
+export default function FoodCard({ navigation, route, food }) {
   return(
     <View style={ styles.cardWrapper }>
-      <TouchableOpacity activeOpacity={ 0.6 } style={ styles.cardContainer } onPress={() => navigation.navigate("FoodView", food)}>
+      <TouchableOpacity activeOpacity={ 0.8 } style={ styles.cardContainer } onPress={() => navigation.navigate("FoodView", food)}>
         <View style={ styles.cardImageContainer }>
           <Image style={ styles.cardImage } source={ food.image }/>
         </View>
