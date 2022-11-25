@@ -2,6 +2,7 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Search from "../screens/Search";
 import FoodView from "../screens/FoodView";
+import FoodCategory from "../screens/FoodCategory";
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,13 @@ const SearchStack = () => (
       component={ FoodView }
       options={({navigation, route}) => ({
         title: "Food View",
+      })}
+    />
+    <Stack.Screen
+      name='FoodCategory'
+      component={ FoodCategory }
+      options={({ navigation, route }) => ({
+        title: 'Food Category'
       })}
     />
   </Stack.Navigator>
