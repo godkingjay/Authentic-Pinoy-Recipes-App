@@ -15,7 +15,8 @@ const tableStyles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#222',
-    padding: 4
+    padding: 4,
+    textTransform: 'uppercase',
   },
   description: {
     borderTopWidth: 1,

@@ -64,8 +64,8 @@ export default function FoodRecipe({ recipe }) {
         data={ recipe.instructions }
         renderItem={({ item, index }) => (
           <View style={ styles.instructionContainer }>
+            <Text style={ styles.instructionNumberContainer }>Step { index + 1 }</Text>
             <Text style={ styles.instruction }>{ item }</Text>
-            <Text style={ styles.instructionNumberContainer }>{ index + 1 }</Text>
           </View>
         )}
       />
@@ -95,6 +95,7 @@ const styles = StyleSheet.create({
     marginTop: 16,
     color: '#222',
     textDecorationLine: 'underline',
+    textTransform: 'uppercase',
   },
   ingredientContainer: {
     flexDirection: 'row',
@@ -161,38 +162,37 @@ const styles = StyleSheet.create({
   instructionContainer: {
     width: window.width - 56,
     marginHorizontal: 12,
+    marginVertical: 8,
     alignItems: 'center',
-    paddingBottom: 12,
+    elevation: 4,
+    backgroundColor: 'white',
+    overflow: 'hidden',
+    borderRadius: 8,
   },
   instructionNumberContainer: {
-    backgroundColor: '#60a0FF',
-    width: 36,
+    backgroundColor: '#36C464',
     fontSize: 20,
-    aspectRatio: 1,
+    width: '100%',
+    textTransform: 'uppercase',
+    padding: 4,
     fontWeight: 'bold',
-    color: '#fff',
+    color: 'white',
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
     textAlignVertical: 'center',
-    borderRadius: 100,
     elevation: 2,
-    position: 'absolute',
   },
   instruction: {
-    backgroundColor: '#80c0FF',
+    backgroundColor: '#FFC02D',
     maxWidth: 480,
     minHeight: 160,
     paddingHorizontal: 24,
-    marginTop: 18,
-    paddingTop: 24,
+    paddingTop: 8,
     paddingBottom: 16,
     width: "100%",
-    borderRadius: 12,
-    elevation: 2,
     textAlign: 'center',
     textAlignVertical: 'center',
-    color: '#fff',
-    fontSize: 16
+    fontSize: 16,
   }
 });
