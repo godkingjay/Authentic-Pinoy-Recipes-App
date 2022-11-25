@@ -12,7 +12,7 @@ export default function FoodCard({ navigation, route, food }) {
         </View>
         <View style={ styles.cardDetailsContainer }>
           <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 16 }}>{ food.name }</Text>
-          <Text style={{ color: '#444', fontStyle: 'italic', fontSize: 12, marginTop: -4 }}>{ food.name }</Text>
+          <Text style={{ color: '#444', fontStyle: 'italic', fontSize: 12, marginTop: -4 }}>{ food.tagalog }</Text>
         </View>
       </TouchableOpacity>
     </View>
