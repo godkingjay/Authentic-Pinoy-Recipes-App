@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: 'white',
     backgroundColor: '#FFC02D',
-    aspectRatio: 4/3,
+    aspectRatio: 1,
     textAlign: 'center',
     textAlignVertical: 'center',
   },
