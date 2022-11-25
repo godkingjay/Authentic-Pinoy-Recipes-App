@@ -1,5 +1,10 @@
 const foodCategory = [
   {
+    name: 'Default',
+    image: null,
+    color: '#DBD0C0',
+  },
+  {
     name: 'Appetizer',
     image: null,
     color: '#ADE792',
@@ -37,10 +42,12 @@ const foodCategory = [
   {
     name: 'Deep-Fried Dessert',
     image: null,
+    color: null,
   },
   {
     name: 'Deep-Fried Dish',
     image: null,
+    color: null,
   },
   {
     name: 'Dessert',
@@ -60,6 +67,7 @@ const foodCategory = [
   {
     name: 'Main Course',
     image: null,
+    color: null,
   },
   {
     name: 'Meat Dish',

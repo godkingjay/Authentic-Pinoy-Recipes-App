@@ -3757,7 +3757,7 @@ const PinoyFoods = [
     name: `Bulalo`,
     tagalog: `Bulalo`,
     type: [
-      `Soup Dish`,
+      `Soup`,
       `Meat Dish`,
       `Beef Dish`,
       `Main Course`,
@@ -3905,7 +3905,7 @@ const PinoyFoods = [
     name: `Tinolang Manok`,
     tagalog: `Tinolang Manok`,
     type: [
-      `Soup Dish`,
+      `Soup`,
       `Chicken Dish`,
       `Meat Dish`
     ],

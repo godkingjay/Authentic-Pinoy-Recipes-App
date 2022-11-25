@@ -1,11 +1,23 @@
 import React from 'react';
+import { useState } from 'react';
 import { StyleSheet } from 'react-native';
 import { Text, View } from 'react-native';
+import foodCategory from '../FoodsDB/foodCategories';
 
 export default function FoodViewType({ foodType }){
+  const [category, setCategory] = useState(() => {
+    for(let i = 0; i <= foodCategory.length; i++){
+      if(i == foodCategory.length) return(foodCategory[0]);
+      if(foodCategory[i].name == foodType){
+        return(foodCategory[i]);
+      }
+    }
+  });
   return(
     <View style={ styles.typeWrapper }>
-      <View style={ styles.typeContainer }>
+      <View style={ [styles.typeContainer, {
+        backgroundColor: category.color != null ? (category.color) : '#FEA11F',
+      }] }>
         <Text style={ styles.typeText }>{ foodType }</Text>
       </View>
     </View>
@@ -18,8 +30,6 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   typeContainer: {
-    borderWidth: 1,
-    borderColor: '#808080',
     backgroundColor: "#222",
     paddingHorizontal: 12,
     paddingVertical: 4,
