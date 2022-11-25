@@ -12,9 +12,13 @@ export default function Categories({ navigation, route }) {
     <ScrollView style={ globalStyles.screen }>
       <View style={ styles.categoryContainer }>
         {foodCategory.map(( item, index ) => {
-          return(
-            <FoodCategoryCard key={ index } navigation={ navigation } route={ route } category={ item }/>
-          );
+          if(item.name == 'Default'){
+            return(null);
+          } else {
+            return(
+              <FoodCategoryCard key={ index } navigation={ navigation } route={ route } category={ item }/>
+            );
+          }
         })}
       </View>
     </ScrollView>
