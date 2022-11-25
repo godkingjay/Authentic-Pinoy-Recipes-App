@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet } from "react-native";
+import { Image, StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
@@ -18,6 +18,9 @@ export default function FoodRecipe({ recipe }) {
           <View key={ index } style={ styles.ingredientContainer }>
             <View style={ styles.ingredientNumberContainer }>
               <Text style={ styles.ingredientNumber }>{ index + 1 }</Text>
+            </View>
+            <View style={ styles.ingredientImageContainer }>
+              <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
             </View>
             <View style={ styles.ingredientDetails }>
               <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#222' }}>{ ingredient.name }</Text>
@@ -103,21 +106,33 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   ingredientNumberContainer: {
-    height: 96,
+    height: 112,
     width: 48,
     backgroundColor: '#36C464',
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: 4,
   },
   ingredientNumber: {
     fontSize: 24,
     fontWeight: 'bold',
     color: 'white',
+    backgroundColor: '#FFC02D',
+    aspectRatio: 4/3,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  },
+  ingredientImageContainer: {
+    aspectRatio: 1,
+    height: 72,
+    padding: 4,
+  },
+  ingredientImage: {
+    resizeMode: 'cover',
+    height: '100%',
+    aspectRatio: 1,
   },
   ingredientDetails: {
     padding: 8,
-    flex: 1
+    flex: 1,
+    height: '100%'
   },
   twoColumns: {
     flex: 1,
@@ -133,7 +148,7 @@ const styles = StyleSheet.create({
     fontSize: 12
   },
   rightColumn: {
-    flex: 3.25,
+    flex: 3,
     textAlign: 'center',
     fontStyle: 'italic',
     flexWrap: 'wrap',
