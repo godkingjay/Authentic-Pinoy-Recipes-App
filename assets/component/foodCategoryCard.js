@@ -6,7 +6,7 @@ export default function FoodCategoryCard({ navigation, route, category }){
   return(
     <View style={ styles.cardWrapper }>
       <TouchableOpacity activeOpacity={ 0.6 } style={[ styles.cardContainer, {
-          backgroundColor: category.color != null ? ( category.color ) : '#FEA11F',
+          backgroundColor: category.color != null ? ( category.color ) : ('#FEA11F'),
         } ]}
         onPress={() => navigation.navigate('FoodCategory', category.name)}
       >

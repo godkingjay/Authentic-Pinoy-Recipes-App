@@ -195,5 +195,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     textAlignVertical: 'center',
     fontSize: 16,
+    lineHeight: 20,
   }
 });

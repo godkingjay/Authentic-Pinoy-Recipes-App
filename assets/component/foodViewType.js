@@ -1,10 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
+import { TouchableOpacity } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { Text, View } from 'react-native';
 import foodCategory from '../FoodsDB/foodCategories';
 
-export default function FoodViewType({ foodType }){
+export default function FoodViewType({ navigation, route, foodType }){
   const [category, setCategory] = useState(() => {
     for(let i = 0; i <= foodCategory.length; i++){
       if(i == foodCategory.length) return(foodCategory[0]);
@@ -15,11 +16,13 @@ export default function FoodViewType({ foodType }){
   });
   return(
     <View style={ styles.typeWrapper }>
-      <View style={ [styles.typeContainer, {
-        backgroundColor: category.color != null ? (category.color) : '#FEA11F',
-      }] }>
+      <TouchableOpacity activeOpacity={ 0.6 } style={[styles.typeContainer, {
+          backgroundColor: category.color != null ? (category.color) : '#FEA11F',
+        }]}
+        onPress={() => navigation.navigate('FoodCategory', foodType)}
+      >
         <Text style={ styles.typeText }>{ foodType }</Text>
-      </View>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -27,7 +30,7 @@ export default function FoodViewType({ foodType }){
 const styles = StyleSheet.create({
   typeWrapper: {
     paddingHorizontal: 8,
-    paddingVertical: 4,
+    paddingVertical: 8,
   },
   typeContainer: {
     backgroundColor: "#222",

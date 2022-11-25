@@ -46,7 +46,7 @@ export default function FoodView({ navigation, route }) {
           >
             { food.type.map((type, index) => {
               return(
-                <FoodViewType key={ index } foodType={ type }/>
+                <FoodViewType key={ index } navigation={ navigation } route={ route } foodType={ type }/>
               )
             })}
           </ScrollView>
