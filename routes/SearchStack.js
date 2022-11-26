@@ -16,6 +16,9 @@ const SearchStack = () => (
     <Stack.Screen
       name="Search"
       component={ Search }
+      options={({ navigation, route }) => ({
+        headerShown: false
+      })}
     />
     <Stack.Screen
       name="FoodView"
