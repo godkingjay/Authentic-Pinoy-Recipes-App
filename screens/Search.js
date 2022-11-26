@@ -39,12 +39,14 @@ export default function Search({ navigation, route }) {
 
   return(
     <View style={ [globalStyles.screen, { paddingBottom: 56 }] }>
-      <TextInput
-        style={ styles.searchField }
-        placeholder="Search..."
-        onChangeText={ onChange }
-        value={ searchText }
-      ></TextInput>
+      <View style={ styles.searchContainer }>
+        <TextInput
+          style={ styles.searchField }
+          placeholder="Search..."
+          onChangeText={ onChange }
+          value={ searchText }
+        ></TextInput>
+      </View>
       <FlatList
         styles={{ height: '100%' }}
         data={ foods }
@@ -57,6 +59,12 @@ export default function Search({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
+  searchContainer: {
+    backgroundColor: '#fff',
+    elevation: 4,
+    paddingBottom: 4,
+    paddingTop: 16
+  },
   searchField: {
     marginHorizontal: 8,
     marginVertical: 8,
