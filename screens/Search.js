@@ -38,8 +38,8 @@ export default function Search({ navigation, route }) {
   });
 
   return(
-    <View style={ [globalStyles.screen, { paddingBottom: 56 }] }>
-      <View style={ styles.searchContainer }>
+    <View style={ [globalStyles.screen, { paddingBottom: 48 }] }>
+      <View style={ styles.searchFieldContainer }>
         <TextInput
           style={ styles.searchField }
           placeholder="Search..."
@@ -59,16 +59,13 @@ export default function Search({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  searchContainer: {
-    backgroundColor: '#fff',
-    elevation: 4,
-    paddingBottom: 4,
-    paddingTop: 16
+  searchFieldContainer: {
+    paddingBottom: 8,
+    backgroundColor: 'white',
+    elevation: 4
   },
   searchField: {
     marginHorizontal: 8,
-    marginVertical: 8,
-    marginTop: 12,
     borderWidth: 2,
     textAlignVertical: 'center',
     paddingVertical: 4,

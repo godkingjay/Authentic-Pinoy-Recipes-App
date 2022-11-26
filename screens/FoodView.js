@@ -125,6 +125,6 @@ const styles = StyleSheet.create({
     marginVertical: 8
   },
   foodTypesContainer: {
-    marginVertical: 4
+    marginVertical: 4,
   },
 });

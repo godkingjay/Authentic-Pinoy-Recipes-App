@@ -17,7 +17,8 @@ const SearchStack = () => (
       name="Search"
       component={ Search }
       options={({ navigation, route }) => ({
-        headerShown: false
+        headerShown: true,
+        headerShadowVisible: false,
       })}
     />
     <Stack.Screen
