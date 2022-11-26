@@ -12,51 +12,55 @@ export default function FoodRecipe({ recipe }) {
     <View style={ styles.recipeContainer }>
       <FoodRecipeDetails style={ styles.recipeBranchContainer } details={ recipe.details }/>
       <View style={ styles.divider }></View>
-      <Text style={ styles.recipeLabel }>Ingredients</Text>
-      {recipe.ingredients.map((ingredient, index) => {
-        return(
-          <View key={ index } style={ styles.ingredientContainer }>
-            <View style={ styles.ingredientNumberContainer }>
-              <Text style={ styles.ingredientNumber }>{ index + 1 }</Text>
-            </View>
-            <View style={ styles.ingredientImageContainer }>
-              <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
-            </View>
-            <View style={ styles.ingredientDetails }>
-              <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#222' }}>{ ingredient.name }</Text>
-              {ingredient.tagalog != null ? (
-                <View>
-                  <Text style={{ fontSize: 12, marginTop: -4, color: '#444', fontStyle: 'italic' }}>{ ingredient.tagalog }</Text>
+      <View style={ styles.ingredientsContainer }>
+        <Text style={ styles.ingredientsLabel }>Ingredients</Text>
+        <View>
+          {recipe.ingredients.map((ingredient, index) => {
+            return(
+              <View key={ index } style={ styles.ingredientContainer }>
+                <View style={ styles.ingredientNumberContainer }>
+                  <Text style={ styles.ingredientNumber }>{ index + 1 }</Text>
                 </View>
-              ) : (
-                null
-              )}
-              {ingredient.type != null || ingredient.amount != null ? (
-                <View style={ [tableStyles.container, tableStyles.border, { marginTop: 8, width: '100%' }] }>
-                  {ingredient.type != null ? (
-                    <View style={ [styles.twoColumns, styles.rowDivider] }>
-                      <Text style={ styles.leftColumn }>Type</Text>
-                      <Text style={ styles.rightColumn }>{ ingredient.type }</Text>
+                <View style={ styles.ingredientImageContainer }>
+                  <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
+                </View>
+                <View style={ styles.ingredientDetails }>
+                  <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#222' }}>{ ingredient.name }</Text>
+                  {ingredient.tagalog != null ? (
+                    <View>
+                      <Text style={{ fontSize: 12, marginTop: -4, color: '#444', fontStyle: 'italic' }}>{ ingredient.tagalog }</Text>
                     </View>
                   ) : (
                     null
                   )}
-                  {ingredient.amount != null ? (
-                    <View style={ styles.twoColumns }>
-                      <Text style={ styles.leftColumn }>Amount</Text>
-                      <Text style={ styles.rightColumn }>{ ingredient.amount }</Text>
+                  {ingredient.type != null || ingredient.amount != null ? (
+                    <View style={ [tableStyles.container, tableStyles.border, { marginTop: 8, width: '100%' }] }>
+                      {ingredient.type != null ? (
+                        <View style={ [styles.twoColumns, styles.rowDivider] }>
+                          <Text style={ styles.leftColumn }>Type</Text>
+                          <Text style={ styles.rightColumn }>{ ingredient.type }</Text>
+                        </View>
+                      ) : (
+                        null
+                      )}
+                      {ingredient.amount != null ? (
+                        <View style={ styles.twoColumns }>
+                          <Text style={ styles.leftColumn }>Amount</Text>
+                          <Text style={ styles.rightColumn }>{ ingredient.amount }</Text>
+                        </View>
+                      ) : (
+                        null
+                      )}
                     </View>
                   ) : (
                     null
                   )}
                 </View>
-              ) : (
-                null
-              )}
-            </View>
-          </View>
-        );
-      })}
+              </View>
+            );
+          })}
+        </View>
+      </View>
       <View style={ styles.divider }></View>
       <Text style={ styles.recipeLabel }>Instructions</Text>
       <FlatList
@@ -96,6 +100,26 @@ const styles = StyleSheet.create({
     color: '#222',
     textDecorationLine: 'underline',
     textTransform: 'uppercase',
+  },
+  ingredientsContainer: {
+    paddingVertical: 4,
+    borderRadius: 8,
+    marginTop: 12,
+  },
+  ingredientsLabel: {
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 24,
+    paddingVertical: 4,
+    // borderWidth: 1,
+    // borderColor: '#222',
+    color: '#222',
+    textTransform: 'uppercase',
+    marginBottom: 8,
+    borderRadius: 8,
+    backgroundColor: '#36C464',
+    color: '#fff',
+    elevation: 2,
   },
   ingredientContainer: {
     flexDirection: 'row',
