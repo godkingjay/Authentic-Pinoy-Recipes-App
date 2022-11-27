@@ -1,6 +1,3 @@
-const FavFood = [
-  { id: 3 },
-  { id: 48 }
-];
+const FavFood = [ 3, 1 ];
 
 export default FavFood;
