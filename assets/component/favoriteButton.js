@@ -8,19 +8,27 @@ import AppContext from "../globals/appContext";
 export default function FavoriteButton({ id }){
   const favorites = useContext(AppContext);
 
-  const onPressHandler = () => {
-    if(!favorites.favs.find((food) => food == id)){
-      favorites.addFavorites(id);
-    } else {
-      favorites.deleteFavorites(id);
-    }
+  // const onPressHandler = () => {
+  //   if(!favorites.favs.find((food) => food == id)){
+      
+  //   } else {
+  //     favorites.deleteFavorites(id);
+  //   }
+  // }
+
+  const addFav = () => {
+    favorites.addFavorites(id);
+  }
+
+  const delFav = () => {
+    favorites.deleteFavorites(id);
   }
 
   if((favorites.favs.find((food) => food == id) ? true : false) == true){
     return(
       <TouchableOpacity
         activeOpacity={ 0.5 }
-        onPress={ onPressHandler }
+        onPress={ delFav }
       >
         <Icon
           type="material-icons"
@@ -34,7 +42,7 @@ export default function FavoriteButton({ id }){
     return(
       <TouchableOpacity
         activeOpacity={ 0.5 }
-        onPress={ onPressHandler }
+        onPress={ addFav }
       >
         <Icon
           type="material-icons"
