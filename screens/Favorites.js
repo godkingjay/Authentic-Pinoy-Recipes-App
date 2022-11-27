@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { FlatList } from "react-native";
-import { Text } from "react-native";
 import { View } from "react-native";
 import FoodCard from "../assets/component/foodCard";
 import { favoriteFoods } from "../assets/controller/query";

@@ -2,6 +2,7 @@ import React from 'react';
 import { Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { Text } from 'react-native';
 import { View } from 'react-native';
+import FavoriteButton from './favoriteButton';
 
 export default function FoodCard({ navigation, route, food }) {
   return(
@@ -13,6 +14,9 @@ export default function FoodCard({ navigation, route, food }) {
         <View style={ styles.cardDetailsContainer }>
           <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 16 }}>{ food.name }</Text>
           <Text style={{ color: '#444', fontStyle: 'italic', fontSize: 12, marginTop: -4 }}>{ food.tagalog }</Text>
+        </View>
+        <View style={ styles.favButtonContainer }>
+          <FavoriteButton id={ food.id }/>
         </View>
       </TouchableOpacity>
     </View>
@@ -48,5 +52,9 @@ const styles = StyleSheet.create({
   cardDetailsContainer: {
     padding: 8,
     height: '100%',
+    flex: 1,
+  },
+  favButtonContainer: {
+    padding: 8
   }
 });
