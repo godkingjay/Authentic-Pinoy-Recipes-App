@@ -1,4 +1,4 @@
-let FavFood = [ 3, 1 ];
+let FavFood = [];
 
 export function fetchFav(){
   return FavFood;

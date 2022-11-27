@@ -22,6 +22,7 @@ export default function FavoriteButton({ id }){
   if(faved){
     return(
       <TouchableOpacity
+        activeOpacity={ 0.5 }
         onPress={ onPressHandler }
       >
         <Icon
@@ -35,6 +36,7 @@ export default function FavoriteButton({ id }){
   } else {
     return(
       <TouchableOpacity
+        activeOpacity={ 0.5 }
         onPress={ onPressHandler }
       >
         <Icon

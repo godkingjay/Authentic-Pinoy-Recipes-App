@@ -55,6 +55,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   favButtonContainer: {
-    padding: 8
+    padding: 8,
   }
 });
