@@ -7,19 +7,16 @@ import AppContext from "../globals/appContext";
 
 export default function FavoriteButton({ id }){
   const favorites = useContext(AppContext);
-  const [faved, setFaved] = useState(favorites.favs.find((food) => food == id) ? true : false);
 
   const onPressHandler = () => {
     if(!favorites.favs.find((food) => food == id)){
       favorites.addFavorites(id);
-      setFaved(true);
     } else {
       favorites.deleteFavorites(id);
-      setFaved(false);
     }
   }
 
-  if(faved){
+  if((favorites.favs.find((food) => food == id) ? true : false) == true){
     return(
       <TouchableOpacity
         activeOpacity={ 0.5 }
