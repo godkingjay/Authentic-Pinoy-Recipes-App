@@ -10,6 +10,7 @@ import { ScrollView } from "react-native";
 import FoodViewType from "../assets/component/foodViewType";
 import { Icon } from "react-native-elements";
 import FoodRecipe from "../assets/component/foodRecipe";
+import FavoriteButton from "../assets/component/favoriteButton";
 
 export default function FoodView({ navigation, route }) {
   const [food, setFood] = useState(route.params);
@@ -25,8 +26,15 @@ export default function FoodView({ navigation, route }) {
       <Image source={ food.image } style={ styles.image } />
       <View style={ styles.articleContainer }>
         <View style={ styles.article }>
-          <Text style={ styles.foodName }>{ food.name }</Text>
-          <Text style={ styles.foodTagalog }>({ food.tagalog })</Text>
+          <View style={ styles.foodHeaderContainer }>
+            <View style={ styles.foodNameContainer }>
+              <Text style={ styles.foodName }>{ food.name }</Text>
+              <Text style={ styles.foodTagalog }>({ food.tagalog })</Text>
+            </View>
+            <View style={ styles.foodButtonsContainer }>
+              <FavoriteButton id={ food.id }/>
+            </View>
+          </View>
           <View style={ styles.divider }></View>
           <Text style={ styles.foodDescription }>{ food.description }</Text>
           <View style={ styles.divider }></View>
@@ -80,18 +88,28 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingBottom: window.height/4,
   },
+  foodHeaderContainer: {
+    flexDirection: "row",
+  }, 
+  foodNameContainer: {
+    flex: 1,
+    paddingLeft: 4
+  },
   foodName: {
     fontSize: 32,
     fontWeight: "bold",
-    textAlign: "center",
     color: "#222",
   },
   foodTagalog: {
     fontSize: 16,
     fontStyle: "italic",
-    textAlign: "center",
     marginTop: -4,
     color: "#444",
+  },
+  foodButtonsContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 4,
   },
   foodSocials: {
     marginHorizontal: 'auto',
