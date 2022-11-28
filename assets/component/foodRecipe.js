@@ -143,6 +143,7 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     textAlign: 'center',
     textAlignVertical: 'center',
+    elevation: 2,
   },
   ingredientImageContainer: {
     aspectRatio: 1,
