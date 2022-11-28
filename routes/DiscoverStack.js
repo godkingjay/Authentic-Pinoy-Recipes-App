@@ -11,6 +11,11 @@ const DiscoverStack = () => (
     initialRouteName="Discover"
     screenOptions = {{
       headerShown: true,
+      headerTitleStyle: {
+        fontWeight: "bold",
+        textTransform: 'uppercase',
+        color: '#222',
+      },
     }}
   >
     <Stack.Screen

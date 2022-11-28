@@ -24,7 +24,12 @@ export default function BottomNavigator(){
           },
           tabBarItemStyle: {
             paddingVertical: 12
-          }
+          },
+          headerTitleStyle: {
+            fontWeight: "bold",
+            textTransform: 'uppercase',
+            color: '#222',
+          },
         }}
       >
         <Tab.Screen name="DiscoverStack" component={ DiscoverStack }

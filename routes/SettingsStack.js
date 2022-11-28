@@ -8,7 +8,12 @@ const SettingsStack = () => (
   <Stack.Navigator
     initialRouteName="Settings"
     screenOptions = {{
-      headerShown: true
+      headerShown: true,
+      headerTitleStyle: {
+        fontWeight: "bold",
+        textTransform: 'uppercase',
+        color: '#222',
+      },
     }}
   >
     <Stack.Screen

@@ -10,7 +10,12 @@ const FavoritesStack = () => (
   <Stack.Navigator
     initialRouteName="Favorites"
     screenOptions = {{
-      headerShown: true
+      headerShown: true,
+      headerTitleStyle: {
+        fontWeight: "bold",
+        textTransform: 'uppercase',
+        color: '#222',
+      },
     }}
   >
     <Stack.Screen

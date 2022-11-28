@@ -10,7 +10,12 @@ const CategoriesStack = () => (
   <Stack.Navigator
     initialRouteName="Categories"
     screenOptions = {{
-      headerShown: true
+      headerShown: true,
+      headerTitleStyle: {
+        fontWeight: "bold",
+        textTransform: 'uppercase',
+        color: '#222',
+      },
     }}
   >
     <Stack.Screen
