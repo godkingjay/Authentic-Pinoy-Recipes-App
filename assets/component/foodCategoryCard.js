@@ -16,7 +16,7 @@ export default function FoodCategoryCard({ navigation, route, category }){
         <View style={ styles.cardDeco1 }></View>
         <View style={ styles.cardDeco2 }></View>
         <View style={ styles.cardImageContainer }>
-          <Image style={{ aspectRatio: 1, height: '100%' }} source={ category.image != null ? (category.image) : (require('../images/no-image.png')) }/>
+          <Image style={{ aspectRatio: 1, height: '200%', marginRight: '-25%' }} source={ category.image != null ? (category.image) : (require('../images/no-image.png')) }/>
         </View>
       </TouchableOpacity>
     </View>
@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
   },
   cardImageContainer: {
     height: 96,
-    aspectRatio: 1,
+    aspectRatio: 3/2,
     alignItems: 'center',
     justifyContent: 'center',
   },

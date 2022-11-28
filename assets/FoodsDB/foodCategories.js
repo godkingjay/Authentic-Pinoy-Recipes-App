@@ -6,17 +6,17 @@ const foodCategory = [
   },
   {
     name: 'Appetizer',
-    image: null,
+    image: require('./images/category/appetizer.png'),
     color: '#ADE792',
   },
   {
     name: 'Barbeque',
-    image: null,
+    image: require('./images/category/barbeque.png'),
     color: '#A6523D',
   },
   {
     name: 'Beef Dish',
-    image: null,
+    image: require('./images/category/beef-dish.png'),
     color: '#FF6464',
   },
   {
@@ -31,7 +31,7 @@ const foodCategory = [
   },
   {
     name: 'Chicken Dish',
-    image: null,
+    image: require('./images/category/chicken-dish.png'),
     color: '#FD841F',
   },
   {
@@ -51,7 +51,7 @@ const foodCategory = [
   },
   {
     name: 'Dessert',
-    image: null,
+    image: require('./images/category/dessert.png'),
     color: '#009EFF',
   },
   {
