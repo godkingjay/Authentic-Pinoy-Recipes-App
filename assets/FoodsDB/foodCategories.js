@@ -21,12 +21,12 @@ const foodCategory = [
   },
   {
     name: 'Breakfast',
-    image: null,
+    image: require('./images/category/breakfast.png'),
     color: '#FFCE45',
   },
   {
     name: 'Cake',
-    image: null,
+    image: require('./images/category/cake.png'),
     color: '#DBD0C0',
   },
   {
@@ -36,12 +36,12 @@ const foodCategory = [
   },
   {
     name: 'Custard',
-    image: null,
+    image: require('./images/category/custard.png'),
     color: '#FFCE45',
   },
   {
     name: 'Deep-Fried Dessert',
-    image: null,
+    image: require('./images/category/deep-fried-dessert.png'),
     color: null,
   },
   {
@@ -136,7 +136,7 @@ const foodCategory = [
   },
   {
     name: 'Vegetable Dish',
-    image: null,
+    image: require('./images/category/vegetable-dish.png'),
     color: '#34C363',
   },
 ];
