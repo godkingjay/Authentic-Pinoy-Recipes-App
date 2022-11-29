@@ -126,7 +126,7 @@ const foodCategory = [
   },
   {
     name: 'Street Food',
-    image: null,
+    image: require('./images/category/street-food.png'),
     color: '#B73E3E',
   },
   {
