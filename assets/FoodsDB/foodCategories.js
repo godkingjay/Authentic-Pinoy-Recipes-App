@@ -106,7 +106,7 @@ const foodCategory = [
   },
   {
     name: 'Side Dish',
-    image: null,
+    image: require('./images/category/side-dish.png'),
     color: '#FD841F',
   },
   {
