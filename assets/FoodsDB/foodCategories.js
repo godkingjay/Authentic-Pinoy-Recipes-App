@@ -46,7 +46,7 @@ const foodCategory = [
   },
   {
     name: 'Deep-Fried Dish',
-    image: null,
+    image: require('./images/category/deep-fried-dish.png'),
     color: null,
   },
   {
