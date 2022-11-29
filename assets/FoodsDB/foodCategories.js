@@ -131,7 +131,7 @@ const foodCategory = [
   },
   {
     name: 'Sweets',
-    image: null,
+    image: require('./images/category/sweets.png'),
     color: '#FF8787',
   },
   {
