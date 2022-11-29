@@ -81,7 +81,7 @@ const foodCategory = [
   },
   {
     name: 'Offal Dish',
-    image: null,
+    image: require('./images/category/offal-dish.png'),
     color: '#B73E3E',
   },
   {
