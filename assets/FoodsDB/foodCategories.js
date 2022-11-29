@@ -121,7 +121,7 @@ const foodCategory = [
   },
   {
     name: 'Stew',
-    image: null,
+    image: require('./images/category/stew.png'),
     color: '#A1C298',
   },
   {
