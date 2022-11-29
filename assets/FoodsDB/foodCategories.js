@@ -116,7 +116,7 @@ const foodCategory = [
   },
   {
     name: 'Soup',
-    image: null,
+    image: require('./images/category/soup.png'),
     color: '#87A2FB',
   },
   {
