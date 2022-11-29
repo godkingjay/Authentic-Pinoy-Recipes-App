@@ -39,11 +39,11 @@ const foodCategory = [
     image: require('./images/category/custard.png'),
     color: '#FFCE45',
   },
-  {
-    name: 'Deep-Fried Dessert',
-    image: require('./images/category/deep-fried-dessert.png'),
-    color: null,
-  },
+  // {
+  //   name: 'Deep-Fried Dessert',
+  //   image: require('./images/category/deep-fried-dessert.png'),
+  //   color: null,
+  // },
   {
     name: 'Deep-Fried Dish',
     image: require('./images/category/deep-fried-dish.png'),
