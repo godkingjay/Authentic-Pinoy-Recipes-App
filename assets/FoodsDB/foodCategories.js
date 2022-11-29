@@ -96,7 +96,7 @@ const foodCategory = [
   },
   {
     name: 'Seafood Dish',
-    image: null,
+    image: require('./images/category/seafood-dish.png'),
     color: '#3E7DFF',
   },
   {
