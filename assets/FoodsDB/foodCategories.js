@@ -71,12 +71,12 @@ const foodCategory = [
   },
   {
     name: 'Meat Dish',
-    image: null,
+    image: require('./images/category/meat-dish.png'),
     color: '#FF6464',
   },
   {
     name: 'Noodle Dish',
-    image: null,
+    image: require('./images/category/noodle-dish.png'),
     color: '#E6CBA8',
   },
   {
