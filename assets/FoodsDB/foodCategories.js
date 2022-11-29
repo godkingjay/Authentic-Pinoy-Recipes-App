@@ -56,7 +56,7 @@ const foodCategory = [
   },
   {
     name: 'Egg Dish',
-    image: null,
+    image: require('./images/category/egg-dish.png'),
     color: '#FFCE45',
   },
   {
