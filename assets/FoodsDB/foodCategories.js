@@ -91,7 +91,7 @@ const foodCategory = [
   },
   {
     name: 'Porridge',
-    image: null,
+    image: require('./images/category/porridge.png'),
     color: '#D0B8A8',
   },
   {
