@@ -66,7 +66,7 @@ const foodCategory = [
   },
   {
     name: 'Main Course',
-    image: null,
+    image: require('./images/category/main-course.png'),
     color: null,
   },
   {
