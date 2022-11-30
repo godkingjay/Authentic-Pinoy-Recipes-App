@@ -14,7 +14,7 @@ import FavoriteButton from "../assets/component/favoriteButton";
 
 export default function FoodView({ navigation, route }) {
   const [food, setFood] = useState(route.params);
-  
+
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: food.name,

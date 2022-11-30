@@ -1,5 +1,6 @@
 import PinoyFoods from "../FoodsDB/foodsDB";
 import FavFood from "../FoodsDB/favFoodDB";
+import Ingredients from "../FoodsDB/ingedientDB";
 
 function compareStrings(a, b) {
   a = a.toLowerCase();
@@ -25,4 +26,18 @@ export async function favoriteFoods(){
   });
 
   return(foods);
+}
+
+export async function foodIngredient(food = []){
+  let ingredients = [];
+  for(let i = 0; i < food.length; i++) {
+    let result = Ingredients.filter((ingredient) => ingredient.name == food[i].image);
+    if(result.length > 0){
+      ingredients.push(result[0]);
+    } else {
+      ingredients.push(null);
+    }
+  }
+  
+  return(ingredients);
 }
