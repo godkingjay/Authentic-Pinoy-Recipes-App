@@ -28,6 +28,10 @@ const Ingredients = [
     image: require('./images/ingredient/rice.png'),
   },
   {
+    name: 'salt',
+    image: require('./images/ingredient/salt.png'),
+  },
+  {
     name: 'sugar',
     image: require('./images/ingredient/sugar.png'),
   },
