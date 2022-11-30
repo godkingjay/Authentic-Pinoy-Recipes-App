@@ -132,6 +132,10 @@ const Ingredients = [
     image: require('./images/ingredient/ginger.png'),
   },
   {
+    name: 'grass',
+    image: require('./images/ingredient/grass.png'),
+  },
+  {
     name: 'green-bell-pepper',
     image: require('./images/ingredient/green-bell-pepper.png'),
   },
@@ -164,12 +168,20 @@ const Ingredients = [
     image: require('./images/ingredient/leaf.png'),
   },
   {
+    name: 'lemon',
+    image: require('./images/ingredient/lemon.png'),
+  },
+  {
     name: 'liver',
     image: require('./images/ingredient/liver.png'),
   },
   {
     name: 'long-bean',
     image: require('./images/ingredient/long-bean.png'),
+  },
+  {
+    name: 'margarine',
+    image: require('./images/ingredient/margarine.png'),
   },
   {
     name: 'milk',
@@ -306,6 +318,10 @@ const Ingredients = [
   {
     name: 'sibot',
     image: require('./images/ingredient/sibot.png'),
+  },
+  {
+    name: 'soda',
+    image: require('./images/ingredient/soda.png'),
   },
   {
     name: 'soy-sauce',
