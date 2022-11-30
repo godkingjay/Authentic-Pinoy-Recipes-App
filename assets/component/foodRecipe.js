@@ -33,46 +33,6 @@ export default function FoodRecipe({ recipe }) {
         <View>
           {recipe.ingredients.map((ingredient, index) => {
             return(
-              // <View key={ index } style={ styles.ingredientContainer }>
-              //   <View style={ styles.ingredientNumberContainer }>
-              //     <Text style={ styles.ingredientNumber }>{ index + 1 }</Text>
-              //   </View>
-              //   <View style={ styles.ingredientImageContainer }>
-              //     <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
-              //   </View>
-              //   <View style={ styles.ingredientDetails }>
-              //     <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#222' }}>{ ingredient.name }</Text>
-              //     {ingredient.tagalog != null ? (
-              //       <View>
-              //         <Text style={{ fontSize: 12, marginTop: -4, color: '#444', fontStyle: 'italic' }}>{ ingredient.tagalog }</Text>
-              //       </View>
-              //     ) : (
-              //       null
-              //     )}
-              //     {ingredient.type != null || ingredient.amount != null ? (
-              //       <View style={ [tableStyles.container, tableStyles.border, { marginTop: 8, width: '100%' }] }>
-              //         {ingredient.type != null ? (
-              //           <View style={ [styles.twoColumns, styles.rowDivider] }>
-              //             <Text style={ styles.leftColumn }>Type</Text>
-              //             <Text style={ styles.rightColumn }>{ ingredient.type }</Text>
-              //           </View>
-              //         ) : (
-              //           null
-              //         )}
-              //         {ingredient.amount != null ? (
-              //           <View style={ styles.twoColumns }>
-              //             <Text style={ styles.leftColumn }>Amount</Text>
-              //             <Text style={ styles.rightColumn }>{ ingredient.amount }</Text>
-              //           </View>
-              //         ) : (
-              //           null
-              //         )}
-              //       </View>
-              //     ) : (
-              //       null
-              //     )}
-              //   </View>
-              // </View>
               <FoodIngredient
                 key={ index }
                 ingredient={ ingredient }
