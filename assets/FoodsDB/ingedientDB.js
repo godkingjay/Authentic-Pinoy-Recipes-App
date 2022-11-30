@@ -1,5 +1,9 @@
 const Ingredients = [
   {
+    name: 'ampalaya',
+    image: require('./images/ingredient/ampalaya.png'),
+  },
+  {
     name: 'anatto-powder',
     image: require('./images/ingredient/anatto-powder.png'),
   },
@@ -34,6 +38,10 @@ const Ingredients = [
   {
     name: 'carrot',
     image: require('./images/ingredient/carrot.png'),
+  },
+  {
+    name: 'cassava',
+    image: require('./images/ingredient/cassava.png'),
   },
   {
     name: 'cheese',
@@ -132,6 +140,10 @@ const Ingredients = [
     image: require('./images/ingredient/noodles.png'),
   },
   {
+    name: 'okra',
+    image: require('./images/ingredient/okra.png'),
+  },
+  {
     name: 'onion',
     image: require('./images/ingredient/onion.png'),
   },
@@ -158,6 +170,10 @@ const Ingredients = [
   {
     name: 'pork',
     image: require('./images/ingredient/pork.png'),
+  },
+  {
+    name: 'pumpkin',
+    image: require('./images/ingredient/pumpkin.png'),
   },
   {
     name: 'quail-egg',
@@ -210,6 +226,10 @@ const Ingredients = [
   {
     name: 'sugar',
     image: require('./images/ingredient/sugar.png'),
+  },
+  {
+    name: 'sweet-potato',
+    image: require('./images/ingredient/sweet-potato.png'),
   },
   {
     name: 'vanilla',
