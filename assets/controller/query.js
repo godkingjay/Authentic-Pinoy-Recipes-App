@@ -38,6 +38,6 @@ export async function foodIngredient(food = []){
       ingredients.push(null);
     }
   }
-  
+
   return(ingredients);
 }

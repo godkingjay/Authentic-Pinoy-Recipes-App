@@ -12,12 +12,12 @@ import FoodIngredient from "./foodIngredient";
 import FoodRecipeDetails from "./foodRecipeDetails";
 
 export default function FoodRecipe({ recipe }) {
-  const [ingredient, setIngredient] = useState([]);
+  const [ingredients, setIngredients] = useState([]);
 
   useEffect(() => {
     foodIngredient(recipe.ingredients)
       .then(data => {
-        setIngredient(data);
+        setIngredients(data);
       })
       .catch(error => {
         alert(error)
@@ -36,7 +36,7 @@ export default function FoodRecipe({ recipe }) {
               <FoodIngredient
                 key={ index }
                 ingredient={ ingredient }
-                ingredientImage={ foodIngredient[index] }
+                ingredientImage={ ingredients[index] }
                 index={ index }
               />
             );

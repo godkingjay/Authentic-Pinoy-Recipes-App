@@ -1,7 +1,7 @@
 const Ingredients = [
   {
     name: 'egg',
-    image: null
+    image: require('./images/ingredient/egg.png'),
   }
 ];
 

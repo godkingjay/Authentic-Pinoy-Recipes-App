@@ -10,7 +10,11 @@ export default function FoodIngredient({ ingredient, ingredientImage, index }){
         <Text style={ styles.ingredientNumber }>{ index + 1 }</Text>
       </View>
       <View style={ styles.ingredientImageContainer }>
-        <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
+        {ingredientImage != null ? (
+          <Image style={ styles.ingredientImage } source={ ingredientImage.image }/>
+          ) : (
+          <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
+        )}
       </View>
       <View style={ styles.ingredientDetails }>
         <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#222' }}>{ ingredient.name }</Text>
