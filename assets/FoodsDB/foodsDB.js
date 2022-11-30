@@ -1072,7 +1072,7 @@ const PinoyFoods = [
           amount: `8 tablespoons`,
           tagalog: `Toyo`,
           type: null,
-          image: `sauce`,
+          image: `soy-sauce`,
         },
         {
           name: `White Vinegar`,
@@ -1121,7 +1121,7 @@ const PinoyFoods = [
           amount: `1 Teaspoon`,
           tagalog: null,
           type: null,
-          image: `pepper`,
+          image: `peppercorn`,
         },
       ],
       instructions: [

@@ -1,5 +1,9 @@
 const Ingredients = [
   {
+    name: 'baking-powder',
+    image: require('./images/ingredient/baking-powder.png'),
+  },
+  {
     name: 'beef',
     image: require('./images/ingredient/beef.png'),
   },
@@ -64,6 +68,10 @@ const Ingredients = [
     image: require('./images/ingredient/fish-sauce.png'),
   },
   {
+    name: 'flour',
+    image: require('./images/ingredient/flour.png'),
+  },
+  {
     name: 'garlic',
     image: require('./images/ingredient/garlic.png'),
   },
@@ -76,8 +84,16 @@ const Ingredients = [
     image: require('./images/ingredient/green-bell-pepper.png'),
   },
   {
+    name: 'leaf',
+    image: require('./images/ingredient/leaf.png'),
+  },
+  {
     name: 'long-bean',
     image: require('./images/ingredient/long-bean.png'),
+  },
+  {
+    name: 'milk',
+    image: require('./images/ingredient/milk.png'),
   },
   {
     name: 'milk-can',
@@ -146,6 +162,10 @@ const Ingredients = [
   {
     name: 'sesame-seed',
     image: require('./images/ingredient/sesame-seed.png'),
+  },
+  {
+    name: 'soy-sauce',
+    image: require('./images/ingredient/soy-sauce.png'),
   },
   {
     name: 'sugar',
