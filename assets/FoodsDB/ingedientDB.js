@@ -1,5 +1,9 @@
 const Ingredients = [
   {
+    name: 'anatto-powder',
+    image: require('./images/ingredient/anatto-powder.png'),
+  },
+  {
     name: 'baking-powder',
     image: require('./images/ingredient/baking-powder.png'),
   },
@@ -22,6 +26,10 @@ const Ingredients = [
   {
     name: 'butter',
     image: require('./images/ingredient/butter.png'),
+  },
+  {
+    name: 'cabbage',
+    image: require('./images/ingredient/cabbage.png'),
   },
   {
     name: 'carrot',
@@ -54,6 +62,10 @@ const Ingredients = [
   {
     name: 'corn',
     image: require('./images/ingredient/corn.png'),
+  },
+  {
+    name: 'cornstarch',
+    image: require('./images/ingredient/cornstarch.png'),
   },
   {
     name: 'cucumber',
@@ -180,8 +192,16 @@ const Ingredients = [
     image: require('./images/ingredient/sausage.png'),
   },
   {
+    name: 'scallion',
+    image: require('./images/ingredient/scallion.png'),
+  },
+  {
     name: 'sesame-seed',
     image: require('./images/ingredient/sesame-seed.png'),
+  },
+  {
+    name: 'shrimp',
+    image: require('./images/ingredient/shrimp.png'),
   },
   {
     name: 'soy-sauce',

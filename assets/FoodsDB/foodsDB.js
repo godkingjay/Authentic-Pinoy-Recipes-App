@@ -154,7 +154,7 @@ const PinoyFoods = [
           amount: '3 Tablespoons',
           tagalog: null,
           type: null,
-          image: 'sauce'
+          image: 'soy-sauce'
         },
         {
           name: 'Water',
@@ -327,7 +327,7 @@ const PinoyFoods = [
           amount: '5 Tablespoon',
           tagalog: null,
           type: null,
-          image: 'sauce'
+          image: 'soy-sauce'
         },
         {
           name: 'Water',
