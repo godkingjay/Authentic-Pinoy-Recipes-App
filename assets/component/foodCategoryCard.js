@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image } from 'react-native';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import window from '../controller/window';
 
 export default function FoodCategoryCard({ navigation, route, category }){
   return(
@@ -34,6 +35,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     borderRadius: 8,
     elevation: 4,
+    height: 112,
   },
   cardLabelContainer: {
     flex: 1,
@@ -47,7 +49,7 @@ const styles = StyleSheet.create({
     fontSize: 20
   },
   cardImageContainer: {
-    height: 96,
+    height: 112,
     aspectRatio: 3/2,
     alignItems: 'center',
     justifyContent: 'center',
@@ -67,7 +69,7 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     position: 'absolute',
     backgroundColor: '#fff2',
-    right: '-10%',
+    right: 72,
     top: '-60%',
   }
 });
