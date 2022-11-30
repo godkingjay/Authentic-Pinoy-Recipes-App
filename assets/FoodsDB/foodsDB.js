@@ -4457,7 +4457,7 @@ const PinoyFoods = [
           amount: `1 Cup`,
           tagalog: null,
           type: null,
-          image: `flour`,
+          image: `rice-flour`,
         },
         {
           name: `Salt`,
@@ -4824,7 +4824,7 @@ const PinoyFoods = [
           amount: `1 1/2 Cups`,
           tagalog: null,
           type: null,
-          image: `flour`,
+          image: `rice-flour`,
         },
         {
           name: `Water`,
@@ -6710,7 +6710,7 @@ const PinoyFoods = [
           amount: `2 Cups`,
           tagalog: null,
           type: null,
-          image: `flour`,
+          image: `rice-flour`,
         },
         {
           name: `Coconut Milk`,

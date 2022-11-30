@@ -1,5 +1,9 @@
 const Ingredients = [
   {
+    name: 'beef',
+    image: require('./images/ingredient/beef.png'),
+  },
+  {
     name: 'black-pepper',
     image: require('./images/ingredient/black-pepper.png'),
   },
@@ -18,6 +22,10 @@ const Ingredients = [
   {
     name: 'chicken',
     image: require('./images/ingredient/chicken.png'),
+  },
+  {
+    name: 'cucumber',
+    image: require('./images/ingredient/cucumber.png'),
   },
   {
     name: 'egg',
@@ -68,6 +76,14 @@ const Ingredients = [
     image: require('./images/ingredient/papaya.png'),
   },
   {
+    name: 'peanut',
+    image: require('./images/ingredient/peanut.png'),
+  },
+  {
+    name: 'peanut-butter',
+    image: require('./images/ingredient/peanut-butter.png'),
+  },
+  {
     name: 'pork',
     image: require('./images/ingredient/pork.png'),
   },
@@ -86,6 +102,10 @@ const Ingredients = [
   {
     name: 'salt',
     image: require('./images/ingredient/salt.png'),
+  },
+  {
+    name: 'sausage',
+    image: require('./images/ingredient/sausage.png'),
   },
   {
     name: 'sugar',
