@@ -32,12 +32,20 @@ const Ingredients = [
     image: require('./images/ingredient/chicken.png'),
   },
   {
+    name: 'cocoa',
+    image: require('./images/ingredient/cocoa.png'),
+  },
+  {
     name: 'coconut',
     image: require('./images/ingredient/coconut.png'),
   },
   {
     name: 'coconut-milk',
     image: require('./images/ingredient/coconut-milk.png'),
+  },
+  {
+    name: 'corn',
+    image: require('./images/ingredient/corn.png'),
   },
   {
     name: 'cucumber',
@@ -100,12 +108,20 @@ const Ingredients = [
     image: require('./images/ingredient/peanut-butter.png'),
   },
   {
+    name: 'peppercorn',
+    image: require('./images/ingredient/peppercorn.png'),
+  },
+  {
     name: 'pork',
     image: require('./images/ingredient/pork.png'),
   },
   {
     name: 'radish',
     image: require('./images/ingredient/radish.png'),
+  },
+  {
+    name: 'red-bean-paste',
+    image: require('./images/ingredient/red-bean-paste.png'),
   },
   {
     name: 'red-bell-pepper',
@@ -126,6 +142,10 @@ const Ingredients = [
   {
     name: 'sausage',
     image: require('./images/ingredient/sausage.png'),
+  },
+  {
+    name: 'sesame-seed',
+    image: require('./images/ingredient/sesame-seed.png'),
   },
   {
     name: 'sugar',

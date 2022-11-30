@@ -2353,7 +2353,7 @@ const PinoyFoods = [
           amount: `3 Tablespoons`,
           tagalog: null,
           type: null,
-          image: `sauce-fish`,
+          image: `fish-sauce`,
         },
         {
           name: `String Beans`,
@@ -2565,7 +2565,7 @@ const PinoyFoods = [
           amount: `Depends on Taste`,
           tagalog: null,
           type: null,
-          image: `sauce-fish`,
+          image: `fish-sauce`,
         },
         {
           name: `Ground Black Pepper`,
@@ -3867,7 +3867,7 @@ const PinoyFoods = [
           amount: `Depending on taste.`,
           tagalog: null,
           type: null,
-          image: `sauce-fish`,
+          image: `fish-sauce`,
         },
       ],
       instructions: [
@@ -4011,7 +4011,7 @@ const PinoyFoods = [
           amount: `2 Tablespoons`,
           tagalog: `Patis`,
           type: null,
-          image: `sauce-fish`,
+          image: `fish-sauce`,
         },
         {
           name: `Vegetable Oil`,
@@ -6385,7 +6385,7 @@ const PinoyFoods = [
           amount: `5 Pieces`,
           tagalog: null,
           type: null,
-          image: `chocolate`,
+          image: `cocoa`,
         },
         {
           name: `Glutinous Rice`,
