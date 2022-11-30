@@ -8,19 +8,11 @@ import AppContext from "../globals/appContext";
 export default function FavoriteButton({ id }){
   const favorites = useContext(AppContext);
 
-  const addFav = () => {
-    favorites.addFavorites(id);
-  }
-
-  const delFav = () => {
-    favorites.deleteFavorites(id);
-  }
-
   if((favorites.favs.find((food) => food == id) ? true : false) == true){
     return(
       <TouchableOpacity
         activeOpacity={ 0.5 }
-        onPress={ delFav }
+        onPress={ () => favorites.deleteFavorites(id) }
       >
         <Icon
           type="material-icons"
@@ -34,7 +26,7 @@ export default function FavoriteButton({ id }){
     return(
       <TouchableOpacity
         activeOpacity={ 0.5 }
-        onPress={ addFav }
+        onPress={ () => favorites.addFavorites(id) }
       >
         <Icon
           type="material-icons"
