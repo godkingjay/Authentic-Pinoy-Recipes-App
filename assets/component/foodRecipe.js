@@ -114,8 +114,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 24,
     paddingVertical: 4,
-    // borderWidth: 1,
-    // borderColor: '#222',
     color: '#222',
     textTransform: 'uppercase',
     marginBottom: 8,
