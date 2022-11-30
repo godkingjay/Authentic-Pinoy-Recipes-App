@@ -4492,7 +4492,7 @@ const PinoyFoods = [
           amount: `1 Cup`,
           tagalog: null,
           type: null,
-          image: `milk`,
+          image: `coconut-milk`,
         },
         {
           name: `Fresh Milk`,
@@ -4838,7 +4838,7 @@ const PinoyFoods = [
           amount: `1/4 Cup`,
           tagalog: null,
           type: null,
-          image: `paste`,
+          image: `red-bean-paste`,
         },
         {
           name: `Sesame Seeds`,

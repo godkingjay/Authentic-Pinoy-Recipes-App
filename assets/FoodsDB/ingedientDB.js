@@ -12,8 +12,16 @@ const Ingredients = [
     image: require('./images/ingredient/bone-marrow.png'),
   },
   {
+    name: 'butter',
+    image: require('./images/ingredient/butter.png'),
+  },
+  {
     name: 'carrot',
     image: require('./images/ingredient/carrot.png'),
+  },
+  {
+    name: 'cheese',
+    image: require('./images/ingredient/cheese.png'),
   },
   {
     name: 'chicharon',
@@ -22,6 +30,14 @@ const Ingredients = [
   {
     name: 'chicken',
     image: require('./images/ingredient/chicken.png'),
+  },
+  {
+    name: 'coconut',
+    image: require('./images/ingredient/coconut.png'),
+  },
+  {
+    name: 'coconut-milk',
+    image: require('./images/ingredient/coconut-milk.png'),
   },
   {
     name: 'cucumber',
@@ -98,6 +114,10 @@ const Ingredients = [
   {
     name: 'rice',
     image: require('./images/ingredient/rice.png'),
+  },
+  {
+    name: 'rice-flour',
+    image: require('./images/ingredient/rice-flour.png'),
   },
   {
     name: 'salt',
