@@ -62,17 +62,21 @@ export default function FoodRecipe({ recipe }) {
         </View>
       </View>
       <View style={ styles.divider }></View>
-      <Text style={ styles.recipeLabel }>Instructions</Text>
-      <FlatList
-        horizontal={ true }
-        data={ recipe.instructions }
-        renderItem={({ item, index }) => (
-          <View style={ styles.instructionContainer }>
-            <Text style={ styles.instructionNumberContainer }>Step { index + 1 }</Text>
-            <Text style={ styles.instruction }>{ item }</Text>
-          </View>
-        )}
-      />
+      <View style={ styles.instructionsContainer }>
+        <Text style={ styles.instructionsLabel }>Instructions</Text>
+        <FlatList
+          horizontal={ true }
+          data={ recipe.instructions }
+          renderItem={({ item, index }) => (
+            <View style={ styles.instructionWrapper }>
+              <View style={ styles.instructionContainer }>
+                <Text style={ styles.instructionNumberContainer }>Step { index + 1 }</Text>
+                <Text style={ styles.instruction }>{ item }</Text>
+              </View>
+            </View>
+          )}
+        />
+      </View>
       <View style={ styles.divider }></View>
     </View>
   );
@@ -89,7 +93,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#0002",
     height: 1,
     width: "100%",
-    marginTop: 16,
+    marginVertical: 16,
   },
   recipeLabel: {
     fontWeight: 'bold',
@@ -102,9 +106,8 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
   },
   ingredientsContainer: {
-    paddingVertical: 4,
     borderRadius: 8,
-    marginTop: 12,
+    alignItems: 'center',
   },
   ingredientsLabel: {
     fontWeight: 'bold',
@@ -120,6 +123,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#36C464',
     color: '#fff',
     elevation: 2,
+    maxWidth: 480,
+    width: "100%",
   },
   ingredientContainer: {
     flexDirection: 'row',
@@ -129,6 +134,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     overflow: 'hidden',
     alignItems: 'center',
+    width: "100%",
   },
   ingredientNumberContainer: {
     height: 112,
@@ -184,15 +190,40 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: '#222',
   },
-  instructionContainer: {
+  instructionsContainer: {
+    alignItems: 'center',
+  },
+  instructionsLabel: {
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 24,
+    paddingVertical: 4,
+    color: '#222',
+    textTransform: 'uppercase',
+    marginBottom: 8,
+    borderRadius: 8,
+    backgroundColor: '#36C464',
+    color: '#fff',
+    elevation: 2,
+    marginHorizontal: 12,
+    maxWidth: 480,
+    width: "100%",
+  },
+  instructionWrapper: {
     width: window.width - 56,
     marginHorizontal: 12,
-    marginVertical: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
     alignItems: 'center',
-    elevation: 4,
+  },
+  instructionContainer: {
+    width: window.width - 56,
+    alignItems: 'center',
+    elevation: 2,
     backgroundColor: 'white',
     overflow: 'hidden',
     borderRadius: 8,
+    maxWidth: 480,
   },
   instructionNumberContainer: {
     backgroundColor: '#36C464',
