@@ -4,8 +4,12 @@ const Ingredients = [
     image: require('./images/ingredient/ampalaya.png'),
   },
   {
-    name: 'anatto-powder',
-    image: require('./images/ingredient/anatto-powder.png'),
+    name: 'annatto-powder',
+    image: require('./images/ingredient/annatto-powder.png'),
+  },
+  {
+    name: 'annatto-seed',
+    image: require('./images/ingredient/annatto-seed.png'),
   },
   {
     name: 'baking-powder',
@@ -46,6 +50,10 @@ const Ingredients = [
   {
     name: 'cassava',
     image: require('./images/ingredient/cassava.png'),
+  },
+  {
+    name: 'celery',
+    image: require('./images/ingredient/celery.png'),
   },
   {
     name: 'cheese',
@@ -132,6 +140,10 @@ const Ingredients = [
     image: require('./images/ingredient/ice-cream.png'),
   },
   {
+    name: 'intestine',
+    image: require('./images/ingredient/intestine.png'),
+  },
+  {
     name: 'jackfruit',
     image: require('./images/ingredient/jackfruit.png'),
   },
@@ -168,6 +180,14 @@ const Ingredients = [
     image: require('./images/ingredient/mix-cube.png'),
   },
   {
+    name: 'mix-powder',
+    image: require('./images/ingredient/mix-powder.png'),
+  },
+  {
+    name: 'mushroom',
+    image: require('./images/ingredient/mushroom.png'),
+  },
+  {
     name: 'noodles',
     image: require('./images/ingredient/noodles.png'),
   },
@@ -194,6 +214,10 @@ const Ingredients = [
   {
     name: 'peanut-butter',
     image: require('./images/ingredient/peanut-butter.png'),
+  },
+  {
+    name: 'pechay',
+    image: require('./images/ingredient/pechay.png'),
   },
   {
     name: 'peppercorn',

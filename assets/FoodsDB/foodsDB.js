@@ -189,7 +189,7 @@ const PinoyFoods = [
           amount: 'Depending on taste',
           tagalog: 'Paminta',
           type: null,
-          image: 'pepper'
+          image: 'peppercorn'
         }
       ],
       instructions: [
@@ -438,11 +438,11 @@ const PinoyFoods = [
           image: 'pork'
         },
         {
-          name: 'Anatto Powder',
+          name: 'Annatto Powder',
           amount: '1 Tablspoom',
           tagalog: null,
           type: 'Sauce Ingredient',
-          image: 'anatto-powder'
+          image: 'annatto-powder'
         },
         {
           name: 'Pork Broth',
@@ -540,7 +540,7 @@ const PinoyFoods = [
         'Soak the rice noodles in water for about 15 minutes. Drain and set aside.',
         'Cook the sauce by heating a saucepan. Pour-in the cooking oil.',
         'When the oil is hot enough, put-in the ground pork and cook for about 5 to 7 minutes.',
-        'Dilute the annato powder in pork broth then pour the mixture in the saucepan. Bring to a boil (If you are using anatto seeds, soak them first in 3 tbsp water to bring-out the color).',
+        'Dilute the annatto powder in pork broth then pour the mixture in the saucepan. Bring to a boil (If you are using annatto seeds, soak them first in 3 tbsp water to bring-out the color).',
         'Add the shrimp cube and stir and simmer for 3 minutes.',
         'Add the flour gradually while stirring.',
         'Add the fish sauce and ground black pepper then simmer until sauce becomes thick. Set aside.',
@@ -2098,11 +2098,11 @@ const PinoyFoods = [
           image: `water`,
         },
         {
-          name: `Annato Seeds`,
+          name: `Annatto Seeds`,
           amount: `1/2 Cup`,
           tagalog: null,
           type: `Soaked in a cup of water`,
-          image: `seed`,
+          image: `annatto-seed`,
         },
         {
           name: `Toasted Ground Rice`,
@@ -2137,7 +2137,7 @@ const PinoyFoods = [
           amount: `Depending on taste`,
           tagalog: `paminta`,
           type: null,
-          image: `pepper`,
+          image: `peppercorn`,
         },
       ],
       instructions: [
@@ -4363,7 +4363,7 @@ const PinoyFoods = [
           image: `black-pepper`,
         },
         {
-          name: `Anatto Oil`,
+          name: `Annatto Oil`,
           amount: `3 Tablespoons`,
           tagalog: null,
           type: `Basting Sauce | Atsuete Oil`,
@@ -6307,11 +6307,11 @@ const PinoyFoods = [
           image: `water`,
         },
         {
-          name: `Anatto Powder`,
+          name: `Annatto Powder`,
           amount: `1 Tablespoon`,
           tagalog: null,
           type: null,
-          image: `anatto-powder`,
+          image: `annatto-powder`,
         },
         {
           name: `Salt`,
@@ -6338,7 +6338,7 @@ const PinoyFoods = [
       instructions: [
         `Place the cornstarch in a container and dredge the boiled quail eggs. Set aside.`,
         `In a mixing bowl, combine flour, salt, and pepper then mix thoroughly.`,
-        `Dilute the anatto powder in warm water then pour-in the mixing bowl with the other ingredients. Mix well.`,
+        `Dilute the annatto powder in warm water then pour-in the mixing bowl with the other ingredients. Mix well.`,
         `Place all the quail eggs in the mixing bowl and coat with the batter.`,
         `Heat the pan and pour the cooking oil.`,
         `When the oil is hot enough, deep-fry the quail eggs by scooping them from the mixing bowl using a spoon. Make sure that each is coated with batter.`,
