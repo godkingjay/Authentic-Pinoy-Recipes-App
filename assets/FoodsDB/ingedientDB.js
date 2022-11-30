@@ -1,5 +1,9 @@
 const Ingredients = [
   {
+    name: 'black-pepper',
+    image: require('./images/ingredient/black-pepper.png'),
+  },
+  {
     name: 'chicken',
     image: require('./images/ingredient/chicken.png'),
   },
@@ -8,8 +12,20 @@ const Ingredients = [
     image: require('./images/ingredient/egg.png'),
   },
   {
+    name: 'ginger',
+    image: require('./images/ingredient/ginger.png'),
+  },
+  {
     name: 'milk-can',
     image: require('./images/ingredient/milk-can.png'),
+  },
+  {
+    name: 'onion',
+    image: require('./images/ingredient/onion.png'),
+  },
+  {
+    name: 'rice',
+    image: require('./images/ingredient/rice.png'),
   },
   {
     name: 'sugar',
