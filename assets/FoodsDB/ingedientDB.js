@@ -56,6 +56,10 @@ const Ingredients = [
     image: require('./images/ingredient/chicken.png'),
   },
   {
+    name: 'chili',
+    image: require('./images/ingredient/chili.png'),
+  },
+  {
     name: 'cocoa',
     image: require('./images/ingredient/cocoa.png'),
   },
@@ -118,6 +122,14 @@ const Ingredients = [
   {
     name: 'jackfruit',
     image: require('./images/ingredient/jackfruit.png'),
+  },
+  {
+    name: 'juice-pinapple',
+    image: require('./images/ingredient/juice-pinapple.png'),
+  },
+  {
+    name: 'latik',
+    image: require('./images/ingredient/latik.png'),
   },
   {
     name: 'leaf',
@@ -252,12 +264,20 @@ const Ingredients = [
     image: require('./images/ingredient/tomato-sauce.png'),
   },
   {
+    name: 'ube',
+    image: require('./images/ingredient/ube.png'),
+  },
+  {
     name: 'vanilla',
     image: require('./images/ingredient/vanilla.png'),
   },
   {
     name: 'vinegar',
     image: require('./images/ingredient/vinegar.png'),
+  },
+  {
+    name: 'yam',
+    image: require('./images/ingredient/yam.png'),
   },
 ];
 
