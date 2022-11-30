@@ -4367,7 +4367,7 @@ const PinoyFoods = [
           amount: `3 Tablespoons`,
           tagalog: null,
           type: `Basting Sauce | Atsuete Oil`,
-          image: `oil`,
+          image: `annatto-oil`,
         },
         {
           name: `Margarine`,

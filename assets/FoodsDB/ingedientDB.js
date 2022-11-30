@@ -4,6 +4,10 @@ const Ingredients = [
     image: require('./images/ingredient/ampalaya.png'),
   },
   {
+    name: 'annatto-oil',
+    image: require('./images/ingredient/annatto-oil.png'),
+  },
+  {
     name: 'annatto-powder',
     image: require('./images/ingredient/annatto-powder.png'),
   },
