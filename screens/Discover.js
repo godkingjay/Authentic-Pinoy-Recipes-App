@@ -6,13 +6,12 @@ import discoverCategories from "../assets/FoodsDB/discoverCategoriesDB";
 import globalStyles from "../assets/styles/globalStyles";
 
 export default function Discover({ navigation, route }) {
-  let categoryNum = 1;
   return(
     <ScrollView style={ globalStyles.screen }>
       <View style = { styles.horizontalCardsContainer }>
-        { discoverCategories.map((category, value) => {
+        { discoverCategories.map((category, index) => {
           return(
-            <HorizontalCardsContainer key={ categoryNum++ } navigation={ navigation } route={ route } foodCategory={ category }/>
+            <HorizontalCardsContainer key={ index } navigation={ navigation } route={ route } foodCategory={ category }/>
           )
         })}
       </View>

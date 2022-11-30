@@ -11,7 +11,7 @@ export function addFav(id){
 }
 
 export function clearFav(){
-  FavFood = [];
+  FavFood.splice(0, FavFood.length);
 }
 
 export function deleteFav(id){

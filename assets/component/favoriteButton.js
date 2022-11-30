@@ -8,14 +8,6 @@ import AppContext from "../globals/appContext";
 export default function FavoriteButton({ id }){
   const favorites = useContext(AppContext);
 
-  // const onPressHandler = () => {
-  //   if(!favorites.favs.find((food) => food == id)){
-      
-  //   } else {
-  //     favorites.deleteFavorites(id);
-  //   }
-  // }
-
   const addFav = () => {
     favorites.addFavorites(id);
   }
