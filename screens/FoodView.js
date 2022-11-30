@@ -79,10 +79,11 @@ const styles = StyleSheet.create({
     position: "absolute",
     backgroundColor: '#fff',
     padding: 6,
-    elevation: 2,
+    elevation: 16,
     right: 8,
-    bottom: 48,
+    bottom: 44,
     borderRadius: 100,
+    aspectRatio: 1,
   },
   articleContainer: {
     marginTop: -64,

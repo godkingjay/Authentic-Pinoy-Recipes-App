@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     width: window.width - 56,
     marginHorizontal: 12,
     paddingHorizontal: 12,
-    paddingVertical: 8,
+    paddingVertical: 12,
     alignItems: 'center',
   },
   instructionContainer: {
@@ -242,7 +242,7 @@ const styles = StyleSheet.create({
   instruction: {
     backgroundColor: '#FFC02D',
     maxWidth: 480,
-    minHeight: 160,
+    minHeight: 200,
     paddingHorizontal: 24,
     paddingTop: 8,
     paddingBottom: 16,
