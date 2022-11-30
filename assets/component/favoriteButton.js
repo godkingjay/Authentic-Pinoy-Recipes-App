@@ -18,7 +18,7 @@ export default function FavoriteButton({ id }){
           type="material-icons"
           name="favorite"
           color="#ff6060"
-          size={ 48 }
+          size={ 40 }
         />
       </TouchableOpacity>
     );
@@ -32,7 +32,7 @@ export default function FavoriteButton({ id }){
           type="material-icons"
           name="favorite-outline"
           color="#444"
-          size={ 48 }
+          size={ 40 }
         />
       </TouchableOpacity>
     );

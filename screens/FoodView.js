@@ -23,16 +23,18 @@ export default function FoodView({ navigation, route }) {
 
   return (
     <ScrollView style={ globalStyles.screen }>
-      <Image source={ food.image } style={ styles.image } />
+      <View>
+        <Image source={ food.image } style={ styles.image } />
+        <View style={ styles.favoriteButtonContainer }>
+          <FavoriteButton id={ food.id }/>
+        </View>
+      </View>
       <View style={ styles.articleContainer }>
         <View style={ styles.article }>
           <View style={ styles.foodHeaderContainer }>
             <View style={ styles.foodNameContainer }>
               <Text style={ styles.foodName }>{ food.name }</Text>
               <Text style={ styles.foodTagalog }>({ food.tagalog })</Text>
-            </View>
-            <View style={ styles.foodButtonsContainer }>
-              <FavoriteButton id={ food.id }/>
             </View>
           </View>
           <View style={ styles.divider }></View>
@@ -73,6 +75,15 @@ const styles = StyleSheet.create({
     maxHeight: window.height / 2,
     resizeMode: "cover",
   },
+  favoriteButtonContainer: {
+    position: "absolute",
+    backgroundColor: '#fff',
+    padding: 6,
+    elevation: 2,
+    right: 8,
+    bottom: 48,
+    borderRadius: 100,
+  },
   articleContainer: {
     marginTop: -64,
     paddingTop: 32,
@@ -98,11 +109,13 @@ const styles = StyleSheet.create({
   foodName: {
     fontSize: 32,
     fontWeight: "bold",
+    textAlign: "center",
     color: "#222",
   },
   foodTagalog: {
     fontSize: 16,
     fontStyle: "italic",
+    textAlign: "center",
     marginTop: -4,
     color: "#444",
   },
