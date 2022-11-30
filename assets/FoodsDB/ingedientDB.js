@@ -20,6 +20,10 @@ const Ingredients = [
     image: require('./images/ingredient/banana.png'),
   },
   {
+    name: 'banana-leaf',
+    image: require('./images/ingredient/banana-leaf.png'),
+  },
+  {
     name: 'beef',
     image: require('./images/ingredient/beef.png'),
   },
@@ -192,6 +196,10 @@ const Ingredients = [
     image: require('./images/ingredient/noodles.png'),
   },
   {
+    name: 'offal',
+    image: require('./images/ingredient/offal.png'),
+  },
+  {
     name: 'okra',
     image: require('./images/ingredient/okra.png'),
   },
@@ -288,8 +296,16 @@ const Ingredients = [
     image: require('./images/ingredient/sesame-seed.png'),
   },
   {
+    name: 'shortening',
+    image: require('./images/ingredient/shortening.png'),
+  },
+  {
     name: 'shrimp',
     image: require('./images/ingredient/shrimp.png'),
+  },
+  {
+    name: 'sibot',
+    image: require('./images/ingredient/sibot.png'),
   },
   {
     name: 'soy-sauce',
