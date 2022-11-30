@@ -3308,7 +3308,7 @@ const PinoyFoods = [
           amount: `1 lb.`,
           tagalog: null,
           type: `Sliced Thinly`,
-          image: `Beef`,
+          image: `beef`,
         },
         {
           name: `Eggs`,

@@ -124,8 +124,8 @@ const Ingredients = [
     image: require('./images/ingredient/jackfruit.png'),
   },
   {
-    name: 'juice-pinapple',
-    image: require('./images/ingredient/juice-pinapple.png'),
+    name: 'juice-pineapple',
+    image: require('./images/ingredient/juice-pineapple.png'),
   },
   {
     name: 'latik',
@@ -150,6 +150,10 @@ const Ingredients = [
   {
     name: 'milk-can',
     image: require('./images/ingredient/milk-can.png'),
+  },
+  {
+    name: 'mix-cube',
+    image: require('./images/ingredient/mix-cube.png'),
   },
   {
     name: 'noodles',
@@ -212,12 +216,20 @@ const Ingredients = [
     image: require('./images/ingredient/red-bell-pepper.png'),
   },
   {
+    name: 'red-chili',
+    image: require('./images/ingredient/red-chili.png'),
+  },
+  {
     name: 'rice',
     image: require('./images/ingredient/rice.png'),
   },
   {
     name: 'rice-flour',
     image: require('./images/ingredient/rice-flour.png'),
+  },
+  {
+    name: 'sago',
+    image: require('./images/ingredient/sago.png'),
   },
   {
     name: 'salt',
@@ -256,12 +268,20 @@ const Ingredients = [
     image: require('./images/ingredient/sweet-potato.png'),
   },
   {
+    name: 'tofu',
+    image: require('./images/ingredient/tofu.png'),
+  },
+  {
     name: 'tomato',
     image: require('./images/ingredient/tomato.png'),
   },
   {
     name: 'tomato-sauce',
     image: require('./images/ingredient/tomato-sauce.png'),
+  },
+  {
+    name: 'tuna',
+    image: require('./images/ingredient/tuna.png'),
   },
   {
     name: 'ube',
