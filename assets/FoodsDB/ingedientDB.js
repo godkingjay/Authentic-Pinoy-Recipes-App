@@ -4,8 +4,16 @@ const Ingredients = [
     image: require('./images/ingredient/black-pepper.png'),
   },
   {
+    name: 'bone-marrow',
+    image: require('./images/ingredient/bone-marrow.png'),
+  },
+  {
     name: 'carrot',
     image: require('./images/ingredient/carrot.png'),
+  },
+  {
+    name: 'chicharon',
+    image: require('./images/ingredient/chicharon.png'),
   },
   {
     name: 'chicken',
@@ -14,6 +22,10 @@ const Ingredients = [
   {
     name: 'egg',
     image: require('./images/ingredient/egg.png'),
+  },
+  {
+    name: 'eggplant',
+    image: require('./images/ingredient/eggplant.png'),
   },
   {
     name: 'fish-sauce',
@@ -32,6 +44,10 @@ const Ingredients = [
     image: require('./images/ingredient/green-bell-pepper.png'),
   },
   {
+    name: 'long-bean',
+    image: require('./images/ingredient/long-bean.png'),
+  },
+  {
     name: 'milk-can',
     image: require('./images/ingredient/milk-can.png'),
   },
@@ -42,6 +58,10 @@ const Ingredients = [
   {
     name: 'onion',
     image: require('./images/ingredient/onion.png'),
+  },
+  {
+    name: 'oxtail',
+    image: require('./images/ingredient/oxtail.png'),
   },
   {
     name: 'papaya',

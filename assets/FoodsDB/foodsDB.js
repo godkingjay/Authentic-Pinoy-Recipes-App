@@ -2039,7 +2039,7 @@ const PinoyFoods = [
           amount: `3 lbs.`,
           tagalog: null,
           type: `Cut in 2 inch slices you an also use tripe or beef slices`,
-          image: `beef`,
+          image: `oxtail`,
         },
         {
           name: `Small Banana Flower Bud`,
