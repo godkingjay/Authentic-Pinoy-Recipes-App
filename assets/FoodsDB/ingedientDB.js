@@ -124,6 +124,10 @@ const Ingredients = [
     image: require('./images/ingredient/leaf.png'),
   },
   {
+    name: 'liver',
+    image: require('./images/ingredient/liver.png'),
+  },
+  {
     name: 'long-bean',
     image: require('./images/ingredient/long-bean.png'),
   },
@@ -170,6 +174,10 @@ const Ingredients = [
   {
     name: 'pork',
     image: require('./images/ingredient/pork.png'),
+  },
+  {
+    name: 'potato',
+    image: require('./images/ingredient/potato.png'),
   },
   {
     name: 'pumpkin',
@@ -224,12 +232,24 @@ const Ingredients = [
     image: require('./images/ingredient/soy-sauce.png'),
   },
   {
+    name: 'spinach',
+    image: require('./images/ingredient/spinach.png'),
+  },
+  {
     name: 'sugar',
     image: require('./images/ingredient/sugar.png'),
   },
   {
     name: 'sweet-potato',
     image: require('./images/ingredient/sweet-potato.png'),
+  },
+  {
+    name: 'tomato',
+    image: require('./images/ingredient/tomato.png'),
+  },
+  {
+    name: 'tomato-sauce',
+    image: require('./images/ingredient/tomato-sauce.png'),
   },
   {
     name: 'vanilla',

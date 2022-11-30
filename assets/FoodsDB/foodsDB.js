@@ -1859,7 +1859,7 @@ const PinoyFoods = [
           amount: `8 oz.`,
           tagalog: null,
           type: null,
-          image: `sauce`,
+          image: `tomato-sauce`,
         },
         {
           name: `Green Olives`,
