@@ -28,8 +28,16 @@ const Ingredients = [
     image: require('./images/ingredient/ginger.png'),
   },
   {
+    name: 'green-bell-pepper',
+    image: require('./images/ingredient/green-bell-pepper.png'),
+  },
+  {
     name: 'milk-can',
     image: require('./images/ingredient/milk-can.png'),
+  },
+  {
+    name: 'noodles',
+    image: require('./images/ingredient/noodles.png'),
   },
   {
     name: 'onion',
@@ -38,6 +46,14 @@ const Ingredients = [
   {
     name: 'papaya',
     image: require('./images/ingredient/papaya.png'),
+  },
+  {
+    name: 'pork',
+    image: require('./images/ingredient/pork.png'),
+  },
+  {
+    name: 'radish',
+    image: require('./images/ingredient/radish.png'),
   },
   {
     name: 'red-bell-pepper',
@@ -58,7 +74,11 @@ const Ingredients = [
   {
     name: 'vanilla',
     image: require('./images/ingredient/vanilla.png'),
-  }
+  },
+  {
+    name: 'vinegar',
+    image: require('./images/ingredient/vinegar.png'),
+  },
 ];
 
 export default Ingredients;
