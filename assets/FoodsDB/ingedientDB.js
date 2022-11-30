@@ -36,6 +36,10 @@ const Ingredients = [
     image: require('./images/ingredient/cabbage.png'),
   },
   {
+    name: 'calamansi',
+    image: require('./images/ingredient/calamansi.png'),
+  },
+  {
     name: 'carrot',
     image: require('./images/ingredient/carrot.png'),
   },
@@ -72,6 +76,10 @@ const Ingredients = [
     image: require('./images/ingredient/coconut-milk.png'),
   },
   {
+    name: 'cooking-oil',
+    image: require('./images/ingredient/cooking-oil.png'),
+  },
+  {
     name: 'corn',
     image: require('./images/ingredient/corn.png'),
   },
@@ -98,6 +106,10 @@ const Ingredients = [
   {
     name: 'flour',
     image: require('./images/ingredient/flour.png'),
+  },
+  {
+    name: 'flower',
+    image: require('./images/ingredient/flower.png'),
   },
   {
     name: 'garlic',
@@ -208,6 +220,10 @@ const Ingredients = [
     image: require('./images/ingredient/radish.png'),
   },
   {
+    name: 'raisin',
+    image: require('./images/ingredient/raisin.png'),
+  },
+  {
     name: 'red-bean-paste',
     image: require('./images/ingredient/red-bean-paste.png'),
   },
@@ -294,6 +310,10 @@ const Ingredients = [
   {
     name: 'vinegar',
     image: require('./images/ingredient/vinegar.png'),
+  },
+  {
+    name: 'water',
+    image: require('./images/ingredient/water.png'),
   },
   {
     name: 'yam',
