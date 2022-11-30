@@ -442,7 +442,7 @@ const PinoyFoods = [
           amount: '1 Tablspoom',
           tagalog: null,
           type: 'Sauce Ingredient',
-          image: 'mix-powder'
+          image: 'anatto-powder'
         },
         {
           name: 'Pork Broth',
@@ -6304,14 +6304,14 @@ const PinoyFoods = [
           amount: `3/4 to 1 Cup`,
           tagalog: null,
           type: null,
-          image: `Tubig`,
+          image: `water`,
         },
         {
           name: `Anatto Powder`,
           amount: `1 Tablespoon`,
           tagalog: null,
           type: null,
-          image: `mix-powder`,
+          image: `anatto-powder`,
         },
         {
           name: `Salt`,

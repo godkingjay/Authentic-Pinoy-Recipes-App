@@ -4,6 +4,10 @@ const Ingredients = [
     image: require('./images/ingredient/baking-powder.png'),
   },
   {
+    name: 'banana',
+    image: require('./images/ingredient/banana.png'),
+  },
+  {
     name: 'beef',
     image: require('./images/ingredient/beef.png'),
   },
@@ -84,6 +88,18 @@ const Ingredients = [
     image: require('./images/ingredient/green-bell-pepper.png'),
   },
   {
+    name: 'green-chili',
+    image: require('./images/ingredient/green-chili.png'),
+  },
+  {
+    name: 'ice-cream',
+    image: require('./images/ingredient/ice-cream.png'),
+  },
+  {
+    name: 'jackfruit',
+    image: require('./images/ingredient/jackfruit.png'),
+  },
+  {
     name: 'leaf',
     image: require('./images/ingredient/leaf.png'),
   },
@@ -130,6 +146,10 @@ const Ingredients = [
   {
     name: 'pork',
     image: require('./images/ingredient/pork.png'),
+  },
+  {
+    name: 'quail-egg',
+    image: require('./images/ingredient/quail-egg.png'),
   },
   {
     name: 'radish',

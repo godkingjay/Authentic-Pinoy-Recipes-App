@@ -13,7 +13,19 @@ export default function FoodIngredient({ ingredient, ingredientImage, index }){
         {ingredientImage != null ? (
           <Image style={ styles.ingredientImage } source={ ingredientImage.image }/>
           ) : (
-          <Image style={ styles.ingredientImage } source={ require('../images/no-image.png') }/>
+          <View style={{
+            height: '100%',
+            aspectRatio: 1,
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+            <Image style={ [styles.ingredientImage, { height: '80%' }] } source={ require('../images/no-image.png') }/>
+            <Text style={{
+              fontSize: 12,
+              width: '100%',
+              textAlign: 'center',
+            }}>{ ingredient.image }</Text>
+          </View>
         )}
       </View>
       <View style={ styles.ingredientDetails }>
