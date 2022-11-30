@@ -4,7 +4,7 @@ import AppContext from './assets/globals/appContext';
 
 import globalStyles from './assets/styles/globalStyles';
 import { useState } from 'react';
-import { addFav, deleteFav, fetchFav } from './assets/FoodsDB/favFoodDB';
+import { addFav, clearFav, deleteFav, fetchFav } from './assets/FoodsDB/favFoodDB';
 import { favoriteFoods } from './assets/controller/query';
 import { useEffect } from 'react';
 
@@ -35,6 +35,18 @@ export default function App() {
         });
   }
 
+  const clearFavorites = () => {
+    clearFav();
+    setFavs(fetchFav);
+    favoriteFoods()
+        .then(data => {
+          setFoods(data);
+        })
+        .catch(error => {
+          alert(error)
+        });
+  }
+
   const deleteFavorites = (id) => {
     deleteFav(id);
     setFavs(fetchFav);
@@ -51,6 +63,7 @@ export default function App() {
     favs: favs,
     foods: foods,
     addFavorites,
+    clearFavorites,
     deleteFavorites,
   }
 

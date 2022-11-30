@@ -10,11 +10,15 @@ export function addFav(id){
   }
 }
 
+export function clearFav(){
+  FavFood = [];
+}
+
 export function deleteFav(id){
   const index = FavFood.indexOf(id);
   if(index > -1){
     FavFood.splice(index, 1);
   }
-} 
+}
 
 export default FavFood;
