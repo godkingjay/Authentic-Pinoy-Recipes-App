@@ -184,6 +184,10 @@ const Ingredients = [
     image: require('./images/ingredient/long-bean.png'),
   },
   {
+    name: 'lumpia-wrapper',
+    image: require('./images/ingredient/lumpia-wrapper.png'),
+  },
+  {
     name: 'margarine',
     image: require('./images/ingredient/margarine.png'),
   },
@@ -200,8 +204,16 @@ const Ingredients = [
     image: require('./images/ingredient/mix-cube.png'),
   },
   {
+    name: 'mix-liquid',
+    image: require('./images/ingredient/mix-liquid.png'),
+  },
+  {
     name: 'mix-powder',
     image: require('./images/ingredient/mix-powder.png'),
+  },
+  {
+    name: 'mix-sachet',
+    image: require('./images/ingredient/mix-sachet.png'),
   },
   {
     name: 'mushroom',
@@ -218,6 +230,10 @@ const Ingredients = [
   {
     name: 'okra',
     image: require('./images/ingredient/okra.png'),
+  },
+  {
+    name: 'olive',
+    image: require('./images/ingredient/olive.png'),
   },
   {
     name: 'onion',
@@ -366,6 +382,10 @@ const Ingredients = [
   {
     name: 'vanilla',
     image: require('./images/ingredient/vanilla.png'),
+  },
+  {
+    name: 'vegetable-oil',
+    image: require('./images/ingredient/vegetable-oil.png'),
   },
   {
     name: 'vinegar',
