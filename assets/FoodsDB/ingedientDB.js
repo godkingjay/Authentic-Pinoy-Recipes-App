@@ -244,6 +244,10 @@ const Ingredients = [
     image: require('./images/ingredient/lumpia-wrapper.png'),
   },
   {
+    name: 'lye-water',
+    image: require('./images/ingredient/lye-water.png'),
+  },
+  {
     name: 'mango',
     image: require('./images/ingredient/mango.png'),
   },

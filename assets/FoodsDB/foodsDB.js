@@ -4244,7 +4244,7 @@ const PinoyFoods = [
           amount: `1/2 Teaspoon`,
           tagalog: null,
           type: null,
-          image: `mix-liquid`,
+          image: `lye-water`,
         },
         {
           name: `Buko-Pandan Essence`,
@@ -7032,6 +7032,87 @@ const PinoyFoods = [
     video: `https://youtu.be/_9weQMu2Kvo`,
     image: require('./images/food/000000064.jpg'),
   },
+  {
+    id: 65,
+    name: 'Kutsinta',
+    tagalog: `Kutsinta`,
+    type: [
+      `Cake`,
+      `Snack`
+    ],
+    description: `Kutsinta or kuchinta or even brown rice cake is a type of “kakanin” that uses lye water as an ingredient. Kutsinta is somewhat sticky yet chewey (thats what lye water does) at the same time and is best eaten with grated coconut on top.`,
+    link: `https://panlasangpinoy.com/filipino-food-kakanin-cuchinta-kutsinta-recipe/`,
+    author: `Vanjo Merano`,
+    information: null,
+    recipe: {
+      details: {
+        description: null,
+        time: {
+          prep: `20 Minutes`,
+          cook: `1 Hour`,
+          total: `1 Hour 20 Minutes`,
+        },
+        servings: `6 People`,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: `Rice Flour`,
+          amount: `1 1/2 Cups`,
+          tagalog: null,
+          type: null,
+          image: `rice-flour`,
+        },
+        {
+          name: `All-Purpose Flour`,
+          amount: `1/2 Cup`,
+          tagalog: null,
+          type: null,
+          image: `flour`,
+        },
+        {
+          name: `Brown Sugar`,
+          amount: `1 Cup`,
+          tagalog: `Asukal`,
+          type: null,
+          image: `sugar`,
+        },
+        {
+          name: `Water`,
+          amount: `3 Cups`,
+          tagalog: `Tubig`,
+          type: null,
+          image: `water`,
+        },
+        {
+          name: `Lye Water`,
+          amount: `1 1/2 Teaspoons`,
+          tagalog: null,
+          type: null,
+          image: `lye-water`,
+        },
+        {
+          name: `Annatto Seeds`,
+          amount: `2 Teaspoons`,
+          tagalog: null,
+          type: null,
+          image: `annatto-seed`,
+        },
+      ],
+      instructions: [
+        `In a mixing bowl, combine all the dry ingredients starting from the rice flour, all-purpose flour, and brown sugar then mix all the ingredients.`,
+        `While mixing, add water gradually and continue to mix until all ingredients are completely distributed.`,
+        `Add lye water and anatto water (soak the anatto seed in 3 tbsp water) then continue mixing.`,
+        `Place the mixture into individual molds and steam for 40 minutes to an hour.`,
+        `Serve with grated or shredder coconut on top. Share and Enjoy!`,
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '6g' },
+      ],
+    },
+    video: `https://youtu.be/jLtfJxVQn5I`,
+    image: require('./images/food/000000065.jpg'),
+  },
 ];
 
 
@@ -7171,6 +7252,7 @@ List:
 62.   Buko Pie
 63.   Sapin-Sapin
 64.   Bopis
+65.   Kutsinta
 
 **************************************************************************************************************/
 
