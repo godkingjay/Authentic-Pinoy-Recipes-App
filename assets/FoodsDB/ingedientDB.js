@@ -16,6 +16,10 @@ const Ingredients = [
     image: require('./images/ingredient/annatto-seed.png'),
   },
   {
+    name: 'avocado',
+    image: require('./images/ingredient/avocado.png'),
+  },
+  {
     name: 'baking-powder',
     image: require('./images/ingredient/baking-powder.png'),
   },
@@ -114,6 +118,10 @@ const Ingredients = [
   {
     name: 'eggplant',
     image: require('./images/ingredient/eggplant.png'),
+  },
+  {
+    name: 'fish',
+    image: require('./images/ingredient/fish.png'),
   },
   {
     name: 'fish-sauce',
@@ -248,6 +256,10 @@ const Ingredients = [
     image: require('./images/ingredient/papaya.png'),
   },
   {
+    name: 'paprika',
+    image: require('./images/ingredient/paprika.png'),
+  },
+  {
     name: 'peanut',
     image: require('./images/ingredient/peanut.png'),
   },
@@ -310,6 +322,10 @@ const Ingredients = [
   {
     name: 'sago',
     image: require('./images/ingredient/sago.png'),
+  },
+  {
+    name: 'salmon',
+    image: require('./images/ingredient/salmon.png'),
   },
   {
     name: 'salt',
@@ -394,6 +410,10 @@ const Ingredients = [
   {
     name: 'water',
     image: require('./images/ingredient/water.png'),
+  },
+  {
+    name: 'wine',
+    image: require('./images/ingredient/wine.png'),
   },
   {
     name: 'yam',
