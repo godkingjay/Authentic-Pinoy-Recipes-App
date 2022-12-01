@@ -1,5 +1,9 @@
 const Ingredients = [
   {
+    name: 'almond',
+    image: require('./images/ingredient/almond.png'),
+  },
+  {
     name: 'ampalaya',
     image: require('./images/ingredient/ampalaya.png'),
   },
@@ -38,6 +42,10 @@ const Ingredients = [
   {
     name: 'black-pepper',
     image: require('./images/ingredient/black-pepper.png'),
+  },
+  {
+    name: 'blood',
+    image: require('./images/ingredient/blood.png'),
   },
   {
     name: 'bone-marrow',
@@ -156,6 +164,10 @@ const Ingredients = [
     image: require('./images/ingredient/green-chili.png'),
   },
   {
+    name: 'hotdog',
+    image: require('./images/ingredient/hotdog.png'),
+  },
+  {
     name: 'ice-cream',
     image: require('./images/ingredient/ice-cream.png'),
   },
@@ -166,6 +178,14 @@ const Ingredients = [
   {
     name: 'jackfruit',
     image: require('./images/ingredient/jackfruit.png'),
+  },
+  {
+    name: 'juice-lemon',
+    image: require('./images/ingredient/juice-lemon.png'),
+  },
+  {
+    name: 'juice-lime',
+    image: require('./images/ingredient/juice-lime.png'),
   },
   {
     name: 'juice-pineapple',
