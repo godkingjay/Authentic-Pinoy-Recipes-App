@@ -120,6 +120,10 @@ const Ingredients = [
     image: require('./images/ingredient/cucumber.png'),
   },
   {
+    name: 'cumin',
+    image: require('./images/ingredient/cumin.png'),
+  },
+  {
     name: 'egg',
     image: require('./images/ingredient/egg.png'),
   },
@@ -148,6 +152,10 @@ const Ingredients = [
     image: require('./images/ingredient/garlic.png'),
   },
   {
+    name: 'gelatin',
+    image: require('./images/ingredient/gelatin.png'),
+  },
+  {
     name: 'ginger',
     image: require('./images/ingredient/ginger.png'),
   },
@@ -166,6 +174,10 @@ const Ingredients = [
   {
     name: 'hotdog',
     image: require('./images/ingredient/hotdog.png'),
+  },
+  {
+    name: 'ice',
+    image: require('./images/ingredient/ice.png'),
   },
   {
     name: 'ice-cream',
@@ -214,6 +226,10 @@ const Ingredients = [
   {
     name: 'lumpia-wrapper',
     image: require('./images/ingredient/lumpia-wrapper.png'),
+  },
+  {
+    name: 'mango',
+    image: require('./images/ingredient/mango.png'),
   },
   {
     name: 'margarine',
@@ -410,6 +426,10 @@ const Ingredients = [
   {
     name: 'tuna',
     image: require('./images/ingredient/tuna.png'),
+  },
+  {
+    name: 'turmeric',
+    image: require('./images/ingredient/turmeric.png'),
   },
   {
     name: 'ube',
