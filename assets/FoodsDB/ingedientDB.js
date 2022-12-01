@@ -220,6 +220,10 @@ const Ingredients = [
     image: require('./images/ingredient/lemon.png'),
   },
   {
+    name: 'liquor',
+    image: require('./images/ingredient/liquor.png'),
+  },
+  {
     name: 'liver',
     image: require('./images/ingredient/liver.png'),
   },
@@ -246,6 +250,10 @@ const Ingredients = [
   {
     name: 'milk-can',
     image: require('./images/ingredient/milk-can.png'),
+  },
+  {
+    name: 'mix-can',
+    image: require('./images/ingredient/mix-can.png'),
   },
   {
     name: 'mix-cube',
@@ -294,6 +302,10 @@ const Ingredients = [
   {
     name: 'oxtail',
     image: require('./images/ingredient/oxtail.png'),
+  },
+  {
+    name: 'oyster-sauce',
+    image: require('./images/ingredient/oyster-sauce.png'),
   },
   {
     name: 'papaya',
@@ -434,6 +446,10 @@ const Ingredients = [
   {
     name: 'sweet-potato',
     image: require('./images/ingredient/sweet-potato.png'),
+  },
+  {
+    name: 'taro-gabi',
+    image: require('./images/ingredient/taro-gabi.png'),
   },
   {
     name: 'tofu',

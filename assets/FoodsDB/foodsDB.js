@@ -147,7 +147,7 @@ const PinoyFoods = [
           amount: '1 Tablespoon',
           tagalog: null,
           type: 'Optional',
-          image: 'sauce'
+          image: 'oyster-sauce'
         },
         {
           name: 'Soy Sauce',
@@ -463,7 +463,7 @@ const PinoyFoods = [
           amount: '2 Tablespoons',
           tagalog: null,
           type: 'Sauce Ingredient',
-          image: 'sauce-fish'
+          image: 'fish-sauce'
         },
         {
           name: 'Ground Black Pepper',
