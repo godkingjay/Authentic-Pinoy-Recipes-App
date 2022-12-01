@@ -11,6 +11,13 @@ import tableStyles from "../styles/tableStyles";
 import FoodIngredient from "./foodIngredient";
 import FoodRecipeDetails from "./foodRecipeDetails";
 
+function compareStrings(a, b) {
+  a = a.toLowerCase();
+  b = b.toLowerCase();
+
+  return (a < b) ? -1 : (a > b) ? 1 : 0;
+}
+
 export default function FoodRecipe({ recipe }) {
   const [ingredients, setIngredients] = useState([]);
 

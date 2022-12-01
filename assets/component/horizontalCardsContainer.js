@@ -4,14 +4,14 @@ import { useState } from "react";
 import { StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { Text, View } from "react-native";
-import { categoryFoods } from "../controller/query";
+import { discoverFoods } from "../controller/query";
 import HorizontalCard from "./horizontalCards";
 
 export default function HorizontalCardsContainer({ navigation, route, foodCategory }) {
 
   const [foods, setFoods] = useState([]);
   useEffect(() => {
-    categoryFoods(foodCategory.name)
+    discoverFoods(foodCategory.name)
       .then(data => {
         setFoods(data);
       })

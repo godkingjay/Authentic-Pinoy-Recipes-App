@@ -825,7 +825,8 @@ const PinoyFoods = [
     name: "Sisig",
     tagalog: "Sisig",
     type: [
-      "Pork Dish"
+      "Pork Dish",
+      "Meat Dish"
     ],
     description: `Sisig refers to a finely chopped pork dish of Filipino origin. This recipe uses pork belly and maskara (pig face). It is popular in the Philippines and is now gaining popularity worldwide. It can be consumed as an appetizer and a main dish.`,
     link: 'https://panlasangpinoy.com/sisig-recipe-knr-kls/',
@@ -996,7 +997,8 @@ const PinoyFoods = [
     tagalog: `Adobong Manok`,
     type: [
       "Stew",
-      "Chicken Dish"
+      "Chicken Dish",
+      "Meat Dish"
     ],
     description: `Chicken Adobo is a type of Filipino chicken stew. Chicken pieces are marinated in soy sauce and spices, pan-fried, and stewed until tender. The dish gained popularity because of its delicious taste and ease in preparation.
     
@@ -1650,7 +1652,7 @@ const PinoyFoods = [
       `Snack`,
       `Side Dish`,
       `Deep-Fried Dish`,
-      `Street Food`
+      `Street Food`,
     ],
     description: `Lumpia or Lumpiang Shanghai is a Filipino egg roll dish. The filling or meat mixture is mainly composed of ground pork, minced carrots, and minced onion. Spices and seasonings are added into the mixture. It is then wrapped and rolled individually in thin flour sheets known as lumpia wrappers.
     
@@ -1818,7 +1820,8 @@ const PinoyFoods = [
     tagalog: `Kalderetang Baboy`,
     type: [
       `Stew`,
-      `Meat Dish`
+      `Meat Dish`,
+      `Pork Dish`
     ],
     description: `Pork Caldereta is a Filipino tomato based stew. It is composed of cubed pork , potato, carrots, tomato sauce,and  liver spread. There are also regions in the Philippines that makes use of peanut butter.
     
@@ -2974,7 +2977,8 @@ const PinoyFoods = [
     tagalog: `Crispy Pata`,
     type: [
       `Pork Dish`,
-      `Deef-Fried Dish`
+      `Deef-Fried Dish`,
+      `Meat Dish`
     ],
     description: `Crispy Pata or crispy pork leg is a popular Filipino pork dish. This dish can be eaten as a main dish along with rice and atcharang papaya. People also consume it as beer food or pulutan. It is best when dipped in a spicy vinegar mixture.`,
     link: `https://panlasangpinoy.com/crispy-pata/`,
@@ -4413,7 +4417,7 @@ const PinoyFoods = [
     type: [
       `Cake`,
       `Street Food`,
-      `Breakfast`
+      `Breakfast`,
     ],
     description: `In its simplest form, bibingka is a simple Filipino cake that consists of rice flour and water. It was initially prepared in clay pots that were lined with banana leaves, which would impart a distinctive, smoky flavor to the dish. Bibinka is believed to have appeared under the foreign culinary influence, and the first written reference describing a similar cake dates back to 1751.
 
@@ -4583,7 +4587,8 @@ const PinoyFoods = [
     tagalog: `Daing na Bangus`,
     type: [
       `Fish Dish`,
-      `Side Dish`
+      `Side Dish`,
+      `Seafood Dish`
     ],
     description: `Daing is a Filipino term which refers to a vast category of marinated or salted sun-dried fish. Depending on the region and the technique, daing can be produced with various types of fish that may differ in texture and moisture levels. Marinated or dried fish is used in numerous Filipino dishes as an ingredient, side dish, topping, or a condiment which gives flavor to various stewed or stir-fried dishes.
 
@@ -4882,7 +4887,8 @@ const PinoyFoods = [
     type: [
       `Offal Dish`,
       `Stew`,
-      `Main Course`
+      `Main Course`,
+      `Pork Dish`
     ],
     description: `Dinuguan is the Filipino version of blood stew. Pork slices are sautéed in onion and garlic and cooked with pork blood. Sometimes, pork innards such as the small and large intestines along with other internal parts of the pig are added.`,
     link: `https://panlasangpinoy.com/dinuguan-blood-stew/`,
@@ -5600,7 +5606,8 @@ const PinoyFoods = [
     tagalog: `Kinilaw na Tuna`,
     type: [
       `Fish Dish`,
-      `Appetizer`
+      `Appetizer`,
+      `Seafood Dish`
     ],
     description: `Kinilaw na Tuna or raw fish salad is an appetizer dish that is usually consumed as “pulutan”; it is best served along with cold beer. This recipe does not involve any manual cooking but the tuna meat is semi-cooked once served. This is made possible by the acids in the vinegar (acetic acid) and calamansi or lemon juice (citric acid). These mild acids slowly cook the fish meat when soaked for a few hours.`,
     link: `https://panlasangpinoy.com/kinilaw-kilawin-na-tuna/`,
@@ -6124,7 +6131,9 @@ const PinoyFoods = [
     name: `Batchoy`,
     tagalog: `Batchoy`,
     type: [
-      `Soup`
+      `Soup`,
+      `Pork Dish`,
+      `Meat Dish`
     ],
     description: `Batchoy is a soup dish composed of sliced pork, pig’s innards, and miki noodles.This dish originated from the district of La Paz in Iloilo City — in the island of Panay. Throughout the years, batchoy gained popularity and has been a favorite soup dish along with beef mami, beef pares, and bulalo. The miki noodles used in this recipe refers to fresh egg noodles. This type of noodle is often used in soup dishes. Since the noodles are fresh, it requires minimal cooking time. Sometimes, pouring hot broth over the noodles is enough to cook it.`,
     link: `https://panlasangpinoy.com/batchoy/`,
@@ -6260,7 +6269,7 @@ const PinoyFoods = [
     type: [
       `Snack`,
       `Street Food`,
-      `Deep-Fried Fish`
+      `Deep-Fried Dish`
     ],
     description: `Kwek Kwek or Orange eggs are boiled quailed eggs coated with an orange batter and deep-fried until the batter is crispy. This is categorized as a street food and are sold along with fish balls, squid balls, and chicken balls.`,
     link: `https://panlasangpinoy.com/pinoy-street-food-orange-egg-tokneneng-qwek-kwek-kwek-recipe/`,
@@ -6818,7 +6827,8 @@ const PinoyFoods = [
     tagalog: `Bopis`,
     type: [
       `Stew`,
-      `Offal Dish`
+      `Offal Dish`,
+      `Pork Dish`
     ],
     description: `Bopis is a spicy Filipino dish made from minced pig’s lungs and heart. This can be served as an appetizer for beer and alcoholic beverages; it is also considered as a main dish and is best served with steamed white rice.
     

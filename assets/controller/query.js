@@ -14,6 +14,11 @@ export async function categoryFoods(category = "Main Course") {
   return result;
 }
 
+export async function discoverFoods(category = "Main Course") {
+  let result = PinoyFoods.filter(({ type }) => type.find((str) => str == category));
+  return result;
+}
+
 export async function favoriteFoods(){
   let foods = [];
   for(let i = 0; i < FavFood.length; i++) {
