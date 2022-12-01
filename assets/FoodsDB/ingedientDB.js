@@ -128,6 +128,10 @@ const Ingredients = [
     image: require('./images/ingredient/cumin.png'),
   },
   {
+    name: 'dye',
+    image: require('./images/ingredient/dye.png'),
+  },
+  {
     name: 'egg',
     image: require('./images/ingredient/egg.png'),
   },
@@ -150,6 +154,10 @@ const Ingredients = [
   {
     name: 'flower',
     image: require('./images/ingredient/flower.png'),
+  },
+  {
+    name: 'food-color',
+    image: require('./images/ingredient/food-color.png'),
   },
   {
     name: 'garlic',
@@ -494,6 +502,10 @@ const Ingredients = [
   {
     name: 'wine',
     image: require('./images/ingredient/wine.png'),
+  },
+  {
+    name: 'wrapper',
+    image: require('./images/ingredient/wrapper.png'),
   },
   {
     name: 'yam',
