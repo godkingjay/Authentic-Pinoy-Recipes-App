@@ -52,6 +52,10 @@ const Ingredients = [
     image: require('./images/ingredient/bone-marrow.png'),
   },
   {
+    name: 'broth',
+    image: require('./images/ingredient/broth.png'),
+  },
+  {
     name: 'butter',
     image: require('./images/ingredient/butter.png'),
   },
@@ -280,6 +284,10 @@ const Ingredients = [
     image: require('./images/ingredient/olive.png'),
   },
   {
+    name: 'olive-oil',
+    image: require('./images/ingredient/olive-oil.png'),
+  },
+  {
     name: 'onion',
     image: require('./images/ingredient/onion.png'),
   },
@@ -296,12 +304,20 @@ const Ingredients = [
     image: require('./images/ingredient/paprika.png'),
   },
   {
+    name: 'parsley',
+    image: require('./images/ingredient/parsley.png'),
+  },
+  {
     name: 'peanut',
     image: require('./images/ingredient/peanut.png'),
   },
   {
     name: 'peanut-butter',
     image: require('./images/ingredient/peanut-butter.png'),
+  },
+  {
+    name: 'peas',
+    image: require('./images/ingredient/peas.png'),
   },
   {
     name: 'pechay',
@@ -374,6 +390,14 @@ const Ingredients = [
   {
     name: 'scallion',
     image: require('./images/ingredient/scallion.png'),
+  },
+  {
+    name: 'seafood',
+    image: require('./images/ingredient/seafood.png'),
+  },
+  {
+    name: 'sesame-oil',
+    image: require('./images/ingredient/sesame-oil.png'),
   },
   {
     name: 'sesame-seed',
