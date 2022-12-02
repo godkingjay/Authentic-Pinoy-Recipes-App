@@ -20,8 +20,17 @@ function compareStrings(a, b) {
 function findMatches(wordToMatch, PinoyFoods) {
   return PinoyFoods.filter(food => {
     const regex = new RegExp(wordToMatch, 'gi');
-    return food.name.match(regex) || food.tagalog.match(regex);
+    return food.name.match(regex) || food.tagalog.match(regex) || matchType(wordToMatch, food.type);
   });
+}
+
+function matchType(wordToMatch, type){
+  const regex = new RegExp(wordToMatch, 'gi');
+  for(let i = 0; i < type.length; i++) {
+    if(type[i].match(regex)){
+      return true;
+    }
+  }
 }
 
 export default function Search({ navigation, route }) {
