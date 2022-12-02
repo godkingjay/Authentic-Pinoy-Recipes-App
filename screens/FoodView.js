@@ -39,7 +39,7 @@ export default function FoodView({ navigation, route }) {
             </View>
           </View>
           <View style={ styles.divider }></View>
-          <Text style={ styles.foodDescription }>{ (food.description).replace('    ', '') }</Text>
+          <Text style={ styles.foodDescription }>{ food.description }</Text>
           {food.information != null ? (
             food.information.map((information, index) => {
               return(
@@ -131,6 +131,16 @@ const styles = StyleSheet.create({
     marginTop: -4,
     color: "#444",
   },
+  foodDescription: {
+    textAlign: "justify",
+    fontSize: 16,
+  },
+  divider: {
+    backgroundColor: "#0002",
+    height: 1,
+    width: "100%",
+    marginVertical: 8,
+  },
   foodButtonsContainer: {
     alignItems: "center",
     justifyContent: "center",
@@ -155,17 +165,6 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     color: "#444",
     fontWeight: 'bold',
-  },
-  divider: {
-    backgroundColor: "#0002",
-    height: 1,
-    width: "100%",
-    marginVertical: 8,
-  },
-  foodDescription: {
-    textAlign: "justify",
-    fontSize: 16,
-    marginVertical: 8
   },
   foodTypesContainer: {
     marginVertical: 0,
