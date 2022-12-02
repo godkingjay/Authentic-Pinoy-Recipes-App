@@ -1504,7 +1504,8 @@ const PinoyFoods = [
     type: [
       `Snack`,
       `Side Dish`,
-      `Deep-Fried Dish`
+      `Deep-Fried Dish`,
+      `Street Food`
     ],
     description: `Lumpia or Lumpiang Shanghai is a type of Filipino egg roll. The basic filling is composed of ground pork along with minced onions, carrots, and seasonings such as salt and ground black pepper. This recipe post is all about how to make basic lumpia. Feel free to use this as a baseline.`,
     link: `https://panlasangpinoy.com/filipino-lumpia-recipe/`,
@@ -6133,7 +6134,8 @@ const PinoyFoods = [
     type: [
       `Soup`,
       `Pork Dish`,
-      `Meat Dish`
+      `Meat Dish`,
+      `Noodle Dish`
     ],
     description: `Batchoy is a soup dish composed of sliced pork, pig’s innards, and miki noodles.This dish originated from the district of La Paz in Iloilo City — in the island of Panay. Throughout the years, batchoy gained popularity and has been a favorite soup dish along with beef mami, beef pares, and bulalo. The miki noodles used in this recipe refers to fresh egg noodles. This type of noodle is often used in soup dishes. Since the noodles are fresh, it requires minimal cooking time. Sometimes, pouring hot broth over the noodles is enough to cook it.`,
     link: `https://panlasangpinoy.com/batchoy/`,

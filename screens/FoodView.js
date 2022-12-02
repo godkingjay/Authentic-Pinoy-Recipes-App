@@ -53,6 +53,7 @@ export default function FoodView({ navigation, route }) {
           <ScrollView
             horizontal={ true }
             style={ styles.foodTypesContainer }
+            showsHorizontalScrollIndicator={ false }
           >
             { food.type.map((type, index) => {
               return(
@@ -157,6 +158,6 @@ const styles = StyleSheet.create({
     marginVertical: 8
   },
   foodTypesContainer: {
-    marginVertical: 4,
+    marginVertical: 0,
   },
 });

@@ -51,6 +51,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
         keyExtractor={ discover.id }
         data={ discover }
         horizontal={ true }
+        showsHorizontalScrollIndicator={ false }
         renderItem={({ item, index }) => (
           <HorizontalCard navigation={ navigation } route={ route } food={ item } />
         )}
@@ -62,7 +63,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 const styles = StyleSheet.create({
   cardsContainer: {
     paddingHorizontal: 8,
-    marginVertical: 4
+    marginVertical: 2
   },
   cards: {
     paddingBottom: 4,
