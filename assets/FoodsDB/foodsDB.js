@@ -7113,6 +7113,141 @@ const PinoyFoods = [
     video: `https://youtu.be/jLtfJxVQn5I`,
     image: require('./images/food/000000065.jpg'),
   },
+  {
+    id: 66,
+    name: `Beef Picadillo`,
+    tagalog: `Giniling na Baka`,
+    type: [
+      `Meat Dish`,
+      `Beef Dish`
+    ],
+    description: `Picadillo is a spicy dish consisting of ground meat, tomatoes, and onions in its basic version. It is popular throughout Latin America, Spain, and the Philippines, where it is known as giniling. The dish is usually served with a side of rice or tortillas, although it is used just as often as a filling for numerous wraps and tacos.
+
+    In Cuba, the cooks like to add raisins for sweetness and olives for salt, in the Philippines, potatoes are often added to the dish, while the Mexican version incorporates additional lime juice, honey, or chili peppers. The name of the dish is derived from the Spanish word picar, meaning to chop or mince, referring to picadillo's key ingredient, ground meat.`,
+    link: `https://panlasangpinoy.com/picadillo-recipe/`,
+    author: `Vanjo Merano`,
+    information: null,
+    recipe: {
+      details: {
+        description: `This is a recipe for Picadillo.`,
+        time: {
+          prep: `10 Minutes`,
+          cook: `40 Minutes`,
+          total: `50 Minutes`,
+        },
+        servings: `4 People`,
+        calories: null,
+      },
+      ingredients: [
+        {
+          name: `Ground Beef`,
+          amount: `1 1/2 lbs.`,
+          tagalog: `Giniling na Baka`,
+          type: null,
+          image: `beef`,
+        },
+        {
+          name: `Yellow Onion`,
+          amount: `1 Medium`,
+          tagalog: null,
+          type: `Minced`,
+          image: `onion`,
+        },
+        {
+          name: `Garlic`,
+          amount: `4 Cloves`,
+          tagalog: `Bawang`,
+          type: `Minced`,
+          image: `garlic`,
+        },
+        {
+          name: `Olive Oil`,
+          amount: `3 to 4 Tablespoons`,
+          tagalog: null,
+          type: null,
+          image: `olive-oil`,
+        },
+        {
+          name: `Diced Tomato`,
+          amount: `1 14.5 Ox. Can`,
+          tagalog: null,
+          type: null,
+          image: `tomato`,
+        },
+        {
+          name: `Raisins`,
+          amount: `1/2 Cup`,
+          tagalog: null,
+          type: null,
+          image: `raisin`,
+        },
+        {
+          name: `Beef Broth`,
+          amount: `1 Cup`,
+          tagalog: null,
+          type: null,
+          image: `broth`,
+        },
+        {
+          name: `Manzanilla Olives`,
+          amount: `3/4 Cup`,
+          tagalog: null,
+          type: null,
+          image: `olive`,
+        },
+        {
+          name: `Baking Potato`,
+          amount: `1 Medium`,
+          tagalog: `Patatas`,
+          type: `Cubed`,
+          image: `potato`,
+        },
+        {
+          name: `Carrots`,
+          amount: `2 Medium`,
+          tagalog: `Karot`,
+          type: `Cubed`,
+          image: `carrot`,
+        },
+        {
+          name: `Frozen Green Peas`,
+          amount: `3/4 Cup`,
+          tagalog: null,
+          type: null,
+          image: `peas`,
+        },
+        {
+          name: `Salt`,
+          amount: `Depends on taste`,
+          tagalog: `Asin`,
+          type: null,
+          image: `salt`,
+        },
+        {
+          name: `Pepper`,
+          amount: `Depends on taste`,
+          tagalog: `Paminta`,
+          type: null,
+          image: `peppercorn`,
+        },
+      ],
+      instructions: [
+        `Heat oil in a cooking pot.`,
+        `Saute onion and garlic until the onion becomes soft and translucent.`,
+        `Slowly add the ground beef. Cook until it turns light brown.`,
+        `Add diced tomato, beef broth, and raisins. Stir and let boil. Cover and cook for 15 minutes.`,
+        `Add olives, carrots, potato, and green peas. Stir and cover. Cook for 10 to 12 minutes.`,
+        `Season with crushed black pepper and salt. Cook for 3 minutes more.`,
+        `Transfer to a serving plate. Serve.`,
+        `Share and enjoy!`,
+      ],
+      nutrition: [
+        { name: 'Serving', amount: '4g' },
+      ],
+    },
+    video: `https://youtu.be/9ZZME6Ab7Rs`,
+    image: require(`./images/food/000000066.jpg`),
+  },
 ];
 
 
@@ -7253,6 +7388,7 @@ List:
 63.   Sapin-Sapin
 64.   Bopis
 65.   Kutsinta
+66.   Beef Picadillo
 
 **************************************************************************************************************/
 

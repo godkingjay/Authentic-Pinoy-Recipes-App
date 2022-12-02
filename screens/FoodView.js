@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     elevation: 32,
     flex: 1,
-    paddingBottom: window.height/4,
+    paddingBottom: window.height/12,
   },
   foodHeaderContainer: {
     flexDirection: "row",
