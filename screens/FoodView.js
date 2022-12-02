@@ -39,7 +39,7 @@ export default function FoodView({ navigation, route }) {
             </View>
           </View>
           <View style={ styles.divider }></View>
-          <Text style={ styles.foodDescription }>{ food.description }</Text>
+          <Text style={ styles.foodDescription }>{ (food.description).replace('    ', '') }</Text>
           {food.information != null ? (
             food.information.map((information, index) => {
               return(

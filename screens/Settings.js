@@ -9,7 +9,6 @@ import { Icon } from "react-native-elements";
 import globalStyles from "../assets/styles/globalStyles";
 import AppContext from "../assets/globals/appContext";
 import { Modal } from "react-native";
-import { Alert } from "react-native";
 import { Pressable } from "react-native";
 import window from "../assets/controller/window";
 import modalStyles from "../assets/styles/modalStyles";
@@ -41,7 +40,6 @@ export default function Settings() {
         transparent={ true }
         visible={ clearFavoritesModal }
         onRequestClose={() => {
-          Alert.alert("Modal has been closed.");
           setClearFavoritesModal(!clearFavoritesModal);
         }}
       >
