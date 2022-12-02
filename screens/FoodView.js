@@ -11,6 +11,7 @@ import FoodViewType from "../assets/component/foodViewType";
 import { Icon } from "react-native-elements";
 import FoodRecipe from "../assets/component/foodRecipe";
 import FavoriteButton from "../assets/component/favoriteButton";
+import FoodInformation from "../assets/component/foodInformation";
 
 export default function FoodView({ navigation, route }) {
   const [food, setFood] = useState(route.params);
@@ -39,6 +40,15 @@ export default function FoodView({ navigation, route }) {
           </View>
           <View style={ styles.divider }></View>
           <Text style={ styles.foodDescription }>{ food.description }</Text>
+          {food.information != null ? (
+            food.information.map((information, index) => {
+              return(
+                <FoodInformation key={ index } information={ information }/>
+              );
+            })
+          ) : (
+            null
+          )}
           <View style={ styles.divider }></View>
           <View style={ styles.foodSocials }>
             <View style={ styles.foodSocialLogo }>
