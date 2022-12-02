@@ -41,11 +41,13 @@ export default function FoodView({ navigation, route }) {
           <View style={ styles.divider }></View>
           <Text style={ styles.foodDescription }>{ food.description }</Text>
           {food.information != null ? (
-            food.information.map((information, index) => {
-              return(
-                <FoodInformation key={ index } information={ information }/>
-              );
-            })
+            <View style={ styles.foodInformationWrapper }>
+              {food.information.map((information, index) => {
+                return(
+                  <FoodInformation key={ index } information={ information }/>
+                );
+              })}
+            </View>
           ) : (
             null
           )}
@@ -140,6 +142,9 @@ const styles = StyleSheet.create({
     height: 1,
     width: "100%",
     marginVertical: 8,
+  },
+  foodInformationWrapper: {
+    marginTop: 12
   },
   foodButtonsContainer: {
     alignItems: "center",
