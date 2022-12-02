@@ -5,6 +5,7 @@ import { StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { Text, View } from "react-native";
 import { discoverFoods } from "../controller/query";
+import DiscoverSeeAll from "./discoverSeeAll";
 import HorizontalCard from "./horizontalCards";
 
 function shuffle(array) {
@@ -40,13 +41,17 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 
   return(
     <View style = { styles.cardsContainer }>
-      <Text style = { styles.foodCategoryName }>{ (foodCategory.name).toUpperCase() }</Text>
+      <View style={ styles.cardsLabelContainer }>
+        <Text style = { styles.foodCategoryName }>{ (foodCategory.name).toUpperCase() }</Text>
+        <DiscoverSeeAll navigation={ navigation } route={ route } foodType={ foodCategory.name }/>
+      </View>
+      <View style={ styles.divider }></View>
       <FlatList
         style = { styles.cards }
         keyExtractor={ discover.id }
         data={ discover }
         horizontal={ true }
-        renderItem={({ item }) => (
+        renderItem={({ item, index }) => (
           <HorizontalCard navigation={ navigation } route={ route } food={ item } />
         )}
       />
@@ -57,14 +62,27 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 const styles = StyleSheet.create({
   cardsContainer: {
     paddingHorizontal: 8,
-    marginVertical: 8
+    marginVertical: 4
   },
   cards: {
     paddingBottom: 4,
   },
+  cardsLabelContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
   foodCategoryName: {
     fontWeight: 'bold',
     fontSize: 16,
-    color: '#222'
-  }
+    color: '#222',
+    flex: 1,
+  },
+  divider: {
+    height: 1,
+    width: '100%',
+    backgroundColor: '#2221',
+    marginTop: 6,
+    marginBottom: 4,
+  },
 });
