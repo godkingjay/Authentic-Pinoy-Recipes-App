@@ -7252,7 +7252,8 @@ name: `Espasol`,
 tagalog: `Espasol`,
 type: [
 `Dessert`,
-`Sweets`
+`Sweets`,
+`Snack`,
 ],
 description: `Espasol is a soft, chewy Filipino rice cake prepared with a combination of toasted glutinous rice flour and grated green coconut that is slowly cooked in coconut milk. The mixture turns into soft, pliable dough that is shaped into long cylinders or triangles before each cake is coated in rice flour.
 
@@ -7349,6 +7350,85 @@ nutrition: [
 },
 video: `https://youtu.be/uZCfv5ZpWao`,
 image: require('./images/food/000000067.jpg'),
+},
+{
+id: 68,
+name: `Palitaw`,
+tagalog: `Palitaw`,
+type: [
+`Desset`,
+`Snack`
+],
+description: `Palitaw is a popular Filipino boiled rice cake. These rice cakes were traditionally prepared with pounded rice, but today there are mainly made with a combination of glutinous rice flour and water. Characterized by their round and flat shape, they are boiled in water, then rolled in grated coconut and sweetened sesame seeds.
+
+The name is derived from the Filipino word litaw, which means to float, referring to the preparation method in which the cakes are boiled until they start floating on the surface. Just like other rice cakes in the Philippines, palitaw is enjoyed as a dessert, but it also makes for a satisfying afternoon treat.`,
+link: `https://panlasangpinoy.com/flat-rice-cake-palitaw-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `15 Minutes`,
+total: `25 Minutes`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Glutinous Rice Flour`,
+amount: `2 Cups`,
+tagalog: null,
+type: null,
+image: `rice-flour`,
+},
+{
+name: `Granulated Sugar`,
+amount: `1/2 Cup`,
+tagalog: `Asukal`,
+type: null,
+image: `sugar`,
+},
+{
+name: `Water`,
+amount: `1 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Sesame Seeds`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Roasted`,
+image: `sesame-seed`,
+},
+{
+name: `Grated Coconut`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `coconut`,
+},
+],
+instructions: [
+`Combine glutinous rice flour with water and mix until a dough is formed.`,
+`Scoop about 2 tablespoons of dough then mold it into a ball-shaped figure.`,
+`Flatten the ball-shaped dough using the palm of your hands.`,
+`Boil water in a cooking pot then put-in the flattened dough.`,
+`When the flattened dough starts to float, remove them from the pot and set it aside allowing water to drip.`,
+`Combine sugar and roasted sesame seeds then mix well.`,
+`Roll the rice cake in grated coconut then in the sugar-sesame seed mixture.`,
+`Arrange in a serving plate then serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: `https://youtu.be/WviYhlA3R00`,
+image: require('./images/food/000000068.jpg'),
 },
 ];
 
@@ -7491,6 +7571,7 @@ List:
 65. Kutsinta
 66. Beef Picadillo
 67. Espasol
+68. Palitaw
 
 **************************************************************************************************************/
 
