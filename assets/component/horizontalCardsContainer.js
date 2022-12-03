@@ -56,6 +56,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
           <HorizontalCard navigation={ navigation } route={ route } food={ item } />
         )}
       />
+      <View style={ styles.divider }></View>
     </View>
   );
 }
