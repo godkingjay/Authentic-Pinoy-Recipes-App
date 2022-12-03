@@ -7246,6 +7246,109 @@ nutrition: [
 video: `https://youtu.be/9ZZME6Ab7Rs`,
 image: require(`./images/food/000000066.jpg`),
 },
+{
+id: 67,
+name: `Espasol`,
+tagalog: `Espasol`,
+type: [
+
+],
+description: `Espasol is a soft, chewy Filipino rice cake prepared with a combination of toasted glutinous rice flour and grated green coconut that is slowly cooked in coconut milk. The mixture turns into soft, pliable dough that is shaped into long cylinders or triangles before each cake is coated in rice flour.
+
+Espasol is associated with the Laguna region, where it is a hailed as a local specialty that is usually bought at various restaurants, stores, and street stalls.`,
+link: `https://panlasangpinoy.com/espasol/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How to toast the rice flour`,
+content: `1. Place a pan large enough to accommodate the rice flour on top of a stove and apply low heat.
+
+2. Put the rice flour in the pan and allow to toast while continuously mixing until the color turns light brown.
+
+3. Remove the toasted rice flour from the pan and transfer to a bowl or large container.`,
+},
+{
+title: `How to toast the grated coconut`,
+content: `1. Place a pan on top of a stove and apply low heat.
+
+2. Put the grated coconut in the pan and allow to toast while continuously mixing until the color turns light brown.
+
+3. Remove the toasted grated coconut from the pan and transfer to a bowl.`,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `50 Minutes`,
+total: `1 Hour`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Glutinous Rice Flour`,
+amount: `3 Cups`,
+tagalog: null,
+type: `Toasted`,
+image: `rice-flour`,
+},
+{
+name: `Sweet Rice Flour`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Toasted`,
+image: `rice-flour`,
+},
+{
+name: `Sugar`,
+amount: `2 Cups`,
+tagalog: null,
+type: null,
+image: `sugar`,
+},
+{
+name: `Coconut Milk`,
+amount: `3 Cups`,
+tagalog: null,
+type: null,
+image: `coconut-milk`,
+},
+{
+name: `Grated Coconut`,
+amount: `1 1/2 Cups`,
+tagalog: null,
+type: `Toasted`,
+image: `coconut`,
+},
+{
+name: `Vanilla Essence`,
+amount: `1 Teaspoon`,
+tagalog: null,
+type: null,
+image: `vanilla`,
+},
+],
+instructions: [
+`In a cooking pot, pour-in the coconut milk and bring to a boil.`,
+`Add the sugar and stir continuously for 10 minutes.`,
+`Put-in the toasted grated coconut and cook for 5 minutes.`,
+`Add the vanilla essence and toasted rice flour and cook for 40 minutes to 1 hour or until the mixture becomes really thick while folding.`,
+`Remove the mixture from the pot and allow to cool down.`,
+`Dust the toasted sweet rice flour in a flat surface.`,
+`Divide the mixture into parts and roll over the dusted sweet rice flour until a cylindrical shape is formed.`,
+`Slice according to your preference.`,
+`Put in a serving plate or wrap in paper or banana leaf. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: `https://youtu.be/uZCfv5ZpWao`,
+image: require('./images/food/000000067.jpg'),
+},
 ];
 
 
@@ -7386,6 +7489,7 @@ List:
 64. Bopis
 65. Kutsinta
 66. Beef Picadillo
+67. Espasol
 
 **************************************************************************************************************/
 
