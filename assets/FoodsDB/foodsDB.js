@@ -7251,7 +7251,8 @@ id: 67,
 name: `Espasol`,
 tagalog: `Espasol`,
 type: [
-
+`Dessert`,
+`Sweets`
 ],
 description: `Espasol is a soft, chewy Filipino rice cake prepared with a combination of toasted glutinous rice flour and grated green coconut that is slowly cooked in coconut milk. The mixture turns into soft, pliable dough that is shaped into long cylinders or triangles before each cake is coated in rice flour.
 
