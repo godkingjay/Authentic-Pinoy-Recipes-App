@@ -42,7 +42,6 @@ const styles = StyleSheet.create({
     maxHeight: 96,
     borderRadius: 8,
     overflow: 'hidden',
-    elevation: 4,
   },
   cardImage: {
     height: '100%',
