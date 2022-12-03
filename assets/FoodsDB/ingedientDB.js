@@ -440,6 +440,10 @@ const Ingredients = [
     image: require('./images/ingredient/shrimp.png'),
   },
   {
+    name: 'shrimp-paste',
+    image: require('./images/ingredient/shrimp-paste.png'),
+  },
+  {
     name: 'sibot',
     image: require('./images/ingredient/sibot.png'),
   },

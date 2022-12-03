@@ -2088,7 +2088,7 @@ name: `Shrimp Paste`,
 amount: `1/2 Cup`,
 tagalog: null,
 type: null,
-image: `shrimp`,
+image: `shrimp-paste`,
 },
 {
 name: `Water`,
@@ -6203,7 +6203,7 @@ name: `Shrimp Paste`,
 amount: `1 Teaspoon`,
 tagalog: null,
 type: null,
-image: `shrimp`,
+image: `shrimp-paste`,
 },
 {
 name: `Onion Powder`,
@@ -7521,6 +7521,127 @@ nutrition: [
 video: `https://youtu.be/zeWgdElgxtU`,
 image: require('./images/food/000000069.jpg'),
 },
+{
+id: 70,
+name: `Maja Blanca`,
+tagalog: `Maja Blanca`,
+type: [
+`Dessert`,
+`Snack`,
+],
+description: `Light and creamy maja blanca is a popular Filipino dessert which consists of coconut milk thickened with cornstarch and blended with whole corn kernels. Many modern varieties of this classic incorporate condensed or plain milk, cream, or diced cheese and are traditionally garnished with toasted coconut flakes or coconut latik.
+
+As the name suggests, this refreshing delicacy is the authentic Filipino variation of the popular manjar blanco, the creamy milk-based dessert found in numerous Spanish speaking countries. In the Philippines, maja blanca is a staple holiday dessert served on many special occasions.`,
+link: `https://panlasangpinoy.com/maja-blanca-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How to Cook Maja Blanca`,
+content: `Preparing Maja Blanca is quick easy. This Filipino dessert is something that I recommend for aspiring home cooks. All you have to do is basically cook everything in a pot and arrange it in a tray afterwards.
+
+The first thing to do is to boil coconut milk in a pot. Fresh coconut milk is ideal. However, you can always use canned coco milk depending on the availability of ingredients. Simply pour coconut milk in a pot and apply heat. Keep an eye on the pot. Coconut milk has a tendency to splatter before boiling. I recommend to stir it every minute until it completely boils.
+
+Add sugar once the bubbles surface. Stir until well blended. You can add the condensed milk and corn afterwards. Make sure to constantly stir the mixture while cooking. The recipe calls for whole kernel corn. Canned cream style corn can also be utilized.
+
+This desert dish should be thick and smooth. Cornstarch is responsible for its texture and form. Simply dilute it fresh milk or evaporated milk, and then pour into the mixture. Keep on stirring until the mixture thickens and becomes smooth.
+
+Transfer the entire mixture to a tray. Make sure to spread it evenly. Refrigerate for at least 1 hour or until firm. It is best to top it with toasted grated coconut, or with latik.`,
+},
+],
+recipe: {
+details: {
+description: `This is a recipe for Maja Blanca.`,
+time: {
+prep: `8 Minutes`,
+cook: `35 Minutes`,
+total: `43 Minutes`,
+},
+servings: `8 People`,
+calories: `574 kcal`,
+},
+ingredients: [
+{
+name: `Coconut Milk`,
+amount: `4 Cups`,
+tagalog: null,
+type: null,
+image: `coconut-milk`,
+},
+{
+name: `Cornstarch`,
+amount: `3/4 Cup`,
+tagalog: null,
+type: null,
+image: `cornstarch`,
+},
+{
+name: `Condensed Milk`,
+amount: `14 Ounces`,
+tagalog: null,
+type: null,
+image: `milk-can`,
+},
+{
+name: `Fresh Milk`,
+amount: `3/4 Cup`,
+tagalog: null,
+type: null,
+image: `milk`,
+},
+{
+name: `Granulated Sugar`,
+amount: `3/4 Cup`,
+tagalog: `Asukal`,
+type: null,
+image: `sugar`,
+},
+{
+name: `Whole Sweet Kernel Corn`,
+amount: `15 Ounces`,
+tagalog: null,
+type: null,
+image: `corn`,
+},
+{
+name: `Grated Coconut`,
+amount: `5 Tablespoons`,
+tagalog: null,
+type: null,
+image: `coconut`,
+},
+],
+instructions: [
+`Pour the coconut milk in a cooking pot and bring to a boil.`,
+`Add the sugar, condensed milk, and whole sweet kernel corn then stir until all the ingredients are evenly distributed.`,
+`Simmer for 8 minutes.`,
+`Combine the milk and cornstarch then whisk until the cornstarch is diluted`,
+`Pour the fresh milk and cornstarch mixture in the cooking pot and stir thoroughly.`,
+`Allow to cook while stirring until the mixture reaches your desired thickness.`,
+`Pour the mixture in a serving tray then arrange and flatten the top using a flat tool such as a wooden spatula.`,
+`Allow to cool down then refrigerate for at least 1 hour.`,
+`Garnish with toasted grated coconut (or latik if available).`,
+`Serve cold. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '8g' },
+{ name: 'Calories', amount: '574kcal' },
+{ name: 'Carbohydrates', amount: '68g' },
+{ name: 'Protein', amount: '8g' },
+{ name: 'Fat', amount: '31g' },
+{ name: 'Saturated Fat', amount: '26g' },
+{ name: 'Cholesterol', amount: '19mg' },
+{ name: 'Sodium', amount: '175mg' },
+{ name: 'Potassium', amount: '541mg' },
+{ name: 'Sugar', amount: '47g' },
+{ name: 'Vitamin A', amount: '170IU' },
+{ name: 'Vitamin C', amount: '3.3mg' },
+{ name: 'Calcium', amount: '187mg' },
+{ name: 'Iron', amount: '4.1mg' },
+],
+},
+video: `https://youtu.be/vj_ee_6T6ys`,
+image: require('./images/food/000000070.jpg'),
+},
 ];
 
 
@@ -7664,6 +7785,7 @@ List:
 67. Espasol
 68. Palitaw
 69. Bazo de Mercedes
+70. Maja Blanca
 
 **************************************************************************************************************/
 
