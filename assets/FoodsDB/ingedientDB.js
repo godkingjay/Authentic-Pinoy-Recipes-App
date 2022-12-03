@@ -228,6 +228,10 @@ const Ingredients = [
     image: require('./images/ingredient/lemon.png'),
   },
   {
+    name: 'lime',
+    image: require('./images/ingredient/lime.png'),
+  },
+  {
     name: 'liquor',
     image: require('./images/ingredient/liquor.png'),
   },
@@ -462,6 +466,10 @@ const Ingredients = [
   {
     name: 'taro-gabi',
     image: require('./images/ingredient/taro-gabi.png'),
+  },
+  {
+    name: 'tartar',
+    image: require('./images/ingredient/tartar.png'),
   },
   {
     name: 'tofu',

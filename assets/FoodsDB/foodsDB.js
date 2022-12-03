@@ -7430,6 +7430,97 @@ nutrition: [
 video: `https://youtu.be/WviYhlA3R00`,
 image: require('./images/food/000000068.jpg'),
 },
+{
+id: 69,
+name: `Brazo de Mercedes`,
+tagalog: `Brazo de Mercedes`,
+type: [
+`Dessert`,
+],
+description: `Brazo de Mercedes is a traditional rolled cake originating from the Philippines and dating back to Spanish colonial times. The dessert consists of a sheet of fluffy meringue that's filled with custard. The custard ingredients usually include egg yolks, vanilla, condensed milk, and lime or lemon zest, while the meringue is made with egg whites, cream of tartar, and sugar.
+
+The meringue is baked, the custard is spread over the meringue, and the cake is then rolled with the filling rolled inward. Brazo de Mercedes is often served on large serving platters and then sliced into smaller pieces.`,
+link: `https://panlasangpinoy.com/brazo-de-mercedes-cake-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: `This is a recipe for Brazo de Mercedes.`,
+time: {
+prep: `10 Minutes`,
+cook: `30 Minutes`,
+total: `40 Minutes`,
+},
+servings: `6 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Raw Eggs`,
+amount: `10 Large`,
+tagalog: `Itlog`,
+type: `Yolks and whites separated.`,
+image: `egg`,
+},
+{
+name: `Cream of Tartar`,
+amount: `1/2 Teaspoon`,
+tagalog: null,
+type: null,
+image: `tartar`,
+},
+{
+name: `Vanilla Extract`,
+amount: `1/2 Teapoon`,
+tagalog: null,
+type: null,
+image: `vanilla`,
+},
+{
+name: `Granulated Sugar`,
+amount: `3/4 Cup`,
+tagalog: `Asukal`,
+type: null,
+image: `sugar`,
+},
+{
+name: `Confectioners Sugar`,
+amount: `3 Tablespoons`,
+tagalog: null,
+type: null,
+image: `sugar`,
+},
+{
+name: `Condensed Milk`,
+amount: `14 Ounces`,
+tagalog: null,
+type: null,
+image: `milk-can`,
+},
+],
+instructions: [
+`Combine egg whites and cream of tartar then beat using an electric mixer until soft peaks form.`,
+`Make the meringue by gradually adding the granulated sugar while mixing the ingredients. Continue mixing until the texture is semi-firm.`,
+`Preheat the oven to 350 degrees Fahrenheit.`,
+`Place wax paper on top of a cookie sheet or large rectangular baking pan and grease the surface.`,
+`Place the meringue on top of the greased wax paper then spread evenly using a spatula.`,
+`Bake the meringue for 20 to 22 minutes or until the color of the top part turns light to medium brown.`,
+`While the meringue is in the oven, make the filling by combining the egg yolks and condensed milk in a small cooking pot. Apply heat and cook the mixture while continuously stirring until the texture becomes thick.`,
+`Add the vanilla extract to the condensed milk and egg yolk mixture, turn off the heat, and mix thoroughly. Set aside.`,
+`Remove the meringue from the oven and cool down for a few minutes.`,
+`Sprinkle the confectioners sugar on top of the meringue then place wax paper on the top part of the meringue followed by a similar sized baking pan or tray. The meringue should now be in the middle of two baking trays.`,
+`Flip the meringue: the new cookie sheet/baking tray placed on top should now be below. Remove the baking tray and the wax paper (you should now see the opposite side of the baked meringue) then spread the filling (cooked egg yolks, condensed milk, and vanilla extract mixture) over the meringue.`,
+`Roll the meringue. Complete rolling side to side starting at the longest side. Make sure that the layer with filling is rolled inward.`,
+`Transfer to a serving plate then serve.`,
+`Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+],
+},
+video: `https://youtu.be/zeWgdElgxtU`,
+image: require('./images/food/000000069.jpg'),
+},
 ];
 
 
@@ -7572,6 +7663,7 @@ List:
 66. Beef Picadillo
 67. Espasol
 68. Palitaw
+69. Bazo de Mercedes
 
 **************************************************************************************************************/
 
