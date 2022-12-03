@@ -56,9 +56,13 @@ export default function FoodView({ navigation, route }) {
             <View style={ styles.foodSocialLogo }>
               <Icon size={ 24 } color="#444" type="material-icons" name="public" onPress={() => Linking.openURL(food.link)}/>
             </View>
-            <View style={ styles.foodSocialLogo }>
-              <Icon size={ 24 } color="#444" type="ionicon" name="logo-youtube" onPress={() => Linking.openURL(food.video)}/>
-            </View>
+            {food.video != null ? (
+              <View style={ styles.foodSocialLogo }>
+                <Icon size={ 24 } color="#444" type="ionicon" name="logo-youtube" onPress={() => Linking.openURL(food.video)}/>
+              </View>
+            ) : (
+              null
+            )}
           </View>
           <Text style={ styles.foodAuthor }>Recipe By: { food.author }</Text>
           <View style={ styles.divider }></View>
