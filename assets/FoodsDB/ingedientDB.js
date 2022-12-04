@@ -320,6 +320,10 @@ const Ingredients = [
     image: require('./images/ingredient/oxtail.png'),
   },
   {
+    name: 'oyster',
+    image: require('./images/ingredient/oyster.png'),
+  },
+  {
     name: 'oyster-sauce',
     image: require('./images/ingredient/oyster-sauce.png'),
   },
