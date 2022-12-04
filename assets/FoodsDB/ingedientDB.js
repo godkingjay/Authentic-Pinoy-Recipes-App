@@ -460,6 +460,10 @@ const Ingredients = [
     image: require('./images/ingredient/spinach.png'),
   },
   {
+    name: 'squid',
+    image: require('./images/ingredient/squid.png'),
+  },  
+  {
     name: 'sugar',
     image: require('./images/ingredient/sugar.png'),
   },
