@@ -36,6 +36,10 @@ const Ingredients = [
     image: require('./images/ingredient/banana-leaf.png'),
   },
   {
+    name: 'bay-leaf',
+    image: require('./images/ingredient/bay-leaf.png'),
+  },
+  {
     name: 'beef',
     image: require('./images/ingredient/beef.png'),
   },
@@ -74,6 +78,10 @@ const Ingredients = [
   {
     name: 'cassava',
     image: require('./images/ingredient/cassava.png'),
+  },
+  {
+    name: 'cayenne',
+    image: require('./images/ingredient/cayenne.png'),
   },
   {
     name: 'celery',
@@ -118,6 +126,10 @@ const Ingredients = [
   {
     name: 'cornstarch',
     image: require('./images/ingredient/cornstarch.png'),
+  },
+  {
+    name: 'cream',
+    image: require('./images/ingredient/cream.png'),
   },
   {
     name: 'cucumber',
@@ -250,6 +262,10 @@ const Ingredients = [
   {
     name: 'lye-water',
     image: require('./images/ingredient/lye-water.png'),
+  },
+  {
+    name: 'malunggay',
+    image: require('./images/ingredient/malunggay.png'),
   },
   {
     name: 'mango',

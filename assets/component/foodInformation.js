@@ -11,7 +11,7 @@ export default function FoodInformation({ information }){
   return(
     <View style={ styles.informationWrapper }>
       <TouchableOpacity
-        activeOpacity={ 0.75 }
+        activeOpacity={ 0.6 }
         style={ styles.informationContainer }
         onPress={() => isVisible(true)}
       >

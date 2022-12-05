@@ -78,6 +78,20 @@ export default function FoodRecipe({ recipe }) {
         />
       </View>
       <View style={ styles.divider }></View>
+      <View style={ styles.nutritionContainer }>
+        <View style={ [ styles.nutritionWrapper, tableStyles.container, tableStyles.border] }>
+          <Text style={ tableStyles.title }>Nutrition</Text>
+          {recipe.nutrition.map((nutri, index) => {
+            return(
+              <View key={ index } style={ tableStyles.twoColumns }>
+                <Text style={ tableStyles.leftColumn }>{ nutri.name }</Text>
+                <Text style={ tableStyles.rightColumn }>{ nutri.amount }</Text>
+              </View>
+            );
+          })}
+        </View>
+      </View>
+      <View style={ styles.divider }></View>
     </View>
   );
 }
@@ -187,5 +201,27 @@ const styles = StyleSheet.create({
     textAlignVertical: 'center',
     fontSize: 16,
     lineHeight: 20,
+  },
+  nutritionContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  nutritionLabel: {
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 24,
+    paddingVertical: 4,
+    color: '#222',
+    textTransform: 'uppercase',
+    marginBottom: 8,
+    borderRadius: 8,
+    backgroundColor: '#36C464',
+    color: '#fff',
+    elevation: 2,
+    maxWidth: 480,
+    width: window.width - 32,
+  },
+  nutritionWrapper: {
+    width: window.width - 32,
   }
 });
