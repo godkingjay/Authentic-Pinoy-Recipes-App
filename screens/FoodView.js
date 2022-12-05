@@ -13,14 +13,26 @@ import FoodRecipe from "../assets/component/foodRecipe";
 import FavoriteButton from "../assets/component/favoriteButton";
 import FoodInformation from "../assets/component/foodInformation";
 
+function compareStrings(a, b) {
+  a = a.toLowerCase();
+  b = b.toLowerCase();
+
+  return (a < b) ? -1 : (a > b) ? 1 : 0;
+}
+
 export default function FoodView({ navigation, route }) {
   const [food, setFood] = useState(route.params);
+  const [foodType, setFoodType] = useState(food.type);
 
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: food.name,
     });
   }, [navigation]);
+
+  foodType.sort(function(a, b) {
+    return compareStrings(a, b);
+  });
 
   return (
     <ScrollView style={ globalStyles.screen }>
@@ -76,7 +88,7 @@ export default function FoodView({ navigation, route }) {
             <View style={{
               width: 16,
             }}></View>
-            { food.type.map((type, index) => {
+            { foodType.map((type, index) => {
               return(
                 <FoodViewType key={ index } navigation={ navigation } route={ route } foodType={ type }/>
               )
