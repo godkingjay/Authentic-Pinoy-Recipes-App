@@ -486,6 +486,10 @@ const Ingredients = [
   {
     name: 'squid',
     image: require('./images/ingredient/squid.png'),
+  },
+  {
+    name: 'star-anise',
+    image: require('./images/ingredient/star-anise.png'),
   },  
   {
     name: 'sugar',
