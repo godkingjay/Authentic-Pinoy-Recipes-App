@@ -168,7 +168,7 @@ const styles = StyleSheet.create({
     margin: 8,
   },
   foodSocialLogo: {
-    marginHorizontal: 8
+    marginHorizontal: 12,
   },
   foodAuthor: {
     marginHorizontal: 'auto',
