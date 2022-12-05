@@ -61,7 +61,8 @@ const styles = StyleSheet.create({
     resizeMode: 'cover',
   },
   cardDetailsContainer: {
-    padding: 8,
+    paddingVertical: 4,
+    paddingHorizontal: 8,
     height: '100%',
     flex: 1,
   },
