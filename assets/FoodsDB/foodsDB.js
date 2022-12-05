@@ -7934,6 +7934,91 @@ nutrition: [
 video: `https://youtu.be/vj_ee_6T6ys`,
 image: require('./images/food/000000070.jpg'),
 },
+{
+  id: 71,
+  name: `Beef Tapa`,
+  tagalog: `Tapa`,
+  type: [
+  `Meat Dish`,
+  `Beef Dish`,
+  ],
+  description: `In Filipino cuisine, tapa most commonly denotes thinly sliced beef sirloin that is traditionally placed in a sweet, salty, and tangy marinade made with calamansi lemonade and soy sauce, flavored with sugar and minced garlic. Other meats used to make tapa include mutton, venison, wild boar, horse, deer, and also the meat of carabao - a swamp-type domestic water buffalo native to the Philippines.
+
+  Tapa is typically either grilled or pan-fried, and it is best enjoyed when served as a part of the so-called tapsilog, which is a portmanteau of the Filipino words tapa and sinangag, meaning garlic-fried rice, and itlog, meaning eggs.
+  
+  Tapsilog is often accompanied by sliced tomatoes ot pickled papaya strips called atchara. Altogether, this delicious combination is popularly known as the Philippine-style breakfast of champions, and to most Filipinos, it is a favorite way to start the day.`,
+  link: `https://panlasangpinoy.com/coca-cola-beef-tapa/`,
+  author: `Vanjo Merano`,
+  information: null,
+  recipe: {
+  details: {
+  description: `This is a recipe for Coca Cola Beef Tapa.`,
+  time: {
+  prep: `3 Hours`,
+  cook: `25 Minutes`,
+  total: `3 Hours 25 Minutes`,
+  },
+  servings: `8 People`,
+  calories: null,
+  },
+  ingredients: [
+  {
+  name: `Beef Sirloin`,
+  amount: `2 1/2 lbs.`,
+  tagalog: null,
+  type: `Thinly Sliced`,
+  image: `beef`,
+  },
+  {
+    name: `Soy Sauce`,
+    amount: `1/2 Cup`,
+    tagalog: null,
+    type: null,
+    image: `soy-sauce`,
+    },
+    {
+      name: `Garlic`,
+      amount: `1 Head`,
+      tagalog: `Bawang`,
+      type: null,
+      image: `garlic`,
+      },
+      {
+        name: `Ground Black Pepper`,
+        amount: `1/2 Teaspoon`,
+        tagalog: `Dinurog na Paminta`,
+        type: null,
+        image: `black-pepper`,
+        },
+        {
+          name: `Coke`,
+          amount: `1 1/2 Cups`,
+          tagalog: null,
+          type: null,
+          image: `soda`,
+          },
+          {
+            name: `Cooking Oil`,
+            amount: `3 Tablespoons`,
+            tagalog: `Mantika`,
+            type: null,
+            image: `cooking-oil`,
+            },
+  ],
+  instructions: [
+`Arrange beef slices in a bowl. Add soy sauce, garlic, and ground black pepper. Mix well. Marinate for at least 3 hours.`,
+`Place the marinated beef in a cooking pot. Pour Coca Cola and oil. Let boil. Cover the pot and continue to cook in medium heat until the liquid evaporates completely.`,
+`Continuen to fry the beef tapa for 3 minutes using the oil left in the pot.`,
+`Transfer to a serving plate. Serve with fried rice and fried egg for a complete beef tapsilog meal.`,
+`Share and enjoy!`,
+  ],
+  nutrition: [
+  { name: 'Serving', amount: '8g' },
+  ],
+  },
+  video: null,
+  image: require('./images/food/000000071.jpg'),
+  },
 ];
 
 
@@ -8078,6 +8163,7 @@ List:
 68. Palitaw
 69. Bazo de Mercedes
 70. Maja Blanca
+71. Beef Tapa
 
 **************************************************************************************************************/
 
