@@ -10,7 +10,7 @@ export default function DiscoverSeeAll({ navigation, route, foodType }){
     <View style={ styles.seeAllWrapper }>
       <TouchableOpacity
         style={ styles.seeAllContainer }
-        activeOpacity={ 0.75 }
+        activeOpacity={ 0.5 }
         onPress={() => navigation.navigate('FoodCategory', foodType)}
       >
         <Text style={ styles.seeAllLabel }>See All</Text>
@@ -29,7 +29,9 @@ const styles = StyleSheet.create({
   },
   seeAllContainer: {
     backgroundColor: "white",
+    borderWidth: 0.5,
     elevation: 2,
+    borderColor: "#4441",
     borderRadius: 64,
     overflow: "hidden",
     flex: 1,
