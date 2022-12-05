@@ -30,7 +30,6 @@ const styles = StyleSheet.create({
   seeAllContainer: {
     backgroundColor: "white",
     borderWidth: 0.5,
-    elevation: 2,
     borderColor: "#4441",
     borderRadius: 64,
     overflow: "hidden",
@@ -40,6 +39,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 2,
     paddingLeft: 8,
+    elevation: 2,
   },
   seeAllLabel: {
     color: "#444",
