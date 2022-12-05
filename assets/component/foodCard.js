@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
   },
   foodTypeContainer: {
     flexDirection: 'row',
-    marginVertical: 8,
+    marginTop: 8,
     alignItems: 'center',
   },
   foodType: {
