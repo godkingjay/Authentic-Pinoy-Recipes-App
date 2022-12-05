@@ -39,18 +39,20 @@ export default function FoodView({ navigation, route }) {
             </View>
           </View>
           <View style={ styles.divider }></View>
-          <Text style={ styles.foodDescription }>{ food.description }</Text>
-          {food.information != null ? (
-            <View style={ styles.foodInformationWrapper }>
-              {food.information.map((information, index) => {
-                return(
-                  <FoodInformation key={ index } information={ information }/>
-                );
-              })}
-            </View>
-          ) : (
-            null
-          )}
+          <View style={ styles.foodDescriptionContainer }>
+            <Text style={ styles.foodDescription }>{ food.description }</Text>
+            {food.information != null ? (
+              <View style={ styles.foodInformationWrapper }>
+                {food.information.map((information, index) => {
+                  return(
+                    <FoodInformation key={ index } information={ information }/>
+                  );
+                })}
+              </View>
+            ) : (
+              null
+            )}
+          </View>
           <View style={ styles.divider }></View>
           <View style={ styles.foodSocials }>
             <View style={ styles.foodSocialLogo }>
@@ -127,6 +129,7 @@ const styles = StyleSheet.create({
   foodNameContainer: {
     flex: 1,
     paddingHorizontal: 4,
+    marginBottom: 12,
   },
   foodName: {
     fontSize: 32,
@@ -140,6 +143,9 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginTop: -4,
     color: "#444",
+  },
+  foodDescriptionContainer: {
+    marginVertical: 12,
   },
   foodDescription: {
     textAlign: "justify",
