@@ -55,6 +55,16 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
         renderItem={({ item, index }) => (
           <HorizontalCard navigation={ navigation } route={ route } food={ item } />
         )}
+        ListHeaderComponent={
+          <View style={{
+            width: 12,
+          }}></View>
+        }
+        ListFooterComponent={
+          <View style={{
+            width: 12,
+          }}></View>
+        }
       />
       <View style={ styles.divider }></View>
     </View>
@@ -63,7 +73,6 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
 
 const styles = StyleSheet.create({
   cardsContainer: {
-    paddingHorizontal: 8,
     marginVertical: 2
   },
   cards: {
@@ -73,6 +82,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
+    marginHorizontal: 20,
   },
   foodCategoryName: {
     fontWeight: 'bold',
@@ -82,7 +92,7 @@ const styles = StyleSheet.create({
   },
   divider: {
     height: 1,
-    width: '100%',
+    marginHorizontal: 20,
     backgroundColor: '#2221',
     marginTop: 6,
     marginBottom: 4,
