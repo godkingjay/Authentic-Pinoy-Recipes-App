@@ -2393,7 +2393,7 @@ image: require(`./images/food/000000021.jpg`),
 },
 {
 id: 22,
-name: `Filipino Eggplant Omelet`,
+name: `Eggplant Omelet`,
 tagalog: `Tortang Talong`,
 type: [
 'Egg Dish'
@@ -3482,7 +3482,8 @@ tagalog: `Tapsilog`,
 type: [
 `Meat Dish`,
 `Beef Dish`,
-`Breakfast`
+`Breakfast`,
+`Egg Dish`,
 ],
 description: `Tapsilog is one of my favorite breakfast meal options during big days. These are days wherein I need to complete several tasks. Having this meal gives me the needed energy to perform work and it keeps me full longer. I also enjoy starting my day with a delicious breakfast.`,
 link: `https://panlasangpinoy.com/tapsilog-recipe/`,
@@ -3637,6 +3638,7 @@ name: `Hotsilog`,
 tagalog: `Hotsilog`,
 type: [
 `Breakfast`,
+`Egg Dish`,
 ],
 description: `Hotsilog is a traditional dish originating from the Philippines, consisting of garlic fried rice, fried eggs, and hot dogs. The Filipino-style hot dogs are red and juicy, usually slightly cut on the sides. They're boiled, then fried in oil and arranged on a plate with garlic fried rice and sunny-side-up fried eggs.
 
@@ -3673,7 +3675,7 @@ image: `hotdog`,
   {
     name: `Garlic Fried Rice`,
     amount: `1 Cup`,
-    tagalog: null,
+    tagalog: `Sinangag`,
     type: null,
     image: `rice`,
     },
@@ -3718,55 +3720,86 @@ amount: `1g`,
 video: null,
 image: require('./images/food/000000032.jpg'),
 },
-// {
-// id: 33,
-// name: `Tosilog`,
-// tagalog: `Tosilog`,
-// type: [
-
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+{
+id: 33,
+name: `Tosilog`,
+tagalog: `Tosilog`,
+type: [
+`Breakfast`,
+`Egg Dish`,
+],
+description: `Tosilog is a popular Filipino breakfast meal. The name tosilog was derived from the different components of the meal which are: Tocino (cured pork), Sinangag (Filipino garlic fried rice), and Sunny-side up egg. Tosilog is best eaten with a spicy vinegar dip.`,
+link: `https://panlasangpinoy.com/tosilog-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `20 Minutes`,
+cook: `25 Minutes`,
+total: `45 Minutes`,
+},
+servings: `3 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Tocino`,
+amount: `1 lb.`,
+tagalog: null,
+type: `Uncooked`,
+image: `pork`,
+},
+{
+  name: `Fried Rice`,
+  amount: `3 Cups`,
+  tagalog: `Sinangag`,
+  type: null,
+  image: `rice`,
+  },
+  {
+    name: `Suuny-Side Up Eggs`,
+    amount: `3 Pieces`,
+    tagalog: null,
+    type: null,
+    image: `egg`,
+    },
+    {
+      name: `Water`,
+      amount: `2 Cups`,
+      tagalog: `Tubig`,
+      type: null,
+      image: `water`,
+      },
+      {
+        name: `Cooking Oil`,
+        amount: `1/4 Cup`,
+        tagalog: `Mantika`,
+        type: null,
+        image: `cooking-oil`,
+        },
+],
+instructions: [
+`Boil the water in a cooking pot.`,
+`Once the water starts to boil, pour-in the cooking oil and add the uncooked tocino. Boil in medium heat until the water evaporates.`,
+`Once the water completely evaporate, the oil will be left behind. Let one side of the tocino cook in oil for 3 minutes. Flip the tocino and cook the other side for the same time.`,
+`Arrange the cooked tocino with the eggs in individual plates.`,
+`Meanwhile, remove the excess oil in the cooking pot where the tocino was cooked. Heat the same pot and put-in the sinangag. Cook the fried rice for 1 minute while tossing. The residue from the tocino will stick to the fried rice making it more tasty.`,
+`Arrange the fried rice with the tocino in individual plates.`,
+`Serve with spiced vinegar.`,
+`Share and enjoy!`,
+],
+nutrition: [
+{
+name: `Serving`,
+amount: `3g`,
+},
+],
+},
+video: null,
+image: require('./images/food/000000033.jpg'),
+},
 // {
 // id: 34,
 // name: `Longsilog`,
