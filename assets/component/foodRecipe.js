@@ -92,8 +92,8 @@ const styles = StyleSheet.create({
   divider: {
     backgroundColor: "#0002",
     height: 1,
-    width: "100%",
     marginVertical: 16,
+    marginHorizontal: 16,
   },
   recipeLabel: {
     fontWeight: 'bold',
