@@ -7935,90 +7935,252 @@ video: `https://youtu.be/vj_ee_6T6ys`,
 image: require('./images/food/000000070.jpg'),
 },
 {
-  id: 71,
-  name: `Beef Tapa`,
-  tagalog: `Tapa`,
-  type: [
-  `Meat Dish`,
-  `Beef Dish`,
-  ],
-  description: `In Filipino cuisine, tapa most commonly denotes thinly sliced beef sirloin that is traditionally placed in a sweet, salty, and tangy marinade made with calamansi lemonade and soy sauce, flavored with sugar and minced garlic. Other meats used to make tapa include mutton, venison, wild boar, horse, deer, and also the meat of carabao - a swamp-type domestic water buffalo native to the Philippines.
+id: 71,
+name: `Beef Tapa`,
+tagalog: `Tapa`,
+type: [
+`Meat Dish`,
+`Beef Dish`,
+],
+description: `In Filipino cuisine, tapa most commonly denotes thinly sliced beef sirloin that is traditionally placed in a sweet, salty, and tangy marinade made with calamansi lemonade and soy sauce, flavored with sugar and minced garlic. Other meats used to make tapa include mutton, venison, wild boar, horse, deer, and also the meat of carabao - a swamp-type domestic water buffalo native to the Philippines.
 
-  Tapa is typically either grilled or pan-fried, and it is best enjoyed when served as a part of the so-called tapsilog, which is a portmanteau of the Filipino words tapa and sinangag, meaning garlic-fried rice, and itlog, meaning eggs.
-  
-  Tapsilog is often accompanied by sliced tomatoes ot pickled papaya strips called atchara. Altogether, this delicious combination is popularly known as the Philippine-style breakfast of champions, and to most Filipinos, it is a favorite way to start the day.`,
-  link: `https://panlasangpinoy.com/coca-cola-beef-tapa/`,
-  author: `Vanjo Merano`,
-  information: null,
-  recipe: {
-  details: {
-  description: `This is a recipe for Coca Cola Beef Tapa.`,
-  time: {
-  prep: `3 Hours`,
-  cook: `25 Minutes`,
-  total: `3 Hours 25 Minutes`,
-  },
-  servings: `8 People`,
-  calories: null,
-  },
-  ingredients: [
-  {
-  name: `Beef Sirloin`,
-  amount: `2 1/2 lbs.`,
-  tagalog: null,
-  type: `Thinly Sliced`,
-  image: `beef`,
-  },
-  {
-    name: `Soy Sauce`,
-    amount: `1/2 Cup`,
-    tagalog: null,
-    type: null,
-    image: `soy-sauce`,
-    },
-    {
-      name: `Garlic`,
-      amount: `1 Head`,
-      tagalog: `Bawang`,
-      type: null,
-      image: `garlic`,
-      },
-      {
-        name: `Ground Black Pepper`,
-        amount: `1/2 Teaspoon`,
-        tagalog: `Dinurog na Paminta`,
-        type: null,
-        image: `black-pepper`,
-        },
-        {
-          name: `Coke`,
-          amount: `1 1/2 Cups`,
-          tagalog: null,
-          type: null,
-          image: `soda`,
-          },
-          {
-            name: `Cooking Oil`,
-            amount: `3 Tablespoons`,
-            tagalog: `Mantika`,
-            type: null,
-            image: `cooking-oil`,
-            },
-  ],
-  instructions: [
+Tapa is typically either grilled or pan-fried, and it is best enjoyed when served as a part of the so-called tapsilog, which is a portmanteau of the Filipino words tapa and sinangag, meaning garlic-fried rice, and itlog, meaning eggs.
+
+Tapsilog is often accompanied by sliced tomatoes ot pickled papaya strips called atchara. Altogether, this delicious combination is popularly known as the Philippine-style breakfast of champions, and to most Filipinos, it is a favorite way to start the day.`,
+link: `https://panlasangpinoy.com/coca-cola-beef-tapa/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: `This is a recipe for Coca Cola Beef Tapa.`,
+time: {
+prep: `3 Hours`,
+cook: `25 Minutes`,
+total: `3 Hours 25 Minutes`,
+},
+servings: `8 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Beef Sirloin`,
+amount: `2 1/2 lbs.`,
+tagalog: null,
+type: `Thinly Sliced`,
+image: `beef`,
+},
+{
+name: `Soy Sauce`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Garlic`,
+amount: `1 Head`,
+tagalog: `Bawang`,
+type: null,
+image: `garlic`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `1/2 Teaspoon`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
+{
+name: `Coke`,
+amount: `1 1/2 Cups`,
+tagalog: null,
+type: null,
+image: `soda`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+],
+instructions: [
 `Arrange beef slices in a bowl. Add soy sauce, garlic, and ground black pepper. Mix well. Marinate for at least 3 hours.`,
 `Place the marinated beef in a cooking pot. Pour Coca Cola and oil. Let boil. Cover the pot and continue to cook in medium heat until the liquid evaporates completely.`,
 `Continuen to fry the beef tapa for 3 minutes using the oil left in the pot.`,
 `Transfer to a serving plate. Serve with fried rice and fried egg for a complete beef tapsilog meal.`,
 `Share and enjoy!`,
-  ],
-  nutrition: [
-  { name: 'Serving', amount: '8g' },
-  ],
-  },
-  video: null,
-  image: require('./images/food/000000071.jpg'),
-  },
+],
+nutrition: [
+{ name: 'Serving', amount: '8g' },
+],
+},
+video: null,
+image: require('./images/food/000000071.jpg'),
+},
+{
+id: 72,
+name: `Bicol Express`,
+tagalog: `Bicol Express`,
+type: [
+`Pork Dish`,
+`Meat Dish`,
+`Main Course`,
+],
+description: `Bicol express is a popular Filipino dish consisting of sliced pork that is doused in a creamy coconut-based sauce and seasoned with shrimp paste and spicy chili peppers. According to popular belief, Cely Kalaw invented the dish in her Manila restaurant.
+
+She was inspired by the traditional Bicolano coconut-infused dishes and named the new invention after a Filipino train service operating from Manila to the Bicol region. Creamy and spicy Bicol express is usually served with plain steamed rice on the side.`,
+link: `https://panlasangpinoy.com/bicol-express/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `Health Benefits`,
+content: `As mentioned earlier, the distinct bite and heat brought on by this dish can make it great for the colder seasons. But even if it could be perfect for a chilly day, the majority of Filipinos enjoy serving it in all seasons. Perhaps it is because of its advantageous amount of protein, making for a very satisfying and filling dish.
+
+Pork is a fantastic source of not just protein, but also niacin, phosphorus and vitamin B6. In fact, in 3 ounces of pork, you can find more nutrients that are great for you. This includes zinc and potassium.
+
+But it is not just the meat that brings some comfort to your health in this dish. One of our main flavor and texture components, coconut milk, has healthy micronutrients. These aid in decreasing the size of stomach ulcers, and can help in lessening inflammation. It also contains a great deal of protein and carbs to boost your energy.
+
+However, this well-recognized love for the nutritious viand has brought about some controversy to the origin of the recipe. Because who else wouldn’t want to take credit for such a brilliantly formulated array of flavors?`,
+},
+{
+title: `The dispute over its history`,
+content: `This may come as a surprise, but the most widely credited origin of this spicy white dish is actually in Manila, and not Bicol. While most residents from the Bicol area argue that it came from them, most, including big names in the Philippine cooking industry, have said that Bicol Express was born in Cely Kalaw’s restaurant in the country’s capital.
+
+In the 1960s, Kalaw decided to present a creamy dish with the slightest punch. After some struggle in entitling the dish, her ears caught the sound of the daily train headed to Bicol. And that was when she got the idea to name it after a train going the Manila-Naga route.
+
+Apparently, this recipe hoped to be a less flavorful or spicy rendition of Laing. This is a local dish made of dried taro leaves, and similar to our dish of choice, rich coconut milk.
+
+Bicol Express quickly grew in popularity. And soon, the dish began popping up in several other dining establishments in the country. But what most people didn’t know by then was that the dish did not exactly originate from the region in its own name.`,
+},
+{
+title: `A similar dish to Bicol Express from the region:`,
+content: `The argument held by most Bicolanos is that a recipe very alike to that of Bicol Express came from their place of residence. Ginataang Sili, otherwise known as Gulay na Lada, contains balao, which is a shrimp paste variation. It also has other similar ingredients like pork, and none other than coconut milk. Some have said that Kalaw may have gotten inspiration from Gulay na Lada. And this was especially to bring the heat down from her Laing recipe.
+
+But at the same time, some have said that Kalaw never denied gaining inspiration from Bicolano dishes for her dish. They say it is still essentially a name she coined. And likewise, it was her own culinary invention as a result of experimenting in the kitchen, and gaining inspiration from other dishes.
+
+Now if this narrative’s encouraged you to try your own hand at making some deliciously spicy pork belly infused with coconut milk in the kitchen, I have the recipe for you. Try making this classic Bicol Express recipe with me!`,
+},
+{
+title: `How to cook Bicol Express:`,
+content: `Get ready to make the creamiest pork dish with a bit of a kick! Start by taking out your pan. Proceed by combining minced ginger, crushed garlic, chopped onion, sliced pork, chopped chili pepper, and coconut milk. Mix everything together before turning-on the heat.
+
+Once the mixture boils, you may add a cup of coconut cream and half of the bagoong alamang. Let the mixture cook using low heat until it reduces to a quarter.
+
+Afterwards, we will add the rest of the coconut cream and adjust the flavor by adding more bagoong if necessary. Also add the Serrano peppers or long green pepper.Continue cooking in low heat until the sauce thickens.Make sure to serve this nice and hot, and you now have enough Bicol Express for 6! Also try serving it the traditional manner– with some steaming, white rice.`,
+},
+],
+recipe: {
+details: {
+description: `This is a recipe for Bicol Express.`,
+time: {
+prep: `5 Minutes`,
+cook: `55 Minutes`,
+total: `1 Hour`,
+},
+servings: `6 People`,
+calories: `1240 kcal`,
+},
+ingredients: [
+{
+name: `Pork Belly`,
+amount: `2 lbs.`,
+tagalog: null,
+type: `Sliced into strips.`,
+image: `pork`,
+},
+{
+name: `Coconut Milk`,
+amount: `2 Cups`,
+tagalog: null,
+type: null,
+image: `coconut-milk`,
+},
+{
+name: `Coconut Cream`,
+amount: `2 Cups`,
+tagalog: null,
+type: null,
+image: `coconut-cream`,
+},
+{
+name: `Shrimp Paste`,
+amount: `1/2 Cup`,
+tagalog: `Bagoong Alamang`,
+type: null,
+image: `shrimp-paste`,
+},
+{
+name: `Garlic`,
+amount: `4 Cloves`,
+tagalog: `Bawang`,
+type: null,
+image: `garlic`,
+},
+{
+name: `Thai Chili Pepper`,
+amount: `6 Pieces`,
+tagalog: null,
+type: `Chopped`,
+image: `chili`,
+},
+{
+name: `Ginger`,
+amount: `1 Thumb`,
+tagalog: `Luya`,
+type: `Minced`,
+image: `ginger`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Chopped`,
+image: `onion`,
+},
+{
+name: `Serano Pepper`,
+amount: `1 Piece`,
+tagalog: null,
+type: `Sliced`,
+image: `greem-chili`,
+},
+{
+name: `Water`,
+amount: `1 Cup`,
+tagalog: `Tubig`,
+type: `Optional`,
+image: `water`,
+},
+],
+instructions: [
+`Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat to on. Let the mixture boil.`,
+`Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).`,
+`Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens (around`,
+`Transfer to a serving plate and serve with warm rice.`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+{ name: 'Calories', amount: '1240kcal' },
+{ name: 'Carbohydrates', amount: '10g' },
+{ name: 'Protein', amount: '27g' },
+{ name: 'Fat', amount: '124g' },
+{ name: 'Saturated Fat', amount: '68g' },
+{ name: 'Cholesterol', amount: '228mg' },
+{ name: 'Sodium', amount: '431mg' },
+{ name: 'Potassium', amount: '745mg' },
+{ name: 'Fiber', amount: '2g' },
+{ name: 'Sugar', amount: '1g' },
+{ name: 'Vitamin A', amount: '29IU' },
+{ name: 'Vitamin C', amount: '8mg' },
+{ name: 'Calcium', amount: '81mg' },
+{ name: 'Iron', amount: '6mg' },
+],
+},
+video: `https://youtu.be/oNeQRYQ7q4E`,
+image: require('./images/food/000000072.jpg'),
+},
 ];
 
 
@@ -8164,6 +8326,7 @@ List:
 69. Bazo de Mercedes
 70. Maja Blanca
 71. Beef Tapa
+72. Bicol Express
 
 **************************************************************************************************************/
 
