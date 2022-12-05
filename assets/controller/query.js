@@ -21,7 +21,6 @@ export async function discoverFoodCategories(){
     let foods = PinoyFoods.filter(({ type }) => type.find((str) => str == foodCategory[i].name));
     if(foods.length >= 5) result.push(foodCategory[i]);
   }
-
   return(result);
 }
 
