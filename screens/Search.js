@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   searchFieldContainer: {
     paddingBottom: 8,
     backgroundColor: 'white',
-    elevation: 4
+    elevation: 16
   },
   searchField: {
     marginHorizontal: 8,

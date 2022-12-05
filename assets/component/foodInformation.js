@@ -67,8 +67,8 @@ export default function FoodInformation({ information }){
 
 const styles = StyleSheet.create({
   informationWrapper: {
-    width: '100%',
-    marginVertical: 4
+    marginVertical: 4,
+    marginHorizontal: 16,
   },
   informationContainer: {
     width: '100%',

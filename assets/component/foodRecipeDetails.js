@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { View } from 'react-native';
 import tableStyles from '../styles/tableStyles';
 
 export default function FoodRecipeDetails({ details }){
   return(
-    <View style={ [ tableStyles.container, tableStyles.border ] }>
+    <View style={ [ styles.wrapper, tableStyles.container, tableStyles.border ] }>
       <Text style={ tableStyles.title }>Details</Text>
       {details.description != null ? (
         <Text style={ tableStyles.description }>{ details.description }</Text>
@@ -39,3 +39,9 @@ export default function FoodRecipeDetails({ details }){
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  wrapper: {
+    marginHorizontal: 16,
+  }
+});

@@ -110,8 +110,6 @@ const styles = StyleSheet.create({
   article: {
     borderTopLeftRadius: 32,
     borderTopRightRadius: 32,
-    padding: 8,
-    paddingHorizontal: 16,
     backgroundColor: "#fff",
     elevation: 32,
     flex: 1,
@@ -122,7 +120,7 @@ const styles = StyleSheet.create({
   }, 
   foodNameContainer: {
     flex: 1,
-    paddingLeft: 4
+    paddingHorizontal: 4,
   },
   foodName: {
     fontSize: 32,
@@ -140,12 +138,13 @@ const styles = StyleSheet.create({
   foodDescription: {
     textAlign: "justify",
     fontSize: 16,
+    paddingHorizontal: 16,
   },
   divider: {
     backgroundColor: "#0002",
     height: 1,
-    width: "100%",
     marginVertical: 8,
+    marginHorizontal: 16,
   },
   foodInformationWrapper: {
     marginTop: 12

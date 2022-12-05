@@ -56,6 +56,16 @@ export default function FoodRecipe({ recipe }) {
         <FlatList
           horizontal={ true }
           data={ recipe.instructions }
+          ListHeaderComponent={
+            <View style={{
+              width: 4,
+            }}></View>
+          }
+          ListFooterComponent={
+            <View style={{
+              width: 4,
+            }}></View>
+          }
           renderItem={({ item, index }) => (
             <View style={ styles.instructionWrapper }>
               <View style={ styles.instructionContainer }>
@@ -76,7 +86,7 @@ const styles = StyleSheet.create({
     marginVertical: 4,
   },
   recipeBranchContainer: {
-    marginVertical: 8
+    marginVertical: 8,
   },
   divider: {
     backgroundColor: "#0002",
@@ -97,6 +107,7 @@ const styles = StyleSheet.create({
   ingredientsContainer: {
     borderRadius: 8,
     alignItems: 'center',
+    marginHorizontal: 16,
   },
   ingredientsLabel: {
     fontWeight: 'bold',
@@ -130,17 +141,17 @@ const styles = StyleSheet.create({
     elevation: 2,
     marginHorizontal: 12,
     maxWidth: 480,
-    width: "100%",
+    width: window.width - 32,
   },
   instructionWrapper: {
-    width: window.width - 56,
+    width: window.width - 32,
     marginHorizontal: 12,
     paddingHorizontal: 12,
     paddingVertical: 12,
     alignItems: 'center',
   },
   instructionContainer: {
-    width: window.width - 56,
+    width: window.width - 32,
     alignItems: 'center',
     elevation: 2,
     backgroundColor: 'white',
