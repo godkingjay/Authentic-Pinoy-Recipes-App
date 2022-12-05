@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
     paddingVertical: 4,
     borderRadius: 100,
-    elevation: 1,
+    elevation: 2,
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
