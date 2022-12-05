@@ -56,6 +56,7 @@ export default function FoodRecipe({ recipe }) {
         <FlatList
           horizontal={ true }
           data={ recipe.instructions }
+          showsHorizontalScrollIndicator={ false }
           ListHeaderComponent={
             <View style={{
               width: 4,

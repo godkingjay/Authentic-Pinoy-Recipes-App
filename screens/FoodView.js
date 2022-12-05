@@ -71,11 +71,17 @@ export default function FoodView({ navigation, route }) {
             style={ styles.foodTypesContainer }
             showsHorizontalScrollIndicator={ false }
           >
+            <View style={{
+              width: 16,
+            }}></View>
             { food.type.map((type, index) => {
               return(
                 <FoodViewType key={ index } navigation={ navigation } route={ route } foodType={ type }/>
               )
             })}
+            <View style={{
+              width: 16,
+            }}></View>
           </ScrollView>
           <View style={ styles.divider }></View>
           <FoodRecipe recipe={ food.recipe }/>
