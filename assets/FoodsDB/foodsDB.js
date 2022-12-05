@@ -3631,55 +3631,93 @@ nutrition: [
 video: `https://youtu.be/E2uATy7iKkg`,
 image: require('./images/food/000000031.jpg'),
 },
-// {
-// id: 32,
-// name: `Hotsilog`,
-// tagalog: `Hotsilog`,
-// type: [
+{
+id: 32,
+name: `Hotsilog`,
+tagalog: `Hotsilog`,
+type: [
+`Breakfast`,
+],
+description: `Hotsilog is a traditional dish originating from the Philippines, consisting of garlic fried rice, fried eggs, and hot dogs. The Filipino-style hot dogs are red and juicy, usually slightly cut on the sides. They're boiled, then fried in oil and arranged on a plate with garlic fried rice and sunny-side-up fried eggs.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+Hotsilog is traditionally served for breakfast and it's accompanied by banana ketchup, atchara (pickled shredded papaya), and tomato slices on the side.`,
+link: `https://panlasangpinoy.com/hotsilog-hotdog-sinangang-at-itlog/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: `This is a recipe for Hotsilog.`,
+time: {
+prep: `5 Minutes`,
+cook: `20 Minutes`,
+total: `25 Minutes`,
+},
+servings: `1 Person`,
+calories: null,
+},
+ingredients: [
+{
+name: `Red Hotdog`,
+amount: `3 Pieces`,
+tagalog: null,
+type: null,
+image: `hotdog`,
+},
+{
+  name: `Eggs`,
+  amount: `2 Pieces`,
+  tagalog: `Itlog`,
+  type: null,
+  image: `egg`,
+  },
+  {
+    name: `Garlic Fried Rice`,
+    amount: `1 Cup`,
+    tagalog: null,
+    type: null,
+    image: `rice`,
+    },
+    {
+      name: `Medium Tomato`,
+      amount: `1 Piece`,
+      tagalog: `Kamatis`,
+      type: null,
+      image: `tomato`,
+      },
+      {
+        name: `Water`,
+        amount: `3/4 Cup`,
+        tagalog: `Tubig`,
+        type: null,
+        image: `water`,
+        },
+        {
+          name: `Cooking Oil`,
+          amount: `6 Tablespoons`,
+          tagalog: `Mantika`,
+          type: null,
+          image: `cooking-oil`,
+          },
+],
+instructions: [
+`Pour water in a small cooking pot. Let boil.`,
+`Add hotdogs and then pour 2 tablespoons cooking oil. Continue to cook until the water evaporates.`,
+`Once the water is gone, fry the hotdogs in the remaining oil for 1 to 2 minutes while slowly rolling it back and forth to prevent it from getting burnt. Set aside.`,
+`Prepare the eggs by heating 4 tablespoons of cooking oil in a pan.`,
+`Once the oil gets hot, crack a piece of egg and start to fry it. As the egg is frying, grab a spoon and scoop the oil from the bottom of the pot. Pour the oil over the egg. Do this until the yolk gets a white covering. Remove the egg and set aside. Do the same step on the other piece of egg.`,
+`Arrange the garlic fried rice, hotdogs, and fried eggs in a plate. Put the slices of tomato on the side.`,
+`Serve with ketchup. Share and enjoy!`,
+],
+nutrition: [
+{
+name: `Serving`,
+amount: `1g`,
+},
+],
+},
+video: null,
+image: require('./images/food/000000032.jpg'),
+},
 // {
 // id: 33,
 // name: `Tosilog`,
