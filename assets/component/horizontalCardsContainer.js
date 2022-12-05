@@ -32,7 +32,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
     discoverFoods(foodCategory.name)
       .then(data => {
         setFoods(data);
-        setDiscover((shuffle(data)).splice(0, data.length < 6 ? data.length : 6));
+        setDiscover((shuffle(data)).splice(0, data.length < 5 ? data.length : 5));
       })
       .catch(error => {
         alert(error)
@@ -43,7 +43,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
     <View style = { styles.cardsContainer }>
       <View style={ styles.cardsLabelContainer }>
         <Text style = { styles.foodCategoryName }>{ (foodCategory.name).toUpperCase() }</Text>
-        {foods.length >= 6 ? (
+        {foods.length >= 5 ? (
           <DiscoverSeeAll navigation={ navigation } route={ route } foodType={ foodCategory.name }/>
         ) : (
           null
