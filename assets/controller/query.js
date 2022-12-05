@@ -1,6 +1,7 @@
 import PinoyFoods from "../FoodsDB/foodsDB";
 import FavFood from "../FoodsDB/favFoodDB";
 import Ingredients from "../FoodsDB/ingedientDB";
+import foodCategory from "../FoodsDB/foodCategories";
 
 function compareStrings(a, b) {
   a = a.toLowerCase();
@@ -12,6 +13,16 @@ function compareStrings(a, b) {
 export async function categoryFoods(category = "Main Course") {
   let result = PinoyFoods.filter(({ type }) => type.find((str) => str == category));
   return result;
+}
+
+export async function discoverFoodCategories(){
+  let result = [];
+  for(let i = 1; i < foodCategory.length; i++){
+    let foods = PinoyFoods.filter(({ type }) => type.find((str) => str == foodCategory[i].name));
+    if(foods.length >= 5) result.push(foodCategory[i]);
+  }
+
+  return(result);
 }
 
 export async function discoverFoods(category = "Main Course") {

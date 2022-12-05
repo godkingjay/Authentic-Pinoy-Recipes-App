@@ -43,7 +43,11 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
     <View style = { styles.cardsContainer }>
       <View style={ styles.cardsLabelContainer }>
         <Text style = { styles.foodCategoryName }>{ (foodCategory.name).toUpperCase() }</Text>
-        <DiscoverSeeAll navigation={ navigation } route={ route } foodType={ foodCategory.name }/>
+        {foods.length >= 6 ? (
+          <DiscoverSeeAll navigation={ navigation } route={ route } foodType={ foodCategory.name }/>
+        ) : (
+          null
+        )}
       </View>
       <View style={ styles.divider }></View>
       <FlatList
