@@ -8181,6 +8181,186 @@ nutrition: [
 video: `https://youtu.be/oNeQRYQ7q4E`,
 image: require('./images/food/000000072.jpg'),
 },
+{
+id: 73,
+name: `Beef Pares`,
+tagalog: `Pares`,
+type: [
+`Stew`,
+`Beef Dish`,
+`Meat Dish`,
+],
+description: `Pares is a Filipino term that typically refers to a standard combination of beef stew, beef soup, and rice. The star is the stew consisting of beef chunks that are slowly braised in a flavorful stock infused with garlic, soy sauce, star anise, sugar, and a variety of other spices and condiments.
+
+The thick, rich, and slightly sweet sauce and tender meat make pares one of the most popular beef dishes in the country. The term pares translates as pairs and stems from the traditional practice of serving this satisfying stew along with fried or steamed rice and a bowl of nourishing beef stock.
+
+This traditional comfort food is commonly found in many Filipino establishments (carenderias), which all have their signature pares recipes.`,
+link: `https://panlasangpinoy.com/filipino-food-how-to-cook-beef-pares-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How to Cook Beef Pares`,
+content: `It is best to always have the beef stock ready before cooking pares. This is the soup that goes with it.
+
+Cooking beef pares is easier when using a pressure cooker. This helps tenderize the beef quickly. Start by sauteing onion, garlic, and ginger. These aromatics brings-in flavor and aroma to your dish. Make sure that the onion softens. This makes it sweeter.
+
+Add the beef and continue to saute until it browns. Pour-in water and then add a piece of Knorr Beef Cube and 2 pieces of star anise. Pressure cook for 15 minutes. You can cook it longer up to 20 minutes, but make sure that the beef is still intact. Add sugar and season with salt and ground black pepper.`,
+},
+{
+title: `Making Beef Stock`,
+content: `Beef pares is not complete without the soup. There are two ways to have it. The fastest way is to purchase beef stock or broth from the supermarket. The ideal way is to making it from scratch. This option takes time and should be done in advance. Here is how I do it. Start preparing the soup using beef bones. Beef neck bones the ones that I used in this recipe. I chose this part to make beef stock because it has a good ratio of bone to meat.
+
+It is best to broil the beef bones in the oven before boiling. Doing this makes it more flavorful. This is optional, but it makes a difference. Place the bones in a baking tray. Set the oven to broil. Keep the bones in there for 20 minutes.
+
+It’s time to make the soup or the stock. Pour 6 cups water in a cooking pot. Let it boil. Add the beef bones and mirepoix (carrot, celery, and onion). I also add 3 tablespoons of vinegar to the mix. This helps break down the collagen making your stock more gelatinous. It also helps improve the taste of the stock overall. I add a piece of Knorr Beef Cube to give it that solid beef flavor. This needs to cook in low heat for at least 3 hours for the shortcut version. Best results are seen when simmering the bones for more than 8 hours. It is your choice. Season with salt.`,
+},
+{
+title: `Cooking Garlic Fried Rice`,
+content: `Sinangag na kanin is the Filipino term for it. Cold leftover rice is perfect to use in making sinangag. It involves combining salt and rice and mixing together before cooking. Crispy browned garlic makes sinangag a winner. This is done by frying the garlic in low heat until it turns light brown, and the the rice and salt mixture is added and cooked all together until done. Use this sinangag recipe as a guide.`,
+},
+{
+title: `Tips in Cooking Beef Pares`,
+content: `It is best to make the soup from scratch and always prepare it in advance to save time. Do a large batch and freeze the remaining stock for future use.
+
+Pour a few tablespoons of beef pares sauce into your soup before eating to make it even more flavorful. It will be tastier.
+
+A pressure cooker is your friend in the kitchen. Use this to quickly cook your beef pares.
+
+Star anise is an important ingredient for pares, as far as I am concerned. Try to use half a teaspoon of five spice powder if this is not available.`,
+},
+],
+recipe: {
+details: {
+description: `Beef stewed in soy sauce with star anise. This dish is best enjoyed with garlic fried rice and a bowl of beef stock on the side.`,
+time: {
+prep: `10 Minutes`,
+cook: `45 Minutes`,
+total: `55 Minutes`,
+},
+servings: null,
+calories: `3622 kcal`,
+},
+ingredients: [
+{
+name: `Beef`,
+amount: `2 1/2 lbs.`,
+tagalog: `Baka`,
+type: `Cubed`,
+image: `beef`,
+},
+{
+name: `Knorr Beef Cube`,
+amount: `1 Piece`,
+tagalog: null,
+type: null,
+image: `mix-cube`,
+},
+{
+name: `Star Anise`,
+amount: `2 Pieces`,
+tagalog: null,
+type: null,
+image: `star-anise`,
+},
+{
+name: `Brown Sugar`,
+amount: `1/4 Cup`,
+tagalog: `Asukal`,
+type: null,
+image: `sugar`,
+},
+{
+name: `Scallions`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Chopped`,
+image: `scallion`,
+},
+{
+name: `Ginger`,
+amount: `2 Thumbs`,
+tagalog: `Luya`,
+type: `Minced`,
+image: `ginger`,
+},
+{
+name: `Soy Sauce`,
+amount: `6 Tablespoons`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Chopped`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `5 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Water`,
+amount: `2 1/2 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Black Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Paminta`,
+type: null,
+image: `black-pepper`,
+},
+],
+instructions: [
+`Heat oil in a cooking pot or pressure cooker. Saute onion, garlic, and ginger.`,
+`Add the beef once onion softens. Cook until light brown.`,
+`Pour soy sauce and water. Stir.`,
+`Add Knorr Beef Cube and star anise. Cover the pressure cooker and pressure cook for 15 minutes.`,
+`Add brown sugar and season with salt and ground black pepper. Cook for 8 to 10 minutes more or until the sauce reduces a bit.`,
+`Top with chopped scallions and serve with sinangag and beef stock. Share and enjoy.`,
+],
+nutrition: [
+{ name: 'Calories', amount: '3622kcal' },
+{ name: 'Carbohydrates', amount: '80g' },
+{ name: 'Protein', amount: '210g' },
+{ name: 'Fat', amount: '269g' },
+{ name: 'Saturated Fat', amount: '90g' },
+{ name: 'Cholesterol', amount: '805mg' },
+{ name: 'Sodium', amount: '7814mg' },
+{ name: 'Potassium', amount: '3722mg' },
+{ name: 'Fiber', amount: '4g' },
+{ name: 'Sugar', amount: '61g' },
+{ name: 'Vitamin A', amount: '500IU' },
+{ name: 'Vitamin C', amount: '22.2mg' },
+{ name: 'Calcium', amount: '392mg' },
+{ name: 'Iron', amount: '26.9mg' },
+],
+},
+video: `https://youtu.be/fVpdPTTgGKo`,
+image: require('./images/food/000000073.jpg'),
+},
 ];
 
 
@@ -8327,6 +8507,7 @@ List:
 70. Maja Blanca
 71. Beef Tapa
 72. Bicol Express
+73. Beef Pares
 
 **************************************************************************************************************/
 

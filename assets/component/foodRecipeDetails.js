@@ -24,10 +24,14 @@ export default function FoodRecipeDetails({ details }){
         <Text style={ tableStyles.leftColumn }>Total Time</Text>
         <Text style={ tableStyles.rightColumn }>{ details.time.total }</Text>
       </View>
-      <View style={ tableStyles.twoColumns }>
-        <Text style={ tableStyles.leftColumn }>Serving</Text>
-        <Text style={ tableStyles.rightColumn }>{ details.servings }</Text>
-      </View>
+      {details.serving != null ? (
+        <View style={ tableStyles.twoColumns }>
+          <Text style={ tableStyles.leftColumn }>Serving</Text>
+          <Text style={ tableStyles.rightColumn }>{ details.servings }</Text>
+        </View>
+      ) : (
+        null
+      )}
       {details.calories != null ? (
         <View style={ tableStyles.twoColumns }>
           <Text style={ tableStyles.leftColumn }>Calories</Text>
