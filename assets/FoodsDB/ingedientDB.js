@@ -112,6 +112,10 @@ const Ingredients = [
     image: require('./images/ingredient/coconut.png'),
   },
   {
+    name: 'coconut-cream',
+    image: require('./images/ingredient/coconut-cream.png'),
+  },
+  {
     name: 'coconut-milk',
     image: require('./images/ingredient/coconut-milk.png'),
   },
