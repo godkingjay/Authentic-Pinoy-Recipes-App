@@ -31,7 +31,7 @@ export default function FavoriteButton({ id }){
         <Icon
           type="material-icons"
           name="favorite-outline"
-          color="#444"
+          color="#666"
           size={ 40 }
         />
       </TouchableOpacity>
