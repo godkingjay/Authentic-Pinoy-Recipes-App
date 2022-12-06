@@ -28,7 +28,7 @@ export default function Discover({ navigation, route }) {
   useEffect(() => {
     discoverFoodCategories()
       .then(data => {
-        setDiscoverCategories((shuffle(data)).splice(0, data.length));
+        setDiscoverCategories((shuffle(data)).splice(0, data.length < 8 ? data.length : 8));
       })
       .catch(error => {
         alert(error)

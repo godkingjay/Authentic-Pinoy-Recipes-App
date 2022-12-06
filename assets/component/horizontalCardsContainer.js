@@ -43,7 +43,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
     <View style = { styles.cardsContainer }>
       <View style={ styles.cardsLabelContainer }>
         <Text style = { styles.foodCategoryName }>{ (foodCategory.name).toUpperCase() }</Text>
-        {foods.length >= 5 ? (
+        {discover.length >= 5 ? (
           <DiscoverSeeAll navigation={ navigation } route={ route } foodType={ foodCategory.name }/>
         ) : (
           null
