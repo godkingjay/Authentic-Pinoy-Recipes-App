@@ -88,6 +88,10 @@ const Ingredients = [
     image: require('./images/ingredient/celery.png'),
   },
   {
+    name: 'chayote',
+    image: require('./images/ingredient/chayote.png'),
+  },
+  {
     name: 'cheese',
     image: require('./images/ingredient/cheese.png'),
   },
@@ -494,6 +498,10 @@ const Ingredients = [
   {
     name: 'star-anise',
     image: require('./images/ingredient/star-anise.png'),
+  },
+  {
+    name: 'stock',
+    image: require('./images/ingredient/stock.png'),
   },  
   {
     name: 'sugar',
