@@ -25,9 +25,9 @@ const styles = StyleSheet.create({
   },
   cardContainer: {
     backgroundColor: "white",
-    elevation: 2,
     borderRadius: 8,
-    overflow: "hidden"
+    overflow: "hidden",
+    elevation: 2,
   },
   foodImageContainer: {
     width: 144,
