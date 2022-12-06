@@ -3808,7 +3808,7 @@ type: [
 `Breakfast`,
 `Egg Dish`,
 ],
-description:  `Longsilog is a traditional Filipino dish that's served for breakfast. The dish and its name consist of a combination of longganisa sausage, sinangag (garlic rice), and itlog (fried eggs). The Filipino-style sausages (pork, garlic, vinegar, salt, sugar) are boiled and fried in their own fat until crispy, while the garlic rice and the eggs are fried in oil.
+description:`Longsilog is a traditional Filipino dish that's served for breakfast. The dish and its name consist of a combination of longganisa sausage, sinangag (garlic rice), and itlog (fried eggs). The Filipino-style sausages (pork, garlic, vinegar, salt, sugar) are boiled and fried in their own fat until crispy, while the garlic rice and the eggs are fried in oil.
 
 When served, longsilog is traditionally accompanied by freshly sliced tomatoes or cucumbers.`,
 link: `https://panlasangpinoy.com/how-to-cook-longsilog/`,
@@ -3819,15 +3819,15 @@ title: `What is Longsilog?`,
 content: `True to its name, longsilog is a breakfast that consists of sweet pork (longanisa), savory eggs, and umami garlic rice! Without even laying eyes on it, longsilog’s smell wafting through your home is enough to drag even the sleepiest out of bed. Its tantalizing aroma and humble yet comforting appearance, however, aren’t what make this dish special. In fact, it’s longsilog’s simple yet flavorful taste that is the star of the show!`,
 },
 {
-  title: `How to Make Longsilog`,
-  content: `Start making your longsilog by heating 2 tablespoons of oil in a pan. Once that oil gets hot, fry 2 pieces of eggs. We’re going for a sunny side, slightly over-easy egg, so that yolk is still runny when you slice it open later. Yum! (Feel free, however, to cook your eggs however you’d like.) Once you’ve cooked your egg long enough, remove it from the pan and set it aside.
-  
-  Then, it’s time to add in your remaining 2 tablespoons of oil. The next part of your longsilog to cook is the longanisa itself! Fry half a pound of skinless longanisa in your pan for about a minute and a half. This should be enough time for the outer part of your sausages to turn a light brown. Pour in half a cup of water and bring it to a boil. Let it evaporate, then fry the longanisa in the remaining oil until you’ve cooked it inside out! Remove it from the pan and set it aside.
+title: `How to Make Longsilog`,
+content: `Start making your longsilog by heating 2 tablespoons of oil in a pan. Once that oil gets hot, fry 2 pieces of eggs. We’re going for a sunny side, slightly over-easy egg, so that yolk is still runny when you slice it open later. Yum! (Feel free, however, to cook your eggs however you’d like.) Once you’ve cooked your egg long enough, remove it from the pan and set it aside.
+
+Then, it’s time to add in your remaining 2 tablespoons of oil. The next part of your longsilog to cook is the longanisa itself! Fry half a pound of skinless longanisa in your pan for about a minute and a half. This should be enough time for the outer part of your sausages to turn a light brown. Pour in half a cup of water and bring it to a boil. Let it evaporate, then fry the longanisa in the remaining oil until you’ve cooked it inside out! Remove it from the pan and set it aside.
 
 That’s 2 of the 3 components of longsilog you’ve already handled! The last component is the easiest –– sinangag, or garlic rice! Using the remaining oil from the longanisa, cook your crushed garlic in the pan until it starts to slightly brown. Add in your 4 cups of leftover rice and stir fry it for about 3 minutes. Season your sinangag with salt and pepper to taste.
 
 Transfer all your longsilog’s components –– the longanisa, the eggs, and garlic rice –– to a plate! If you like, you can even fill a bowl with spicy vinegar as a dipping sauce for your meat. And just like that, breakfast is ready!`,
-  },
+},
 ],
 recipe: {
 details: {
@@ -3849,54 +3849,54 @@ type: null,
 image: `sausage`,
 },
 {
-  name: `Eggs`,
-  amount: `2 Pieces`,
-  tagalog: `Itlog`,
-  type: null,
-  image: `egg`,
-  },
-  {
-    name: `Rice`,
-    amount: `4 Cups`,
-    tagalog: null,
-    type: `Leftover`,
-    image: `rice`,
-    },
-    {
-      name: `Garlic`,
-      amount: `5 Cloves`,
-      tagalog: `Bawang`,
-      type: `Crushed`,
-      image: `garlic`,
-      },
-      {
-        name: `Water`,
-        amount: `1/2 Cup`,
-        tagalog: `Tubig`,
-        type: null,
-        image: `water`,
-        },
-        {
-          name: `Cooking Oil`,
-          amount: `4 Tablespoons`,
-          tagalog: `Mantika`,
-          type: null,
-          image: `cooking-oil`,
-          },
-          {
-            name: `Salt`,
-            amount: `Depends on taste.`,
-            tagalog: `Asin`,
-            type: null,
-            image: `salt`,
-            },
-            {
-              name: `Ground Black Pepper`,
-              amount: `Depends on taste.`,
-              tagalog: `Dinurog na Paminta`,
-              type: null,
-              image: `black-pepper`,
-              },
+name: `Eggs`,
+amount: `2 Pieces`,
+tagalog: `Itlog`,
+type: null,
+image: `egg`,
+},
+{
+name: `Rice`,
+amount: `4 Cups`,
+tagalog: null,
+type: `Leftover`,
+image: `rice`,
+},
+{
+name: `Garlic`,
+amount: `5 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Water`,
+amount: `1/2 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Cooking Oil`,
+amount: `4 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
 ],
 instructions: [
 `Heat 2 tablespoons of oil in a pan. Once the oil gets hot, fry the eggs. Remove from the pan. Set aside.`,
@@ -3908,24 +3908,24 @@ instructions: [
 `Share and enjoy!`,
 ],
 nutrition: [
-  { name: 'Serving', amount: '4g' },
-  { name: 'Calories', amount: '978kcal' },
-  { name: 'Carbohydrates', amount: '149g' },
-  { name: 'Protein', amount: '22g' },
-  { name: 'Fat', amount: '30g' },
-  { name: 'Saturated Fat', amount: '6g' },
-  { name: 'Polyunsaturated Fat', amount: '6g' },
-  { name: 'Monounsaturated Fat', amount: '16g' },
-  { name: 'Trans Fat', amount: '1g' },
-  { name: 'Cholesterol', amount: '43mg' },
-  { name: 'Sodium', amount: '373mg' },
-  { name: 'Potassium', amount: '369mg' },
-  { name: 'Fiber', amount: '2g' },
-  { name: 'Sugar', amount: '1g' },
-  { name: 'Vitamin A', amount: '46IU' },
-  { name: 'Vitamin C', amount: '2mg' },
-  { name: 'Calcium', amount: '65mg' },
-  { name: 'Iron', amount: '2mg' },
+{ name: 'Serving', amount: '4g' },
+{ name: 'Calories', amount: '978kcal' },
+{ name: 'Carbohydrates', amount: '149g' },
+{ name: 'Protein', amount: '22g' },
+{ name: 'Fat', amount: '30g' },
+{ name: 'Saturated Fat', amount: '6g' },
+{ name: 'Polyunsaturated Fat', amount: '6g' },
+{ name: 'Monounsaturated Fat', amount: '16g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '43mg' },
+{ name: 'Sodium', amount: '373mg' },
+{ name: 'Potassium', amount: '369mg' },
+{ name: 'Fiber', amount: '2g' },
+{ name: 'Sugar', amount: '1g' },
+{ name: 'Vitamin A', amount: '46IU' },
+{ name: 'Vitamin C', amount: '2mg' },
+{ name: 'Calcium', amount: '65mg' },
+{ name: 'Iron', amount: '2mg' },
 ],
 },
 video: `https://youtu.be/uXi6QDOdhGg`,
@@ -8443,6 +8443,82 @@ nutrition: [
 video: `https://youtu.be/fVpdPTTgGKo`,
 image: require('./images/food/000000073.jpg'),
 },
+{
+id: 74,
+name: `Lugaw`,
+tagalog: `Lugaw`,
+type: [
+`Rice Dish`,
+`Porridge`,
+`Breakfast`,
+`Snack`,
+],
+special: [
+`Noche Buena`,
+],
+description: `Lugaw is a Filipino rice porridge that is traditionally thought of as soft food for sick people, due to the fact that it doesn't require much chewing. Warm, filling, and mushy, the dish acts as an ideal base for any type of meat and seasonings, just like a congee.
+
+Lugaw is usually consumed for breakfast or as a snack. Many cooks like to add chicken, lemon, and ginger in order to improve the flavors of the dish. After that, it can be flavored with typical Filipino ingredients: scallions, garlic chips, sliced hard-boiled eggs, calamansi, or fish sauce.
+
+Lugaw is also traditionally prepared as a part of the Christmas Eve celebratory meal known as Noche Buena.`,
+link: `https://panlasangpinoy.com/lugaw-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `3 Minutes`,
+cook: `35 Minutes`,
+total: `38 Minutes`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `White Rice`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `rice`,
+},
+{
+name: `Water`,
+amount: `3 to 4 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Salt`,
+amount: `2 Teaspoons`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Rousong Pork Floss`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: null,
+image: `pork`,
+},
+],
+instructions: [
+`Pour water in a cooking pot. Bring to a boil.`,
+`Put-in the rice. Continue cooking for 30 minutes or until the texture becomes thick, while stirring once in awhile.`,
+`Add the salt, stir and then cook for 2 minutes more.`,
+`Transfer to a serving bowl. Top with a tablespoon of rousing.`,
+`Serve hot. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: null,
+image: require('./images/food/000000074.jpg'),
+},
 ];
 
 
@@ -8456,6 +8532,9 @@ id: 0,
 name: null,
 tagalog: null,
 type: [
+
+],
+special: [
 
 ],
 description: null,
@@ -8590,6 +8669,7 @@ List:
 71. Beef Tapa
 72. Bicol Express
 73. Beef Pares
+74. Lugaw
 
 **************************************************************************************************************/
 
