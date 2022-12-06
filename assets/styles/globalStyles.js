@@ -10,7 +10,7 @@ const globalStyles = StyleSheet.create({
   screen: {
     backgroundColor: '#fff',
     minHeight: '100%',
-  }
+  },
 });
 
 export default globalStyles;
