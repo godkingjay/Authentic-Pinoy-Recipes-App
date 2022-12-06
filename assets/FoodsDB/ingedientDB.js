@@ -200,6 +200,10 @@ const Ingredients = [
     image: require('./images/ingredient/green-chili.png'),
   },
   {
+    name: 'guava',
+    image: require('./images/ingredient/guava.png'),
+  },
+  {
     name: 'hotdog',
     image: require('./images/ingredient/hotdog.png'),
   },
@@ -498,6 +502,10 @@ const Ingredients = [
   {
     name: 'sweet-potato',
     image: require('./images/ingredient/sweet-potato.png'),
+  },
+  {
+    name: 'tamarind',
+    image: require('./images/ingredient/tamarind.png'),
   },
   {
     name: 'taro-gabi',
