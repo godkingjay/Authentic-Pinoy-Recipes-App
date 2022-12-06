@@ -3749,7 +3749,7 @@ name: `Tocino`,
 amount: `1 lb.`,
 tagalog: null,
 type: `Uncooked`,
-image: `pork`,
+image: `tocino`,
 },
 {
 name: `Fried Rice`,
@@ -3800,55 +3800,137 @@ amount: `3g`,
 video: null,
 image: require('./images/food/000000033.jpg'),
 },
-// {
-// id: 34,
-// name: `Longsilog`,
-// tagalog: `Longsilog`,
-// type: [
+{
+id: 34,
+name: `Longsilog`,
+tagalog: `Longsilog`,
+type: [
+`Breakfast`,
+`Egg Dish`,
+],
+description:  `Longsilog is a traditional Filipino dish that's served for breakfast. The dish and its name consist of a combination of longganisa sausage, sinangag (garlic rice), and itlog (fried eggs). The Filipino-style sausages (pork, garlic, vinegar, salt, sugar) are boiled and fried in their own fat until crispy, while the garlic rice and the eggs are fried in oil.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
+When served, longsilog is traditionally accompanied by freshly sliced tomatoes or cucumbers.`,
+link: `https://panlasangpinoy.com/how-to-cook-longsilog/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `What is Longsilog?`,
+content: `True to its name, longsilog is a breakfast that consists of sweet pork (longanisa), savory eggs, and umami garlic rice! Without even laying eyes on it, longsilog’s smell wafting through your home is enough to drag even the sleepiest out of bed. Its tantalizing aroma and humble yet comforting appearance, however, aren’t what make this dish special. In fact, it’s longsilog’s simple yet flavorful taste that is the star of the show!`,
+},
+{
+  title: `How to Make Longsilog`,
+  content: `Start making your longsilog by heating 2 tablespoons of oil in a pan. Once that oil gets hot, fry 2 pieces of eggs. We’re going for a sunny side, slightly over-easy egg, so that yolk is still runny when you slice it open later. Yum! (Feel free, however, to cook your eggs however you’d like.) Once you’ve cooked your egg long enough, remove it from the pan and set it aside.
+  
+  Then, it’s time to add in your remaining 2 tablespoons of oil. The next part of your longsilog to cook is the longanisa itself! Fry half a pound of skinless longanisa in your pan for about a minute and a half. This should be enough time for the outer part of your sausages to turn a light brown. Pour in half a cup of water and bring it to a boil. Let it evaporate, then fry the longanisa in the remaining oil until you’ve cooked it inside out! Remove it from the pan and set it aside.
 
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+That’s 2 of the 3 components of longsilog you’ve already handled! The last component is the easiest –– sinangag, or garlic rice! Using the remaining oil from the longanisa, cook your crushed garlic in the pan until it starts to slightly brown. Add in your 4 cups of leftover rice and stir fry it for about 3 minutes. Season your sinangag with salt and pepper to taste.
+
+Transfer all your longsilog’s components –– the longanisa, the eggs, and garlic rice –– to a plate! If you like, you can even fill a bowl with spicy vinegar as a dipping sauce for your meat. And just like that, breakfast is ready!`,
+  },
+],
+recipe: {
+details: {
+description: `Filipino sweet sausage with garlic fried rice and fried egg. This complete meal is perfect for breakfast.`,
+time: {
+prep: `5 Minutes`,
+cook: `25 Minutes`,
+total: `30 Minutes`,
+},
+servings: `4 People`,
+calories: `978 kcal`,
+},
+ingredients: [
+{
+name: `Skinless Longganisa`,
+amount: `1/2 lb.`,
+tagalog: null,
+type: null,
+image: `sausage`,
+},
+{
+  name: `Eggs`,
+  amount: `2 Pieces`,
+  tagalog: `Itlog`,
+  type: null,
+  image: `egg`,
+  },
+  {
+    name: `Rice`,
+    amount: `4 Cups`,
+    tagalog: null,
+    type: `Leftover`,
+    image: `rice`,
+    },
+    {
+      name: `Garlic`,
+      amount: `5 Cloves`,
+      tagalog: `Bawang`,
+      type: `Crushed`,
+      image: `garlic`,
+      },
+      {
+        name: `Water`,
+        amount: `1/2 Cup`,
+        tagalog: `Tubig`,
+        type: null,
+        image: `water`,
+        },
+        {
+          name: `Cooking Oil`,
+          amount: `4 Tablespoons`,
+          tagalog: `Mantika`,
+          type: null,
+          image: `cooking-oil`,
+          },
+          {
+            name: `Salt`,
+            amount: `Depends on taste.`,
+            tagalog: `Asin`,
+            type: null,
+            image: `salt`,
+            },
+            {
+              name: `Ground Black Pepper`,
+              amount: `Depends on taste.`,
+              tagalog: `Dinurog na Paminta`,
+              type: null,
+              image: `black-pepper`,
+              },
+],
+instructions: [
+`Heat 2 tablespoons of oil in a pan. Once the oil gets hot, fry the eggs. Remove from the pan. Set aside.`,
+`Add remaining oil in the pan. Fry the longanisa until the outer part turns light brown (around 1 1/2 minutes).`,
+`Pour-in water. Let boil. Continue boiling until the water evaporates. Fry the longanisa in remaining oil until fully cooked. Remove from the pan and set aside.`,
+`Using the remaining oil, cook garlic until it starts to turn light brown.`,
+`Add rice. Stir-fry for 3 minutes. Season with salt and ground black pepper.`,
+`Assemble the fried eggs, longanisa, and sinangag on a plate. Serve with spicy vinegar as a dipping sauce for the longanisa.`,
+`Share and enjoy!`,
+],
+nutrition: [
+  { name: 'Serving', amount: '4g' },
+  { name: 'Calories', amount: '978kcal' },
+  { name: 'Carbohydrates', amount: '149g' },
+  { name: 'Protein', amount: '22g' },
+  { name: 'Fat', amount: '30g' },
+  { name: 'Saturated Fat', amount: '6g' },
+  { name: 'Polyunsaturated Fat', amount: '6g' },
+  { name: 'Monounsaturated Fat', amount: '16g' },
+  { name: 'Trans Fat', amount: '1g' },
+  { name: 'Cholesterol', amount: '43mg' },
+  { name: 'Sodium', amount: '373mg' },
+  { name: 'Potassium', amount: '369mg' },
+  { name: 'Fiber', amount: '2g' },
+  { name: 'Sugar', amount: '1g' },
+  { name: 'Vitamin A', amount: '46IU' },
+  { name: 'Vitamin C', amount: '2mg' },
+  { name: 'Calcium', amount: '65mg' },
+  { name: 'Iron', amount: '2mg' },
+],
+},
+video: `https://youtu.be/uXi6QDOdhGg`,
+image: require(`./images/food/000000034.jpg`),
+},
 // {
 // id: 35,
 // name: `Cornsilog`,
