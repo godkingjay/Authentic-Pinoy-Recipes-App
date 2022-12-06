@@ -71,7 +71,9 @@ export default function FoodRecipe({ recipe }) {
             <View style={ styles.instructionWrapper }>
               <View style={ styles.instructionContainer }>
                 <Text style={ styles.instructionNumberContainer }>Step { index + 1 }</Text>
-                <Text style={ styles.instruction }>{ item }</Text>
+                <View style={ styles.instruction }>
+                  <Text style={ styles.instructionText }>{ item }</Text>
+                </View>
               </View>
             </View>
           )}
@@ -172,7 +174,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     overflow: 'hidden',
     borderRadius: 8,
-    maxWidth: 480,
   },
   instructionNumberContainer: {
     backgroundColor: '#36C464',
@@ -190,17 +191,22 @@ const styles = StyleSheet.create({
   },
   instruction: {
     backgroundColor: '#FFC02D',
-    maxWidth: 480,
     minHeight: 200,
     paddingHorizontal: 24,
-    paddingTop: 8,
-    paddingBottom: 16,
     width: "100%",
     flex: 1,
-    textAlign: 'center',
-    textAlignVertical: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  instructionText: {
     fontSize: 16,
     lineHeight: 20,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+    flex: 1,
+    paddingTop: 4,
+    paddingBottom: 16,
+    maxWidth: 480,
   },
   nutritionContainer: {
     alignItems: 'center',
