@@ -206,6 +206,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  nutritionWrapper: {
+    width: window.width - 32,
+  },
   nutritionLabel: {
     fontWeight: 'bold',
     textAlign: 'center',
@@ -221,7 +224,4 @@ const styles = StyleSheet.create({
     maxWidth: 480,
     width: window.width - 32,
   },
-  nutritionWrapper: {
-    width: window.width - 32,
-  }
 });
