@@ -516,6 +516,10 @@ const Ingredients = [
     image: require('./images/ingredient/tartar.png'),
   },
   {
+    name: 'tocino',
+    image: require('./images/ingredient/tocino.png'),
+  },
+  {
     name: 'tofu',
     image: require('./images/ingredient/tofu.png'),
   },
