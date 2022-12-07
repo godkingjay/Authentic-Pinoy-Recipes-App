@@ -1112,8 +1112,8 @@ image: require('./images/food/000000007.jpg'),
 },
 // {
 // id: 8,
-// name: "Pancit Batil Patong",
-// tagalog: "Pansit Tuguegarao",
+// name: "Pancit Cabagan",
+// tagalog: "Pansit Cabagan",
 // type: [
 
 // ],
@@ -8807,7 +8807,7 @@ List:
 5.Pancit Lomi
 6.Pancit Lucban
 7.Pancit Sotanghon
-8.Pancit Batil Patong
+8.Pancit Cabagan
 9.Sisig
 10. Chicken Adobo
 11. Squid Adobo

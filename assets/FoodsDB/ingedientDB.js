@@ -44,6 +44,10 @@ const Ingredients = [
     image: require('./images/ingredient/beef.png'),
   },
   {
+    name: 'bell-pepper',
+    image: require('./images/ingredient/bell-pepper.png'),
+  },
+  {
     name: 'black-pepper',
     image: require('./images/ingredient/black-pepper.png'),
   },
