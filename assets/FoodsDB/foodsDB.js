@@ -1110,55 +1110,170 @@ nutrition: [
 video: null,
 image: require('./images/food/000000007.jpg'),
 },
-// {
-// id: 8,
-// name: "Pancit Cabagan",
-// tagalog: "Pansit Cabagan",
-// type: [
+{
+id: 8,
+name: `Pancit Cabagan`,
+tagalog: `Pansit Cabagan`,
+type: [
+`Noodle Dish`,
+],
+special: [
+`Celebration`,
+`Fiesta`,
+`Birthday`,
+],
+description: `Pancit Cabagan is a traditional Filipino type of pancit originating from Cabagan. The dish is usually made with a combination of lechon carajay (crispy pork belly that's boiled with spices and deep-fried), egg noodles, quail eggs, carrots, bell peppers, parsley, pork shoulder, cabbage, garlic, beef stock, soy sauce, fish sauce, scallions, oil, and black pepper.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
+The garlic is sautéed in oil, then stir-fried with the pork slices. Soy sauce, fish sauce, and beef stock are added to the mix and everything is simmered until the pork becomes tender. The rest of the ingredients are then added to the pan and the dish is cooked for a few more minutes before it's topped with lechon carajay and served warm.
 
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+This type of pancit has more sauce than most other pancit varieties.`,
+link: `https://panlasangpinoy.com/pancit-cabagan-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: `This is a recipe for Pansit Cabagan. It is a famous version of pancit that came from the town of Cabagan in Isabela, Philippines.`,
+time: {
+prep: `10 Minutes`,
+cook: `4 Minutes`,
+total: `14 Minutes`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Quail Eggs`,
+amount: `8 Pieces`,
+tagalog: null,
+type: `Boiled`,
+image: `quail-egg`,
+},
+{
+name: `Cooked Lechon`,
+amount: `1/4 lb.`,
+tagalog: null,
+type: `Chopped`,
+image: `pork`,
+},
+{
+name: `Fresh Miki Noodles`,
+amount: `1 lb.`,
+tagalog: null,
+type: null,
+image: `noodles`,
+},
+{
+name: `Carrot`,
+amount: `1 Medium`,
+tagalog: `Karot`,
+type: `Julienned`,
+image: `carrot`,
+},
+{
+name: `Bell Pepper`,
+amount: `1 Small`,
+tagalog: null,
+type: `Cut into thin strips.`,
+image: `bell-pepper`,
+},
+{
+name: `Parsley`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: `Chopped`,
+image: `parsley`,
+},
+{
+name: `Pork Shoulder`,
+amount: `1/4 lb.`,
+tagalog: null,
+type: `Sliced in small pieces.`,
+image: `pork`,
+},
+{
+name: `Igado`,
+amount: `1/4 lb.`,
+tagalog: null,
+type: `Optional`,
+image: `pork`,
+},
+{
+name: `Cabbage`,
+amount: `1 Head`,
+tagalog: `Repolyo`,
+type: `Chopped`,
+image: `cabbage`,
+},
+{
+name: `Garlic`,
+amount: `5 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Beef Broth`,
+amount: `3 Cups`,
+tagalog: null,
+type: null,
+image: `broth`,
+},
+{
+name: `Soy Sauce`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Fish Sauce`,
+amount: `2 Teaspoons`,
+tagalog: `Patis`,
+type: null,
+image: `fish-sauce`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Scallions`,
+amount: `3 Tablespoons`,
+tagalog: null,
+type: `Chopped`,
+image: `scallion`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
+],
+instructions: [
+`Heat the oil in a wok or pan.`,
+`Saute the garlic until it starts to turn light brown.`,
+`Add the pork slices. Stir-fry until for 2 minutes or until it starts to turn brown.`,
+`Pour-in the soy sauce, fish sauce, and 3 cups beef broth. Let boil. Cover and cook in low heat for 12 minutes or until the pork becomes tender.`,
+`Add the miki noodles. Toss. Cook for 2 minutes.`,
+`Add the carrot, parsley, bell pepper, and cabbage. Continue to cook for 5 minutes. You can add more beef broth if needed.`,
+`Sprinkle some ground black pepper. Toss.`,
+`Put the boiled quail eggs in the wok and top with lechon carajay and igado.`,
+`Transfer to a serving plate. Serve.`,
+`Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: null,
+image: require(`./images/food/000000008.jpg`),
+},
 {
 id: 9,
 name: "Sisig",
