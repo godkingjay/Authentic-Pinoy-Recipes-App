@@ -43,11 +43,14 @@ const styles = StyleSheet.create({
   cardContainer: {
     backgroundColor: 'white',
     flexDirection: 'row',
-    elevation: 4,
+    elevation: 2,
     overflow: 'hidden',
     borderRadius: 8,
     alignItems: 'center',
-    flex: 1
+    flex: 1,
+    // borderWidth: 1,
+    // borderColor: '#2221',
+    // shadowColor: '#0008',
   },
   cardImageContainer: {
     aspectRatio: 5/4,
