@@ -8841,6 +8841,169 @@ nutrition: [
 video: null,
 image: require('./images/food/000000074.jpg'),
 },
+{
+id: 75,
+name: `Papaitan`,
+tagalog: `Papaitan`,
+type: [
+`Offal Soup`,
+`Offal Dish`,
+`Soup`
+],
+special: null,
+description: `Papaitan is a famous Ilocano soup dish mostly composed of cow or goat innards. The name of this dish was derived from the Filipino word “Pait”, which means “bitter”. The bitter taste of this soup comes from the bile. This is a bitter juice extracted by the liver and stored in the gallbladder to aid digestion.
+
+Although this soup is popular, one needs to develop and acquired taste to enjoy it. Once an acquired taste has developed, you will surely appreciate this dish without minding its components.`,
+link: `https://panlasangpinoy.com/papaitan-recip/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: `This is a recipe for beef papaitan.`,
+time: {
+prep: `10 Minutes`,
+cook: `1 Hour`,
+total: `1 Hour 10 Minutes`,
+},
+servings: `6 People`,
+calories: `373 kcal`,
+},
+ingredients: [
+{
+name: `Ox Tripe`,
+amount: `1/2 lb.`,
+tagalog: null,
+type: null,
+image: `beef`,
+},
+{
+name: `Cow's Small Intestines`,
+amount: `1/2 lb.`,
+tagalog: null,
+type: null,
+image: `intestine`,
+},
+{
+name: `Beef`,
+amount: `1/2 lb.`,
+tagalog: `Baka`,
+type: `Thinly Sliced and Chopped`,
+image: `beef`,
+},
+{
+name: `Cow's Heart`,
+amount: `1/2 lb.`,
+tagalog: null,
+type: null,
+image: `offal`,
+},
+{
+name: `Bile`,
+amount: `2 Tablespoons`,
+tagalog: null,
+type: null,
+image: `offal`,
+},
+{
+name: `Ginger`,
+amount: `2 Thumbs`,
+tagalog: `Luya`,
+type: `Julienned`,
+image: `ginger`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Diced`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `6 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed and Chopped`,
+image: `garlic`,
+},
+{
+name: `Water`,
+amount: `8 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Finger Chilies`,
+amount: `4 to 6 Pieces`,
+tagalog: null,
+type: null,
+image: `chili`,
+},
+{
+name: `Salt`,
+amount: `2 1/2 Tablespoons`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `1/2 Tablespoon`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
+{
+name: `Calamansi`,
+amount: `5 to 8 Pieces`,
+tagalog: null,
+type: null,
+image: `calamansi`,
+},
+{
+name: `Cooking Oil`,
+amount: `2 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+],
+instructions: [
+`Heat a cooking pot and pour-in 4 cups of water and put-in 1 tablespoon salt. Bring to a boil.`,
+`Put-in the ox tripe and small intestines and simmer until tender. This should take approximately 35 to 50 minutes.`,
+`Turn off heat. Remove the tender ox tripe and small intestines then slice. Set aside. Discard the water.`,
+`Heat a clean cooking pot and pour-in cooking oil.`,
+`When the oil is hot enough, sauté garlic, onion, and ginger.`,
+`Add the beef, heart, sliced intestines, and tripe then cook for about 3 to 4 minutes.`,
+`Add 1 1/2 tablespoon salt and ground black pepper then stir for a minute.`,
+`Pour-in remaining 4 cups of water and bring to a boil. Simmer for 40 minutes (you may add more water if needed).`,
+`Add bile then simmer for 5 minutes.`,
+`Add the finger chilies and squeeze-in the lemon juice then simmer for 3 minutes.`,
+`Turn off the heat and transfer to a serving bowl.`,
+`Serve hot. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+{ name: 'Calories', amount: '473kcal' },
+{ name: 'Carbohydrates', amount: '3g' },
+{ name: 'Protein', amount: '8g' },
+{ name: 'Fat', amount: '48g' },
+{ name: 'Saturated Fat', amount: '23g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '53mg' },
+{ name: 'Sodium', amount: '2952mg' },
+{ name: 'Potassium', amount: '156mg' },
+{ name: 'Fiber', amount: '1g' },
+{ name: 'Sugar', amount: '1g' },
+{ name: 'Vitamin A', amount: '3IU' },
+{ name: 'Vitamin C', amount: '2mg' },
+{ name: 'Calcium', amount: '31mg' },
+{ name: 'Iron', amount: '1mg' },
+],
+},
+video: `https://youtu.be/69Ro64JX8CY`,
+image: require(`./images/food/000000075.jpg`),
+},
 ];
 
 
@@ -8992,6 +9155,7 @@ List:
 72. Bicol Express
 73. Beef Pares
 74. Lugaw
+75. Papaitan
 
 **************************************************************************************************************/
 
