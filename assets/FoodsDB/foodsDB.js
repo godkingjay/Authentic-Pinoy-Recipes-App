@@ -961,55 +961,155 @@ nutrition: [
 video: `https://youtu.be/y10k4p2H9Xs`,
 image: require('./images/food/000000006.jpg'),
 },
-// {
-// id: 7,
-// name: "Pancit Sotanghon",
-// tagalog: "Pansit Sotanghon",
-// type: [
+{
+id: 7,
+name: `Pancit Sotanghon`,
+tagalog: `Pansit Sotanghon`,
+type: [
+`Noodle Dish`,
+],
+special: [
+`Celebration`,
+`Fiesta`,
+`Birthday`,
+],
+description: `Pancit sotanghon is a traditional type of pancit originating from the Philippines. The dish is usually made with a combination of sotanghon (cellophane or glass) noodles, shredded chicken meat, Chinese sausage, pork slices, parsley, soy sauce, carrots, snap peas, cabbage, onions, garlic, salt, pepper, and oil.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+This type of pancit is made in a wok or a large pan, and all ingredients are sautéed and stir-fried until everything becomes tender and fully cooked. This noodle dish is typically served straight out of the pan, while still hot, and it's traditionally accompanied by lemon or calamansi wedges on the side.`,
+link: `https://panlasangpinoy.com/pancit-sotanghon/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `20 Minutes`,
+cook: `20 Minutes`,
+total: `40 Minutes`,
+},
+servings: `5 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Sotanghon Noodles`,
+amount: `3/4 lb.`,
+tagalog: null,
+type: null,
+image: `noodles`,
+},
+{
+name: `Baked Chicken`,
+amount: `1/2 Piece`,
+tagalog: null,
+type: `Shredded Meat`,
+image: `chicken`,
+},
+{
+name: `Chinese Sausage`,
+amount: `3 Pieces`,
+tagalog: null,
+type: `Chopped`,
+image: `sausage`,
+},
+{
+name: `Pork`,
+amount: `4 Ounces`,
+tagalog: `Baboy`,
+type: `Sliced Thinly and Chopped`,
+image: `pork`,
+},
+{
+name: `Flat Leaf Parsley`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Chopped`,
+image: `parsley`,
+},
+{
+name: `Soy Sauce`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Small Carrot`,
+amount: `1 Piece`,
+tagalog: `Karot`,
+type: `Julienne`,
+image: `carrot`,
+},
+{
+name: `Snap Peas`,
+amount: `15 to 18 Pieces`,
+tagalog: null,
+type: null,
+image: `peas`,
+},
+{
+name: `Cabbage`,
+amount: `1 Medium`,
+tagalog: `Repolyo`,
+type: `Chopped`,
+image: `cabbage`,
+},
+{
+name: `Yellow Onion`,
+amount: `1 Small`,
+tagalog: `Sibuyas`,
+type: `Sliced`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `2 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+],
+instructions: [
+`Place 6 cups water on a large mixing bowl. Put-in the vermicelli noodles and soak for 10 minutes or until the noodles becomes a bit soft. Discard the water.`,
+`Boil 4 cups of water. Blanch the carrots, snap peas, and cabbage. Set aside. (note: I explained the concept of blanching in the pancit canton post).`,
+`Heat a wok or wide pan. Pour-in the cooking oil.`,
+`Saute the garlic and onion.`,
+`Once the onion becomes soft, add-in the Chinese sausage, pork, and baked chicken. Cook for 5 minutes.`,
+`Add-in the chopped parsley, soy sauce, and ¾ cup water. Stir and let boil.`,
+`Add the vermicelli noodles. Make sure that the noodles are soft and that excess water has been drained. Toss until all the ingredients are well blended.`,
+`Add salt and ground black pepper as needed.`,
+`Put-in the blanched vegetables; toss and cook for 3 minutes.`,
+`Transfer to a serving plate. Serve.`,
+`Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '5g' },
+],
+},
+video: null,
+image: require('./images/food/000000007.jpg'),
+},
 // {
 // id: 8,
 // name: "Pancit Batil Patong",
