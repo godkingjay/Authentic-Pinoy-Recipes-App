@@ -52,10 +52,10 @@ const styles = StyleSheet.create({
   },
   foodColorIndicator: {
     position: "absolute",
-    height: 32,
+    height: 24,
     aspectRatio: 1,
-    right: -16,
-    bottom: -16,
+    right: -12,
+    bottom: -12,
     borderRadius: 100,
     elevation: 2,
   },
