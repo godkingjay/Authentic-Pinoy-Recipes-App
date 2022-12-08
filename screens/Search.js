@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     borderRadius: 100,
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#4040f018',
+    backgroundColor: '#4080f018',
   },
   searchField: {
     textAlignVertical: 'center',
