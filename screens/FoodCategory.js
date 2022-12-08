@@ -45,6 +45,20 @@ export default function FoodCategory({ navigation, route }){
         <FlatList
           showsVerticalScrollIndicator={ false }
           data={ foods }
+          ListHeaderComponent={() => (
+            <View
+              style={{
+                height: 12,
+              }}
+            ></View>
+          )}
+          ListFooterComponent={() => (
+            <View
+              style={{
+                height: 12,
+              }}
+            ></View>
+          )}
           renderItem={({ item }) => (
             <FoodCard navigation={ navigation } route={ route } food={ item }/>
           )}
