@@ -9,12 +9,6 @@ export default function HorizontalCard({ navigation, route, food, color }) {
         <View style={ styles.foodImageContainer }>
           <Image source={ food.image } style={ styles.foodImage }/>
         </View>
-        <View style={ styles.foodDetailsContainer }>
-          <View style={ styles.foodDetails }>
-            <Text style={{ fontWeight: "600", fontSize: 16, color: '#222' }}>{ food.name }</Text>
-            <Text style={{ fontStyle: "italic", fontSize: 12, marginTop: -2, color: "#444" }}>{ food.tagalog }</Text>
-          </View>
-        </View>
         <View
           style={[
             styles.foodColorIndicator,
@@ -23,6 +17,12 @@ export default function HorizontalCard({ navigation, route, food, color }) {
             }
           ]}
         ></View>
+        <View style={ styles.foodDetailsContainer }>
+          <View style={ styles.foodDetails }>
+            <Text style={{ fontWeight: "600", fontSize: 16, color: '#222' }}>{ food.name }</Text>
+            <Text style={{ fontStyle: "italic", fontSize: 12, marginTop: -2, color: "#444" }}>{ food.tagalog }</Text>
+          </View>
+        </View>
       </TouchableOpacity>
     </View>
   );
@@ -49,16 +49,14 @@ const styles = StyleSheet.create({
     resizeMode: "cover"
   },
   foodDetailsContainer: {
-    backgroundColor: "white",
   },
   foodColorIndicator: {
     position: "absolute",
-    height: 24,
+    height: 32,
     aspectRatio: 1,
-    right: -12,
-    bottom: 36,
-    borderBottomLeftRadius: 100,
-    borderTopLeftRadius: 100,
+    right: -16,
+    bottom: -16,
+    borderRadius: 100,
     elevation: 2,
   },
   foodDetails: {
