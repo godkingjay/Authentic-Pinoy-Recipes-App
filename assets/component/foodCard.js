@@ -1,18 +1,32 @@
 import React from 'react';
 import { useState } from 'react';
 import { Image, StyleSheet, TouchableOpacity } from 'react-native';
-import { ScrollView } from 'react-native';
 import { Text } from 'react-native';
 import { View } from 'react-native';
+import foodCategory from '../FoodsDB/foodCategories';
 import FavoriteButton from './favoriteButton';
 
 export default function FoodCard({ navigation, route, food }) {
+
+  const [foodColor, setFoodColor] = useState(() => {
+    let result = foodCategory.filter(({ name }) => name == food.type[0])[0];
+    return result != null ? result.color != null ? result.color : `#FEA11F` : `#FEA11F`;
+  });
+
   return(
     <View style={ styles.cardWrapper }>
       <TouchableOpacity activeOpacity={ 0.8 } style={ styles.cardContainer } onPress={() => navigation.navigate("FoodView", food)}>
         <View style={ styles.cardImageContainer }>
           <Image style={ styles.cardImage } source={ food.image }/>
         </View>
+        <View
+          style={[
+            styles.cardFoodColor,
+            {
+              borderColor: foodColor,
+            }
+          ]}
+        ></View>
         <View style={ styles.cardDetailsContainer }>
           <Text style={{ color: '#333', fontWeight: 'bold', fontSize: 16 }}>{ food.name }</Text>
           <Text style={{ color: '#444', fontStyle: 'italic', fontSize: 12, marginTop: -4 }}>{ food.tagalog }</Text>
@@ -62,6 +76,12 @@ const styles = StyleSheet.create({
     height: '100%',
     aspectRatio: 5/4,
     resizeMode: 'cover',
+  },
+  cardFoodColor: {
+    position: 'absolute',
+    height: '100%',
+    width: '100%',
+    borderRightWidth: 3,
   },
   cardDetailsContainer: {
     paddingVertical: 4,
