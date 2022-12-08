@@ -16,7 +16,7 @@ export default function Categories({ navigation, route }) {
       headerRight: () => (
         <TouchableOpacity
           style={{
-            padding: 4,
+            padding: 6,
             backgroundColor: "#2221",
             borderRadius: 100,
           }}
@@ -46,6 +46,11 @@ export default function Categories({ navigation, route }) {
             );
           }
         })}
+        <View
+          style={{
+            height: 8,
+          }}
+        ></View>
       </View>
     </ScrollView>
   );
@@ -53,6 +58,6 @@ export default function Categories({ navigation, route }) {
 
 const styles = StyleSheet.create({
   categoryContainer: {
-    paddingBottom: 16,
+    paddingBottom: 4,
   }
 });

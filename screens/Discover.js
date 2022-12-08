@@ -33,7 +33,7 @@ export default function Discover({ navigation, route }) {
         <TouchableOpacity
           style={{
             backgroundColor: "#2221",
-            padding: 4,
+            padding: 6,
             borderRadius: 100,
           }}
           activeOpacity={ 0.6 }
