@@ -141,7 +141,8 @@ const styles = StyleSheet.create({
   foodNameContainer: {
     flex: 1,
     paddingHorizontal: 4,
-    marginBottom: 12,
+    marginBottom: 8,
+    marginTop: 8,
   },
   foodName: {
     fontSize: 32,
