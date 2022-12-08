@@ -26,7 +26,7 @@ export default function FoodCategoryCard({ navigation, route, category }){
 
 const styles = StyleSheet.create({
   cardWrapper: {
-    paddingHorizontal: 8,
+    paddingHorizontal: 16,
     paddingVertical: 8,
   },
   cardContainer: {

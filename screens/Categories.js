@@ -54,6 +54,5 @@ export default function Categories({ navigation, route }) {
 const styles = StyleSheet.create({
   categoryContainer: {
     paddingBottom: 16,
-    paddingHorizontal: 12,
   }
 });
