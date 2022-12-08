@@ -5,6 +5,7 @@ import { TextInput } from "react-native";
 import { StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { View } from "react-native";
+import { Icon } from "react-native-elements";
 import FoodCard from "../assets/component/foodCard";
 import window from "../assets/controller/window";
 import PinoyFoods from "../assets/FoodsDB/foodsDB";
@@ -38,24 +39,40 @@ export default function Search({ navigation, route }) {
   const [searchText, setSearchText] = useState(null);
 
   const onChange = (text) => {
-    setSearchText(text);
-    setFoods(findMatches(text, PinoyFoods));
+    let word = text.split(/[^a-zA-Z\s-]/gi).join();
+    setSearchText(word);
+    setFoods(findMatches(word, PinoyFoods));
   };
+
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      headerTitle: () => (
+        <View style={ styles.searchFieldContainer }>
+          <Icon
+            type="material-icons"
+            name="search"
+            color="#666"
+            style={{
+              marginHorizontal: 12,
+            }}
+          />
+          <TextInput
+            style={ styles.searchField }
+            placeholder="Search..."
+            onChangeText={ onChange }
+            value={ searchText }
+          ></TextInput>
+        </View>
+      ),
+    });
+  }, [navigation]);
 
   foods.sort(function(a, b) {
     return compareStrings(a.name, b.name);
   });
 
   return(
-    <View style={ [globalStyles.screen, { paddingBottom: 48 }] }>
-      <View style={ styles.searchFieldContainer }>
-        <TextInput
-          style={ styles.searchField }
-          placeholder="Search..."
-          onChangeText={ onChange }
-          value={ searchText }
-        ></TextInput>
-      </View>
+    <View style={ [globalStyles.screen] }>
       <FlatList
         styles={{ height: '100%' }}
         data={ foods }
@@ -69,19 +86,18 @@ export default function Search({ navigation, route }) {
 
 const styles = StyleSheet.create({
   searchFieldContainer: {
-    paddingBottom: 8,
-    backgroundColor: 'white',
-    elevation: 16
+    width: window.width - 32,
+    paddingVertical: 4,
+    borderRadius: 100,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#4040f018',
   },
   searchField: {
-    marginHorizontal: 8,
-    borderWidth: 2,
     textAlignVertical: 'center',
-    paddingVertical: 4,
-    paddingHorizontal: 16,
-    borderRadius: 100,
-    fontSize: 20,
-    borderColor: '#666',
+    paddingRight: 8,
+    fontSize: 16,
+    flex: 1,
     color: '#444',
   }
 });
