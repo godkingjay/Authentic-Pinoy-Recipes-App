@@ -9004,6 +9004,126 @@ nutrition: [
 video: `https://youtu.be/69Ro64JX8CY`,
 image: require(`./images/food/000000075.jpg`),
 },
+{
+id: 76,
+name: `Dinengdeng`,
+tagalog: `Inabraw`,
+type: [
+`Vegetable Dish`,
+`Vegetable Soup`,
+`Soup`,
+],
+special: null,
+description: `Dinengdeng or inabraw is a Filipino vegetable dish that originated from the Ilocos region in the Philippines. It is composed of different vegetables that are usually grown in one’s backyard. This dish has a similarity with bulanglang and laswa; the obvious difference of Dinengdeng is the use of fried or grilled fish. Another notable difference is the addition of “bagoong isda”.`,
+link: `https://panlasangpinoy.com/dinengdeng-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `35 Minutes`,
+total: `45 Minutes`,
+},
+servings: `6 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Milk Fish`,
+amount: `1 Whole`,
+tagalog: null,
+type: `Sliced and Grilled`,
+image: `fish`,
+},
+{
+name: `Moringa`,
+amount: `2 to 3 Leaves`,
+tagalog: `Malunggay`,
+type: `Cleaned`,
+image: `malunggay`,
+},
+{
+name: `Squash Flower`,
+amount: `2 Cups`,
+tagalog: null,
+type: null,
+image: `flower`,
+},
+{
+name: `Okra`,
+amount: `12 to 15 Pieces`,
+tagalog: null,
+type: null,
+image: `okra`,
+},
+{
+name: `String Beans`,
+amount: `1 Bundle`,
+tagalog: null,
+type: `Sliced into 3 inch pieces.`,
+image: `long-beans`,
+},
+{
+name: `Bitter Gourd`,
+amount: `2 Pieces`,
+tagalog: `Ampalaya`,
+type: `Cored and Sliced`,
+image: `ampalaya`,
+},
+{
+name: `Unprocessed Fish Sauce`,
+amount: `2 to 3 Tablespoons`,
+tagalog: `Bagoong Isda`,
+type: null,
+image: `fish-sauce`,
+},
+{
+name: `Ginger`,
+amount: `1 Knob`,
+tagalog: `Luya`,
+type: `Sliced`,
+image: `ginger`,
+},
+{
+name: `Tomato`,
+amount: `1 Medium`,
+tagalog: `Kamatis`,
+type: `Chopped`,
+image: `tomato`,
+},
+{
+name: `Onion`,
+amount: `1 Medium`,
+tagalog: `Sibuyas`,
+type: `Chopped`,
+image: `onion`,
+},
+{
+name: `Water`,
+amount: `3 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+],
+instructions: [
+`Bring water to a boil in a large cooking pot.`,
+`Add the ginger, onion, and tomato. Cook covered for 5 minutes.`,
+`Pour-in the bagoong isda. Stir.`,
+`Add okra and string beans. Stir and add the ampalaya. Cook in medium heat for 7 to 10 minutes.`,
+`Put-in the squash flower and malunggay leaves. Cook for 3 to 5 minutes.`,
+`Add the grilled milk fish. Let it stay for 3 to 5 minutes to add flavor to the dish.`,
+`Serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+],
+},
+video: `https://youtu.be/hBYMoLukvMA`,
+image: require(`./images/food/000000076.jpg`),
+},
 ];
 
 
@@ -9156,6 +9276,7 @@ List:
 73. Beef Pares
 74. Lugaw
 75. Papaitan
+76. Dinengdeng
 
 **************************************************************************************************************/
 
