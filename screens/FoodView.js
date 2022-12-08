@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     padding: 6,
     elevation: 16,
-    right: 8,
+    right: 12,
     bottom: 44,
     borderRadius: 100,
     aspectRatio: 1,
