@@ -57,7 +57,12 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
         horizontal={ true }
         showsHorizontalScrollIndicator={ false }
         renderItem={({ item, index }) => (
-          <HorizontalCard navigation={ navigation } route={ route } food={ item } />
+          <HorizontalCard
+            navigation={ navigation }
+            route={ route }
+            food={ item }
+            color={ foodCategory.color != null ? foodCategory.color : `#FEA11F` }
+          />
         )}
         ListHeaderComponent={
           <View style={{
