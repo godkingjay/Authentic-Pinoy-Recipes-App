@@ -40,6 +40,20 @@ export default function Favorites({ navigation, route }) {
           <FlatList
             showsVerticalScrollIndicator={ false }
             data={ favorites.foods  }
+            ListHeaderComponent={() => (
+              <View
+                style={{
+                  height: 12,
+                }}
+              ></View>
+            )}
+            ListFooterComponent={() => (
+              <View
+                style={{
+                  height: 12,
+                }}
+              ></View>
+            )}
             renderItem={({ item }) => (
               <FoodCard navigation={ navigation } route={ route } food={ item }/>
             )}
