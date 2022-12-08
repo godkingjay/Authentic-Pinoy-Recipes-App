@@ -20,7 +20,7 @@ export async function discoverFoodCategories(){
   for(let i = 1; i < foodCategory.length; i++){
     let foods = PinoyFoods.filter(({ type }) => type.find((str) => str == foodCategory[i].name));
     if(foods.length >= 5) result.push(foodCategory[i]);
-    console.log(`${ foodCategory[i].name }: ${ foods.length }`);
+    // console.log(`${ foodCategory[i].name }: ${ foods.length }`);
   }
   return(result);
 }
