@@ -2,7 +2,9 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { ScrollView } from "react-native";
+import { TouchableOpacity } from "react-native";
 import { StyleSheet, View } from "react-native";
+import { Icon } from "react-native-elements";
 import HorizontalCardsContainer from "../assets/component/horizontalCardsContainer";
 import { discoverFoodCategories } from "../assets/controller/query";
 import globalStyles from "../assets/styles/globalStyles";
@@ -24,6 +26,24 @@ function shuffle(array) {
 
 export default function Discover({ navigation, route }) {
   const [ discoverCategories, setDiscoverCategories ] = useState([]);
+
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      headerRight: () => (
+        <TouchableOpacity
+          style={{
+            backgroundColor: "#8881",
+            padding: 4,
+            borderRadius: 100,
+          }}
+          activeOpacity={ 0.6 }
+          onPress={() => navigation.navigate('SearchStack')}
+        >
+          <Icon type="material-icons" name="search" color="#222"/>
+        </TouchableOpacity>
+      ),
+    });
+  }, [navigation]);
 
   useEffect(() => {
     discoverFoodCategories()
