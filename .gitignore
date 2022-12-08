@@ -13,6 +13,7 @@ npm-debug.*
 babel.config.js
 package-lock.json
 web-build/
+assets/app_icons/
 
 # macOS
 .DS_Store
