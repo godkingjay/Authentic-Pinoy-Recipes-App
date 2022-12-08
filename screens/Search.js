@@ -76,6 +76,20 @@ export default function Search({ navigation, route }) {
       <FlatList
         styles={{ height: '100%' }}
         data={ foods }
+        ListHeaderComponent={() => (
+          <View
+            style={{
+              height: 12,
+            }}
+          ></View>
+        )}
+        ListFooterComponent={() => (
+          <View
+            style={{
+              height: 12,
+            }}
+          ></View>
+        )}
         renderItem={({ item }) => (
           <FoodCard food={ item } navigation={ navigation } route={ route }/>
         )}
