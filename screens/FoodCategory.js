@@ -21,7 +21,8 @@ export default function FoodCategory({ navigation, route }){
   
   React.useLayoutEffect(() => {
     navigation.setOptions({
-      headerTitle: category
+      headerTitle: category,
+      headerTitleAlign: 'center',
     });
   }, [navigation]);
 
