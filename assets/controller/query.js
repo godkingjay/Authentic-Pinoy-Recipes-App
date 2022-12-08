@@ -1,5 +1,4 @@
 import PinoyFoods from "../FoodsDB/foodsDB";
-import FavFood from "../FoodsDB/favFoodDB";
 import Ingredients from "../FoodsDB/ingedientDB";
 import foodCategory from "../FoodsDB/foodCategories";
 
@@ -30,16 +29,19 @@ export async function discoverFoods(category = "Main Course") {
   return result;
 }
 
-export async function favoriteFoods(){
+export async function favoriteFoods(favorites = []){
   let foods = [];
-  for(let i = 0; i < FavFood.length; i++) {
-    let result = PinoyFoods.filter((food) => food.id == FavFood[i]);
+  // console.log(`FavList:`, favorites);
+  for(let i = 0; i < favorites.length; i++) {
+    let result = PinoyFoods.filter((food) => food.id == favorites[i]);
     foods.push(result[0])
   }
 
   foods.sort(function(a, b) {
     return compareStrings(a.name, b.name);
   });
+
+  // console.log(`Foods:`, foods);
 
   return(foods);
 }

@@ -10,7 +10,6 @@ import { Icon } from "react-native-elements";
 import FoodCard from "../assets/component/foodCard";
 import { favoriteFoods } from "../assets/controller/query";
 import window from "../assets/controller/window";
-import PinoyFoods from "../assets/FoodsDB/foodsDB";
 import AppContext from "../assets/globals/appContext";
 import globalStyles from "../assets/styles/globalStyles";
 

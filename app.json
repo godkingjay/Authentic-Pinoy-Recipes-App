@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Authentic Pinoy Recipes",
-    "slug": "Authentic Pinoy Recipes",
+    "slug": "authentic_pinoy_recipes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.godkingjay.authentic_pinoy_recipes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aed24187-3655-492c-8f31-8cb33e7cc574"
+      }
     }
   }
 }
