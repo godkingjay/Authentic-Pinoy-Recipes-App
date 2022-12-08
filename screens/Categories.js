@@ -32,6 +32,11 @@ export default function Categories({ navigation, route }) {
   return(
     <ScrollView style={ globalStyles.screen }>
       <View style={ styles.categoryContainer }>
+        <View
+          style={{
+            height: 12,
+          }}
+        ></View>
         {foodCategory.map(( item, index ) => {
           if(item.name == 'Default'){
             return(null);
@@ -48,6 +53,7 @@ export default function Categories({ navigation, route }) {
 
 const styles = StyleSheet.create({
   categoryContainer: {
-    paddingBottom: 16
+    paddingBottom: 16,
+    paddingHorizontal: 12,
   }
 });
