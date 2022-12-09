@@ -39,7 +39,7 @@ export default function Search({ navigation, route }) {
   const [searchText, setSearchText] = useState(null);
 
   const onChange = (text) => {
-    let word = text.split(/[^a-zA-Z\s-]/gi).join();
+    let word = text.replace(/[^a-zA-Z\s\-]/g, '');
     setSearchText(word);
     setFoods(findMatches(word, PinoyFoods));
   };
