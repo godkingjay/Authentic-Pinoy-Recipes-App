@@ -196,6 +196,10 @@ const Ingredients = [
     image: require('./images/ingredient/ginger.png'),
   },
   {
+    name: 'goat',
+    image: require('./images/ingredient/goat.png'),
+  },
+  {
     name: 'grass',
     image: require('./images/ingredient/grass.png'),
   },

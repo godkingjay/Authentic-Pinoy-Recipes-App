@@ -9231,6 +9231,200 @@ nutrition: [
 video: `https://youtu.be/jGP2fjPxfUc`,
 image: require(`./images/food/000000077.jpg`),
 },
+{
+id: 78,
+name: `Beef Caldereta`,
+tagalog: `Kalderetang Baka`,
+type: [
+`Beef Dish`,
+`Meat Dish`,
+`Stew`,
+],
+special: [
+`Celebration`,
+`Fiesta`,
+`New Year`,
+`Birthday`,
+`Christmas`,
+`Special Occassion`,
+`Wedding`,
+],
+description: `Beef Kaldereta is a main stay in any Filipino Kitchen. It is a type of beef stew cooked with tomato sauce and liver spread. Ingredients such as potato, carrots, bell peppers, and olives are also utilized when cooking this dish.
+
+This is a popular dish is served during special occasions. It is a regular item in every Filipino cookbook. Some consider kaldereta as the Philippines most famous beef stew.`,
+link: `https://panlasangpinoy.com/beef-kaldereta/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How to Cook Beef Kaldereta`,
+content: `The first part of the process is to sauté beef with garlic and onion. Start by heating oil in wide pot. Cook the garlic, onion, and beef. Continue to saute the beef until the color browns a bit. Add bay leaves and crushed peppercorn. Continue by adding liver spread, tomato sauce, and beef broth.
+
+The beef needs to be cooked until tender. You can do it the traditional way by cooking it in a regular cooking pot over the stove top. This takes around 60 to 90 minutes. A faster way to tenderize beef is to cook it using a pressure cooker. It can save you time by more than half.
+
+Go ahead and add the vegetables and seasonings. Cook for around 10 minutes and it’s done. The cooking process is simple and straightforward.
+
+Beef Kaldereta is best eaten with warm white rice.`,
+},
+],
+recipe: {
+details: {
+description: `Beef stewed in tomato with potato, carrot, olives, bell peppers, and liver spread. This dish is popularly known as Kaldereta.`,
+time: {
+prep: `10 Minutes`,
+cook: `1 Hour`,
+total: `1 Hour 10 Minutes`,
+},
+servings: `6 People`,
+calories: `589 kcal`,
+},
+ingredients: [
+{
+name: `Beef`,
+amount: `2 lbs.`,
+tagalog: `Baka`,
+type: `Cubed`,
+image: `beef`,
+},
+{
+name: `Garlic`,
+amount: `3 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed and Chopped`,
+image: `garlic`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Finely Chopped`,
+image: `onion`,
+},
+{
+name: `Beef Broth`,
+amount: `2 Cups`,
+tagalog: null,
+type: null,
+image: `broth`,
+},
+{
+name: `Red Bell Pepper`,
+amount: `1 Piece`,
+tagalog: null,
+type: `Sliced`,
+image: `red-bell-pepper`,
+},
+{
+name: `Green Bell Pepper`,
+amount: `1 Piece`,
+tagalog: null,
+type: `Sliced`,
+image: `green-bell-pepper`,
+},
+{
+name: `Tomato Sauce`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `tomato-sauce`,
+},
+{
+name: `Liver Spread`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Processed using blender.`,
+image: `mix-can`,
+},
+{
+name: `Chili Flakes`,
+amount: `1 Teaspoon`,
+tagalog: null,
+type: null,
+image: `chili`,
+},
+{
+name: `Bay Leaves`,
+amount: `3 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Potatoes`,
+amount: `2 Cups`,
+tagalog: `Potato`,
+type: `Sliced`,
+image: `potato`,
+},
+{
+name: `Carrots`,
+amount: `2 Cups`,
+tagalog: `Karot`,
+type: `Sliced`,
+image: `carrot`,
+},
+{
+name: `Cooking Oil`,
+amount: `1/4 Cup`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Green Olives`,
+amount: `2/3 Cup`,
+tagalog: null,
+type: null,
+image: `olive`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+],
+instructions: [
+`Heat the cooking oil in the cooking pot or pressure cooker.`,
+`Sauté the onion and garlic.`,
+`Add the beef. Cook for 5 minutes or until the color turns light brown.`,
+`Add the dried bay leaves and crushed pepper. Stir.`,
+`Add the liver spread. Stir.`,
+`Pour-in the tomato sauce and beef broth.`,
+`Cook the beef until it becomes tender (about 30 mins if using a pressure cooker, or 1 to 2 hours if using an ordinary pot).`,
+`Add potato and carrots. Cook for 8 to 10 minutes.`,
+`Put the green olives and bell peppers in the cooking pot. Stir and continue to cook for 5 minutes more.`,
+`Add salt and pepper to taste`,
+`Serve Hot. Enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+{ name: 'Calories', amount: '589kcal' },
+{ name: 'Carbohydrates', amount: '20g' },
+{ name: 'Protein', amount: '30g' },
+{ name: 'Fat', amount: '42g' },
+{ name: 'Saturated Fat', amount: '12g' },
+{ name: 'Cholesterol', amount: '109mg' },
+{ name: 'Sodium', amount: '903mg' },
+{ name: 'Potassium', amount: '1135mg' },
+{ name: 'Fiber', amount: '5g' },
+{ name: 'Sugar', amount: '6g' },
+{ name: 'Vitamin A', amount: '9150IU' },
+{ name: 'Vitamin C', amount: '65.8mg' },
+{ name: 'Calcium', amount: '89mg' },
+{ name: 'Iron', amount: '6.5mg' },
+],
+},
+video: `https://youtu.be/Txrf7b75rc8`,
+image: require(`./images/food/000000078.jpg`),
+},
 ];
 
 
@@ -9385,6 +9579,8 @@ List:
 75. Papaitan
 76. Dinengdeng
 77. Tokneneng
+78. Beef Caldereta
+79. Goat Caldereta
 
 **************************************************************************************************************/
 
