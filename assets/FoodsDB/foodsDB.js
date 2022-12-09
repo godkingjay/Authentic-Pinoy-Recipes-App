@@ -232,7 +232,8 @@ id: 2,
 name: 'Pancit Bihon',
 tagalog: 'Pansit Guisado',
 type: [
-'Noodle Dish'
+'Noodle Dish',
+`Street Food`,
 ],
 description: `Pancit Bihon or Pancit Guisado is a Filipino noodle dish and is a staple second to rice.This was brought by the chinese and was localized since then. This Pancit Bihon Recipe uses “Bihon” or rice sticks mixed with pork, chicken, and vegetables. This dish is always served during Fiesta, birthday parties, and other special occasions.`,
 link: 'https://panlasangpinoy.com/pancit-guisado/',
@@ -7950,6 +7951,7 @@ type: [
 `Dessert`,
 `Sweets`,
 `Snack`,
+`Street Food`,
 ],
 description: `Espasol is a soft, chewy Filipino rice cake prepared with a combination of toasted glutinous rice flour and grated green coconut that is slowly cooked in coconut milk. The mixture turns into soft, pliable dough that is shaped into long cylinders or triangles before each cake is coated in rice flour.
 
@@ -9124,6 +9126,111 @@ nutrition: [
 video: `https://youtu.be/hBYMoLukvMA`,
 image: require(`./images/food/000000076.jpg`),
 },
+{
+id: 77,
+name: `Tokneneng`,
+tagalog: `Tokneneng`,
+type: [
+`Street Food`,
+`Appetizer`,
+`Snack`,
+`Egg Dish`,
+`Deep-Fried Dish`,
+],
+special: null,
+description: `Tokneneng is a traditional Filipino dish that's sold as a street food snack. It consists of hard-boiled eggs that are dipped in an orange-colored batter, then deep-fried. The dish is traditionally made with duck eggs, but chicken eggs can also be used.
+
+The batter is made with a combination of flour, water, salt, pepper, and annatto powder (or red and yellow food coloring). Once deep-fried, these eggs are traditionally served with a spiced vinegar-based dip on the side. There's also a variation on the dish called kwek kwek, made with quail eggs. `,
+link: `https://panlasangpinoy.com/tokneneng-filipino-street-food-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: `This is a recipe for fried orange chicken egg called tokneneng.`,
+time: {
+prep: `5 Minutes`,
+cook: `3 Minutes`,
+total: `8 Minutes`,
+},
+servings: `3 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Chicken Eggs`,
+amount: `6 Pieces`,
+tagalog: `Itlog ng Manok`,
+type: `Boiled`,
+image: `egg`,
+},
+{
+name: `Cornstarch`,
+amount: `3 Tablespoons`,
+tagalog: null,
+type: null,
+image: `cornstarch`,
+},
+{
+name: `Water`,
+amount: `1 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Annatto Seeds`,
+amount: `1/4 Cup`,
+tagalog: `Atsuete`,
+type: null,
+image: `annatto-seed`,
+},
+{
+name: `All-Purpose Flour`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `flour`,
+},
+{
+name: `Salt`,
+amount: `1/2 Teaspoon`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `1/2 Teaspoon`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
+{
+name: `Cooking Oil`,
+amount: `2 Cups`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+],
+instructions: [
+`Put the cornstarch in a container and dredge the boiled chicken eggs. Set aside.`,
+`Combine all-purpose flour, salt, and pepper then mix thoroughly.`,
+`Dilute the annatto seeds in water until the reddish color comes out. Combine the liquid with the flour-salt-pepper mixture and mix thoroughly.`,
+`Put the boiled chicken eggs in the mixing bowl and coat with the batter.`,
+`Heat the pan and pour the cooking oil.`,
+`When the oil is hot enough, deep-fry the eggs until the coating is crispy. Use a serving spoon to scoop the eggs from the mixing bowl.`,
+`Remove the fried eggs from the pan and place in a serving plate.`,
+`Serve with vinegar or special sauce.`,
+`Share and Enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '3g' },
+],
+},
+video: `https://youtu.be/jGP2fjPxfUc`,
+image: require(`./images/food/000000077.jpg`),
+},
 ];
 
 
@@ -9277,6 +9384,7 @@ List:
 74. Lugaw
 75. Papaitan
 76. Dinengdeng
+77. Tokneneng
 
 **************************************************************************************************************/
 
