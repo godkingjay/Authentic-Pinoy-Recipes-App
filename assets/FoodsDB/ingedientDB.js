@@ -332,6 +332,10 @@ const Ingredients = [
     image: require('./images/ingredient/noodles.png'),
   },
   {
+    name: 'octopus',
+    image: require('./images/ingredient/octopus.png'),
+  },
+  {
     name: 'offal',
     image: require('./images/ingredient/offal.png'),
   },
