@@ -22,7 +22,7 @@ export default function FoodCategory({ navigation, route }){
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: category,
-      headerTitleAlign: 'center',
+      // headerTitleAlign: 'center',
     });
   }, [navigation]);
 

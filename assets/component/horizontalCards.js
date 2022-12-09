@@ -9,9 +9,10 @@ export default function HorizontalCard({ navigation, route, food, color }) {
         <View style={ styles.foodImageContainer }>
           <Image source={ food.image } style={ styles.foodImage }/>
         </View>
+        <View style={ styles.cardDeco1 }></View>
         <View
           style={[
-            styles.foodColorIndicator,
+            styles.cardDeco2,
             {
               backgroundColor: color,
             }
@@ -50,7 +51,16 @@ const styles = StyleSheet.create({
   },
   foodDetailsContainer: {
   },
-  foodColorIndicator: {
+  cardDeco1: {
+    position: "absolute",
+    aspectRatio: 1,
+    height: 48,
+    backgroundColor: "#00000008",
+    borderRadius: 100,
+    right: -24,
+    bottom: -24,
+  },
+  cardDeco2: {
     position: "absolute",
     height: 24,
     aspectRatio: 1,

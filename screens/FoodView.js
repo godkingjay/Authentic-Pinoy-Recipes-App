@@ -27,7 +27,7 @@ export default function FoodView({ navigation, route }) {
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: food.name,
-      headerTitleAlign: 'center',
+      // headerTitleAlign: 'center',
     });
   }, [navigation]);
 
