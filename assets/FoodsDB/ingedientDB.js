@@ -576,6 +576,10 @@ const Ingredients = [
     image: require('./images/ingredient/water.png'),
   },
   {
+    name: 'water-spinach',
+    image: require('./images/ingredient/water-spinach.png'),
+  },
+  {
     name: 'wine',
     image: require('./images/ingredient/wine.png'),
   },

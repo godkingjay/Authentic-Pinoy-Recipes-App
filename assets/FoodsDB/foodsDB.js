@@ -1868,55 +1868,127 @@ nutrition: [
 video: `https://youtu.be/Ix5Dnud1bl0`,
 image: require(`./images/food/000000012.jpg`),
 },
-// {
-// id: 13,
-// name: `Spinach Adobo`,
-// tagalog: `Adobong Kangkong`,
-// type: [
+{
+id: 13,
+name: `Spinach Adobo`,
+tagalog: `Adobong Kangkong`,
+type: [
+`Vegetable Dish`,
+`Stew`
+],
+special: null,
+description: `Adobong kangkong is a classic dish you can find in several Filipino homes. This humble dish is a combination of several ingredients that are inexpensive and easily accessible. We already know how much Filipinos love adobo––but with kangkong especially, it’s so hard not to love!`,
+link: `https://panlasangpinoy.com/adobong-kangkong/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `All About Kangkong`,
+content: `Kangkong is a kind of spinach––water spinach, to be exact. Similar to watercress, it is green, leafy, and mild in taste. Many of its dishes involve dousing it in strong tasting sauces, like soy sauce or oyster sauce, so it absorbs these tastes; it also brings out the slight nuttiness of its own flavors. Whether you’re boiling, blanching, or steaming it, kangkong is really versatile, and enjoyable no matter how you cook it.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+But you don’t just eat kangkong because it’s delicious; you eat it because it’s nutritious, too! Kangkong is a great source of several nutrients, including but not limited to Vitamin A, copper, calcium, and zinc. All of the nutrients that comprise kangkong really make it a powerhouse of health––leaving your stomach happy and your body healthy!`,
+},
+],
+recipe: {
+details: {
+description: `This is a recipe for adobong kangkong. It is a Filipino vegetable dish wherein the water spinach is cooked inadobo style.`,
+time: {
+prep: `5 Minutes`,
+cook: `15 Minutes`,
+total: `20 Minutes`,
+},
+servings: `3 People`,
+calories: `169 kcal`,
+},
+ingredients: [
+{
+name: `Water Spinach`,
+amount: `1 Bunch`,
+tagalog: `Kangkong`,
+type: `Leaves and stalks separated.`,
+image: `water-spinach`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Chopped`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `1 Head`,
+tagalog: `Bawang`,
+type: `Crushed and Chopped`,
+image: `garlic`,
+},
+{
+name: `Soy Sauce`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Vinegar`,
+amount: `1/8 Cup`,
+tagalog: `Suka`,
+type: null,
+image: `vinegar`,
+},
+{
+name: `Water`,
+amount: `1/2 Cup`,
+tagalog: `Tubig`,
+type: `Optional`,
+image: `water`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
+],
+instructions: [
+`Heat oil in a pan.`,
+`Add the garlic. Saute until the color turns golden brown. Scoop-out a quarter of the browned garlic and put in a clean bowl. Save this later for garnish.`,
+`Add chopped onion. Saute until it softens.`,
+`Pour the soy sauce and vinegar in the pan. Let the liquid boil.`,
+`Add the Kangkong stalks. Cook for 2 minutes.`,
+`Add the Kangkong leaves. Stir. Continue cooking for 30 to 1 minute. Cover the pan and cook for 1 minute.`,
+`Season with ground black pepper. Note: you may also add salt if needed.`,
+`Transfer to a serving bowl and then top with browned garlic.`,
+`Serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+{ name: 'Calories', amount: '169kcal' },
+{ name: 'Carbohydrates', amount: '8g' },
+{ name: 'Protein', amount: '4g' },
+{ name: 'Fat', amount: '14g' },
+{ name: 'Saturated Fat', amount: '1g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Sodium', amount: '1106mg' },
+{ name: 'Potassium', amount: '190mg' },
+{ name: 'Fiber', amount: '1g' },
+{ name: 'Sugar', amount: '2g' },
+{ name: 'Vitamin A', amount: '1178IU' },
+{ name: 'Vitamin C', amount: '16mg' },
+{ name: 'Calcium', amount: '45mg' },
+{ name: 'Iron', amount: '1mg' },
+],
+},
+video: `https://youtu.be/wnmrlZDgj5U`,
+image: require(`./images/food/000000079.jpg`),
+},
 // {
 // id: 14,
 // name: `Octopus Adobo`,
@@ -3125,7 +3197,7 @@ name: `Water Spinach`,
 amount: `1 Bunch`,
 tagalog: `Kangkong`,
 type: null,
-image: `spinach`,
+image: `water-spinach`,
 },
 {
 name: `Snake Beans`,
