@@ -1453,7 +1453,8 @@ tagalog: `Adobong Manok`,
 type: [
 "Stew",
 "Chicken Dish",
-"Meat Dish"
+"Meat Dish",
+`Main Course`,
 ],
 description: `Chicken Adobo is a type of Filipino chicken stew. Chicken pieces are marinated in soy sauce and spices, pan-fried, and stewed until tender. The dish gained popularity because of its delicious taste and ease in preparation.
 
@@ -1612,7 +1613,8 @@ tagalog: `Adobong Pusit`,
 type: [
 `Seafood Dish`,
 `Squid Dish`,
-`Stew`
+`Stew`,
+`Main Course`,
 ],
 description: `Adobong pusit is a traditional Filipino dish that's a part of the famous adobo group of dishes. The dish is prepared with a combination of fresh squid and its ink, soy sauce, vinegar, garlic, salt, sugar, oil, onions, and tomatoes. The squid is first boiled in a mixture of soy sauce and vinegar, and it's then sautéed in a combination of garlic, onions, and tomatoes.
 
@@ -1740,55 +1742,132 @@ nutrition: [
 video: `https://youtu.be/9KpHl5LO63k`,
 image: require('./images/food/000000011.jpg'),
 },
-// {
-// id: 12,
-// name: `Pork Adobo`,
-// tagalog: `Adobong Baboy`,
-// type: [
+{
+id: 12,
+name: `Pork Adobo`,
+tagalog: `Adobong Baboy`,
+type: [
+`Pork Dish`,
+`Meat Dish`,
+`Stew`,
+`Main Course`,
+],
+special: null,
+description: `Adobong baboy is a traditional stew originating from the Philippines. This type of Filipino adobo is made with a combination of pork belly, garlic, soy sauce, vinegar, sugar, bay leaves, peppercorns, and salt. The pork is marinated in a combination of garlic and soy sauce, and it's then browned in a pan over high heat.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
+The rest of the ingredients are added to the pan (except the vinegar), and the dish is simmered for a few minutes before the vinegar, salt, and water or soy sauce are added to the pan. Once fully cooked, this pork stew is served hot with the thick sauce and white rice on the side.`,
+link: `https://panlasangpinoy.com/filipino-food-pork-adobo-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `Filipino Pork Adobo vs. Mexican Adobo`,
+content: `The word Adobo was derived from the Spanish word “adobar”. It means to marinate. This can be in the form of a liquid marinade or to rub using a combination of powdered ingredient.
 
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+This version of Filipino Adobo suggests marinating the pork in soy sauce and crushed garlic. By preference, vinegar can also be added as a marinade ingredient.
+
+Mexican adobo, on the other hand, makes use of chillies, garlic, cinnamon, and oregano as marinade.
+
+Both dishes look and taste different. It will be unfair to compare which among the two dishes are best because each of us has our own preference when it comes to flavor.`,
+},
+],
+recipe: {
+details: {
+description: `Basic Filipino Prok Adobo with Soy Sauce, Vinegar, and Garlic. This delicious dish is perfect when served over newly cooked white rice.`,
+time: {
+prep: `10 Minutes`,
+cook: `1 Hour`,
+total: `1 Hour 10 Minutes`,
+},
+servings: `4 People`,
+calories: `1211 kcal`,
+},
+ingredients: [
+{
+name: `Pork Belly`,
+amount: `2 lbs.`,
+tagalog: `Baboy`,
+type: null,
+image: `pork`,
+},
+{
+name: `Garlic`,
+amount: `2 Tablespoons`,
+tagalog: `Bawang`,
+type: `Minced or Crushed`,
+image: `garlic`,
+},
+{
+name: `Dried Bay Leaves`,
+amount: `5 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Vinegar`,
+amount: `4 Tablespoons`,
+tagalog: `Suka`,
+type: null,
+image: `vinegar`,
+},
+{
+name: `Soy Sauce`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Peppercorn`,
+amount: `1 Tablespoon`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+{
+name: `Water`,
+amount: `2 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+],
+instructions: [
+`Combine the pork belly, soy sauce, and garlic then marinade for at least 1 hour.`,
+`Heat the pot and put-in the marinated pork belly then cook for a few minutes.`,
+`Pour remaining marinade including garlic.`,
+`Add water, whole pepper corn, and dried bay leaves then bring to a boil. Simmer for 40 minutes to 1 hour.`,
+`Put-in the vinegar and simmer for 12 to 15 minutes.`,
+`Add salt to taste.`,
+`Serve hot. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+{ name: 'Calories', amount: '1211kcal' },
+{ name: 'Carbohydrates', amount: '5g' },
+{ name: 'Protein', amount: '24g' },
+{ name: 'Fat', amount: '120g' },
+{ name: 'Saturated Fat', amount: '43g' },
+{ name: 'Cholesterol', amount: '163mg' },
+{ name: 'Sodium', amount: '1700mg' },
+{ name: 'Potassium', amount: '530mg' },
+{ name: 'Fiber', amount: '1g' },
+{ name: 'Vitamin A', amount: '115IU' },
+{ name: 'Vitamin C', amount: '2.5mg' },
+{ name: 'Calcium', amount: '50mg' },
+{ name: 'Iron', amount: '2.7mg' },
+],
+},
+video: `https://youtu.be/Ix5Dnud1bl0`,
+image: require(`./images/food/000000012.jpg`),
+},
 // {
 // id: 13,
 // name: `Spinach Adobo`,
