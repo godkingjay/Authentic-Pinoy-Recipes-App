@@ -32,6 +32,10 @@ const Ingredients = [
     image: require('./images/ingredient/banana.png'),
   },
   {
+    name: 'banana-ketchup',
+    image: require('./images/ingredient/banana-ketchup.png'),
+  },
+  {
     name: 'banana-leaf',
     image: require('./images/ingredient/banana-leaf.png'),
   },
