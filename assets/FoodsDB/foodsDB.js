@@ -9971,6 +9971,152 @@ image: require(`./images/food/000000079.jpg`),
 // video: null,
 // image: null,
 // },
+{
+id: 83,
+name: `Filipino Spaghetti`,
+tagalog: `Filipino Spaghetti`,
+type: [
+`Noodle Dish`,
+],
+special: [
+`Birthday`,
+`Celebration`,
+`Fiesta`,
+`Christmas`,
+`New Year`,
+],
+description: `Filipino Spaghetti is the Pinoy version of Spaghetti with meat sauce. This version has a sweet tomato based sauce with lots of meat ingredients such as ground pork, luncheon meat, and hotdogs. It is often served during kid’s birthday parties along with some yummy fried chicken and cake.
+
+This Filipino spaghetti version makes use of store-bought Filipino Style spaghetti sauce (this is also sometimes labeled as Filipino Style Tomato Sauce), instead of making one from scratch.`,
+link: `https://panlasangpinoy.com/filipino-style-spaghetti/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `Tips in Cooking Filipino Spaghetti`,
+content: `• This spaghetti version makes use of store bought Filipino Spaghetti Sauce. If this product is not available in your location, you can use regular tomato sauce and add some sugar. The amount of sugar will depend on your taste. You can also add banana ketchup, but you can do without it.
+
+• The luncheon meat plays a big role in making the sauce taste meatier. You can also use potted meat as an alternative to it.
+
+• You can use any type of grated cheese. Cheddar is the most common, while quickmelt cheeses are also used by some people. Queso de bola or Edam cheese also works too.
+
+• Follow the package instructions when cooking the noodles for best results.`,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `45 Minutes`,
+total: `55 Minutes`,
+},
+servings: `6 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Spaghetti Noodles`,
+amount: `2 lbs.`,
+tagalog: null,
+type: null,
+image: `noodles`,
+},
+{
+name: `Ground Pork`,
+amount: `1 lb.`,
+tagalog: `Giniling na Baboy`,
+type: null,
+image: `pork`,
+},
+{
+name: `Luncheon Meat`,
+amount: `6 Ounces`,
+tagalog: null,
+type: `Minced`,
+image: `mix-can`,
+},
+{
+name: `Hotdog`,
+amount: `4 Pieces`,
+tagalog: null,
+type: null,
+image: `hotdog`,
+},
+{
+name: `Spaghetti Sauce`,
+amount: `35 ounces`,
+tagalog: null,
+type: null,
+image: `ketchup-sauce`,
+},
+{
+name: `Cheddar Cheese`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Shredded`,
+image: `cheese`,
+},
+{
+name: `Beef Broth`,
+amount: `1 1/2 Cups`,
+tagalog: null,
+type: null,
+image: `broth`,
+},
+{
+name: `Onion`,
+amount: `1 Medium`,
+tagalog: `Sibuyas`,
+type: `Minced`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `1 Teaspoon`,
+tagalog: `Bawang`,
+type: `Minced`,
+image: `garlic`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+],
+instructions: [
+`Cook the Spaghetti noodles according to package instructions. Once cooked, transfer to a bowl. Set aside.`,
+`Heat the oil in a Pan.`,
+`Saute the onion and garlic.`,
+`Once the onions becomes soft, add the ground pork. Cook until the color turns light brown.`,
+`Add the luncheon meat and hotdog. Stir and cook for 2 to 3 minutes.`,
+`Pour-in the Spaghetti sauce and beef broth. Stir and let boil. Cover and simmer for 30 minutes.`,
+`Try to taste the sauce and add salt and pepper if needed.`,
+`Pour the Filipino Style Spaghetti sauce over the Spaghetti. Top with shredded cheese.`,
+`Serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+],
+},
+video: null,
+image: require(`./images/food/000000083.jpg`),
+},
 ];
 
 
@@ -10130,6 +10276,7 @@ List:
 80. Chicken Pochero
 81. Pork Pochero
 82. Beef Pochero
+83. Filipino Spaghetti
 
 **************************************************************************************************************/
 
