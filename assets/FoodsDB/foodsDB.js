@@ -10117,6 +10117,270 @@ nutrition: [
 video: null,
 image: require(`./images/food/000000083.jpg`),
 },
+{
+id: 84,
+name: `Chicken Afritada`,
+tagalog: `Afritadang Manok`,
+type: [
+`Chicken Dish`,
+`Meat Dish`,
+`Stew`,
+],
+special: [
+`Celebration`,
+`Fiesta`,
+`Christmas`,
+`New Year`,
+`Main Course`,
+],
+description: `Chicken Afritada or afritadang manok is a type of Filipino chicken stew with tomato based sauced. It is a simple dish that can be cooked on regular days. It is perfect for lunch and is better when eaten with warm white rice.`,
+link: `https://panlasangpinoy.com/chicken-afritada-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How to Cook Chicken Afritada`,
+content: `Start by sautéing garlic and onion. Do this by heating oil in a cooking pot. Add onion and garlic until the onion softens. It is ideal to use a pot with cover.
+
+Add the sliced chicken afterwards. Bone-in chicken was used for this recipe. Boneless chicken breast or thighs can also be used. Cook each side of the chicken for around 30 seconds and then pour tomato sauce and water. We’ll need to tenderize the chicken at this point. This is when the pot cover gets handy. Add the bay leaves and then cover the pot and continue to cook until the chicken gets tender. This takes around 30 minutes. Remember to add more broth or water if needed.
+
+At this point, we just need to add the remaining ingredients and continue to cook for 10 more minutes. I usually add the ingredients in this order: hot dogs, carrot, potato, green peas, seasoning. Fish sauce or patis can be used as an alternative ingredient to salt.`,
+},
+{
+title: `How did Chicken Afritada come to be?`,
+content: `As far as tomato-based viands in the Philippines go, Chicken Afritada stands as one of the most famous. Practically every household has their own rendition of the delicious Apritadang Manok. It’s go its delicious share of potatoes, peas, and that unmistakably flavorful and thick orange stew. But do you know how this dish actually came to life? It might surprise you to know that this is mainly because of how Filipino cooks learned to pan-fry their food.
+
+We may be familiar with a good deal of Filipino recipes that arose in the Spanish colonization era that lasted until 1898. But Afritada, in particular, came to life because of the cooking method of pan-frying that the Spaniards brought over. Filipino cooks went on to formulate the idea of a recipe wherein the cook would start off by pan-frying potatoes, carrots and other vegetables, as well as chicken. This is before we leave it to stew in a savory mix of garlic, bay leaves, and more delightfully complementary seasonings.
+
+If you’re familiar with the etymology of the dish, its origin probably wouldn’t seem too much of a surprise. After all, you can directly translate “to fry” into Spanish with “a fritada”. Some have also attributed the dish to the Spanish “chilidrón”. This involves letting fried chicken or lamb simmer in garlic, tomatoes, bell peppers, and many other ingredients. These similar recipes show how closely integrated the two types of cuisine could be with one another.
+
+And speaking of similar recipes, you might have also heard of Kaldereta and Mechado, both of which have their own orange, meaty stews.`,
+},
+{
+title: `What is the difference among Afritada, Kaldereta and Mechado?`,
+content: `One principal difference among the three is the main ingredients we use to create their unique flavors. While all use up tomato sauce to create that orange color, only Kaldereta utilizes liver spread (and peanut butter in some regions). We cook it alongside tomato sauce to enhance its savory flavor. And Mechado uses up vinegar (or a bit of calamansi or lemon) for a subtle sourness. And it is more commonly known to use either pork or beef. Afritada is the only one out of the three that uses chicken in its original recipe as the meat ingredient. Meanwhile, Kaldereta shows off beef as its meat counterpart.
+
+But one thing you should also be familiar with when it comes to Chicken Afritada is the good it can bring for your body.`,
+},
+{
+title: `How should I store and reheat my Chicken Afritada?`,
+content: `Say you’ve gotten all the steps down, and have served your perfectly bright and filling stew of chicken and vegetables. But what do you do if there are leftovers? Or what if you’ve simply done the recipe for a future gathering, and aren’t looking to eat it right away? There are some ways around this, and one of the key components to our storage is an airtight container.
+
+Start by grabbing an airtight container that can fit all of your ingredients and stew. Place your Afritada inside, then put this in the refrigerator. If you keep it refrigerated in the container, you can expect that this would be great for eating for about 3 to 4 days more. But you also have the option of freezing for an even longer shelf life.
+
+Try using a heavy-duty freezer bag or an airtight container for your Chicken Afritada. Then place it in your freezer to make it last longer, or about 3 to 4 months more. And once you decide you’re ready to have some of this thick, delicious stew again, you can take it out of the freezer or refrigerator. Wait for it to thaw completely, and then you can use a microwave-safe container to reheat it in your microwave. You also have the option of placing this in a pot, and reheating it straight on your stove.
+
+But considering how lusciously flavorful this dish is, you might expect your Chicken Afritada to run out after a small while. Of course, you always have the choice of clicking right back on this link to try out the recipe again. But if you’d like to integrate a bit more variety into your Afritada cooking, I’ve got the key recipes for this!`,
+},
+],
+recipe: {
+details: {
+description: `This is a recipe for Filipino Afritadang Manok.`,
+time: {
+prep: `5 Minutes`,
+cook: `45 Minutes`,
+total: `50 Minutes`,
+},
+servings: `4 People`,
+calories: `583 kcal`,
+},
+ingredients: [
+{
+name: `Chicken`,
+amount: `1 1/2 lbs.`,
+tagalog: `Manok`,
+type: `Cut into serving pieces.`,
+image: `chicken`,
+},
+{
+name: `Potato`,
+amount: `2 Pieces`,
+tagalog: `Patatas`,
+type: `Cubed`,
+image: `potato`,
+},
+{
+name: `Carrot`,
+amount: `1 Piece`,
+tagalog: `Karot`,
+type: `Sliced`,
+image: `carrot`,
+},
+{
+name: `Tomato Sauce`,
+amount: `8 oz.`,
+tagalog: null,
+type: null,
+image: `tomato-sauce`,
+},
+{
+name: `Hotdog`,
+amount: `3 Pieces`,
+tagalog: null,
+type: `Sliced`,
+image: `hotdog`,
+},
+{
+name: `Green Peas`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: null,
+image: `peas`,
+},
+{
+name: `Bay Leaves`,
+amount: `3 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Red Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Chopped`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `2 Teaspoons`,
+tagalog: `Bawang`,
+type: `Minced`,
+image: `garlic`,
+},
+{
+name: `Chicken Broth`,
+amount: `3 Cups`,
+tagalog: null,
+type: null,
+image: `broth`,
+},
+{
+name: `Sugar`,
+amount: `1/2 Teaspoon`,
+tagalog: `Asukal`,
+type: null,
+image: `sugar`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `Depends on taste.`,
+tagalog: `Paminta`,
+type: null,
+image: `black-pepper`,
+},
+],
+instructions: [
+`Heat the oil in a cooking pot. Saute onion and garlic until the onion softens.`,
+`Add chicken. Cook for 30 seconds. Turn it over and cook the other side for another 30 seconds.`,
+`Pour tomato sauce and chicken broth. Cover. Let boil.`,
+`Add dried bay leaves. Cover the cooking pot. Continue to cook in medium heat for 30 minutes.`,
+`Add hotdogs and carrot. Cook for 3 minutes.`,
+`Add potato. Cover the pot and cook for 8 minutes.`,
+`Add green peas. Cook for 2 minutes.`,
+`Season with salt and ground black pepper`,
+`Serve!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+{ name: 'Calories', amount: '583kcal' },
+{ name: 'Carbohydrates', amount: '25g' },
+{ name: 'Protein', amount: '37g' },
+{ name: 'Fat', amount: '37g' },
+{ name: 'Saturated Fat', amount: '8g' },
+{ name: 'Cholesterol', amount: '127mg' },
+{ name: 'Sodium', amount: '1089mg' },
+{ name: 'Potassium', amount: '1223mg' },
+{ name: 'Fiber', amount: '5g' },
+{ name: 'Sugar', amount: '5g' },
+{ name: 'Vitamin A', amount: '3215IU' },
+{ name: 'Vitamin C', amount: '42.2mg' },
+{ name: 'Calcium', amount: '93mg' },
+{ name: 'Iron', amount: '6.6mg' },
+],
+},
+video: `https://youtu.be/gKTg9ox28yI`,
+image: require(`./images/food/000000084.jpg`),
+},
+// {
+// id: 85,
+// name: `Pork Afritada`,
+// tagalog: `Afritadang Baboy`,
+// type: [
+
+// ],
+// special: [
+
+// ],
+// description: null,
+// link: null,
+// author: null,
+// information: [
+// {
+// title: null,
+// content: null,
+// },
+// ],
+// recipe: {
+// details: {
+// description: null,
+// time: {
+// prep: null,
+// cook: null,
+// total: null,
+// },
+// servings: null,
+// calories: null,
+// },
+// ingredients: [
+// {
+// name: null,
+// amount: null,
+// tagalog: null,
+// type: null,
+// image: null,
+// },
+// ],
+// instructions: [
+
+// ],
+// nutrition: [
+// { name: 'Serving', amount: '5g' },
+// { name: 'Calories', amount: '650kcal' },
+// { name: 'Carbohydrates', amount: '10g' },
+// { name: 'Protein', amount: '37g' },
+// { name: 'Fat', amount: '51g' },
+// { name: 'Saturated Fat', amount: '16g' },
+// { name: 'Polyunsaturated Fat', amount: '6g' },
+// { name: 'Monounsaturated Fat', amount: '25g' },
+// { name: 'Trans Fat', amount: '1g' },
+// { name: 'Cholesterol', amount: '196mg' },
+// { name: 'Sodium', amount: '868mg' },
+// { name: 'Potassium', amount: '888mg' },
+// { name: 'Fiber', amount: '3g' },
+// { name: 'Sugar', amount: '5g' },
+// { name: 'Vitamin A', amount: '5187IU' },
+// { name: 'Vitamin C', amount: '57mg' },
+// { name: 'Calcium', amount: '59mg' },
+// { name: 'Iron', amount: '4mg' },
+// ],
+// },
+// video: null,
+// image: null,
+// },
 ];
 
 
@@ -10277,6 +10541,8 @@ List:
 81. Pork Pochero
 82. Beef Pochero
 83. Filipino Spaghetti
+84. Chicken Afritada
+85. Pork Afritada
 
 **************************************************************************************************************/
 
