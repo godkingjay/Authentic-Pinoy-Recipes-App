@@ -44,6 +44,10 @@ const Ingredients = [
     image: require('./images/ingredient/bay-leaf.png'),
   },
   {
+    name: 'bean',
+    image: require('./images/ingredient/bean.png'),
+  },
+  {
     name: 'beef',
     image: require('./images/ingredient/beef.png'),
   },
