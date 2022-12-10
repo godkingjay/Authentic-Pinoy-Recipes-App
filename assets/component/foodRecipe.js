@@ -80,20 +80,26 @@ export default function FoodRecipe({ recipe }) {
         />
       </View>
       <View style={ styles.divider }></View>
-      <View style={ styles.nutritionContainer }>
-        <View style={ [ styles.nutritionWrapper, tableStyles.container, tableStyles.border] }>
-          <Text style={ tableStyles.title }>Nutrition</Text>
-          {recipe.nutrition.map((nutri, index) => {
-            return(
-              <View key={ index } style={ tableStyles.twoColumns }>
-                <Text style={ tableStyles.leftColumn }>{ nutri.name }</Text>
-                <Text style={ tableStyles.rightColumn }>{ nutri.amount }</Text>
-              </View>
-            );
-          })}
+      {recipe.nutrition != null ? (
+        <View>
+          <View style={ styles.nutritionContainer }>
+            <View style={ [ styles.nutritionWrapper, tableStyles.container, tableStyles.border] }>
+              <Text style={ tableStyles.title }>Nutrition</Text>
+              {recipe.nutrition.map((nutri, index) => {
+                return(
+                  <View key={ index } style={ tableStyles.twoColumns }>
+                    <Text style={ tableStyles.leftColumn }>{ nutri.name }</Text>
+                    <Text style={ tableStyles.rightColumn }>{ nutri.amount }</Text>
+                  </View>
+                );
+              })}
+            </View>
+          </View>
+          <View style={ styles.divider }></View>
         </View>
-      </View>
-      <View style={ styles.divider }></View>
+      ) : (
+        null
+      )}
     </View>
   );
 }
