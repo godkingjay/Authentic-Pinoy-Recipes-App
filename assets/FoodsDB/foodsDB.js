@@ -10445,7 +10445,7 @@ name: `Shitake Mushroom`,
 amount: `10 Pieces`,
 tagalog: null,
 type: null,
-image: `mushrooom`,
+image: `mushroom`,
 },
 {
 name: `Brown Sugar`,
