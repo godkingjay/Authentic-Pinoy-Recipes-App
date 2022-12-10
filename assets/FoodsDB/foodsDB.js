@@ -1281,7 +1281,8 @@ name: "Sisig",
 tagalog: "Sisig",
 type: [
 "Pork Dish",
-"Meat Dish"
+"Meat Dish",
+`Appetizer`,
 ],
 description: `Sisig refers to a finely chopped pork dish of Filipino origin. This recipe uses pork belly and maskara (pig face). It is popular in the Philippines and is now gaining popularity worldwide. It can be consumed as an appetizer and a main dish.`,
 link: 'https://panlasangpinoy.com/sisig-recipe-knr-kls/',
@@ -2193,7 +2194,8 @@ type: [
 `Snack`,
 `Side Dish`,
 `Deep-Fried Dish`,
-`Street Food`
+`Street Food`,
+`Appetizer`,
 ],
 description: `Lumpia or Lumpiang Shanghai is a type of Filipino egg roll. The basic filling is composed of ground pork along with minced onions, carrots, and seasonings such as salt and ground black pepper. This recipe post is all about how to make basic lumpia. Feel free to use this as a baseline.`,
 link: `https://panlasangpinoy.com/filipino-lumpia-recipe/`,
@@ -2342,6 +2344,7 @@ type: [
 `Side Dish`,
 `Deep-Fried Dish`,
 `Street Food`,
+`Appetizer`,
 ],
 description: `Lumpia or Lumpiang Shanghai is a Filipino egg roll dish. The filling or meat mixture is mainly composed of ground pork, minced carrots, and minced onion. Spices and seasonings are added into the mixture. It is then wrapped and rolled individually in thin flour sheets known as lumpia wrappers.
 
@@ -7674,7 +7677,8 @@ tagalog: `Bopis`,
 type: [
 `Stew`,
 `Offal Dish`,
-`Pork Dish`
+`Pork Dish`,
+`Appetizer`,
 ],
 description: `Bopis is a spicy Filipino dish made from minced pig’s lungs and heart. This can be served as an appetizer for beer and alcoholic beverages; it is also considered as a main dish and is best served with steamed white rice.
 
