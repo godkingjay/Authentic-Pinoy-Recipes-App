@@ -10047,7 +10047,7 @@ name: `Spaghetti Sauce`,
 amount: `35 ounces`,
 tagalog: null,
 type: null,
-image: `ketchup-sauce`,
+image: `banana-ketchup`,
 },
 {
 name: `Cheddar Cheese`,
