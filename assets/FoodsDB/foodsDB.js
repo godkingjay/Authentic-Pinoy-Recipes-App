@@ -10381,6 +10381,143 @@ image: require(`./images/food/000000084.jpg`),
 // video: null,
 // image: null,
 // },
+{
+id: 86,
+name: `Pata Tim`,
+tagalog: `Pata Tim`,
+type: [
+`Pork Dish`,
+`Meat Dish`,
+],
+special: null,
+description: `Pata tim is a traditional Filipino dish with Chinese influences, made with a combination of pata (pork leg), seasoning cube, bok choy, shiitake mushrooms, brown sugar, soy sauce, sesame oil, cornstarch, peppercorns, and star anise. The pork leg is broiled, boiled, drained, washed, then arranged in a cooking pot with soy sauce, sesame oil, water, and peppercorns.
+
+The combination is simmered until the pata becomes tender. The other ingredients are then added to the pot and cooked a bit more until the sauce thickens. The sauce should be mild and slightly sweet, while the pork leg should be as tender as possible.
+
+Pata tim is often served with steamed white rice on the side.`,
+link: `https://panlasangpinoy.com/pata-tim-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `Pata Tim Renditions`,
+content: `Some variations like to input a good deal of banana blossoms into the pork stew. This ingredient provides a very delicious sour contrast to the dish’s sweetness. It also contains several antioxidants for your body, and also has anti-microbal properties. As such, adding these banana blossoms helps hype up your Pata Tim dish into one that aids your digestive system, and improves your health in sleeping.
+
+And from province to province, there are varying renditions of Pata Tim that also integrate more ingredients to the classic dish. For example, in Pampanga, pineapple juice is integrated into the stew, as well as lime softdrink or Sprite. Not only that, but you can also find yourself munching on pineapple chunks when you taste a Kapampangan Pata Tim. With this, we can tell that there is an added factor of sweetness to the province’s adaptation.
+
+The gracious Pata Tim is only living proof of how easily food can evolve and adjust based on the culture and place at which it resides. This Filipino-Chinese dish is far more than its solidly rich flavors. It is also a longstanding example of the creativity that comes with the art of cooking.`,
+},
+],
+recipe: {
+details: {
+description: `Tender pork leg stew with mushroom and bok choy.`,
+time: {
+prep: `20 Minutes`,
+cook: `2 Hours`,
+total: `2 Hours 20 Minutes`,
+},
+servings: null,
+calories: null,
+},
+ingredients: [
+{
+name: `Pork Leg`,
+amount: `3 lbs.`,
+tagalog: `Pata`,
+type: null,
+image: `pork`,
+},
+{
+name: `Knorr Pork Cube`,
+amount: `1 Piece`,
+tagalog: null,
+type: null,
+image: `mix-cube`,
+},
+{
+name: `Bok Choy`,
+amount: `1 Bunch`,
+tagalog: null,
+type: null,
+image: `pechay`,
+},
+{
+name: `Shitake Mushroom`,
+amount: `10 Pieces`,
+tagalog: null,
+type: null,
+image: `mushrooom`,
+},
+{
+name: `Brown Sugar`,
+amount: `6 Tablespoons`,
+tagalog: `Asukal`,
+type: null,
+image: `sugar`,
+},
+{
+name: `Sesame Oil`,
+amount: `1 Teaspoon`,
+tagalog: null,
+type: null,
+image: `sesame-oil`,
+},
+{
+name: `Soy Sauce`,
+amount: `6 Tablespoons`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Cooking Wine`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: `Optional`,
+image: `wine`,
+},
+{
+name: `Cornstarch`,
+amount: `1 Tablespoon`,
+tagalog: null,
+type: null,
+image: `cornstarch`,
+},
+{
+name: `Star Anise`,
+amount: `3 Pieces`,
+tagalog: null,
+type: null,
+image: `star-anise`,
+},
+{
+name: `Whole Peppercorn`,
+amount: `2 Teaspoon`,
+tagalog: null,
+type: null,
+image: `peppercorn`,
+},
+{
+name: `Water`,
+amount: `6 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+],
+instructions: [
+`Set turbo broiler to 350F. Broil pata for 20 minutes.`,
+`Boil water in a cooing pot. Add broiled pata. Boil for 15 minutes. Drain water and then wash the pata with running water.`,
+`In a clean cooking pot, arrange the pata. Pour soy sauce, Sesame oil, cooking wine, and water. Add whole peppercorn. Boil for 1 to 2 hours or until pork gets tender. Note: you can use a pressure cooker to tenderize the pork leg quicker.`,
+`Add Knorr Pork Cube, star anise, and Shitake mushrooom. Cook for 20 minutes. Note: add more water if needed. Make sure that there is at least 2 ½ cups of sauce in the pot.`,
+`Add sugar. Stir. Pour cornstarch and water mixture. Stir and cook until sauce thickens.`,
+`Add baby bok choy. Cook for 2 minutes.`,
+`Transfer to a serving plate. Serve. Share and enjoy!`,
+],
+nutrition: null,
+},
+video: `https://youtu.be/XILrM7QUIRQ`,
+image: require(`./images/food/000000086.jpg`),
+},
 ];
 
 
@@ -10543,6 +10680,7 @@ List:
 83. Filipino Spaghetti
 84. Chicken Afritada
 85. Pork Afritada
+86. Pata Tim
 
 **************************************************************************************************************/
 
