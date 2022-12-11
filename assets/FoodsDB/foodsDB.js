@@ -10712,6 +10712,73 @@ nutrition: [
 video: `https://youtu.be/Csjlh1_Jvrs`,
 image: require(`./images/food/000000087.jpg`),
 },
+{
+id: 88,
+name: `Halabos na Hipon`,
+tagalog: `Halabos na Hipon`,
+type: [
+`Seafood Dish`,
+`Shrimp Dish`,
+`Appetizer`,
+],
+special: null,
+description: `Halabos na hipon is a traditional dish originating from the Philippines. This simple dish is usually made with a combination of fresh shrimp, water, and sea salt. The shrimps are gently tossed with salt in a big pan or a wok over medium to high heat.
+
+Water is added, and the shrimps are stirred and cooked until the liquid evaporates. Once done, halabos na hipon is served hot on a large plate. If desired, a bit of garlic powder, butter, or red chili flakes can be added to the dish while it's cooking.
+
+Some people also like to replace water with soda such as 7-Up or Sprite. It's recommended to serve halabos na hipon with rice and a dip based on vinegar and garlic.`,
+link: `https://panlasangpinoy.com/halabos-na-hipon-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `5 Minutes`,
+cook: `15 Minutes`,
+total: `20 Minutes`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Shrimp`,
+amount: `2 lbs.`,
+tagalog: `Hipon`,
+type: `With head and washed.`,
+image: `shrimp`,
+},
+{
+name: `Sae Salt`,
+amount: `1/2 Teaspoon`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Lemon Soda`,
+amount: `3/4 Cup`,
+tagalog: null,
+type: `7-Up or Sprite`,
+image: `soda`,
+},
+],
+instructions: [
+`Heat a wide pan or wok.`,
+`Once the pot is hot, put-in the shrimp. Gently toss every few seconds.`,
+`Add the salt. Continue to toss for 1 minute.`,
+`Pour-in the lemon soda; stir and continue to cook until the liquid evaporates.`,
+`Transfer to a serving plate.`,
+`Serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: null,
+image: require(`./images/food/000000088.jpg`),
+},
 ];
 
 
@@ -10876,6 +10943,7 @@ List:
 85. Pork Afritada
 86. Pata Tim
 87. Pancit Batil Patung
+88. Halabos na Hipon
 
 **************************************************************************************************************/
 
