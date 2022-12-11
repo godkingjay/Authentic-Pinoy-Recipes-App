@@ -2148,55 +2148,133 @@ image: require(`./images/food/000000079.jpg`),
 // video: null,
 // image: null,
 // },
-// {
-// id: 15,
-// name: `Turmeric Adobo`,
-// tagalog: `Adobong Dilaw`,
-// type: [
+{
+id: 15,
+name: `Turmeric Adobo`,
+tagalog: `Adobong Dilaw`,
+type: [
+`Stew`,
+`Meat Dish`,
+],
+special: null,
+description: `Adobong dilaw is a traditional stew originating from the Philippines. This type of adobo is usually made with a combination of turmeric, vinegar, pork or chicken, potatoes, garlic, sugar, salt, oil, peppercorns, bay leaves, and water. The meat is seasoned with salt and browned in oil.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
+The potatoes are deep-fried until golden brown, and the garlic is sautéed in oil over low heat. The vinegar, peppercorns, bay leaves, sugar, and water are simmered into a sauce, then mixed with the meat and potatoes. The stew is cooked until everything is tender and the sauce is almost fully absorbed.
 
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+Adobong dilaw is served hot with rice on the side.`,
+link: `https://panlasangpinoy.com/adobong-dilaw-recipe/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `50 Minutes`,
+total: `1 Hour`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Pork`,
+amount: `2 lbs.`,
+tagalog: `Baboy`,
+type: `Sliced`,
+image: `pork`,
+},
+{
+name: `White Vinegar`,
+amount: `1/2 Cup`,
+tagalog: `Suka`,
+type: null,
+image: `vinegar`,
+},
+{
+name: `Yellow Onion`,
+amount: `1 Small`,
+tagalog: `Sibuyas`,
+type: `Minced`,
+image: `onion`,
+},
+{
+name: `Turmeric`,
+amount: `1 Knob`,
+tagalog: null,
+type: `Sliced`,
+image: `turmeric`,
+},
+{
+name: `Garlic`,
+amount: `6 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Bay Leaves`,
+amount: `4 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Pork Cube`,
+amount: `1 Piece`,
+tagalog: null,
+type: null,
+image: `mix-cube`,
+},
+{
+name: `White Sugar`,
+amount: `1/2 Teaspoon`,
+tagalog: null,
+type: `Granulated`,
+image: `sugar`,
+},
+{
+name: `Water`,
+amount: `1 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Peppercorn`,
+amount: `2 Teaspoons`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+],
+instructions: [
+`Heat the cooking oil in a cooking pot.`,
+`Put-in the garlic and then cook until the color turns light brown.`,
+`Add the onion. Cook for 1 minute.`,
+`Put-in the sliced turmeric, peppercorn, and bay leaves. Cook for 10 to 15 seconds.`,
+`Add the pork slices. Cook while stirring once in a while until the pork turns light brown (about 5 minutes).`,
+`Put-in the pork or beef cube (or powder) and the pour-in the water. Let boil.`,
+`Cover the pot and then simmer for 30 to 45 minutes (add additional water as necessary).`,
+`Pour-in the vinegar. Allow the liquid to re-boil.`,
+`Stir and then add the sugar. Cook for a minute more.`,
+`Transfer to a serving plate.`,
+`Serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: null,
+image: require(`./images/food/000000013.jpg`),
+},
 // {
 // id: 16,
 // name: `Shrimp Adobo`,
