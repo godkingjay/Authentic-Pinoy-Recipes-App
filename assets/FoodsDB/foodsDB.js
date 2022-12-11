@@ -2273,57 +2273,125 @@ nutrition: [
 ],
 },
 video: null,
-image: require(`./images/food/000000013.jpg`),
+image: require(`./images/food/000000015.jpg`),
 },
-// {
-// id: 16,
-// name: `Shrimp Adobo`,
-// tagalog: `Adobong Hipon`,
-// type: [
+{
+id: 16,
+name: `Shrimp Adobo`,
+tagalog: `Adobong Hipon`,
+type: [
+`Stew`,
+`Shrimp Dish`,
+`Seafood Dish`,
+],
+special: null,
+description: `Adobong hipon is a traditional dish originating from the Philippines. This type of Filipino adobo is made with a combination of shrimps, soy sauce, vinegar, garlic, peppercorns, oil, and salt. The shrimps are peeled and left with their tails and heads intact, and then marinated in a mixture of crushed garlic, soy sauce, vinegar, and peppercorns.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+Once marinated, the shrimps are stir-fried in hot oil and then shortly simmered in a mixture of leftover marinade and water. If desired, onions, scallions, or chili peppers can also be added to this adobo. Adobong hipon is often served with rice on the side.`,
+link: `https://panlasangpinoy.com/adobong-hipon-sa-gata/`,
+author: `Vanjo Merano`,
+information: null,
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `20 Minutes`,
+total: `30 Minutes`,
+},
+servings: `3 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Shrimp`,
+amount: `1 lb.`,
+tagalog: `Hipon`,
+type: `With shell and head(cleaned).`,
+image: `shrimp`,
+},
+{
+name: `Garlic`,
+amount: `5 to 6 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Dried Bay Leaves`,
+amount: `4 to 5 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Coconut Milk`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `coconut-milk`,
+},
+{
+name: `Whole Peppercorn`,
+amount: `1 Teaspoon`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+{
+name: `Soy Sauce`,
+amount: `3 Tablespoons`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `White Vinegar`,
+amount: `2 Tablespoons`,
+tagalog: null,
+type: null,
+image: `vinegar`,
+},
+{
+name: `Water`,
+amount: `1/2 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+],
+instructions: [
+`Heat the oil in a pan.`,
+`Add the garlic and whole peppercorn once the oil becomes hot. Cook until the garlic turns medium brown.`,
+`Put-in the Shrimp. Cook for 3 minutes or until the color of the shrimp turns orangey.`,
+`Pour-in the soy sauce and water. Stir and let boil. Cook for 2 minutes.`,
+`Add the dried bay leaves and vinegar. Cover. Let boil. Cook for 2 to 3 minutes.`,
+`Pour-in the coconut milk. Let boil and continue to cook for 2 minutes. Add salt to taste.`,
+`Remove the shrimp from the pan and arrange in a serving bowl.`,
+`Meanwhile continue to cook the sauce until it becomes thick. Pour the sauce over the shrimp in the serving bowl.`,
+`Serve. Share and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '3g' },
+],
+},
+video: `https://youtu.be/Q4cNP5xkCbw`,
+image: require(`./images/food/000000016.jpg`),
+},
 // {
 // id: 17,
 // name: `Beef Adobo`,
