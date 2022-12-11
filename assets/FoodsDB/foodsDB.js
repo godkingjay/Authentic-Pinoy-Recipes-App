@@ -6337,55 +6337,176 @@ image: require('./images/food/000000049.jpg'),
 // video: null,
 // image: null,
 // },
-// {
-// id: 51,
-// name: `Beef Mechado`,
-// tagalog: `Beef Mechado`,
-// type: [
+{
+id: 51,
+name: `Beef Mechado`,
+tagalog: `Mechadong Baka`,
+type: [
+`Stew`,
+`Meat Dish`,
+`Beef Dish`,
+],
+special: null,
+description: `Beef Mechado is a delicious tomato-based stew that pairs perfectly with a warm cup of rice. It is hearty and filling, and its taste can bring back the comfort of home. The sauce can be made from chopped ripe tomato or canned tomato sauce. This dish is prepared mostly during weekends or special occasions.`,
+link: `https://panlasangpinoy.com/filipino-pinoy-food-tomato-sauce-beef-mechado-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `Variations`,
+content: `Variations to beef mechado also include adding even more vegetables to the mix, like carrots, peas, and bell peppers. You can even change the meat entirely; my pork mechado recipe makes use of pork shoulder, still attaining the moist, tender deliciousness of its original beef counterpart. Other tomato-based dishes like chicken or pork afritada are also beloved by many. The difference between afritada and mechado lies mostly in the vegetables and ingredients used, but both tomato stews pack a deep, flavorful punch.
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
+Beef mechado is an easy dish to cook, and adaptable to any palate. To cook beef mechado is simple, yet its end product is a dish so complex in taste but so easy, as well, to love.`,
+},
+{
+title: `How to Cook Beef Mechado`,
+content: `Cooking beef mechado is easier than you might be thinking. The first process is to saute the meat along with garlic and onion. Next is to tenderize it. The last part is to add the seasonings, spices, and other ingredients.
 
-// ],
-// nutrition: [
-// {
-// name: null,
-// amount: null,
-// },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+Start to saute by heating oil in a pot. Saute garlic and onion, and then add the beef. It is a good practice to soften the onion before adding the meat. This makes the onion taste sweeter. Add the beef and cook until all sides turn light brown. You’ll need to stir to cook the sides.
+
+Add tomato sauce and water. Let boil. It is time to tenderize the meat. Cover the pot, adjust the heat between low to medium, and cook for 60 minutes or longer until the beef gets tender. You can add more water to prevent the sauce from drying-up during the process.
+
+Add the remaining ingredients. Make sure to adjust the taste based on your preference. This means adding enough salt and pepper. You now have your Beef Mechado to enjoy.`,
+},
+{
+title: `Tips and Tricks`,
+content: `• A good tip is to cook rice while waiting for the meat to tenderize. It might sound funny, but some of us are focused too much in cooking the dish to the point that other components of the meal are forgotten. This will ensure that you can enjoy your meal right after the stew is done.
+
+• Use a pressure cooker to tenderize the beef faster. It can save you time by 70%.
+
+• You can also use a slow cooker if preferred.
+
+• Other types of protein such as pork and chicken can also be utilized for this dish.`,
+},
+],
+recipe: {
+details: {
+description: `This is a recipe for beef mechado.`,
+time: {
+prep: `10 Minutes`,
+cook: `1 Hour 30 Minutes`,
+total: `1 Hour 40 Minutes`,
+},
+servings: `6 People`,
+calories: `361 kcal`,
+},
+ingredients: [
+{
+name: `Garlic`,
+amount: `3 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Onion`,
+amount: `1 Large`,
+tagalog: `Sibuyas`,
+type: `Sliced`,
+image: `onion`,
+},
+{
+name: `Beef Chuck`,
+amount: `2 lbs.`,
+tagalog: `Baka`,
+type: `Cubed`,
+image: `beef`,
+},
+{
+name: `Tomato Sauce`,
+amount: `8 Ounces`,
+tagalog: null,
+type: null,
+image: `tomato-sauce`,
+},
+{
+name: `Water`,
+amount: `1 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Lemon`,
+amount: `1 Slice`,
+tagalog: null,
+type: null,
+image: `lemon`,
+},
+{
+name: `Potato`,
+amount: `1 Large`,
+tagalog: `Patatas`,
+type: `Sliced`,
+image: `potato`,
+},
+{
+name: `Soy Sauce`,
+amount: `1/4 Cup`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `1 Teaspoon`,
+tagalog: `Dinurog na Paminta`,
+type: null,
+image: `black-pepper`,
+},
+{
+name: `Bay Leaves`,
+amount: `2 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste.`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+],
+instructions: [
+`Heat cooking oil in a pan then saute the garlic and onion.`,
+`Put-in the beef and saute for about 3 minutes or until color turns light brown.`,
+`Add the tomato sauce and water then simmer until the meat is tender. Add water as needed. Note this can take 60 to 120 minutes depending on the quality of the beef.`,
+`Add the soy sauce, ground black pepper, lemon rind, laurel leaves, and salt then simmer until excess liquid evaporates.`,
+`Put-in the potatoes and cook until the potatoes are soft.`,
+`Place in a serving plate then serve hot with rice. Share and Enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+{ name: 'Calories', amount: '361kcal' },
+{ name: 'Carbohydrates', amount: '5g' },
+{ name: 'Protein', amount: '31g' },
+{ name: 'Fat', amount: '25g' },
+{ name: 'Saturated Fat', amount: '8g' },
+{ name: 'Polyunsaturated Fat', amount: '3g' },
+{ name: 'Monounsaturated Fat', amount: '13g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '104mg' },
+{ name: 'Sodium', amount: '864mg' },
+{ name: 'Potassium', amount: '688mg' },
+{ name: 'Fiber', amount: '1g' },
+{ name: 'Sugar', amount: '3g' },
+{ name: 'Vitamin A', amount: '207IU' },
+{ name: 'Vitamin C', amount: '5mg' },
+{ name: 'Calcium', amount: '45mg' },
+{ name: 'Iron', amount: '4mg' },
+],
+},
+video: `https://youtu.be/kEakYl5pDEM`,
+image: require(`./images/food/000000051.jpg`),
+},
 {
 id: 52,
 name: `Pinakbet`,
