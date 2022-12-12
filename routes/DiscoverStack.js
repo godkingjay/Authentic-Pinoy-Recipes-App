@@ -37,12 +37,13 @@ const DiscoverStack = () => (
     </Stack.Screen>
     <Stack.Screen
       name='FoodCategory'
-      component={ FoodCategory }
       options={({ navigation, route }) => ({
         title: 'Food Category',
         animation: "slide_from_right"
       })}
-    />
+    >
+      {(props) => <FoodCategory {...props}/>}
+    </Stack.Screen>
   </Stack.Navigator>
 );
 
