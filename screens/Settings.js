@@ -13,7 +13,7 @@ import { Pressable } from "react-native";
 import window from "../assets/controller/window";
 import modalStyles from "../assets/styles/modalStyles";
 
-export default function Settings() {
+export default function Settings({ navigation, routes }) {
   const favorites = useContext(AppContext);
   const [clearFavoritesModal, setClearFavoritesModal] = useState(false);
   
@@ -33,6 +33,20 @@ export default function Settings() {
             />
           </View>
           <Text style={ [ styles.settingLabel, { color: "#ff4040" } ] }>Clear Favorites</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={ 0.75 }
+          style={ styles.settingContainer }
+          onPress={() => navigation.navigate("About")}
+        >
+          <View style={ styles.settingIconContainer }>
+            <Icon
+              type="material-icons"
+              name="info-outline"
+              color="#444"
+            />
+          </View>
+          <Text style={ styles.settingLabel }>About</Text>
         </TouchableOpacity>
       </View>
       <Modal
@@ -83,7 +97,7 @@ const styles = StyleSheet.create({
   },
   settingIconContainer: {
     padding: 4,
-    paddingRight: 8,
+    paddingRight: 16,
   },
   settingLabel: {
     fontSize: 16,
