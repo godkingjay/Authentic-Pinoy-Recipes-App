@@ -30,6 +30,7 @@ const FavoritesStack = () => (
       name="FoodView"
       options={({navigation, route}) => ({
         title: "Food View",
+        animation: "slide_from_bottom",
       })}
     >
       {(props) => <FoodView {...props}/>}
@@ -37,7 +38,8 @@ const FavoritesStack = () => (
     <Stack.Screen
       name='FoodCategory'
       options={({ navigation, route }) => ({
-        title: 'Food Category'
+        title: 'Food Category',
+        animation: "slide_from_right",
       })}
     >
       {(props) => <FoodCategory {...props}/>}
