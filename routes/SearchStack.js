@@ -14,7 +14,7 @@ const SearchStack = () => (
       headerTitleStyle: {
         fontWeight: "bold",
         textTransform: 'uppercase',
-        color: '#222',
+        color: '#444',
       },
     }}
   >
