@@ -20,22 +20,28 @@ const FavoritesStack = () => (
   >
     <Stack.Screen
       name="Favorites"
-      component={ Favorites }
-    />
+      options={({navigation, route}) => ({
+        title: "Favorites",
+      })}
+    >
+      {(props) => <Favorites {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name="FoodView"
-      component={ FoodView }
       options={({navigation, route}) => ({
         title: "Food View",
       })}
-    />
+    >
+      {(props) => <FoodView {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name='FoodCategory'
-      component={ FoodCategory }
       options={({ navigation, route }) => ({
         title: 'Food Category'
       })}
-    />
+    >
+      {(props) => <FoodCategory {...props}/>}
+    </Stack.Screen>
   </Stack.Navigator>
 );
 
