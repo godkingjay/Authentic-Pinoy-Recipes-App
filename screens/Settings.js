@@ -92,8 +92,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     borderBottomWidth: 1,
-    borderBottomColor: '#4444',
+    borderBottomColor: '#2222',
     paddingVertical: 4,
+    marginVertical: 4,
   },
   settingIconContainer: {
     padding: 4,
