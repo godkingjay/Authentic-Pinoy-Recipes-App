@@ -20,25 +20,28 @@ const SearchStack = () => (
   >
     <Stack.Screen
       name="Search"
-      component={ Search }
       options={({ navigation, route }) => ({
         title: "Search",
       })}
-    />
+    >
+      {(props) => <Search {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name="FoodView"
-      component={ FoodView }
       options={({navigation, route}) => ({
         title: "Food View",
       })}
-    />
+    >
+      {(props) => <FoodView {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name='FoodCategory'
-      component={ FoodCategory }
       options={({ navigation, route }) => ({
         title: 'Food Category'
       })}
-    />
+    >
+      {(props) => <FoodCategory {...props}/>}
+    </Stack.Screen>
   </Stack.Navigator>
 );
 
