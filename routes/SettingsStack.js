@@ -21,12 +21,20 @@ const SettingsStack = () => (
   >
     <Stack.Screen
       name="Settings"
-      component={ Settings }
-    />
+      options={({ navigation, route }) => ({
+        title: "Settings",
+      })}
+    >
+      {(props) => <Settings {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name="About"
-      component={ About }
-    />
+      options={({ navigation, route }) => ({
+        title: "About",
+      })}
+    >
+      {(props) => <About {...props}/>}
+    </Stack.Screen>
   </Stack.Navigator>
 );
 
