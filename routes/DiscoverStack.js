@@ -30,6 +30,7 @@ const DiscoverStack = () => (
       name="FoodView"
       options={({navigation, route}) => ({
         title: "Food View",
+        animation: "slide_from_bottom"
       })}
     >
       {(props) => <FoodView {...props}/>}
@@ -39,6 +40,7 @@ const DiscoverStack = () => (
       component={ FoodCategory }
       options={({ navigation, route }) => ({
         title: 'Food Category',
+        animation: "slide_from_right"
       })}
     />
   </Stack.Navigator>

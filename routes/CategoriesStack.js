@@ -20,25 +20,28 @@ const CategoriesStack = () => (
   >
     <Stack.Screen
       name="Categories"
-      component={ Categories }
       options={({ navigation, route }) => ({
         title: "Categories",
       })}
-    />
+    >
+      {(props) => <Categories {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name='FoodCategory'
-      component={ FoodCategory }
       options={({ navigation, route }) => ({
         title: 'Food Category'
       })}
-    />
+    >
+      {(props) => <FoodCategory {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name="FoodView"
-      component={ FoodView }
       options={({navigation, route}) => ({
         title: "Food View",
       })}
-    />
+    >
+      {(props) => <FoodView {...props}/>}
+    </Stack.Screen>
   </Stack.Navigator>
 );
 
