@@ -21,6 +21,9 @@ const CategoriesStack = () => (
     <Stack.Screen
       name="Categories"
       component={ Categories }
+      options={({ navigation, route }) => ({
+        title: "Categories",
+      })}
     />
     <Stack.Screen
       name='FoodCategory'

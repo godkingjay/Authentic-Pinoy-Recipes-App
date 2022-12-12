@@ -19,7 +19,10 @@ export default function FoodViewType({ navigation, route, foodType }){
       <TouchableOpacity activeOpacity={ 0.6 } style={[styles.typeContainer, {
           backgroundColor: category.color != null ? (category.color) : '#FEA11F',
         }]}
-        onPress={() => navigation.navigate('FoodCategory', foodType)}
+        onPress={() => {
+          navigation.pop();
+          navigation.navigate('FoodCategory', foodType);
+        }}
       >
         <Text style={ styles.typeText }>{ foodType }</Text>
       </TouchableOpacity>

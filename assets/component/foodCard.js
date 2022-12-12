@@ -15,7 +15,10 @@ export default function FoodCard({ navigation, route, food }) {
 
   return(
     <View style={ styles.cardWrapper }>
-      <TouchableOpacity activeOpacity={ 0.8 } style={ styles.cardContainer } onPress={() => navigation.navigate("FoodView", food)}>
+      <TouchableOpacity activeOpacity={ 0.8 } style={ styles.cardContainer } onPress={() => {
+        navigation.pop();
+        navigation.navigate("FoodView", food);
+      }}>
         <View style={ styles.cardImageContainer }>
           <Image style={ styles.cardImage } source={ food.image }/>
         </View>

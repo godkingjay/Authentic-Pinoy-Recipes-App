@@ -56,7 +56,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
         data={ discover }
         horizontal={ true }
         showsHorizontalScrollIndicator={ false }
-        renderItem={({ item, index }) => (
+        renderItem={({ item }) => (
           <HorizontalCard
             navigation={ navigation }
             route={ route }

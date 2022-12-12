@@ -15,6 +15,8 @@ const SettingsStack = () => (
         textTransform: 'uppercase',
         color: '#444',
       },
+      headerShadowVisible: false,
+      animation:"fade"
     }}
   >
     <Stack.Screen

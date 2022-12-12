@@ -21,6 +21,9 @@ const DiscoverStack = () => (
     <Stack.Screen
       name="Discover"
       component={ Discover }
+      options={({ navigation, route }) => ({
+        title: "Discover",
+      })}
     />
     <Stack.Screen
       name="FoodView"
@@ -33,7 +36,7 @@ const DiscoverStack = () => (
       name='FoodCategory'
       component={ FoodCategory }
       options={({ navigation, route }) => ({
-        title: 'Food Category'
+        title: 'Food Category',
       })}
     />
   </Stack.Navigator>

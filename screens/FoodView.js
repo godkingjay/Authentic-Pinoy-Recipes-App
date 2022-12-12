@@ -12,6 +12,7 @@ import { Icon } from "react-native-elements";
 import FoodRecipe from "../assets/component/foodRecipe";
 import FavoriteButton from "../assets/component/favoriteButton";
 import FoodInformation from "../assets/component/foodInformation";
+import { useEffect } from "react";
 
 function compareStrings(a, b) {
   a = a.toLowerCase();
@@ -27,13 +28,14 @@ export default function FoodView({ navigation, route }) {
   React.useLayoutEffect(() => {
     navigation.setOptions({
       headerTitle: food.name,
-      // headerTitleAlign: 'center',
     });
   }, [navigation]);
 
   foodType.sort(function(a, b) {
     return compareStrings(a, b);
   });
+
+
 
   return (
     <ScrollView style={ globalStyles.screen }>
