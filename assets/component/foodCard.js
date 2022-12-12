@@ -16,8 +16,13 @@ export default function FoodCard({ navigation, route, food }) {
   return(
     <View style={ styles.cardWrapper }>
       <TouchableOpacity activeOpacity={ 0.8 } style={ styles.cardContainer } onPress={() => {
-        navigation.pop();
-        navigation.navigate("FoodView", food);
+        const screenName = route.name.toLowerCase();
+        if(screenName == `favorites` || screenName == `search` || screenName == `discover`){
+          navigation.navigate("FoodView", food);
+        } else {
+          navigation.pop();
+          navigation.navigate("FoodView", food);
+        }
       }}>
         <View style={ styles.cardImageContainer }>
           <Image style={ styles.cardImage } source={ food.image }/>

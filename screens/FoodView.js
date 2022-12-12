@@ -35,8 +35,6 @@ export default function FoodView({ navigation, route }) {
     return compareStrings(a, b);
   });
 
-
-
   return (
     <ScrollView style={ globalStyles.screen }>
       <View>

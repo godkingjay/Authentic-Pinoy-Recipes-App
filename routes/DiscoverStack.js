@@ -20,18 +20,20 @@ const DiscoverStack = () => (
   >
     <Stack.Screen
       name="Discover"
-      component={ Discover }
       options={({ navigation, route }) => ({
         title: "Discover",
       })}
-    />
+    >
+      {(props) => <Discover {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name="FoodView"
-      component={ FoodView }
       options={({navigation, route}) => ({
         title: "Food View",
       })}
-    />
+    >
+      {(props) => <FoodView {...props}/>}
+    </Stack.Screen>
     <Stack.Screen
       name='FoodCategory'
       component={ FoodCategory }
