@@ -11,7 +11,7 @@ export default function DiscoverSeeAll({ navigation, route, foodType }){
       <TouchableOpacity
         style={ styles.seeAllContainer }
         activeOpacity={ 0.5 }
-        onPress={() => navigation.navigate('FoodCategory', foodType)}
+        onPress={() => navigation.push('FoodCategory', foodType)}
       >
         <Text style={ styles.seeAllLabel }>See All</Text>
         <Icon

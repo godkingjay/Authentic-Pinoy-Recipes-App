@@ -9,7 +9,7 @@ export default function FoodCategoryCard({ navigation, route, category }){
       <TouchableOpacity activeOpacity={ 0.6 } style={[ styles.cardContainer, {
           backgroundColor: category.color != null ? ( category.color ) : ('#FEA11F'),
         } ]}
-        onPress={() => navigation.navigate('FoodCategory', category.name)}
+        onPress={() => navigation.push('FoodCategory', category.name)}
       >
         <View style={ styles.cardLabelContainer }>
           <Text style={ styles.cardCategoryName }>{ category.name }</Text>

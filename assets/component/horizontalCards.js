@@ -5,7 +5,7 @@ import { Image, StyleSheet, Text, View } from "react-native";
 export default function HorizontalCard({ navigation, route, food, color }) {
   return(
     <View style={ styles.cardWrapper }>
-      <TouchableOpacity activeOpacity={ 0.6 } style={ styles.cardContainer } onPress={() => navigation.navigate("FoodView", food)}>
+      <TouchableOpacity activeOpacity={ 0.6 } style={ styles.cardContainer } onPress={() => navigation.push("FoodView", food)}>
         <View style={ styles.foodImageContainer }>
           <Image source={ food.image } style={ styles.foodImage }/>
         </View>

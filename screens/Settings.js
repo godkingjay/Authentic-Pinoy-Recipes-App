@@ -37,7 +37,7 @@ export default function Settings({ navigation, routes }) {
         <TouchableOpacity
           activeOpacity={ 0.75 }
           style={ styles.settingContainer }
-          onPress={() => navigation.navigate("About")}
+          onPress={() => navigation.push("About")}
         >
           <View style={ styles.settingIconContainer }>
             <Icon

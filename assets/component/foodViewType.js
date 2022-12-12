@@ -14,14 +14,14 @@ export default function FoodViewType({ navigation, route, foodType }){
       }
     }
   });
+
   return(
     <View style={ styles.typeWrapper }>
       <TouchableOpacity activeOpacity={ 0.6 } style={[styles.typeContainer, {
           backgroundColor: category.color != null ? (category.color) : '#FEA11F',
         }]}
         onPress={() => {
-          navigation.pop();
-          navigation.navigate('FoodCategory', foodType);
+          navigation.push('FoodCategory', foodType);
         }}
       >
         <Text style={ styles.typeText }>{ foodType }</Text>
