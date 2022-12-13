@@ -31,7 +31,7 @@ export default function Favorites({ navigation, route }) {
             <View style={ styles.emptyLabelContainer }>
               <Text style={ styles.emptyLabel }>No Favorites Yet!</Text>
               <Text style={ styles.emptyLabelDetails }>
-                Click the heart icon in any food card or food recipe and you'll see it here the next time you visit.
+                Click the heart icon in any food card or recipe and you'll see it here the next time you visit.
               </Text>
             </View>
           </View>
