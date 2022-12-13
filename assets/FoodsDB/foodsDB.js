@@ -11176,17 +11176,25 @@ image: require(`./images/food/000000088.jpg`),
   author: `Vanjo Merano`,
   information: [
   {
-  title: null,
-  content: null,
+  title: `Origins of Igado`,
+  content: `This is a unique spiced dish made with a variety of seasonings, as well as a couple of vegetables to complement the meat ingredients. It is also pretty popular for its use of pig innards, as I mentioned earlier. But we will go deeper into the components for this dish later on. 
+
+  Studies show that Igado was influenced by Spanish cuisine, which you might already be able to tell from its name. “Higado” means liver in Spanish, and some say that Filipinos heard it as “Igado,” hence its name today. `,
   },
+  {
+    title: `What matches Igado`,
+    content: `You can choose whatever side dish you like for Igado. But because it’s pretty flavorful and rich, you may want to opt for food with lighter flavor. After all, you don’t want to overpower the already tasty mix of flavors in Igado. This is why the recipe is well-known as a great “ulam” or viand to have with a fresh batch of rice.
+
+    It is also pretty common to eat this with drinks as it is a perfect “pulutan” dish! Just like Sisig, this tasty dish helps to offset the rough effect of alcohol, and leaves you reaching for more after every bite. It may not be as famous as the likes of Crispy Pata, but it is definitely something to note for your next drinking session. You can expect a delightfully salty and sour dish to keep you energized as you catch up with friends or family.`,
+    },
   ],
   recipe: {
   details: {
-  description: null,
+  description: `Stewed pork, liver, and kidney with green peas and bell pepper. This popular Filipino recipe is a must try.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `10 Minutes`,
+  cook: `45 Minutes`,
+  total: `55 Minutes`,
   },
   servings: null,
   calories: null,
