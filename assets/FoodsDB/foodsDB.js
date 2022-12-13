@@ -11155,6 +11155,78 @@ nutrition: [
 video: null,
 image: require(`./images/food/000000088.jpg`),
 },
+{
+  id: 89,
+  name: `Pork Igado`,
+  tagalog: `Igadong Baboy`,
+  type: [
+  `Stew`,
+  `Meat Dish`,
+  `Pork Dish`,
+  `Offal Dish`,
+  `Main Course`,
+  ],
+  special: [
+  `Ilocano`,
+  ],
+  description: `Pork Igado is an Ilocano stew made of strips of liver and pork tenderloin braised in a tangy and savory soy sauce-vinegar mixture along with spices such as garlic, onions, and bay leaves.
+
+  Other innards such as kidney and heart are also common additions as well as green peas and bell peppers. Although this pork and liver dish is usually associated with pork menudo due to a few common ingredients, it’s actually closer in taste to adobo and very similar to the Kapampangan kilayin.`,
+  link: `https://panlasangpinoy.com/ilocano-pork-igado-recipe/`,
+  author: `Vanjo Merano`,
+  information: [
+  {
+  title: null,
+  content: null,
+  },
+  ],
+  recipe: {
+  details: {
+  description: null,
+  time: {
+  prep: null,
+  cook: null,
+  total: null,
+  },
+  servings: null,
+  calories: null,
+  },
+  ingredients: [
+  {
+  name: null,
+  amount: null,
+  tagalog: null,
+  type: null,
+  image: null,
+  },
+  ],
+  instructions: [
+  
+  ],
+  nutrition: [
+  { name: 'Serving', amount: '5g' },
+  { name: 'Calories', amount: '650kcal' },
+  { name: 'Carbohydrates', amount: '10g' },
+  { name: 'Protein', amount: '37g' },
+  { name: 'Fat', amount: '51g' },
+  { name: 'Saturated Fat', amount: '16g' },
+  { name: 'Polyunsaturated Fat', amount: '6g' },
+  { name: 'Monounsaturated Fat', amount: '25g' },
+  { name: 'Trans Fat', amount: '1g' },
+  { name: 'Cholesterol', amount: '196mg' },
+  { name: 'Sodium', amount: '868mg' },
+  { name: 'Potassium', amount: '888mg' },
+  { name: 'Fiber', amount: '3g' },
+  { name: 'Sugar', amount: '5g' },
+  { name: 'Vitamin A', amount: '5187IU' },
+  { name: 'Vitamin C', amount: '57mg' },
+  { name: 'Calcium', amount: '59mg' },
+  { name: 'Iron', amount: '4mg' },
+  ],
+  },
+  video: `https://youtu.be/CEpwExmo8tI`,
+  image: require(`./images/food/000000089.jpg`),
+  },
 ];
 
 
@@ -11320,6 +11392,7 @@ List:
 86. Pata Tim
 87. Pancit Batil Patung
 88. Halabos na Hipon
+89. Igado
 
 **************************************************************************************************************/
 
