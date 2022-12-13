@@ -11196,8 +11196,8 @@ image: require(`./images/food/000000088.jpg`),
   cook: `45 Minutes`,
   total: `55 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `4 People`,
+  calories: `392 kcal`,
   },
   ingredients: [
   {
