@@ -11500,7 +11500,15 @@ image: require(`./images/food/000000089.jpg`),
                             },
   ],
   instructions: [
-
+    `Heat 3 tablespoons of oil in a cooking pot. Pan-fry chicken liver for 2 minutes. Turn it over and fry the opposite side. Transfer the fried liver on a clean plate. Set aside. Note: There will be liquid coming out of the liver. Let it evaporate completely and continue frying until the liver turns light brown. Do the same step until the liver is completely cooked. Do not over fry it though to keep it from tasting bitter.`,
+    `Wipe the same pan with a clean paper towel to remove most of the liver residue. Heat remaining cooking oil. Saute garlic until it starts to brown. Add onion and continue sautéing until it softens.`,
+    `Add chicken heart. Saute for 2 minutes.`,
+    `Pour soy sauce and vinegar into the pot. Cover the pot and let the mixture boil. Cook for 1 minute.`,
+    `Add bay leaves and water. Cover the pot. Continue cooking using low to medium heat for 35 minutes. Note: add more water if needed.`,
+    `Put the fried liver into the pot. Stir. Cover and cook for 3 minutes.`,
+    `Add carrot, bell pepper, and green peas. Cover and continue cooking for 2 minutes.`,
+    `Season with salt and ground black pepper.`,
+    `Transfer to a serving plate. Serve and enjoy!`,
   ],
   nutrition: [
   { name: 'Serving', amount: '5g' },
