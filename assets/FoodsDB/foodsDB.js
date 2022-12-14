@@ -11360,6 +11360,7 @@ image: require(`./images/food/000000089.jpg`),
   `Chicken Dish`,
   `Offal Dish`,
   `Meat Dish`,
+  `Main Course`,
   ],
   special: null,
   description: `Igado, a famous Ilocano dish, has long made waves as a uniquely delicious recipe. It’s got a lovely mix of pork liver, pork tenderloin, and bay leaves, among many other spices. After all, part of what makes this recipe so great is its masterful combination of seasonings.
@@ -11389,14 +11390,14 @@ image: require(`./images/food/000000089.jpg`),
   ],
   recipe: {
   details: {
-  description: null,
+  description: `Chicken liver and heart stewed in vinegar and soy sauce with bell pepper and green peas.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `5 Minutes`,
+  cook: `50 Minutes`,
+  total: `55 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `6 People`,
+  calories: `382 kcal`,
   },
   ingredients: [
   {
