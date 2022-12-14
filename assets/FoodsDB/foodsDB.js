@@ -11352,188 +11352,188 @@ video: `https://youtu.be/CEpwExmo8tI`,
 image: require(`./images/food/000000089.jpg`),
 },
 {
-  id: 90,
-  name: `Chicken Igado`,
-  tagalog: `Igadong Manok`,
-  type: [
-  `Stew`,
-  `Chicken Dish`,
-  `Offal Dish`,
-  `Meat Dish`,
-  `Main Course`,
-  ],
-  special: null,
-  description: `Igado, a famous Ilocano dish, has long made waves as a uniquely delicious recipe. It’s got a lovely mix of pork liver, pork tenderloin, and bay leaves, among many other spices. After all, part of what makes this recipe so great is its masterful combination of seasonings.
-  
-  The taste of liver tends to be off-putting to others with its more gummy texture and stronger flavor. But in this dish, it blends perfectly with the savory notes of its seasonings. And it also collaborates well with the refreshing textures of vegetables like bell peppers and carrots. This way, it doesn’t overpower, nor does it shy away from the spotlight as a deliciously salty ingredient.`,
-  link: `https://panlasangpinoy.com/chicken-igado/`,
-  author: `Vanjo Merano`,
-  information: [
-    {
-      title: `How can I make Chicken Igado at home?`,
-      content: `Start out by pouring 3 tablespoons of oil in a cooking pot, then letting it heat up. Then place 1 lb. of chicken liver inside, and pan-fry this. After 2 minutes of this, carefully turn it to the other side, and fry this as well. As you are cooking, you will notice liquid coming out of the chicken liver.
-    
-      For this, make sure to let it evaporate fully, and until the liver becomes light brown, just keep the pan-frying going. Repeat the same step until you get your liver completely cooked, but be careful not to overdo it. Overcooked liver can lead to an unpleasant bitter taste. And so once it is perfectly fried and light brown, you can place this on a plate afterwards, and set it aside.
-      
-      Now we’ll be using the same pan for the next step, but we’ll need to take out the liver residue. For this, wipe the pan down with a paper towel. Now take 3 tablespoons of cooking oil, and heat this in the pan. Add 5 cloves of crushed garlic, and sauté this. When your garlic turns brown, you can place your 1 onion that’s been chopped up inside, and sauté these together.`,
-      },
-      {
-        title: `Let’s incorporate a couple more seasonings, as well as the chicken heart for added flavor!`,
-        content: `When your onion has softened, you can add your 1 lb of chicken heart that’s been sliced in half. Sauté these ingredients together for 2 minutes. Then incorporate 4 tablespoons of soy sauce, and 5 tablespoons of vinegar into the mix. Cover your pan, and wait for this to boil. Once it starts boiling, cook the mixture for 1 minute. 
-    
-        Now to infuse your dish with that bit of flavor, we’ll be adding 4 dried bay leaves. Also pour 1 cup of water inside, and then cover the pan. Let this cook for 35 more minutes with low to medium heat, and feel free to pour more water when needed. 
-        
-        Afterwards, you can take your fried liver from earlier, and place this in the pan. Stir this into the mixture, and then place a cover on top of the pan. For the second to the last step, we’ll be cooking this for 2 minutes. And lastly, sprinkle in some salt and ground black pepper to your taste. Once you’ve transferred this to your place of choice, you can get ready to serve!
-        
-        And if you’re starting to get confident with your cooking skills, maybe it’s time to try some new things that are quite like this deliciously rich dish! Utilize the delicious and affordable liver ingredient more in your kitchen!`,
-        },
-  ],
-  recipe: {
-  details: {
-  description: `Chicken liver and heart stewed in vinegar and soy sauce with bell pepper and green peas.`,
-  time: {
-  prep: `5 Minutes`,
-  cook: `50 Minutes`,
-  total: `55 Minutes`,
-  },
-  servings: `6 People`,
-  calories: `382 kcal`,
-  },
-  ingredients: [
-  {
-  name: `Chicken Liver`,
-  amount: `1 lb.`,
-  tagalog: `Atay ng Manok`,
-  type: null,
-  image: `liver`,
-  },
-  {
-    name: `Chicken Heart`,
-    amount: `1 lb.`,
-    tagalog: `Puso ng Manok`,
-    type: `Sliced into half.`,
-    image: `offal`,
-    },
-    {
-      name: `Green Peas`,
-      amount: `1 Cup`,
-      tagalog: null,
-      type: null,
-      image: `peas`,
-      },
-      {
-        name: `Carrots`,
-        amount: `1/2 Cup`,
-        tagalog: `Karot`,
-        type: `Julienne`,
-        image: `carrot`,
-        },
-        {
-          name: `Red Bell Pepper`,
-          amount: `1 Piece`,
-          tagalog: null,
-          type: `Cut into strips.`,
-          image: `red-bell-pepper`,
-          },
-          {
-            name: `Dried Bay Leaves`,
-            amount: `4 Pieces`,
-            tagalog: `Dahon ng Laurel`,
-            type: null,
-            image: `bay-leaf`,
-            },
-            {
-              name: `Onion`,
-              amount: `1 Piece`,
-              tagalog: `Sibuyas`,
-              type: `Chopped`,
-              image: `onion`,
-              },
-              {
-                name: `Garlic`,
-                amount: `5 Cloves`,
-                tagalog: `Bawang`,
-                type: `Crushed`,
-                image: `garlic`,
-                },
-                {
-                  name: `Soy Sauce`,
-                  amount: `4 Tablespoons`,
-                  tagalog: null,
-                  type: null,
-                  image: `soy-sauce`,
-                  },
-                  {
-                    name: `Vinegar`,
-                    amount: `5 Tablespoons`,
-                    tagalog: `Suka`,
-                    type: null,
-                    image: `vinegar`,
-                    },
-                    {
-                      name: `Water`,
-                      amount: `1 Cup`,
-                      tagalog: `Tubig`,
-                      type: null,
-                      image: `water`,
-                      },
-                      {
-                        name: `Cooking oil`,
-                        amount: `6 Tablespoons`,
-                        tagalog: `Mantika`,
-                        type: null,
-                        image: `cooking-oil`,
-                        },
-                        {
-                          name: `Salt`,
-                          amount: `Depends on taste`,
-                          tagalog: `Asin`,
-                          type: null,
-                          image: `salt`,
-                          },
-                          {
-                            name: `Pepper`,
-                            amount: `Depends on taste`,
-                            tagalog: `Paminta`,
-                            type: null,
-                            image: `peppercorn`,
-                            },
-  ],
-  instructions: [
-    `Heat 3 tablespoons of oil in a cooking pot. Pan-fry chicken liver for 2 minutes. Turn it over and fry the opposite side. Transfer the fried liver on a clean plate. Set aside. Note: There will be liquid coming out of the liver. Let it evaporate completely and continue frying until the liver turns light brown. Do the same step until the liver is completely cooked. Do not over fry it though to keep it from tasting bitter.`,
-    `Wipe the same pan with a clean paper towel to remove most of the liver residue. Heat remaining cooking oil. Saute garlic until it starts to brown. Add onion and continue sautéing until it softens.`,
-    `Add chicken heart. Saute for 2 minutes.`,
-    `Pour soy sauce and vinegar into the pot. Cover the pot and let the mixture boil. Cook for 1 minute.`,
-    `Add bay leaves and water. Cover the pot. Continue cooking using low to medium heat for 35 minutes. Note: add more water if needed.`,
-    `Put the fried liver into the pot. Stir. Cover and cook for 3 minutes.`,
-    `Add carrot, bell pepper, and green peas. Cover and continue cooking for 2 minutes.`,
-    `Season with salt and ground black pepper.`,
-    `Transfer to a serving plate. Serve and enjoy!`,
-  ],
-  nutrition: [
-  { name: 'Serving', amount: '5g' },
-  { name: 'Calories', amount: '650kcal' },
-  { name: 'Carbohydrates', amount: '10g' },
-  { name: 'Protein', amount: '37g' },
-  { name: 'Fat', amount: '51g' },
-  { name: 'Saturated Fat', amount: '16g' },
-  { name: 'Polyunsaturated Fat', amount: '6g' },
-  { name: 'Monounsaturated Fat', amount: '25g' },
-  { name: 'Trans Fat', amount: '1g' },
-  { name: 'Cholesterol', amount: '196mg' },
-  { name: 'Sodium', amount: '868mg' },
-  { name: 'Potassium', amount: '888mg' },
-  { name: 'Fiber', amount: '3g' },
-  { name: 'Sugar', amount: '5g' },
-  { name: 'Vitamin A', amount: '5187IU' },
-  { name: 'Vitamin C', amount: '57mg' },
-  { name: 'Calcium', amount: '59mg' },
-  { name: 'Iron', amount: '4mg' },
-  ],
-  },
-  video: `https://youtu.be/Srmlb6AvyUM`,
-  image: require(`./images/food/000000090.jpg`),
-  },
+id: 90,
+name: `Chicken Igado`,
+tagalog: `Igadong Manok`,
+type: [
+`Stew`,
+`Chicken Dish`,
+`Offal Dish`,
+`Meat Dish`,
+`Main Course`,
+],
+special: null,
+description: `Igado, a famous Ilocano dish, has long made waves as a uniquely delicious recipe. It’s got a lovely mix of pork liver, pork tenderloin, and bay leaves, among many other spices. After all, part of what makes this recipe so great is its masterful combination of seasonings.
+
+The taste of liver tends to be off-putting to others with its more gummy texture and stronger flavor. But in this dish, it blends perfectly with the savory notes of its seasonings. And it also collaborates well with the refreshing textures of vegetables like bell peppers and carrots. This way, it doesn’t overpower, nor does it shy away from the spotlight as a deliciously salty ingredient.`,
+link: `https://panlasangpinoy.com/chicken-igado/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How can I make Chicken Igado at home?`,
+content: `Start out by pouring 3 tablespoons of oil in a cooking pot, then letting it heat up. Then place 1 lb. of chicken liver inside, and pan-fry this. After 2 minutes of this, carefully turn it to the other side, and fry this as well. As you are cooking, you will notice liquid coming out of the chicken liver.
+
+For this, make sure to let it evaporate fully, and until the liver becomes light brown, just keep the pan-frying going. Repeat the same step until you get your liver completely cooked, but be careful not to overdo it. Overcooked liver can lead to an unpleasant bitter taste. And so once it is perfectly fried and light brown, you can place this on a plate afterwards, and set it aside.
+
+Now we’ll be using the same pan for the next step, but we’ll need to take out the liver residue. For this, wipe the pan down with a paper towel. Now take 3 tablespoons of cooking oil, and heat this in the pan. Add 5 cloves of crushed garlic, and sauté this. When your garlic turns brown, you can place your 1 onion that’s been chopped up inside, and sauté these together.`,
+},
+{
+title: `Let’s incorporate a couple more seasonings, as well as the chicken heart for added flavor!`,
+content: `When your onion has softened, you can add your 1 lb of chicken heart that’s been sliced in half. Sauté these ingredients together for 2 minutes. Then incorporate 4 tablespoons of soy sauce, and 5 tablespoons of vinegar into the mix. Cover your pan, and wait for this to boil. Once it starts boiling, cook the mixture for 1 minute. 
+
+Now to infuse your dish with that bit of flavor, we’ll be adding 4 dried bay leaves. Also pour 1 cup of water inside, and then cover the pan. Let this cook for 35 more minutes with low to medium heat, and feel free to pour more water when needed. 
+
+Afterwards, you can take your fried liver from earlier, and place this in the pan. Stir this into the mixture, and then place a cover on top of the pan. For the second to the last step, we’ll be cooking this for 2 minutes. And lastly, sprinkle in some salt and ground black pepper to your taste. Once you’ve transferred this to your place of choice, you can get ready to serve!
+
+And if you’re starting to get confident with your cooking skills, maybe it’s time to try some new things that are quite like this deliciously rich dish! Utilize the delicious and affordable liver ingredient more in your kitchen!`,
+},
+],
+recipe: {
+details: {
+description: `Chicken liver and heart stewed in vinegar and soy sauce with bell pepper and green peas.`,
+time: {
+prep: `5 Minutes`,
+cook: `50 Minutes`,
+total: `55 Minutes`,
+},
+servings: `6 People`,
+calories: `382 kcal`,
+},
+ingredients: [
+{
+name: `Chicken Liver`,
+amount: `1 lb.`,
+tagalog: `Atay ng Manok`,
+type: null,
+image: `liver`,
+},
+{
+name: `Chicken Heart`,
+amount: `1 lb.`,
+tagalog: `Puso ng Manok`,
+type: `Sliced into half.`,
+image: `offal`,
+},
+{
+name: `Green Peas`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `peas`,
+},
+{
+name: `Carrots`,
+amount: `1/2 Cup`,
+tagalog: `Karot`,
+type: `Julienne`,
+image: `carrot`,
+},
+{
+name: `Red Bell Pepper`,
+amount: `1 Piece`,
+tagalog: null,
+type: `Cut into strips.`,
+image: `red-bell-pepper`,
+},
+{
+name: `Dried Bay Leaves`,
+amount: `4 Pieces`,
+tagalog: `Dahon ng Laurel`,
+type: null,
+image: `bay-leaf`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Chopped`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `5 Cloves`,
+tagalog: `Bawang`,
+type: `Crushed`,
+image: `garlic`,
+},
+{
+name: `Soy Sauce`,
+amount: `4 Tablespoons`,
+tagalog: null,
+type: null,
+image: `soy-sauce`,
+},
+{
+name: `Vinegar`,
+amount: `5 Tablespoons`,
+tagalog: `Suka`,
+type: null,
+image: `vinegar`,
+},
+{
+name: `Water`,
+amount: `1 Cup`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Cooking oil`,
+amount: `6 Tablespoons`,
+tagalog: `Mantika`,
+type: null,
+image: `cooking-oil`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Pepper`,
+amount: `Depends on taste`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
+},
+],
+instructions: [
+`Heat 3 tablespoons of oil in a cooking pot. Pan-fry chicken liver for 2 minutes. Turn it over and fry the opposite side. Transfer the fried liver on a clean plate. Set aside. Note: There will be liquid coming out of the liver. Let it evaporate completely and continue frying until the liver turns light brown. Do the same step until the liver is completely cooked. Do not over fry it though to keep it from tasting bitter.`,
+`Wipe the same pan with a clean paper towel to remove most of the liver residue. Heat remaining cooking oil. Saute garlic until it starts to brown. Add onion and continue sautéing until it softens.`,
+`Add chicken heart. Saute for 2 minutes.`,
+`Pour soy sauce and vinegar into the pot. Cover the pot and let the mixture boil. Cook for 1 minute.`,
+`Add bay leaves and water. Cover the pot. Continue cooking using low to medium heat for 35 minutes. Note: add more water if needed.`,
+`Put the fried liver into the pot. Stir. Cover and cook for 3 minutes.`,
+`Add carrot, bell pepper, and green peas. Cover and continue cooking for 2 minutes.`,
+`Season with salt and ground black pepper.`,
+`Transfer to a serving plate. Serve and enjoy!`,
+],
+nutrition: [
+{ name: 'Serving', amount: '6g' },
+{ name: 'Calories', amount: '382kcal' },
+{ name: 'Carbohydrates', amount: '11g' },
+{ name: 'Protein', amount: '28g' },
+{ name: 'Fat', amount: '25g' },
+{ name: 'Saturated Fat', amount: '4g' },
+{ name: 'Polyunsaturated Fat', amount: '7g' },
+{ name: 'Monounsaturated Fat', amount: '12g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '364mg' },
+{ name: 'Sodium', amount: '793mg' },
+{ name: 'Potassium', amount: '508mg' },
+{ name: 'Fiber', amount: '3g' },
+{ name: 'Sugar', amount: '4g' },
+{ name: 'Vitamin A', amount: '11027IU' },
+{ name: 'Vitamin C', amount: '54mg' },
+{ name: 'Calcium', amount: '45mg' },
+{ name: 'Iron', amount: '12mg' },
+],
+},
+video: `https://youtu.be/Srmlb6AvyUM`,
+image: require(`./images/food/000000090.jpg`),
+},
 ];
 
 
