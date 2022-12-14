@@ -11351,6 +11351,72 @@ nutrition: [
 video: `https://youtu.be/CEpwExmo8tI`,
 image: require(`./images/food/000000089.jpg`),
 },
+{
+  id: 90,
+  name: `Chicken Igado`,
+  tagalog: `Igadong Manok`,
+  type: [
+  `Stew`,
+  `Chicken Dish`,
+  `Offal Dish`,
+  `Meat Dish`,
+  ],
+  special: null,
+  description: `Igado, a famous Ilocano dish, has long made waves as a uniquely delicious recipe. It’s got a lovely mix of pork liver, pork tenderloin, and bay leaves, among many other spices. After all, part of what makes this recipe so great is its masterful combination of seasonings.
+  
+  The taste of liver tends to be off-putting to others with its more gummy texture and stronger flavor. But in this dish, it blends perfectly with the savory notes of its seasonings. And it also collaborates well with the refreshing textures of vegetables like bell peppers and carrots. This way, it doesn’t overpower, nor does it shy away from the spotlight as a deliciously salty ingredient.`,
+  link: `https://panlasangpinoy.com/chicken-igado/`,
+  author: `Vanjo Merano`,
+  information: [
+  
+  ],
+  recipe: {
+  details: {
+  description: null,
+  time: {
+  prep: null,
+  cook: null,
+  total: null,
+  },
+  servings: null,
+  calories: null,
+  },
+  ingredients: [
+  {
+  name: null,
+  amount: null,
+  tagalog: null,
+  type: null,
+  image: null,
+  },
+  ],
+  instructions: [
+  
+  ],
+  nutrition: [
+  { name: 'Serving', amount: '5g' },
+  { name: 'Calories', amount: '650kcal' },
+  { name: 'Carbohydrates', amount: '10g' },
+  { name: 'Protein', amount: '37g' },
+  { name: 'Fat', amount: '51g' },
+  { name: 'Saturated Fat', amount: '16g' },
+  { name: 'Polyunsaturated Fat', amount: '6g' },
+  { name: 'Monounsaturated Fat', amount: '25g' },
+  { name: 'Trans Fat', amount: '1g' },
+  { name: 'Cholesterol', amount: '196mg' },
+  { name: 'Sodium', amount: '868mg' },
+  { name: 'Potassium', amount: '888mg' },
+  { name: 'Fiber', amount: '3g' },
+  { name: 'Sugar', amount: '5g' },
+  { name: 'Vitamin A', amount: '5187IU' },
+  { name: 'Vitamin C', amount: '57mg' },
+  { name: 'Calcium', amount: '59mg' },
+  { name: 'Iron', amount: '4mg' },
+  ],
+  },
+  video: `https://youtu.be/Srmlb6AvyUM`,
+  image: require(`./images/food/000000090.jpg`),
+  },
 ];
 
 
@@ -11516,7 +11582,8 @@ List:
 86. Pata Tim
 87. Pancit Batil Patung
 88. Halabos na Hipon
-89. Igado
+89. Pork Igado
+90. Chicken Igado
 
 **************************************************************************************************************/
 
