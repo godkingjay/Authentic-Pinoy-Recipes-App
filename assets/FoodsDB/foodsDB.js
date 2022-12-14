@@ -11368,7 +11368,24 @@ image: require(`./images/food/000000089.jpg`),
   link: `https://panlasangpinoy.com/chicken-igado/`,
   author: `Vanjo Merano`,
   information: [
-  
+    {
+      title: `How can I make Chicken Igado at home?`,
+      content: `Start out by pouring 3 tablespoons of oil in a cooking pot, then letting it heat up. Then place 1 lb. of chicken liver inside, and pan-fry this. After 2 minutes of this, carefully turn it to the other side, and fry this as well. As you are cooking, you will notice liquid coming out of the chicken liver.
+    
+      For this, make sure to let it evaporate fully, and until the liver becomes light brown, just keep the pan-frying going. Repeat the same step until you get your liver completely cooked, but be careful not to overdo it. Overcooked liver can lead to an unpleasant bitter taste. And so once it is perfectly fried and light brown, you can place this on a plate afterwards, and set it aside.
+      
+      Now we’ll be using the same pan for the next step, but we’ll need to take out the liver residue. For this, wipe the pan down with a paper towel. Now take 3 tablespoons of cooking oil, and heat this in the pan. Add 5 cloves of crushed garlic, and sauté this. When your garlic turns brown, you can place your 1 onion that’s been chopped up inside, and sauté these together.`,
+      },
+      {
+        title: `Let’s incorporate a couple more seasonings, as well as the chicken heart for added flavor!`,
+        content: `When your onion has softened, you can add your 1 lb of chicken heart that’s been sliced in half. Sauté these ingredients together for 2 minutes. Then incorporate 4 tablespoons of soy sauce, and 5 tablespoons of vinegar into the mix. Cover your pan, and wait for this to boil. Once it starts boiling, cook the mixture for 1 minute. 
+    
+        Now to infuse your dish with that bit of flavor, we’ll be adding 4 dried bay leaves. Also pour 1 cup of water inside, and then cover the pan. Let this cook for 35 more minutes with low to medium heat, and feel free to pour more water when needed. 
+        
+        Afterwards, you can take your fried liver from earlier, and place this in the pan. Stir this into the mixture, and then place a cover on top of the pan. For the second to the last step, we’ll be cooking this for 2 minutes. And lastly, sprinkle in some salt and ground black pepper to your taste. Once you’ve transferred this to your place of choice, you can get ready to serve!
+        
+        And if you’re starting to get confident with your cooking skills, maybe it’s time to try some new things that are quite like this deliciously rich dish! Utilize the delicious and affordable liver ingredient more in your kitchen!`,
+        },
   ],
   recipe: {
   details: {
