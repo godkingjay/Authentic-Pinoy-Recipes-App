@@ -72,7 +72,7 @@ export default function Search({ navigation, route }) {
   });
 
   return(
-    <View style={ [globalStyles.screen] }>
+    <View style={ globalStyles.screen }>
       <FlatList
         styles={{ height: '100%' }}
         data={ foods }

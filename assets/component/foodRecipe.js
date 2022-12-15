@@ -197,7 +197,6 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     textAlign: 'center',
     textAlignVertical: 'center',
-    flex: 1,
     paddingTop: 4,
     paddingBottom: 16,
     maxWidth: 480,

@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     // shadowColor: '#0008',
   },
   cardImageContainer: {
-    height: '100%',
+    height: 96,
     aspectRatio: 5/4,
     borderRadius: 8,
     overflow: 'hidden',

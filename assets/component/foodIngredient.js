@@ -120,6 +120,7 @@ const styles = StyleSheet.create({
   leftColumn: {
     flex: 1,
     textAlign: 'right',
+    textAlignVertical: 'center',
     paddingHorizontal: 8,
     fontWeight: 'bold',
     borderRightWidth: 1,
@@ -128,6 +129,7 @@ const styles = StyleSheet.create({
   rightColumn: {
     flex: 3,
     textAlign: 'center',
+    textAlignVertical: 'center',
     fontStyle: 'italic',
     flexWrap: 'wrap',
     fontSize: 12

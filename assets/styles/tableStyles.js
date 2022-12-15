@@ -32,22 +32,24 @@ const tableStyles = StyleSheet.create({
     borderColor: '#444',
   },
   leftColumn: {
-    flex: 1,
+    width: '50%',
     borderRightWidth: 1,
     borderColor: '#444',
     padding: 4,
     paddingHorizontal: 8,
     fontWeight: 'bold',
     textAlign: 'right',
-    fontSize: 16
+    textAlignVertical: 'center',
+    fontSize: 16,
   },
   rightColumn: {
-    flex: 1,
+    width: '50%',
     borderLeftWidth: 1,
     borderColor: '#444',
     padding: 4,
     paddingHorizontal: 8,
     textAlign: 'center',
+    textAlignVertical: 'center',
     fontSize: 16,
     fontStyle: 'italic',
   }
