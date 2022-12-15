@@ -175,11 +175,6 @@ const styles = StyleSheet.create({
   foodInformationWrapper: {
     marginTop: 12
   },
-  foodButtonsContainer: {
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 4,
-  },
   foodSocials: {
     marginHorizontal: 'auto',
     alignItems: 'center',

@@ -11,7 +11,14 @@ export default function FoodIngredient({ ingredient, ingredientImage, index }){
       </View>
       <View style={ styles.ingredientImageContainer }>
         {ingredientImage != null ? (
-          <Image style={ styles.ingredientImage } source={ ingredientImage.image }/>
+          <View style={{
+            height: '100%',
+            aspectRatio: 1,
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}>
+            <Image style={ styles.ingredientImage } source={ ingredientImage.image }/>
+          </View>
           ) : (
           <View style={{
             height: '100%',
@@ -96,9 +103,9 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   ingredientImage: {
-    resizeMode: 'cover',
-    height: '100%',
+    resizeMode: 'contain',
     aspectRatio: 1,
+    height: '100%',
   },
   ingredientDetails: {
     padding: 8,

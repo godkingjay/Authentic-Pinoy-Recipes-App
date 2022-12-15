@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   cardContainer: {
+    height: 96,
     backgroundColor: 'white',
     flexDirection: 'row',
     elevation: 2,
@@ -69,14 +70,14 @@ const styles = StyleSheet.create({
     // shadowColor: '#0008',
   },
   cardImageContainer: {
+    height: '100%',
     aspectRatio: 5/4,
-    maxHeight: 96,
     borderRadius: 8,
     overflow: 'hidden',
   },
   cardImage: {
     height: '100%',
-    aspectRatio: 5/4,
+    width: '100%',
     resizeMode: 'cover',
   },
   cardFoodColor: {
