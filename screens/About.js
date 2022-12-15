@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     aspectRatio: 1,
-    width: window.width/2,
+    width: window.width/2 > 360 ? 360 : window.width/2,
   },
   image: {
     aspectRatio: 1,
@@ -51,20 +51,20 @@ const styles = StyleSheet.create({
   },
   appInfoContainer: {
     width: `100%`,
-    maxWidth: window.width/1.55,
+    maxWidth: window.width/1.5 > 440 ? 440 : window.width/1.5,
     alignItems: 'center',
     justifyContent: 'center',
   },
   appVersion: {
-    marginBottom: 12,
+    marginBottom: 16,
     fontWeight: 'bold',
     color: '#ccc',
-    fontSize: window.width/20,
+    fontSize: window.width/16 > 36 ? 36 : window.width/16,
   },
   appDescription: {
     textAlign: 'center',
-    fontSize: window.width/24,
-    lineHeight: window.width/16,
+    fontSize: window.width/24 > 28 ? 28 : window.width/24,
+    lineHeight: window.width/12 > 40 ? 40 : window.width/12,
     color: '#aaa'
   }
 });
