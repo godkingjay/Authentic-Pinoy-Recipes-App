@@ -22,15 +22,14 @@ export default function FoodRecipe({ recipe }) {
   const [ingredients, setIngredients] = useState([]);
 
   useEffect(() => {
-    const obj = recipe.ingredients;
-    foodIngredient(obj)
+    foodIngredient(recipe.ingredients)
       .then(data => {
         setIngredients(data);
       })
       .catch(error => {
         alert(error)
       });
-  }, []);
+  }, [recipe]);
 
   return(
     <View style={ styles.recipeContainer }>
@@ -57,7 +56,7 @@ export default function FoodRecipe({ recipe }) {
         <FlatList
           horizontal={ true }
           data={ recipe.instructions }
-          showsHorizontalScrollIndicator={ false }
+          persistentScrollbar={ true }
           ListHeaderComponent={
             <View style={{
               width: 4,
