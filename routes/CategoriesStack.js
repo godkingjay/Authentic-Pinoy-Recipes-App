@@ -16,6 +16,9 @@ const CategoriesStack = () => (
         textTransform: 'uppercase',
         color: '#444',
       },
+      headerStyle: {
+        justifyContent: 'center',
+      },
     }}
   >
     <Stack.Screen

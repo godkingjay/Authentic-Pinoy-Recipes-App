@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
     width: window.width/2 > 360 ? 360 : window.width/2,
   },
   image: {
-    aspectRatio: 1,
     height: '100%',
+    width: '100%',
     resizeMode: 'cover',
   },
   appInfoContainer: {
