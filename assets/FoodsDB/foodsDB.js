@@ -9596,7 +9596,7 @@ name: `String Beans`,
 amount: `1 Bundle`,
 tagalog: null,
 type: `Sliced into 3 inch pieces.`,
-image: `long-beans`,
+image: `long-bean`,
 },
 {
 name: `Bitter Gourd`,
