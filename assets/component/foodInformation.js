@@ -75,7 +75,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
-    backgroundColor: 'white',
     elevation: 2,
     borderRadius: 8,
     height: 48,
@@ -91,7 +90,6 @@ const styles = StyleSheet.create({
   informationLabel: {
     fontSize: 16,
     fontWeight: 'bold',
-    textAlign: 'justify',
     color: '#fff',
   },
   informationIconContainer: {

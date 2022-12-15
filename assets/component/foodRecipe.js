@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Image, StyleSheet } from "react-native";
+import { StyleSheet } from "react-native";
 import { FlatList } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
@@ -117,16 +117,6 @@ const styles = StyleSheet.create({
     marginVertical: 16,
     marginHorizontal: 16,
   },
-  recipeLabel: {
-    fontWeight: 'bold',
-    textAlign: 'center',
-    fontSize: 24,
-    marginVertical: 8,
-    marginTop: 16,
-    color: '#222',
-    textDecorationLine: 'underline',
-    textTransform: 'uppercase',
-  },
   ingredientsContainer: {
     borderRadius: 8,
     alignItems: 'center',
@@ -155,7 +145,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 24,
     paddingVertical: 4,
-    color: '#222',
     textTransform: 'uppercase',
     marginBottom: 8,
     borderRadius: 8,
@@ -219,21 +208,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   nutritionWrapper: {
-    width: window.width - 32,
-  },
-  nutritionLabel: {
-    fontWeight: 'bold',
-    textAlign: 'center',
-    fontSize: 24,
-    paddingVertical: 4,
-    color: '#222',
-    textTransform: 'uppercase',
-    marginBottom: 8,
-    borderRadius: 8,
-    backgroundColor: '#36C464',
-    color: '#fff',
-    elevation: 2,
-    maxWidth: 480,
     width: window.width - 32,
   },
 });
