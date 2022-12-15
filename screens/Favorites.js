@@ -25,7 +25,7 @@ export default function Favorites({ navigation, route }) {
             <Icon
               type="material-icons"
               name="favorite-outline"
-              size={ window.width/3 }
+              size={ window.width/3 > 240 ? 240 : window.width/3 }
               color="#bbb"
             />
             <View style={ styles.emptyLabelContainer }>
@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
   emptyContainer: {
     padding: 32,
     height: window.height/3 + 16,
+    maxHeight: 480,
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
@@ -77,7 +78,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   emptyLabel: {
-    fontSize: window.width/20,
+    fontSize: window.width/20 > 32 ? 32 : window.width/20,
     fontWeight: 'bold',
     color: '#888'
   },
@@ -85,7 +86,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginVertical: 8,
     color: '#aaa',
-    fontSize: window.width/32,
-    width: window.width/1.5
+    fontSize: window.width/32 > 24 ? 24 : window.width/32,
+    width: window.width/1.5,
+    maxWidth: 480,
   }
 });
