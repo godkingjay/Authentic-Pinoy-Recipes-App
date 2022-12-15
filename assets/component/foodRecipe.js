@@ -22,13 +22,15 @@ export default function FoodRecipe({ recipe }) {
   const [ingredients, setIngredients] = useState([]);
 
   useEffect(() => {
-    const fetchFoods = () => foodIngredient(recipe.ingredients)
-      .then(data => {
-        setIngredients(data);
-      })
-      .catch(error => {
-        alert(error)
-      });
+    const fetchFoods = async () => {
+      return foodIngredient(recipe.ingredients)
+        .then(data => {
+          setIngredients(data);
+        })
+        .catch(error => {
+          alert(error)
+        });
+    }
     fetchFoods();
   }, []);
 
