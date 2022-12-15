@@ -22,13 +22,14 @@ export default function FoodRecipe({ recipe }) {
   const [ingredients, setIngredients] = useState([]);
 
   useEffect(() => {
-    foodIngredient(recipe.ingredients)
+    const fetchFoods = () => foodIngredient(recipe.ingredients)
       .then(data => {
         setIngredients(data);
       })
       .catch(error => {
         alert(error)
       });
+    fetchFoods();
   }, []);
 
   return(
@@ -127,7 +128,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 24,
     paddingVertical: 4,
-    color: '#222',
     textTransform: 'uppercase',
     marginBottom: 8,
     borderRadius: 8,
