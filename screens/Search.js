@@ -65,7 +65,7 @@ export default function Search({ navigation, route }) {
         </View>
       ),
     });
-  }, [navigation]);
+  }, [navigation, searchText]);
 
   foods.sort(function(a, b) {
     return compareStrings(a.name, b.name);

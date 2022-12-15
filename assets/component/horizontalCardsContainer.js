@@ -37,7 +37,7 @@ export default function HorizontalCardsContainer({ navigation, route, foodCatego
       .catch(error => {
         alert(error)
       });
-  }, []);
+  }, [foodCategory]);
 
   return(
     <View style = { styles.cardsContainer }>
