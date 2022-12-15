@@ -1,5 +1,5 @@
 import React from 'react';
-import BottomNavigator from './routes/BottomNavigation';
+import BottomNavigator from './routes/bottomNavigation';
 import AppContext from './assets/globals/appContext';
 import { useState } from 'react';
 import { favoriteFoods } from './assets/controller/query';
