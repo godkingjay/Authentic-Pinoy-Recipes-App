@@ -49,17 +49,17 @@ const styles = StyleSheet.create({
     fontSize: 20
   },
   cardImageContainer: {
-    height: '100%',
-    aspectRatio: 2/1,
+    height: 112,
+    aspectRatio: 3/2,
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight: -60,
+    marginRight: -8,
   },
   cardImage: {
     height: '180%',
-    width: '100%',
-    resizeMode: 'contain',
-    marginRight: 20,
+    width: '120%',
+    resizeMode: 'cover',
+    marginLeft: 36,
   },
   cardDeco1: {
     height: '150%',
