@@ -24,7 +24,7 @@ export default function FoodCategory({ navigation, route }){
       headerTitle: category,
       // headerTitleAlign: 'center',
     });
-  }, [navigation]);
+  }, [navigation, category]);
 
   useEffect(() => {
     categoryFoods(category)
@@ -34,7 +34,7 @@ export default function FoodCategory({ navigation, route }){
       .catch(error => {
         alert(error)
       });
-  }, []);
+  }, [category]);
 
   foods.sort(function(a, b) {
     return compareStrings(a.name, b.name);

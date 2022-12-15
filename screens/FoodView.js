@@ -29,7 +29,7 @@ export default function FoodView({ navigation, route }) {
     navigation.setOptions({
       headerTitle: food.name,
     });
-  }, [navigation]);
+  }, [navigation, food]);
 
   foodType.sort(function(a, b) {
     return compareStrings(a, b);
