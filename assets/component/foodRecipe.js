@@ -3,8 +3,10 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { StyleSheet } from "react-native";
 import { FlatList } from "react-native";
+import { Animated } from "react-native";
 import { Text } from "react-native";
 import { View } from "react-native";
+import { ExpandingDot } from "react-native-animated-pagination-dots";
 import { foodIngredient } from "../controller/query";
 import window from "../controller/window";
 import tableStyles from "../styles/tableStyles";
@@ -31,6 +33,8 @@ export default function FoodRecipe({ recipe }) {
       });
   }, [recipe]);
 
+  const scrollX = React.useRef(new Animated.Value(0)).current;
+
   return(
     <View style={ styles.recipeContainer }>
       <FoodRecipeDetails style={ styles.recipeBranchContainer } details={ recipe.details }/>
@@ -54,19 +58,29 @@ export default function FoodRecipe({ recipe }) {
       <View style={ styles.instructionsContainer }>
         <Text style={ styles.instructionsLabel }>Instructions</Text>
         <FlatList
+          contentContainerStyle={{ flexGrow: 1 }}
           horizontal={ true }
           data={ recipe.instructions }
-          persistentScrollbar={ true }
-          ListHeaderComponent={
-            <View style={{
-              width: 4,
-            }}></View>
-          }
-          ListFooterComponent={
-            <View style={{
-              width: 4,
-            }}></View>
-          }
+          pagingEnabled={ true }
+          showsHorizontalScrollIndicator={ false }
+          onScroll={Animated.event(
+            [{ nativeEvent: { contentOffset: { x: scrollX } } }],
+            {
+              useNativeDriver: false,
+            }
+          )}
+          decelerationRate={'normal'}
+          scrollEventThrottle={16}
+          // ListHeaderComponent={
+          //   <View style={{
+          //     width: 4,
+          //   }}></View>
+          // }
+          // ListFooterComponent={
+          //   <View style={{
+          //     width: 4,
+          //   }}></View>
+          // }
           renderItem={({ item, index }) => (
             <View style={ styles.instructionWrapper }>
               <View style={ styles.instructionContainer }>
@@ -77,6 +91,32 @@ export default function FoodRecipe({ recipe }) {
               </View>
             </View>
           )}
+        />
+        <ExpandingDot
+          data={recipe.instructions}
+          expandingDotWidth={ 32 }
+          scrollX={ scrollX }
+          inActiveDotOpacity={ 0.2 }
+          activeDotColor={ '#36C464' }
+          dotStyle={{
+              width: 10,
+              height: 10,
+              borderRadius: 100,
+              marginHorizontal: 5,
+          }}
+          slidingIndicatorStyle={{
+            zIndex: 99,
+            alignItems: 'center',
+            justifyContent: 'center',
+            alignSelf: 'center'
+          }}
+          containerStyle={{
+              bottom: 0,
+              padding: 8,
+              width: '100%',
+              alignItems: 'center',
+              justifyContent: 'center',
+          }}
         />
       </View>
       <View style={ styles.divider }></View>
@@ -155,10 +195,11 @@ const styles = StyleSheet.create({
     width: window.width - 32,
   },
   instructionWrapper: {
-    width: window.width - 32,
+    width: window.width - 24,
     marginHorizontal: 12,
     paddingHorizontal: 12,
     paddingVertical: 12,
+    paddingBottom: 32,
     alignItems: 'center',
   },
   instructionContainer: {
@@ -168,6 +209,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     overflow: 'hidden',
     borderRadius: 8,
+    flex: 1,
   },
   instructionNumberContainer: {
     backgroundColor: '#36C464',
@@ -197,8 +239,8 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     textAlign: 'center',
     textAlignVertical: 'center',
-    paddingTop: 4,
-    paddingBottom: 16,
+    paddingTop: 16,
+    paddingBottom: 24,
     maxWidth: 480,
   },
   nutritionContainer: {
