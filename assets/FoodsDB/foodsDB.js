@@ -238,9 +238,7 @@ type: [
 description: `Pancit Bihon or Pancit Guisado is a Filipino noodle dish and is a staple second to rice.This was brought by the chinese and was localized since then. This Pancit Bihon Recipe uses “Bihon” or rice sticks mixed with pork, chicken, and vegetables. This dish is always served during Fiesta, birthday parties, and other special occasions.`,
 link: 'https://panlasangpinoy.com/pancit-guisado/',
 author: 'Vanjo Merano',
-information: [
-
-],
+information: null,
 recipe: {
 details: {
 description: `This is a recipe for Pancit Bihon.`,
@@ -2583,9 +2581,7 @@ instructions: [
 `Heat oil in a cooking pot. Deep fry lumpia in medium heat until it floats.`,
 `Remove from the pot. Let excess oil drip. Serve. Share and enjoy.`
 ],
-nutrition: [
-
-],
+nutrition: null,
 },
 video: `https://youtu.be/BIarUjm4U-0`,
 image: require('./images/food/000000018.jpg'),
@@ -2775,9 +2771,7 @@ description: `Pork Caldereta is a Filipino tomato based stew. It is composed of 
 One of the great things about food is its ever-evolving nature, and how it usually adjusts to the place where it is eaten. As such, did you know that our favorite Caldereta is actually a local adaptation of a Spanish dish? But like many of the recipes we’ve grown to love and adopt in our cuisine, this dish has faced many adjustments. And not only is it fitted to our local palate, but it’s also used ingredients more accessible to us, hence the birth of Pork Caldereta.`,
 link: `https://panlasangpinoy.com/pork-caldereta/`,
 author: `Vanjo Merano`,
-information: [
-
-],
+information: null,
 recipe: {
 details: {
 description: `This is a recipe for pork caldereta.`,
@@ -3132,9 +3126,7 @@ description: `Beating an egg can make for a great ingredient in several recipes 
 This delicious, classic recipe is a perfect go-to in most Filipino households. This is because it is quick, easy, and best of all, absolutely tasty without sacrificing nutritional value. A massive part of this dish is the ingredient eggplant, which is rich in vitamins C, K and B6, among many other nutrients. This is also perfect with some rice and a couple dollops of ketchup.`,
 link: `https://panlasangpinoy.com/filipino-vegetable-food-eggplant-omelet-tortang-talong-recipe/`,
 author: `Vanjo Merano`,
-information: [
-
-],
+information: null,
 recipe: {
 details: {
 description: null,
