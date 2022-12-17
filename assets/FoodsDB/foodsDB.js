@@ -10687,72 +10687,74 @@ nutrition: [
 video: `https://youtu.be/gKTg9ox28yI`,
 image: require(`./images/food/000000084.jpg`),
 },
-// {
-// id: 85,
-// name: `Pork Afritada`,
-// tagalog: `Afritadang Baboy`,
-// type: [
+{
+id: 85,
+name: `Pork Afritada`,
+tagalog: `Afritadang Baboy`,
+type: [
+`Stew`,
+`Pork Dish`,
+`Meat Dish`,
+],
+special: null,
+description: `Pork Afritada is a Filipino pork stew that resembles pork menudo. It is composed of pork shoulder that are cut into 1 inch cubes, carrot, potato, and tomato sauce. This step-up recipe also includes green pea, freshly chopped tomato, and bay leaves.
 
-// ],
-// special: [
+A warm and inviting stew, afritada is as bright in flavor as it is in appearance! One glance of that vibrant red-orange sauce, and you definitely know you’re in for a treat. Afritada brims with flavor, which you can tell quite plainly from its equally mouthwatering aroma. When it wafts through the air, it’s impossible to resist. Indeed, whether it be through sight, smell, or taste, this Filipino favorite is a festival for all your senses! With a combination of tender pork that both falls off the bone and melts in your mouth, as well as fresh and chunky vegetables, what’s not to love about pork afritada?`,
+link: `https://panlasangpinoy.com/pork-afritada-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: null,
+content: null,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: null,
+cook: null,
+total: null,
+},
+servings: null,
+calories: null,
+},
+ingredients: [
+{
+name: null,
+amount: null,
+tagalog: null,
+type: null,
+image: null,
+},
+],
+instructions: [
 
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// { name: 'Serving', amount: '5g' },
-// { name: 'Calories', amount: '650kcal' },
-// { name: 'Carbohydrates', amount: '10g' },
-// { name: 'Protein', amount: '37g' },
-// { name: 'Fat', amount: '51g' },
-// { name: 'Saturated Fat', amount: '16g' },
-// { name: 'Polyunsaturated Fat', amount: '6g' },
-// { name: 'Monounsaturated Fat', amount: '25g' },
-// { name: 'Trans Fat', amount: '1g' },
-// { name: 'Cholesterol', amount: '196mg' },
-// { name: 'Sodium', amount: '868mg' },
-// { name: 'Potassium', amount: '888mg' },
-// { name: 'Fiber', amount: '3g' },
-// { name: 'Sugar', amount: '5g' },
-// { name: 'Vitamin A', amount: '5187IU' },
-// { name: 'Vitamin C', amount: '57mg' },
-// { name: 'Calcium', amount: '59mg' },
-// { name: 'Iron', amount: '4mg' },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+],
+nutrition: [
+{ name: 'Serving', amount: '5g' },
+{ name: 'Calories', amount: '650kcal' },
+{ name: 'Carbohydrates', amount: '10g' },
+{ name: 'Protein', amount: '37g' },
+{ name: 'Fat', amount: '51g' },
+{ name: 'Saturated Fat', amount: '16g' },
+{ name: 'Polyunsaturated Fat', amount: '6g' },
+{ name: 'Monounsaturated Fat', amount: '25g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '196mg' },
+{ name: 'Sodium', amount: '868mg' },
+{ name: 'Potassium', amount: '888mg' },
+{ name: 'Fiber', amount: '3g' },
+{ name: 'Sugar', amount: '5g' },
+{ name: 'Vitamin A', amount: '5187IU' },
+{ name: 'Vitamin C', amount: '57mg' },
+{ name: 'Calcium', amount: '59mg' },
+{ name: 'Iron', amount: '4mg' },
+],
+},
+video: `https://youtu.be/unoKqoBGW8w`,
+image: require(`./images/food/000000085.jpg`),
+},
 {
 id: 86,
 name: `Pata Tim`,
