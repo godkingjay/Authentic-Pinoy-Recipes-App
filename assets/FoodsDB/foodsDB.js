@@ -10704,9 +10704,19 @@ link: `https://panlasangpinoy.com/pork-afritada-recipe/`,
 author: `Vanjo Merano`,
 information: [
 {
-title: null,
-content: null,
+title: `What is the Difference Between Afritada, Menudo, and Kaldereta?`,
+content: `Pork Afritada is almost Filipino Menudo. The ingredeints are identical and the manner of preparation is almost the same. The only difference that is quite obvious is the size of the cubed meat and vegetables. It is more than twice bigger than regular cuts for menudo. Another difference would be the possibility of adding raisins in menudo, which does not sound too common for an afritada dish to have.
+
+Kaldereta, on the other hand, has its own identity that differentiates it from both dishes. The typical kaldereta makes use of liver spread. This ingredient is not commonly added when cooking afritada or menudo.`,
 },
+{
+  title: `Where does pork afritada come from?`,
+  content: `Like much of our food (and our culture), afritada has Spanish origins. The name for this flavorful stew even comes from the Spanish food, fritada or “fried.” Although pork afritada is a stew that takes on a braising method, the dish it gets its name from is one wherein the meat is pan-fried before allowing it to simmer in tomato sauce. In other dishes, fritada is crispy and golden brown, accompanied by a citrusy sauce. While it may vary in preparation, pork afritada and fritada both make use of pork in the best way possible!`,
+  },
+  {
+    title: `What pork cut do you use in this dish?`,
+    content: `For this pork afritada recipe, we’ll be using pork shoulder! I’m a fan of this pork cut, also known as kasim, because of how forgiving a meat it is. It tenderizes well, especially during braising, and it can be quite difficult to get it tough. There’s a nice layer of fat that comes with this portion, but it’s just enough to give you extra juiciness. This cut is also fairly affordable when you compare it to other parts of the pig!`,
+    },
 ],
 recipe: {
 details: {
