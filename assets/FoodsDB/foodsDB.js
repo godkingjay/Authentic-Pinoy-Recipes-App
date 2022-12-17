@@ -10838,7 +10838,17 @@ image: `pork`,
                             },
 ],
 instructions: [
-
+`Heat oil in a cooking pot.`,
+`Once the oil gets hot, saute onion and garlic until onion softens.`,
+`Add pork Saute until brown.`,
+`Pour tomato sauce and water. Stir and let boil.`,
+`Add Knorr Pork Cube. Stir. Add dried bay leaves. Cover and cook in medium heat for 30 minutes. Note: Add more water if needed.`,
+`Add hotdogs. Cook for 10 minutes.`,
+`Add carrot and potato. Cover and cook for 8 minutes.`,
+`Add green peas. Cook for 3 to 5 minutes.`,
+`Season with salt and ground black pepper.`,
+`Transfer to a serving plate. Serve.`,
+`Share and enjoy!`,
 ],
 nutrition: [
 { name: 'Serving', amount: '5g' },
