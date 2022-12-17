@@ -10695,6 +10695,7 @@ type: [
 `Stew`,
 `Pork Dish`,
 `Meat Dish`,
+`Main Course`,
 ],
 special: null,
 description: `Pork Afritada is a Filipino pork stew that resembles pork menudo. It is composed of pork shoulder that are cut into 1 inch cubes, carrot, potato, and tomato sauce. This step-up recipe also includes green pea, freshly chopped tomato, and bay leaves.
@@ -10720,14 +10721,14 @@ Kaldereta, on the other hand, has its own identity that differentiates it from b
 ],
 recipe: {
 details: {
-description: null,
+description: `This is a recipe for Filipino Pork Afritada`,
 time: {
-prep: null,
-cook: null,
-total: null,
+prep: `10 Minutes`,
+cook: `1 Hour`,
+total: `1 Hour 10 Minutes`,
 },
-servings: null,
-calories: null,
+servings: `4 People`,
+calories: `364 kcal`,
 },
 ingredients: [
 {
