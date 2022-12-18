@@ -10167,27 +10167,27 @@ content: `Puchero or Putsero, which means “stewpot,” was brought to our shor
 This peasant stew is composed of cuts of beef, chicken, pork, or fish cooked in tomato sauce along with fresh produce like potatoes, saba bananas, chickpeas, cabbage, pechay, and green beans, and cured meats such as Chorizo de Bilbao or ham to add a smoky flavor.`,
 },
 {
-  title: `Cooking Tips`,
-  content: `• Although you can use boneless chicken meat if you like, I suggest bone-in for extra depth of flavor.
+title: `Cooking Tips`,
+content: `• Although you can use boneless chicken meat if you like, I suggest bone-in for extra depth of flavor.
 
-  • You can swap the potatoes with sweet potatoes or the carrots with turnips for variety.
+• You can swap the potatoes with sweet potatoes or the carrots with turnips for variety.
 
-  • Along with pechay and cabbage, other vegetables such as leeks, bok choy, and celery are also great additions.
+• Along with pechay and cabbage, other vegetables such as leeks, bok choy, and celery are also great additions.
 
-  • Garbanzo beans are the traditional legume used in the stew but other regional versions use canned pork and beans.
+• Garbanzo beans are the traditional legume used in the stew but other regional versions use canned pork and beans.
 
-  • Saba bananas lend a touch of sweetness that works really with the savory notes of the dish. Choose ripe but firm bananas and briefly pan-fry to help maintain shape.
+• Saba bananas lend a touch of sweetness that works really with the savory notes of the dish. Choose ripe but firm bananas and briefly pan-fry to help maintain shape.
 
-  • Chorizo de bilbao adds a smoky flavor; feel free to substitute bacon or ham.`
-  },
-  {
-    title: `How to Serve and Store`,
-    content: `• Pocherong Manok is traditionally served as a Sunday lunch or on special occasions for the whole family to gather around. It’s enjoyed as a hearty and satisfying meal with steamed rice.
+• Chorizo de bilbao adds a smoky flavor; feel free to substitute bacon or ham.`
+},
+{
+title: `How to Serve and Store`,
+content: `• Pocherong Manok is traditionally served as a Sunday lunch or on special occasions for the whole family to gather around. It’s enjoyed as a hearty and satisfying meal with steamed rice.
 
-    • Stored in resealable bags or airtight containers, the stew will keep in the refrigerator for up to three days or in the freezer for up 2 months.
+• Stored in resealable bags or airtight containers, the stew will keep in the refrigerator for up to three days or in the freezer for up 2 months.
 
-    • Reheat in the microwave at 2 to 3-minute intervals or in a saucepan over medium heat until the internal temperature reads 165 F.`,
-    }
+• Reheat in the microwave at 2 to 3-minute intervals or in a saucepan over medium heat until the internal temperature reads 165 F.`,
+}
 ],
 recipe: {
 details: {
@@ -10202,35 +10202,148 @@ calories: `853 kcal`,
 },
 ingredients: [
 {
-name: null,
-amount: null,
+name: `Canola Oil`,
+amount: `1/4 Cup`,
 tagalog: null,
 type: null,
-image: null,
+image: `oil`,
+},
+{
+name: `Saba Bananas`,
+amount: `3 Pieces`,
+tagalog: `Saging na Saba`,
+type: `Peeled and Halved`,
+image: `banana`,
+},
+{
+name: `Potatoes`,
+amount: `2 Medium`,
+tagalog: `Patatas`,
+type: `Peeled and Quartered`,
+image: `potato`,
+},
+{
+name: `Onion`,
+amount: `1 Piece`,
+tagalog: `Sibuyas`,
+type: `Peeled and thinly sliced.`,
+image: `onion`,
+},
+{
+name: `Garlic`,
+amount: `2 Cloves`,
+tagalog: `Bawang`,
+type: `Peeled and Minced`,
+image: `garlic`,
+},
+{
+name: `Chicken`,
+amount: `3 lbs.`,
+tagalog: `Manok`,
+type: `Cut into serving parts.`,
+image: `chicken`,
+},
+{
+name: `Fish Sauce`,
+amount: `1 Tablespoon`,
+tagalog: `Patis`,
+type: null,
+image: `fish-sauce`,
+},
+{
+name: `Tomato Sauce`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `tomato-sauce`,
+},
+{
+name: `Water`,
+amount: `3 Cups`,
+tagalog: `Tubig`,
+type: null,
+image: `water`,
+},
+{
+name: `Chorizo de Bilbao`,
+amount: `2 Pieces`,
+tagalog: null,
+type: `Cut into 1-inch thick pieces.`,
+image: `sausage`,
+},
+{
+name: `Garbanzo Beans`,
+amount: `1 Cup`,
+tagalog: null,
+type: null,
+image: `mix-can`,
+},
+{
+name: `Green Beans`,
+amount: `12 Pieces`,
+tagalog: null,
+type: `Ends trimmed`,
+image: `peas`,
+},
+{
+name: `Napa Cabbage`,
+amount: `1 Piece`,
+tagalog: `Repolyo`,
+type: `Ends trimmed and leaves halved.`,
+image: `cabbage`,
+},
+{
+name: `Pechay`,
+amount: `1 Bunch`,
+tagalog: null,
+type: `Ends trimmed and leaves separated.`,
+image: `pechay`,
+},
+{
+name: `Salt`,
+amount: `Depends on taste`,
+tagalog: `Asin`,
+type: null,
+image: `salt`,
+},
+{
+name: `Pepper`,
+amount: `Depends on taste`,
+tagalog: `Paminta`,
+type: null,
+image: `peppercorn`,
 },
 ],
 instructions: [
-
+`In a pot over medium heat, heat oil. Add bananas and fry until lightly browned. Remove from pan and drain on paper towels.`,
+`Add potatoes and fry until lightly browned. Remove from pan and drain on paper towels.`,
+`Remove excess oil except for about 2 tablespoons. Add onions and garlic and cook until softened.`,
+`Add chicken and cook, stirring occasionally, until lightly browned and juices run clear.`,
+`Add fish sauce and cook for another 1 to 2 minutes.`,
+`Add tomato sauce and water and bring to a boil, skimming any scum that accumulates on top.`,
+`Lower heat, cover, and cook for about 15 to 20 minutes or until chicken is cooked.`,
+`Add potatoes and cook until tender.`,
+`Add chorizo de bilbao, garbanzo beans, and bananas. Cook until heated through.`,
+`Add green beans and napa cabbage and cook for another 2 to 3 minutes.`,
+`Add pechay and cook for about 1 minute or until vegetables are tender yet crisp. Serve hot.`,
+`Season with salt and pepper to taste.`,
 ],
 nutrition: [
-{ name: 'Serving', amount: '5g' },
-{ name: 'Calories', amount: '650kcal' },
-{ name: 'Carbohydrates', amount: '10g' },
-{ name: 'Protein', amount: '37g' },
-{ name: 'Fat', amount: '51g' },
-{ name: 'Saturated Fat', amount: '16g' },
-{ name: 'Polyunsaturated Fat', amount: '6g' },
-{ name: 'Monounsaturated Fat', amount: '25g' },
-{ name: 'Trans Fat', amount: '1g' },
-{ name: 'Cholesterol', amount: '196mg' },
-{ name: 'Sodium', amount: '868mg' },
-{ name: 'Potassium', amount: '888mg' },
-{ name: 'Fiber', amount: '3g' },
-{ name: 'Sugar', amount: '5g' },
-{ name: 'Vitamin A', amount: '5187IU' },
-{ name: 'Vitamin C', amount: '57mg' },
-{ name: 'Calcium', amount: '59mg' },
-{ name: 'Iron', amount: '4mg' },
+{ name: 'Serving', amount: '6g' },
+{ name: 'Calories', amount: '853kcal' },
+{ name: 'Carbohydrates', amount: '54g' },
+{ name: 'Protein', amount: '52g' },
+{ name: 'Fat', amount: '50g' },
+{ name: 'Saturated Fat', amount: '14g' },
+{ name: 'Cholesterol', amount: '157mg' },
+{ name: 'Sodium', amount: '1474mg' },
+{ name: 'Potassium', amount: '1999mg' },
+{ name: 'Fiber', amount: '14g' },
+{ name: 'Sugar', amount: '20g' },
+{ name: 'Vitamin A', amount: '8540IU' },
+{ name: 'Vitamin C', amount: '128mg' },
+{ name: 'Calcium', amount: '348mg' },
+{ name: 'Iron', amount: '10mg' },
 ],
 },
 video: `https://youtu.be/SEHzW6SqENQ`,
