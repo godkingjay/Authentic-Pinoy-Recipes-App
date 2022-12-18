@@ -10161,9 +10161,33 @@ link: `https://www.kawalingpinoy.com/chicken-pochero/`,
 author: `Lalaine Manalo`,
 information: [
 {
-title: null,
-content: null,
+title: `What is Pochero`,
+content: `Puchero or Putsero, which means “stewpot,” was brought to our shores by centuries-long Spanish colonization and adapted over the years to suit our local ingredients.
+
+This peasant stew is composed of cuts of beef, chicken, pork, or fish cooked in tomato sauce along with fresh produce like potatoes, saba bananas, chickpeas, cabbage, pechay, and green beans, and cured meats such as Chorizo de Bilbao or ham to add a smoky flavor.`,
 },
+{
+  title: `Cooking Tips`,
+  content: `• Although you can use boneless chicken meat if you like, I suggest bone-in for extra depth of flavor.
+
+  • You can swap the potatoes with sweet potatoes or the carrots with turnips for variety.
+
+  • Along with pechay and cabbage, other vegetables such as leeks, bok choy, and celery are also great additions.
+
+  • Garbanzo beans are the traditional legume used in the stew but other regional versions use canned pork and beans.
+
+  • Saba bananas lend a touch of sweetness that works really with the savory notes of the dish. Choose ripe but firm bananas and briefly pan-fry to help maintain shape.
+
+  • Chorizo de bilbao adds a smoky flavor; feel free to substitute bacon or ham.`
+  },
+  {
+    title: `How to Serve and Store`,
+    content: `• Pocherong Manok is traditionally served as a Sunday lunch or on special occasions for the whole family to gather around. It’s enjoyed as a hearty and satisfying meal with steamed rice.
+
+    • Stored in resealable bags or airtight containers, the stew will keep in the refrigerator for up to three days or in the freezer for up 2 months.
+
+    • Reheat in the microwave at 2 to 3-minute intervals or in a saucepan over medium heat until the internal temperature reads 165 F.`,
+    }
 ],
 recipe: {
 details: {
