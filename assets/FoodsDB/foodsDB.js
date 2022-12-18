@@ -10191,14 +10191,14 @@ This peasant stew is composed of cuts of beef, chicken, pork, or fish cooked in 
 ],
 recipe: {
 details: {
-description: null,
+description: `Make Sunday lunch extra special with Chicken Pochero! Chockful of potatoes, saba bananas, chorizo, and vegetables, this classic Filipino stew is hearty, tasty and sure to be a family favorite!`,
 time: {
-prep: null,
-cook: null,
-total: null,
+prep: `15 Minutes`,
+cook: `40 Minutes`,
+total: `55 Minutes`,
 },
-servings: null,
-calories: null,
+servings: `6g`,
+calories: `853 kcal`,
 },
 ingredients: [
 {
