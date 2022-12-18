@@ -10145,72 +10145,73 @@ nutrition: [
 video: `https://youtu.be/oRz1XCKPAt8`,
 image: require(`./images/food/000000079.jpg`),
 },
-// {
-// id: 80,
-// name: `Chicken Pochero`,
-// tagalog: `Pocherong Manok`,
-// type: [
+{
+id: 80,
+name: `Chicken Pochero`,
+tagalog: `Pocherong Manok`,
+type: [
+`Stew`,
+`Chicken Dish`,
+`Meat Dish`,
+`Main Course`,
+],
+special: null,
+description: `Chicken Pochero is the perfect Sunday lunch! This Filipino stew is loaded with vegetables, beans, smoked sausage, and flavorful tomato broth for a delicious and filling meal!`,
+link: `https://www.kawalingpinoy.com/chicken-pochero/`,
+author: `Lalaine Manalo`,
+information: [
+{
+title: null,
+content: null,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: null,
+cook: null,
+total: null,
+},
+servings: null,
+calories: null,
+},
+ingredients: [
+{
+name: null,
+amount: null,
+tagalog: null,
+type: null,
+image: null,
+},
+],
+instructions: [
 
-// ],
-// special: [
-
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// { name: 'Serving', amount: '5g' },
-// { name: 'Calories', amount: '650kcal' },
-// { name: 'Carbohydrates', amount: '10g' },
-// { name: 'Protein', amount: '37g' },
-// { name: 'Fat', amount: '51g' },
-// { name: 'Saturated Fat', amount: '16g' },
-// { name: 'Polyunsaturated Fat', amount: '6g' },
-// { name: 'Monounsaturated Fat', amount: '25g' },
-// { name: 'Trans Fat', amount: '1g' },
-// { name: 'Cholesterol', amount: '196mg' },
-// { name: 'Sodium', amount: '868mg' },
-// { name: 'Potassium', amount: '888mg' },
-// { name: 'Fiber', amount: '3g' },
-// { name: 'Sugar', amount: '5g' },
-// { name: 'Vitamin A', amount: '5187IU' },
-// { name: 'Vitamin C', amount: '57mg' },
-// { name: 'Calcium', amount: '59mg' },
-// { name: 'Iron', amount: '4mg' },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+],
+nutrition: [
+{ name: 'Serving', amount: '5g' },
+{ name: 'Calories', amount: '650kcal' },
+{ name: 'Carbohydrates', amount: '10g' },
+{ name: 'Protein', amount: '37g' },
+{ name: 'Fat', amount: '51g' },
+{ name: 'Saturated Fat', amount: '16g' },
+{ name: 'Polyunsaturated Fat', amount: '6g' },
+{ name: 'Monounsaturated Fat', amount: '25g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '196mg' },
+{ name: 'Sodium', amount: '868mg' },
+{ name: 'Potassium', amount: '888mg' },
+{ name: 'Fiber', amount: '3g' },
+{ name: 'Sugar', amount: '5g' },
+{ name: 'Vitamin A', amount: '5187IU' },
+{ name: 'Vitamin C', amount: '57mg' },
+{ name: 'Calcium', amount: '59mg' },
+{ name: 'Iron', amount: '4mg' },
+],
+},
+video: `https://youtu.be/SEHzW6SqENQ`,
+image: require(`./images/food/000000080.jpg`),
+},
 // {
 // id: 81,
 // name: `Pork Pochero`,
