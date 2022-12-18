@@ -10206,7 +10206,7 @@ name: `Canola Oil`,
 amount: `1/4 Cup`,
 tagalog: null,
 type: null,
-image: `oil`,
+image: `cooking-oil`,
 },
 {
 name: `Saba Bananas`,
