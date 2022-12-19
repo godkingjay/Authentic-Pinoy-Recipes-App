@@ -18,8 +18,8 @@ function compareStrings(a, b) {
   return (a < b) ? -1 : (a > b) ? 1 : 0;
 }
 
-function findMatches(wordToMatch, PinoyFoods) {
-  return PinoyFoods.filter(food => {
+function findMatches(wordToMatch, foods) {
+  return foods.filter(food => {
     const regex = new RegExp(wordToMatch, 'gi');
     return food.name.match(regex) || food.tagalog.match(regex) || matchType(wordToMatch, food.type);
   });
@@ -38,8 +38,8 @@ export default function Search({ navigation, route }) {
   const [foods, setFoods] = useState(PinoyFoods);
   const [searchText, setSearchText] = useState(null);
 
-  const onChange = (text) => {
-    let word = text.replace(/[^a-zA-Z\s\-]/g, '');
+  const onChange = (string) => {
+    let word = string.replace(/[^a-zA-Z -]/g, '');
     setSearchText(word);
     setFoods(findMatches(word, PinoyFoods));
   };
@@ -58,6 +58,7 @@ export default function Search({ navigation, route }) {
           />
           <TextInput
             style={ styles.searchField }
+            keyboardType={ "email-address" }
             placeholder="Search..."
             onChangeText={ onChange }
             value={ searchText }
@@ -73,27 +74,44 @@ export default function Search({ navigation, route }) {
 
   return(
     <View style={ globalStyles.screen }>
-      <FlatList
-        persistentScrollbar={ true }
-        data={ foods }
-        ListHeaderComponent={() => (
-          <View
-            style={{
-              height: 12,
-            }}
-          ></View>
-        )}
-        ListFooterComponent={() => (
-          <View
-            style={{
-              height: 12,
-            }}
-          ></View>
-        )}
-        renderItem={({ item }) => (
-          <FoodCard food={ item } navigation={ navigation } route={ route }/>
-        )}
-      />
+      { foods.length >= 1 ? (
+        <FlatList
+          persistentScrollbar={ true }
+          data={ foods }
+          ListHeaderComponent={() => (
+            <View
+              style={{
+                height: 12,
+              }}
+            ></View>
+          )}
+          ListFooterComponent={() => (
+            <View
+              style={{
+                height: 12,
+              }}
+            ></View>
+          )}
+          renderItem={({ item }) => (
+            <FoodCard food={ item } navigation={ navigation } route={ route }/>
+          )}
+        />
+      ) : (
+        <View style={ styles.emptyContainer }>
+          <Icon
+            type="material-icons"
+            name="search"
+            size={ window.width/3 > 240 ? 240 : window.width/3 }
+            color="#bbb"
+          />
+          <View style={ styles.emptyLabelContainer }>
+            <Text style={ styles.emptyLabel }>No Search Results!</Text>
+            <Text style={ styles.emptyLabelDetails }>
+              Please search a food name or category!
+            </Text>
+          </View>
+        </View>
+      )}
     </View>
   );
 }
@@ -113,5 +131,31 @@ const styles = StyleSheet.create({
     fontSize: 16,
     flex: 1,
     color: '#444',
-  }
+  },
+  emptyContainer: {
+    padding: 32,
+    height: window.height/3 + 16,
+    maxHeight: 480,
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  emptyLabelContainer: {
+    marginVertical: 4,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  emptyLabel: {
+    fontSize: window.width/20 > 32 ? 32 : window.width/20,
+    fontWeight: 'bold',
+    color: '#888'
+  },
+  emptyLabelDetails: {
+    textAlign: 'center',
+    marginVertical: 8,
+    color: '#aaa',
+    fontSize: window.width/32 > 24 ? 24 : window.width/32,
+    width: window.width/1.5,
+    maxWidth: 480,
+  },
 });
