@@ -6429,7 +6429,16 @@ Chicken mechado isn’t just delicious, but it’s also incredibly easy to make!
                               },
   ],
   instructions: [
-  
+`Heat oil in a pan. Fry the potatoes for 3 minutes per side. Remove from the pan. Set aside.`,
+`Sauté onion and garlic until the former softens.`,
+`Add chicken pieces. Sauté for 3 to 4 minutes.`,
+`Add the soy sauce. Cook for 1 minute.`,
+`Add tomato sauce and water. Let it boil.`,
+`Add Knorr Chicken Cube and laurel leaves. Cover the pan. Adjust the heat to the lowest setting. Continue cooking for 40 minutes.`,
+`Add lemon zest and bell pepper. Cook for 3 minutes.`,
+`Put the sugar and fried potato in the pot. Cook for 2 minutes.`,
+`Season with salt and ground black pepper.`,
+`Serve warm with rice. Share and enjoy!`,
   ],
   nutrition: [
   { name: 'Serving', amount: '5g' },
