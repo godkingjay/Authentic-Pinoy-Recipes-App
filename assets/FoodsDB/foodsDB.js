@@ -6312,14 +6312,14 @@ Chicken mechado isn’t just delicious, but it’s also incredibly easy to make!
   ],
   recipe: {
   details: {
-  description: null,
+  description: `Chicken stew with bell peppers and potato cooked in tomato sauce.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `10 Minutes`,
+  cook: `45 Minutes`,
+  total: `55 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `4 People`,
+  calories: `668 kcal`,
   },
   ingredients: [
   {
