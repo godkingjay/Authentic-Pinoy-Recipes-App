@@ -6296,9 +6296,19 @@ image: require('./images/food/000000049.jpg'),
   author: `Vanjo Merano`,
   information: [
   {
-  title: null,
-  content: null,
+  title: `Where did Chicken Mechado come from?`,
+  content: `This scrumptious slow cook stew has graced Filipino tables for as long as anyone can remember. Like many of our dishes, chicken mechado—and mechado in general, really—is inspired by the culinary methods of Spain. The original version of this dish is actually one you make with beef. Fun fact: Did you know that the name mechado comes from the Spanish mecha, meaning candle wick? This is because mechado’s beef resembled that of a candle!
+  
+  Over time, our love for mechado has definitely, doubtlessly grown. Newer and more modern versions of this dish have changed things from the protein to additional add ons. For instance, pork mechado is another variation of this delicious dish that uses juicy and tasty pork instead of the sumptuous beef. Chicken mechado is not only more affordable and accessible, but it’s a healthy alternative for those who want less fat but the same flavors.`,
   },
+  {
+    title: `What sets Chicken Mechado apart?`,
+    content: `With the many mouthwatering dishes Filipino cuisine has to offer, it’s sometimes hard to find what each one’s unique selling point is. Even among tomato-based stews alone, chicken mechado has quite the competition. Caldereta, afritada, and menudo are other Filipino favorites that make use of the bright and vibrant tomato. So how does mechado measure up and set itself apart from the rest?
+    
+    The answer lies in the marinade we use for braising the meat. Beyond just the tomato sauce, soy sauce and lemon (sometimes people use calamansi) are equally important in bringing out that rich mechado flavor. This combination of tartness and umami tastes is definitely one chicken mechado can easily lord over other dishes. It cuts through the rich and refreshing taste of tomato, adding more layers and depth that avoid making it a one-track mind dish. And anyone who’s ever had chicken mechado knows that this is definitely the tasty, yummy result!
+
+Chicken mechado isn’t just delicious, but it’s also incredibly easy to make! You’ll have to set aside some time to do so, considering how long your chicken needs in the pan, but the results are definitely worth it. What are you waiting for? Let’s get to cooking chicken mechado today!`,
+    },
   ],
   recipe: {
   details: {
