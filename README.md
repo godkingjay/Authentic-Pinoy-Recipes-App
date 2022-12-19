@@ -2,7 +2,7 @@
 
 [![Status](https://img.shields.io/badge/status-stable-blue.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/tree/master)
 [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/tree/master)
-[![Release](https://img.shields.io/github/release/godkingjay/Authentic-Pinoy-Recipes-App.svg?maxAge=3600&label=download)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases)
+[![Release](https://img.shields.io/github/release/godkingjay/Authentic-Pinoy-Recipes-App.svg?maxAge=3600&label=download)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/godkingjay/Authentic-Pinoy-Recipes-App/total?style=flat-square)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases/latest)
 
 # Authentic Pinoy Recipes
