@@ -10484,72 +10484,73 @@ nutrition: [
 video: `https://youtu.be/SEHzW6SqENQ`,
 image: require(`./images/food/000000080.jpg`),
 },
-// {
-// id: 81,
-// name: `Pork Pochero`,
-// tagalog: `Pocherong Baboy`,
-// type: [
+{
+id: 81,
+name: `Pork Pochero`,
+tagalog: `Pocherong Baboy`,
+type: [
+`Stew`,
+`Pork Dish`,
+`Meat Dish`,
+`Main Course`,
+],
+special: null,
+description: `Pork Pochero Recipe makes use of Plantain Bananas (Saging na Saba) which gives any dish a sweet taste. There are also carrots in the dish which add sweet notes to the sourness of the tomato sauce in this recipe. The addition of potatoes makes the sauce starchy so it’s nice to eat it along with steamed rice. Additional water is needed too so you must prepare a broth from pork ribs or knuckles to give an umami taste to the dish. Chickpeas are included in the dish as well as garlic and onion for sauteing.`,
+link: `https://panlasangpinoy.com/pork-pochero-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: null,
+content: null,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: null,
+cook: null,
+total: null,
+},
+servings: null,
+calories: null,
+},
+ingredients: [
+{
+name: null,
+amount: null,
+tagalog: null,
+type: null,
+image: null,
+},
+],
+instructions: [
 
-// ],
-// special: [
-
-// ],
-// description: null,
-// link: null,
-// author: null,
-// information: [
-// {
-// title: null,
-// content: null,
-// },
-// ],
-// recipe: {
-// details: {
-// description: null,
-// time: {
-// prep: null,
-// cook: null,
-// total: null,
-// },
-// servings: null,
-// calories: null,
-// },
-// ingredients: [
-// {
-// name: null,
-// amount: null,
-// tagalog: null,
-// type: null,
-// image: null,
-// },
-// ],
-// instructions: [
-
-// ],
-// nutrition: [
-// { name: 'Serving', amount: '5g' },
-// { name: 'Calories', amount: '650kcal' },
-// { name: 'Carbohydrates', amount: '10g' },
-// { name: 'Protein', amount: '37g' },
-// { name: 'Fat', amount: '51g' },
-// { name: 'Saturated Fat', amount: '16g' },
-// { name: 'Polyunsaturated Fat', amount: '6g' },
-// { name: 'Monounsaturated Fat', amount: '25g' },
-// { name: 'Trans Fat', amount: '1g' },
-// { name: 'Cholesterol', amount: '196mg' },
-// { name: 'Sodium', amount: '868mg' },
-// { name: 'Potassium', amount: '888mg' },
-// { name: 'Fiber', amount: '3g' },
-// { name: 'Sugar', amount: '5g' },
-// { name: 'Vitamin A', amount: '5187IU' },
-// { name: 'Vitamin C', amount: '57mg' },
-// { name: 'Calcium', amount: '59mg' },
-// { name: 'Iron', amount: '4mg' },
-// ],
-// },
-// video: null,
-// image: null,
-// },
+],
+nutrition: [
+{ name: 'Serving', amount: '5g' },
+{ name: 'Calories', amount: '650kcal' },
+{ name: 'Carbohydrates', amount: '10g' },
+{ name: 'Protein', amount: '37g' },
+{ name: 'Fat', amount: '51g' },
+{ name: 'Saturated Fat', amount: '16g' },
+{ name: 'Polyunsaturated Fat', amount: '6g' },
+{ name: 'Monounsaturated Fat', amount: '25g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '196mg' },
+{ name: 'Sodium', amount: '868mg' },
+{ name: 'Potassium', amount: '888mg' },
+{ name: 'Fiber', amount: '3g' },
+{ name: 'Sugar', amount: '5g' },
+{ name: 'Vitamin A', amount: '5187IU' },
+{ name: 'Vitamin C', amount: '57mg' },
+{ name: 'Calcium', amount: '59mg' },
+{ name: 'Iron', amount: '4mg' },
+],
+},
+video: null,
+image: require(`./images/food/000000081.jpg`),
+},
 // {
 // id: 82,
 // name: `Beef Pochero`,
