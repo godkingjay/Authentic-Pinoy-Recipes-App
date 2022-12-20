@@ -10501,13 +10501,13 @@ author: `Vanjo Merano`,
 information: null,
 recipe: {
 details: {
-description: null,
+description: `This is a recipe for pork pochero.`,
 time: {
-prep: null,
-cook: null,
-total: null,
+prep: `10 Minutes`,
+cook: `1 Hour 10 Minutes`,
+total: `1 Hour 20 Minutes`,
 },
-servings: null,
+servings: `5 People`,
 calories: null,
 },
 ingredients: [
