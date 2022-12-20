@@ -10498,12 +10498,7 @@ special: null,
 description: `Pork Pochero Recipe makes use of Plantain Bananas (Saging na Saba) which gives any dish a sweet taste. There are also carrots in the dish which add sweet notes to the sourness of the tomato sauce in this recipe. The addition of potatoes makes the sauce starchy so it’s nice to eat it along with steamed rice. Additional water is needed too so you must prepare a broth from pork ribs or knuckles to give an umami taste to the dish. Chickpeas are included in the dish as well as garlic and onion for sauteing.`,
 link: `https://panlasangpinoy.com/pork-pochero-recipe/`,
 author: `Vanjo Merano`,
-information: [
-{
-title: null,
-content: null,
-},
-],
+information: null,
 recipe: {
 details: {
 description: null,
