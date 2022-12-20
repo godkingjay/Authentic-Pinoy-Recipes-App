@@ -10618,7 +10618,15 @@ image: `pork`,
                             },
 ],
 instructions: [
-
+`Heat oil in a cooking pot.`,
+`Sauté garlic onion, and tomato.`,
+`Once the onion becomes tender, add the Chinese sausage and pork belly. Continue to cook until the pork belly browns (around 3 minutes).`,
+`Pour the tomato sauce and water. Let boil.`,
+`Add the pork (or beef cubes). Stir. Cover the pot and set the heat to low. Boil for 50 minutes.`,
+`Add the banana and potato. Cover and continue to cook in medium heat for 12 minutes.`,
+`Add the green beans and bok choy. Cook for 5 to 7 minutes.`,
+`Add salt and ground black pepper to taste.`,
+`Serve, Share and enjoy!`,
 ],
 nutrition: [
 { name: 'Serving', amount: '5g' },
