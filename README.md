@@ -13,10 +13,11 @@ Authentic Pinoy Recipes is a personal project meant to be submitted as an educat
 
 Features include:
 
-* Food recipes for various Pinoy Foods.
-* Categories for various Pinoy Foods.
-* Searching of certain foods.
-* Adding foods to a favorites list for easier searching.
+* Pinoy Foods Recipes.
+* Pinoy Foods Categories.
+* Food Searching.
+* Food Category Searching.
+* Favorite Foods List.
 
 # Download
 Get the app from the [releases page](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases).
