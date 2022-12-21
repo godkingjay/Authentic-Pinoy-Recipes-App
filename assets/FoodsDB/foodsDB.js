@@ -10649,12 +10649,7 @@ special: null,
 description: `Beef Pochero is a Filipino Stew similar to that of “Beef Nilaga“. This dish is complimented by the sweetness of the saba banana, and a unique sour blend is brought-in by the tomato sauce.`,
 link: `https://panlasangpinoy.com/beef-pochero/`,
 author: `Vanjo Merano`,
-information: [
-{
-title: null,
-content: null,
-},
-],
+information: null,
 recipe: {
 details: {
 description: null,
