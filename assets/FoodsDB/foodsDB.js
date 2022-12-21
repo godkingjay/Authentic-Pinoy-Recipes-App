@@ -10769,7 +10769,16 @@ image: `beef`,
                             },
 ],
 instructions: [
-
+`Heat oil in the pot and fry the banana until color turns golden brown. Once done, set the bananas aside`,
+`Put in the chorizo in the same pot and fry for about 3 to 5 minutes then set aside`,
+`Sauté the garlic, onion, and tomato`,
+`Add the beef and cook for 5 minutes`,
+`Add the fish sauce, tomato sauce, and whole pepper corn and mix well`,
+`Add the water and simmer until meat is tender (about 35 minutes in pressure cooker)`,
+`Put-in the fried chorizo, fried banana, potato, and garbanzos and simmer for 7 minutes`,
+`Add the cabbage, long green beans and simmer for 5 minutes`,
+`Add the bok choy and turn off the heat. Cover the pot for 5 minutes to cook the bok choy`,
+`Serve hot. Share and Enjoy!`,
 ],
 nutrition: [
 { name: 'Serving', amount: '5g' },
