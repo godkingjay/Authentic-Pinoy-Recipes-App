@@ -12088,6 +12088,75 @@ nutrition: [
 video: `https://youtu.be/Srmlb6AvyUM`,
 image: require(`./images/food/000000090.jpg`),
 },
+{
+  id: 91,
+  name: `Bistek Tagalog`,
+  tagalog: `Bistek Tagalog`,
+  type: [
+  `Beef Dish`,
+  `Meat Dish`,
+  ],
+  special: null,
+  description: `Bistek Tagalog is a traditional meat dish originating from the Philippines. It consists of thinly sliced beef that's marinated and braised in a combination of citrus juice (usually from lemon, lime, or calamansi fruit), onions, garlic, soy sauce, and pepper.
+
+  It is believed that the dish was derived after the Spanish bistec encebollado. When properly prepared, the flavors should be savory, salty, and tangy. It's important to use only the freshest beef and the most tender cuts such as top round and sirloin.
+  
+  The dish is traditionally garnished with pan-fried onion rings on top and served with steamed rice on the side.`,
+  link: `https://www.tasteatlas.com/bistek-tagalog`,
+  author: `Vanjo Merano`,
+  information: [
+  {
+  title: null,
+  content: null,
+  },
+  ],
+  recipe: {
+  details: {
+  description: null,
+  time: {
+  prep: null,
+  cook: null,
+  total: null,
+  },
+  servings: null,
+  calories: null,
+  },
+  ingredients: [
+  {
+  name: null,
+  amount: null,
+  tagalog: null,
+  type: null,
+  image: null,
+  },
+  ],
+  instructions: [
+  
+  ],
+  nutrition: [
+  { name: 'Serving', amount: '5g' },
+  { name: 'Calories', amount: '650kcal' },
+  { name: 'Carbohydrates', amount: '10g' },
+  { name: 'Protein', amount: '37g' },
+  { name: 'Fat', amount: '51g' },
+  { name: 'Saturated Fat', amount: '16g' },
+  { name: 'Polyunsaturated Fat', amount: '6g' },
+  { name: 'Monounsaturated Fat', amount: '25g' },
+  { name: 'Trans Fat', amount: '1g' },
+  { name: 'Cholesterol', amount: '196mg' },
+  { name: 'Sodium', amount: '868mg' },
+  { name: 'Potassium', amount: '888mg' },
+  { name: 'Fiber', amount: '3g' },
+  { name: 'Sugar', amount: '5g' },
+  { name: 'Vitamin A', amount: '5187IU' },
+  { name: 'Vitamin C', amount: '57mg' },
+  { name: 'Calcium', amount: '59mg' },
+  { name: 'Iron', amount: '4mg' },
+  ],
+  },
+  video: `https://youtu.be/xH746HwUlbQ`,
+  image: require(`./images/food/000000091.jpg`),
+  },
 ];
 
 
@@ -12255,6 +12324,7 @@ List:
 88. Halabos na Hipon
 89. Pork Igado
 90. Chicken Igado
+91. Bistek Tagalog
 
 **************************************************************************************************************/
 
