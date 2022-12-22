@@ -12104,12 +12104,7 @@ image: require(`./images/food/000000090.jpg`),
   The dish is traditionally garnished with pan-fried onion rings on top and served with steamed rice on the side.`,
   link: `https://www.tasteatlas.com/bistek-tagalog`,
   author: `Vanjo Merano`,
-  information: [
-  {
-  title: null,
-  content: null,
-  },
-  ],
+  information: null,
   recipe: {
   details: {
   description: null,
