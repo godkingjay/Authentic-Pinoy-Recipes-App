@@ -12107,14 +12107,14 @@ image: require(`./images/food/000000090.jpg`),
   information: null,
   recipe: {
   details: {
-  description: null,
+  description: `Beef slices cooked in soy sauce with lemon and onions. This is bistek tagalog.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `1 Hour`,
+  cook: `40 Minutes`,
+  total: `1 Hour 40 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `5 People`,
+  calories: `279 kcal`,
   },
   ingredients: [
   {
