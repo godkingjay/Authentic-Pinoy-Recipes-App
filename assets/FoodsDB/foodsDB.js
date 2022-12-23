@@ -12209,6 +12209,75 @@ nutrition: [
 video: `https://youtu.be/xH746HwUlbQ`,
 image: require(`./images/food/000000091.jpg`),
 },
+{
+  id: 92,
+  name: `Beef  Nilaga`,
+  tagalog: `Nilagang Baka`,
+  type: [
+  `Soup`,
+  `Meat Soup`,
+  `Meat Dish`,
+  `Beef Dish`,
+  ],
+  special: null,
+  description: `Nilagang baka is a traditional soup originating from the Philippines. Although there are many variations, it's usually prepared with a combination of onions, beef broth, cubed beef, baby bok choy, cabbage, plantains, potatoes, celery, star anise, salt, and pepper.
+
+  The soup is simmered until the beef becomes tender and the vegetables are fully cooked. Nilagang baka is especially popular on cold or rainy days, and it's always served hot. Traditionally, it's accompanied by steamed rice and fish sauce (patis). Sometimes, an extra helping of the broth is served in a separate bowl on the side.`,
+  link: `https://panlasangpinoy.com/nilagang-baka-recipe/`,
+  author: `Vanjo Merano`,
+  information: [
+  {
+  title: null,
+  content: null,
+  },
+  ],
+  recipe: {
+  details: {
+  description: null,
+  time: {
+  prep: null,
+  cook: null,
+  total: null,
+  },
+  servings: null,
+  calories: null,
+  },
+  ingredients: [
+  {
+  name: null,
+  amount: null,
+  tagalog: null,
+  type: null,
+  image: null,
+  },
+  ],
+  instructions: [
+  
+  ],
+  nutrition: [
+  { name: 'Serving', amount: '5g' },
+  { name: 'Calories', amount: '650kcal' },
+  { name: 'Carbohydrates', amount: '10g' },
+  { name: 'Protein', amount: '37g' },
+  { name: 'Fat', amount: '51g' },
+  { name: 'Saturated Fat', amount: '16g' },
+  { name: 'Polyunsaturated Fat', amount: '6g' },
+  { name: 'Monounsaturated Fat', amount: '25g' },
+  { name: 'Trans Fat', amount: '1g' },
+  { name: 'Cholesterol', amount: '196mg' },
+  { name: 'Sodium', amount: '868mg' },
+  { name: 'Potassium', amount: '888mg' },
+  { name: 'Fiber', amount: '3g' },
+  { name: 'Sugar', amount: '5g' },
+  { name: 'Vitamin A', amount: '5187IU' },
+  { name: 'Vitamin C', amount: '57mg' },
+  { name: 'Calcium', amount: '59mg' },
+  { name: 'Iron', amount: '4mg' },
+  ],
+  },
+  video: `https://youtu.be/gdw3n1iJyEU`,
+  image: required(`./images/food/000000092.jpg`),
+  },
 ];
 
 
@@ -12377,6 +12446,7 @@ List:
 89. Pork Igado
 90. Chicken Igado
 91. Bistek Tagalog
+92. Nilagang Baka
 
 **************************************************************************************************************/
 
