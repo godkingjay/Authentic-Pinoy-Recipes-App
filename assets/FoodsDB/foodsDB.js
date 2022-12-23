@@ -12227,8 +12227,12 @@ image: require(`./images/food/000000091.jpg`),
   author: `Vanjo Merano`,
   information: [
   {
-  title: null,
-  content: null,
+  title: `Where did Nilagang Baka actually come from?`,
+  content: `Nilagang Baka is a dish that people have been cooking for quite a long time. In fact, it arrived in the Philippines even before the colonial era, as Austronesians introduced the technique of boiling food. And as such, people thought to boil their beef, and integrate a couple of spices. To build the entire meal, they also added vegetables such as potatoes, cabbage and onions, all of which we still use in today’s recipe
+
+  But the general beginnings of boiled beef actually had to do with the price of the beef cut. Because the tougher parts of the cow were more affordable, the peasant class from Asia, Europe and America usually utilized this type of meat. They also found that these parts that were bonier created a richer broth, thus leading to dishes like Bulalo, Puchero and of course, Nilagang Baka
+  
+  This is a dish that we now usually like to serve with some soy sauce or patis for an added saltiness, as well as the always essential cup of rice. Sometimes we also like to squeeze some calamansi on top to make it a bit tangier. But at the end of the day, you can count on Nilagang Baka to be a perfectly delicious standalone dish too.`,
   },
   ],
   recipe: {
