@@ -12333,7 +12333,15 @@ image: require(`./images/food/000000091.jpg`),
                         },
   ],
   instructions: [
-  
+`Combine the water and beef broth in a large cooking pot. Bring to a boil.`,
+`Add the onion, star anise, and celery. Reduce the heat in medium. Cover the pot and continue to boil for 20 minutes.`,
+`Remove the onion, star anise, and celery from the boiling liquid using a skimmer or a strainer. You can discard these ingredients.`,
+`Add the beef. Simmer for 60 to 90 minutes or until the beef becomes tender. You can add more water if necessary.`,
+`Put-in the saba banana and potatoes. Cook for 10 minutes.`,
+`Add the bok choy and cabbage. Sprinkle salt and pepper. Stir.`,
+`Cover and turn the heat off. Let the pot stay with cover-on for 2 to 5 minutes to cook the vegetables.`,
+`Transfer to a serving bowl.`,
+`Serve. Share and enjoy!`,
   ],
   nutrition: [
   { name: 'Serving', amount: '5g' },
