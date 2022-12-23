@@ -12239,12 +12239,12 @@ image: require(`./images/food/000000091.jpg`),
   details: {
   description: null,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `10 Minutes`,
+  cook: `1 Hour 12 Minutes`,
+  total: `1 Hour 22 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `6 People`,
+  calories: `243 kcal`,
   },
   ingredients: [
   {
