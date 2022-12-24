@@ -12391,12 +12391,33 @@ image: required(`./images/food/000000092.jpg`),
   },
   ingredients: [
   {
-  name: null,
-  amount: null,
-  tagalog: null,
-  type: null,
-  image: null,
+  name: `Purple Yam`,
+  amount: `1 lb.`,
+  tagalog: `Ube`,
+  type: `Grated`,
+  image: `yam`,
   },
+  {
+    name: `Coconut Milk`,
+    amount: `2 Cups`,
+    tagalog: null,
+    type: null,
+    image: `coconut-milk`,
+    },
+    {
+      name: `Granulated White Sugar`,
+      amount: `3/4 Cup`,
+      tagalog: `Puting Asukal`,
+      type: null,
+      image: `sugar`,
+      },
+      {
+        name: `Cooking Oil`,
+        amount: `1 Teaspoon`,
+        tagalog: `Mantika`,
+        type: null,
+        image: `cooking-oil`,
+        },
   ],
   instructions: [
   
