@@ -12420,7 +12420,12 @@ image: required(`./images/food/000000092.jpg`),
         },
   ],
   instructions: [
-  
+`Pour the coconut milk in a cooking pot. Bring to a boil.`,
+`Once the coconut milk start to boil, add the sugar. Stir until the sugar dilutes completely.`,
+`Put-in the grated purple yam. Continue to cook while stirring (using low to medium heat) until the texture gets thick. Note: It will take around 20 to 30 minutes. Please be patient.`,
+`Grease the llanera with cooking oil. Transfer the ube halaya to the greased llanera to mold it into shape.`,
+`Let it cool down to room temperature. You can serve it immediately of place it in the refrigerator (covered with cling sap).`,
+`Share and enjoy!`,
   ],
   nutrition: [
   { name: 'Serving', amount: '5g' },
