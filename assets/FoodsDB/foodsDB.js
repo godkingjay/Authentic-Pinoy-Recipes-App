@@ -12382,11 +12382,11 @@ image: required(`./images/food/000000092.jpg`),
   details: {
   description: null,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `12 Minutes`,
+  cook: `30 Minutes`,
+  total: `42 Minutes`,
   },
-  servings: null,
+  servings: `4 People`,
   calories: null,
   },
   ingredients: [
