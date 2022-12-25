@@ -12520,14 +12520,14 @@ content: `• Pair cookies that are similar in sizes and shapes. Take one cookie
 ],
 recipe: {
 details: {
-description: null,
+description: `Silvanas with meringue wafers, French buttercream filling, and ground cashew or cracker crumb coating are the ultimate cookies! Chewy, creamy, and buttery, they're seriously addicting!`,
 time: {
-prep: null,
-cook: null,
-total: null,
+prep: `1 Hour 20 Minutes`,
+cook: `20 Minutes`,
+total: `1 Hour 40 Minutes`,
 },
-servings: null,
-calories: null,
+servings: `13 People`,
+calories: `442 kcal`,
 },
 ingredients: [
 {
