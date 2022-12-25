@@ -88,6 +88,10 @@ const Ingredients = [
     image: require('./images/ingredient/carrot.png'),
   },
   {
+    name: 'cashew',
+    image: require('./images/ingredient/cashew.png'),
+  },
+  {
     name: 'cassava',
     image: require('./images/ingredient/cassava.png'),
   },
@@ -206,6 +210,10 @@ const Ingredients = [
   {
     name: 'goat',
     image: require('./images/ingredient/goat.png'),
+  },
+  {
+    name: 'graham',
+    image: require('./images/ingredient/graham.png'),
   },
   {
     name: 'grass',
