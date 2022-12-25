@@ -12435,72 +12435,136 @@ video: null,
 image: require(`./images/food/000000093.jpg`),
 },
 {
-  id: 94,
-  name: `Silvanas`,
-  tagalog: `Silvanas`,
-  type: [
-  `Snack`,
-  `Cookie`,
-  ],
-  special: null,
-  description: `Silvanas are the snack version of a traditional Filipino dessert known as sans rival. These frozen cookie sandwiches are made with two cashew-meringue wafers that are held together with a thick layer of buttercream and are generously coated in cashew crumbs.
+id: 94,
+name: `Silvanas`,
+tagalog: `Silvanas`,
+type: [
+`Snack`,
+`Cookie`,
+],
+special: null,
+description: `Silvanas are the snack version of a traditional Filipino dessert known as sans rival. These frozen cookie sandwiches are made with two cashew-meringue wafers that are held together with a thick layer of buttercream and are generously coated in cashew crumbs.
 
-  Although plain versions are the most common, silvanas occasionally come in various flavors such as chocolate, strawberry, mocha, or mango. Popular throughout the country, these cookies have to be refrigerated and are best served well-chilled or frozen.`,
-  link: `https://www.kawalingpinoy.com/silvanas/`,
-  author: `Sanna Talavera`,
-  information: [
-  {
-  title: null,
-  content: null,
-  },
-  ],
-  recipe: {
-  details: {
-  description: null,
-  time: {
-  prep: null,
-  cook: null,
-  total: null,
-  },
-  servings: null,
-  calories: null,
-  },
-  ingredients: [
-  {
-  name: null,
-  amount: null,
-  tagalog: null,
-  type: null,
-  image: null,
-  },
-  ],
-  instructions: [
-  
-  ],
-  nutrition: [
-  { name: 'Serving', amount: '5g' },
-  { name: 'Calories', amount: '650kcal' },
-  { name: 'Carbohydrates', amount: '10g' },
-  { name: 'Protein', amount: '37g' },
-  { name: 'Fat', amount: '51g' },
-  { name: 'Saturated Fat', amount: '16g' },
-  { name: 'Polyunsaturated Fat', amount: '6g' },
-  { name: 'Monounsaturated Fat', amount: '25g' },
-  { name: 'Trans Fat', amount: '1g' },
-  { name: 'Cholesterol', amount: '196mg' },
-  { name: 'Sodium', amount: '868mg' },
-  { name: 'Potassium', amount: '888mg' },
-  { name: 'Fiber', amount: '3g' },
-  { name: 'Sugar', amount: '5g' },
-  { name: 'Vitamin A', amount: '5187IU' },
-  { name: 'Vitamin C', amount: '57mg' },
-  { name: 'Calcium', amount: '59mg' },
-  { name: 'Iron', amount: '4mg' },
-  ],
-  },
-  video: `https://youtu.be/A7LjK1Vljh4`,
-  image: require(`./images/food/000000094.jpg`),
-  },
+Although plain versions are the most common, silvanas occasionally come in various flavors such as chocolate, strawberry, mocha, or mango. Popular throughout the country, these cookies have to be refrigerated and are best served well-chilled or frozen.`,
+link: `https://www.kawalingpinoy.com/silvanas/`,
+author: `Sanna Talavera`,
+information: [
+{
+title: `What are Silvanas`,
+content: `Like Sans Rival, Silvanas or sylvanas are based on the French Dacquoise dessert cake. The meringue wafers are filled with French buttercream to form a sandwich cookie, and then coated with more buttercream and rolled in ground cashews or cracker crumbs to add extra flavor and crunch.
+
+Due to the use of buttercream, these Filipino treats are served frozen for best texture.`,
+},
+{
+title: `Making The Meringue Cookie Wafers`,
+content: `• To ensure even sizes, use the rim of a glass or a cookie cutter with 2.5 inches diameter to trace circles on the parchment paper. Line baking sheet with the stenciled paper and set aside.
+
+• Combine the flour and 1 cup of the cashews in a food processor and process together into fine crumbs. Set aside.
+
+• Make sure the bowls, beaters, and utensils used are very clean and free of yolk or fat particle which can interfere with proper whipping. Yolks and whites are easy to separate when the eggs are cold but bring the egg whites to room temperature for 30 minutes before beating to ensure volume.
+
+• In a bowl of a stand mixer, beat egg whites on medium-high speed until frothy. Sprinkle in cream of tartar and continue to beat until soft peaks form.
+
+• With the mixer running continuously, gradually add the sugar. Continue to beat until the egg whites form stiff peaks. To test, tip the bowl, and if the meringue doesn’t slide off, it’s ready.
+
+• Add the vanilla extract and about 1/3 of the flour/cashew mixture. Gently fold them into the meringue using a rubber spatula, making sure not to deflate the whipped egg whites. Fold the rest of the flour/cashew mixture in two more additions.
+
+• Transfer the meringue in a large piping bag fitted with a large piping tip.
+
+• Using the template as a guide,pipe the meringue on the prepared baking sheet at about 1/2 inch in height.
+
+• Using a knife or an offset spatula, flatten and smoothen the tops of the meringue circles. Gently tap the baking sheet on the counter to remove any bubbles.
+
+• Bake in a 325 F for 17-20 minutes or until lightly browned.
+
+• Using a spatula, transfer the cookie wafers to a cooling rack. The edges will be crisp and the middles soft.
+
+• Allow to completely cool while making the buttercream.
+`,
+},
+{
+title: `Making The French Buttercream Filling`,
+content: `As for filling and outside icing, Silvanas use French buttercream which is made of whipped egg yolks, cooked sugar syrup, and softened butter. It involves a bit more work to make than regular frosting, but it does give the cookies their signature decadence.
+
+• In a medium saucepan, stir together the sugar and water. Let the mixture boil over medium heat. Once boiling, place a candy thermometer in the pan to monitor the temperature. It should reach 238 F before adding it in a thin stream to the beaten egg yolks.
+
+• Meanwhile, start to beat the egg yolks on a stand mixer on high speed until they start to thicken and become pale in color.
+
+• Continue to beat while the sugar/ water mixture cooks in the pan. Once the temperature of the mixture reaches 238 F, turn the heat off and slowly pour the sugar syrup in a thin, continuous stream into the yolks with the mixer still running.
+
+• Continue beating the yolks until the mixing bowl is cool to the touch.
+
+• With the mixer still running, add the softened butter, about a tablespoon at a time. Beat until a fluffy buttercream forms. Make sure to take the butter out of the fridge about 2-3 hours ahead to bring to room temperature. It should be soft but not melting or it will make the buttercream grainy.
+
+• If you like to add flavor, add a few drops of extracts such as ube, langka or pandan to the buttercream and refrigerate for a few minutes. Whip it again for easier spreading.
+
+• Spread the buttercream minimally. The amount of buttercream in the recipe is enough to fill and coat 13 cookie sandwiches.`,
+},
+{
+title: `Assembling The Cookies`,
+content: `• Pair cookies that are similar in sizes and shapes. Take one cookie and spread a thin layer of buttercream on the rough side ( that is the side of the cookie that was facing up during baking). Place another cookie with the rough side facing inwards as well, on the buttercream to make a cookie sandwich.
+
+• With a spatula, cover the sides and base of the cookies with a layer of buttercream. Smooth out edges using the spatula.
+
+• On a shallow plate, carefully roll the cookie sandwich in ground cashews until fully coated. Repeat with half of the cookies.
+
+• Roll the remaining cookies in graham cracker crumbs. If you like to add vibrant colors and various flavors, place the graham cracker crumbs in a ziplock bag and add a few drops of flavor extracts. Shake and work the bag with your hands to evenly tint the crumbs.
+
+• We’re using ground cashews and graham cracker crumbs as coating, but feel to try vanilla cake, mamon tostado or Oreo cookies. Just process in a food processor until it resembles fine crumbs.
+
+• Arrange the assembled silvanas on a parchment-lined baking sheet, cover, and freeze for about 1 to 2 hours or until firm.
+
+• To lock in flavor and texture, transfer to an airtight container and keep frozen until ready to serve.
+`,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: null,
+cook: null,
+total: null,
+},
+servings: null,
+calories: null,
+},
+ingredients: [
+{
+name: null,
+amount: null,
+tagalog: null,
+type: null,
+image: null,
+},
+],
+instructions: [
+
+],
+nutrition: [
+{ name: 'Serving', amount: '5g' },
+{ name: 'Calories', amount: '650kcal' },
+{ name: 'Carbohydrates', amount: '10g' },
+{ name: 'Protein', amount: '37g' },
+{ name: 'Fat', amount: '51g' },
+{ name: 'Saturated Fat', amount: '16g' },
+{ name: 'Polyunsaturated Fat', amount: '6g' },
+{ name: 'Monounsaturated Fat', amount: '25g' },
+{ name: 'Trans Fat', amount: '1g' },
+{ name: 'Cholesterol', amount: '196mg' },
+{ name: 'Sodium', amount: '868mg' },
+{ name: 'Potassium', amount: '888mg' },
+{ name: 'Fiber', amount: '3g' },
+{ name: 'Sugar', amount: '5g' },
+{ name: 'Vitamin A', amount: '5187IU' },
+{ name: 'Vitamin C', amount: '57mg' },
+{ name: 'Calcium', amount: '59mg' },
+{ name: 'Iron', amount: '4mg' },
+],
+},
+video: `https://youtu.be/A7LjK1Vljh4`,
+image: require(`./images/food/000000094.jpg`),
+},
 ];
 
 
