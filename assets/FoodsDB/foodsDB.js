@@ -12765,7 +12765,12 @@ image: require(`./images/food/000000094.jpg`),
                       },
   ],
   instructions: [
-  
+`Arrange ginger, garlic, okra, onion, long green pepper, peppercorn, and eggplant on the pot.`,
+`Top with bangus slices.`,
+`Pour water and vinegar. Apply heat and let boil. Cover and continue to cook in low to medium heat for 15 minutes.`,
+`Add salt to taste.`,
+`Transfer to a serving plate. Serve.`,
+`Share and enjoy!`,
   ],
   nutrition: [
   { name: 'Serving', amount: '5g' },
