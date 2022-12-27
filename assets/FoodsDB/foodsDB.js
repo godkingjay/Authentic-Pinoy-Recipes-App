@@ -12673,12 +12673,7 @@ image: require(`./images/food/000000094.jpg`),
   The most popular dishes that fall into this category include pork-based paksiw na baboy and paksiw na isda that employs fish as the main ingredient. Paksiw dishes are usually served with rice on the side.`,
   link: `https://panlasangpinoy.com/paksiw-na-bangus-recipe/`,
   author: `Vanjo Merano`,
-  information: [
-  {
-  title: null,
-  content: null,
-  },
-  ],
+  information: null,
   recipe: {
   details: {
   description: null,
