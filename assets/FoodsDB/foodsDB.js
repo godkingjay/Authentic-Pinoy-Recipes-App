@@ -12676,14 +12676,14 @@ image: require(`./images/food/000000094.jpg`),
   information: null,
   recipe: {
   details: {
-  description: null,
+  description: `This is the recipe for Paksiw na Bangus.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `10 Minutes`,
+  cook: `15 Minutes`,
+  total: `25 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `4 People`,
+  calories: `265 kcal`,
   },
   ingredients: [
   {
