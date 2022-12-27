@@ -316,6 +316,10 @@ const Ingredients = [
     image: require('./images/ingredient/milk.png'),
   },
   {
+    name: 'milkfish',
+    image: require('./images/ingredient/milkfish.png'),
+  },
+  {
     name: 'milk-can',
     image: require('./images/ingredient/milk-can.png'),
   },
