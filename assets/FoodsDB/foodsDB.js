@@ -12807,14 +12807,14 @@ image: require(`./images/food/000000095.jpg`),
   information: null,
   recipe: {
   details: {
-  description: null,
+  description: `Turnover with chicken filling.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `15 Minutes`,
+  cook: `40 Minutes`,
+  total: `55 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `6 People`,
+  calories: `777 kcal`,
   },
   ingredients: [
   {
