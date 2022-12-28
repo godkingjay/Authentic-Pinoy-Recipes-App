@@ -12804,12 +12804,7 @@ image: require(`./images/food/000000095.jpg`),
   description: `Chicken Empanadas are a simple yet filling and delicious turnover pastry, and despite their compact half moon size are meals in themselves. No pretense necessary –– wonderful and juicy, empanadas are the no-frill snack everyone will love.`,
   link: `https://panlasangpinoy.com/filipino-cuban-spanish-food-chicken-empanada-picadillo-recipe/`,
   author: `Vanjo Merano`,
-  information: [
-  {
-  title: null,
-  content: null,
-  },
-  ],
+  information: null,
   recipe: {
   details: {
   description: null,
