@@ -608,6 +608,10 @@ const Ingredients = [
     image: require('./images/ingredient/wine.png'),
   },
   {
+    name: 'worcestershire-sauce',
+    image: require('./images/ingredient/worcestershire-sauce.png'),
+  },
+  {
     name: 'wrapper',
     image: require('./images/ingredient/wrapper.png'),
   },
