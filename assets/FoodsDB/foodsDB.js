@@ -13013,12 +13013,7 @@ image: require(`./images/food/000000096.jpg`),
   description: `Pork Empanada is a type of pastry that has been stuffed with pork. Pork Empanada are the perfect weeknight meal idea or great for appetizers for parties or potlucks. These delicious stuffed bread pastries filled with tasty pork and vegetables — either served fried or baked.`,
   link: `https://panlasangpinoy.com/pork-empanada-recipe/`,
   author: `Vanjo Merano`,
-  information: [
-  {
-  title: null,
-  content: null,
-  },
-  ],
+  information: null,
   recipe: {
   details: {
   description: null,
