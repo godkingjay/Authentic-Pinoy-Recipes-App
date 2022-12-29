@@ -13016,13 +13016,13 @@ image: require(`./images/food/000000096.jpg`),
   information: null,
   recipe: {
   details: {
-  description: null,
+  description: `This is a recipe for Pork Empanada Recipe.`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `30 Minutes`,
+  cook: `45 Minutes`,
+  total: `1 Hour 15 Minutes`,
   },
-  servings: null,
+  servings: `6 People`,
   calories: null,
   },
   ingredients: [
