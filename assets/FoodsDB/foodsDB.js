@@ -13218,11 +13218,11 @@ image: require(`./images/food/000000097.jpg`),
   details: {
   description: null,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `10 Minutes`,
+  cook: `30 Minutes`,
+  total: `40 Minutes`,
   },
-  servings: null,
+  servings: `4 People`,
   calories: null,
   },
   ingredients: [
