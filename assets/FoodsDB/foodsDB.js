@@ -13188,165 +13188,165 @@ video: `https://youtu.be/tBs8xGxZz78`,
 image: require(`./images/food/000000097.jpg`),
 },
 {
-  id: 98,
-  name: `Beef Empanada`,
-  tagalog: `Empanadang Baka`,
-  type: [
-  `Snack`,
-  ],
-  special: null,
-  description: `Beef Empanadas (also called empanadas) is a type of ground beef turnover. Empanada is of Hispanic influence which was adopted by the colonies and prepared according to the local preference. For example, the empanada in Spain is not exactly the same as those in Latin American countries, and even in the Philippines. This Beef Empanadas Recipe will give you a straightforward explanation of  what an empanada should be.`,
-  link: `https://panlasangpinoy.com/beef-empanadas-recipe/`,
-  author: `Vanjo Merano`,
-  information: [
-    {
-    title: `How to Make Beef Empanadas`,
-    content: `This recipe consists of three general steps:
-  
-      1. Cook the filling
-      2. Make the dough
-      3. Secure the filling in the dough and fry
-  
-    The filling of the empanadas will be the main factor for the overall taste of your dish; this has to be delicious. We will be using ground beef for this recipe. The beef will be sauteed with the onion, green peas, raisins, and the filling ingredients. Once you are done making the filling, just put it in a plate and let it cool down. You will need it later on when the dough is ready.
-    
-    You will need to make the dough from scratch. The dough needs to be flaky, so we will be using a pastry blender. It is sometime called a pastry cutter. It is a simple tool used to mix solid fat (which is the butter, for this recipe) into the flour mixture. Once all the dough ingredients are combined and well blended, we will need to place it in the refrigerator so that the butter can harden. This helps develop the nice flaky texture.
-    
-    The last steps that needs to be done are to seal the filling that you recently made in the dough and fry the beef empanadas. Grab a portion of the dough and flatten it using a rolling pin. One the dough is flat, arrange the filling in the middle and fold the dough to secure the filling. That’s it! All we need to do now is fry the empanadas.`,
-    },
-    ],
-  recipe: {
-  details: {
-  description: null,
-  time: {
-  prep: `10 Minutes`,
-  cook: `30 Minutes`,
-  total: `40 Minutes`,
-  },
-  servings: `4 People`,
-  calories: null,
-  },
-  ingredients: [
-  {
-  name: `Ground Beef`,
-  amount: `1 lb.`,
-  tagalog: `Giniling na Baka`,
-  type: `Filling Ingredient | Grounded`,
-  image: `beef`,
-  },
-  {
-    name: `Raisins`,
-    amount: `1/2 Cup`,
-    tagalog: null,
-    type: `Filling Ingredient`,
-    image: `raisin`,
-    },
-    {
-      name: `Green Peas`,
-      amount: `1/2 Cup`,
-      tagalog: null,
-      type: `Filling Ingredient`,
-      image: `peas`,
-      },
-      {
-        name: `Yellow Onion`,
-        amount: `1 Small`,
-        tagalog: `Sibuyas`,
-        type: `Filling Ingredient | Minced`,
-        image: `onion`,
-        },
-        {
-          name: `Beef Broth`,
-          amount: `1/2 Cup`,
-          tagalog: null,
-          type: `Filling Ingredient`,
-          image: `broth`,
-          },
-          {
-            name: `Salt`,
-            amount: `1 Teaspoon`,
-            tagalog: `Asin`,
-            type: `Filling Ingredient`,
-            image: `salt`,
-            },
-            {
-              name: `Paprika`,
-              amount: `1/2 Teaspoon`,
-              tagalog: null,
-              type: `Filling Ingredient`,
-              image: `paprika`,
-              },
-              {
-                name: `Ground Black Pepper`,
-                amount: `1/2 Teaspoon`,
-                tagalog: `Dinurog na Paminta`,
-                type: `Filling Ingredient | Grounded`,
-                image: `black-pepper`,
-                },
-                {
-                  name: `Granulated White Sugar`,
-                  amount: `1 Teaspoon`,
-                  tagalog: `Asukal`,
-                  type: `Filling Ingredient`,
-                  image: `sugar`,
-                  },
-                  {
-                    name: `Cooking Oil`,
-                    amount: `2 Tablespoons`,
-                    tagalog: `Mantika`,
-                    type: `Filling Ingredient`,
-                    image: `cooking-oil`,
-                    },
-                    {
-                      name: `All-Purpose Flour`,
-                      amount: `3 Cups`,
-                      tagalog: null,
-                      type: `Dough Ingredient`,
-                      image: `flour`,
-                      },
-                      {
-                        name: `Cold Unsalted Butter`,
-                        amount: `1/2 Cup`,
-                        tagalog: null,
-                        type: `Dough Ingredient | Cut into 8 parts.`,
-                        image: `butter`,
-                        },
-                        {
-                          name: `Baking Powder`,
-                          amount: `1/2 Teaspoon`,
-                          tagalog: null,
-                          type: `Dough Ingredient`,
-                          image: `baking-powder`,
-                          },
-                          {
-                            name: `Salt`,
-                            amount: `1/2 Teaspoon`,
-                            tagalog: `Asin`,
-                            type: `Dough Ingredient`,
-                            image: `salt`,
-                            },
-                            {
-                              name: `Granulated White Sugar`,
-                              amount: `3 Tablespoons`,
-                              tagalog: `Asukal`,
-                              type: `Dough Ingredient`,
-                              image: `sugar`,
-                              },
-                              {
-                                name: `Cold Water`,
-                                amount: `6 Tablespoons`,
-                                tagalog: `Malamig na Tubig`,
-                                type: `Dough Ingredient | Ice Cold`,
-                                image: `water`,
-                                },
-                                {
-                                  name: `Cooking Oil`,
-                                  amount: `3 Cups`,
-                                  tagalog: `Mantika`,
-                                  type: `Dough Ingredient | For frying.`,
-                                  image: `cooking-oil`,
-                                  },
-  ],
-  instructions: [
+id: 98,
+name: `Beef Empanada`,
+tagalog: `Empanadang Baka`,
+type: [
+`Snack`,
+],
+special: null,
+description: `Beef Empanadas (also called empanadas) is a type of ground beef turnover. Empanada is of Hispanic influence which was adopted by the colonies and prepared according to the local preference. For example, the empanada in Spain is not exactly the same as those in Latin American countries, and even in the Philippines. This Beef Empanadas Recipe will give you a straightforward explanation ofwhat an empanada should be.`,
+link: `https://panlasangpinoy.com/beef-empanadas-recipe/`,
+author: `Vanjo Merano`,
+information: [
+{
+title: `How to Make Beef Empanadas`,
+content: `This recipe consists of three general steps:
+
+1. Cook the filling
+2. Make the dough
+3. Secure the filling in the dough and fry
+
+The filling of the empanadas will be the main factor for the overall taste of your dish; this has to be delicious. We will be using ground beef for this recipe. The beef will be sauteed with the onion, green peas, raisins, and the filling ingredients. Once you are done making the filling, just put it in a plate and let it cool down. You will need it later on when the dough is ready.
+
+You will need to make the dough from scratch. The dough needs to be flaky, so we will be using a pastry blender. It is sometime called a pastry cutter. It is a simple tool used to mix solid fat (which is the butter, for this recipe) into the flour mixture. Once all the dough ingredients are combined and well blended, we will need to place it in the refrigerator so that the butter can harden. This helps develop the nice flaky texture.
+
+The last steps that needs to be done are to seal the filling that you recently made in the dough and fry the beef empanadas. Grab a portion of the dough and flatten it using a rolling pin. One the dough is flat, arrange the filling in the middle and fold the dough to secure the filling. That’s it! All we need to do now is fry the empanadas.`,
+},
+],
+recipe: {
+details: {
+description: null,
+time: {
+prep: `10 Minutes`,
+cook: `30 Minutes`,
+total: `40 Minutes`,
+},
+servings: `4 People`,
+calories: null,
+},
+ingredients: [
+{
+name: `Ground Beef`,
+amount: `1 lb.`,
+tagalog: `Giniling na Baka`,
+type: `Filling Ingredient | Grounded`,
+image: `beef`,
+},
+{
+name: `Raisins`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Filling Ingredient`,
+image: `raisin`,
+},
+{
+name: `Green Peas`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Filling Ingredient`,
+image: `peas`,
+},
+{
+name: `Yellow Onion`,
+amount: `1 Small`,
+tagalog: `Sibuyas`,
+type: `Filling Ingredient | Minced`,
+image: `onion`,
+},
+{
+name: `Beef Broth`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Filling Ingredient`,
+image: `broth`,
+},
+{
+name: `Salt`,
+amount: `1 Teaspoon`,
+tagalog: `Asin`,
+type: `Filling Ingredient`,
+image: `salt`,
+},
+{
+name: `Paprika`,
+amount: `1/2 Teaspoon`,
+tagalog: null,
+type: `Filling Ingredient`,
+image: `paprika`,
+},
+{
+name: `Ground Black Pepper`,
+amount: `1/2 Teaspoon`,
+tagalog: `Dinurog na Paminta`,
+type: `Filling Ingredient | Grounded`,
+image: `black-pepper`,
+},
+{
+name: `Granulated White Sugar`,
+amount: `1 Teaspoon`,
+tagalog: `Asukal`,
+type: `Filling Ingredient`,
+image: `sugar`,
+},
+{
+name: `Cooking Oil`,
+amount: `2 Tablespoons`,
+tagalog: `Mantika`,
+type: `Filling Ingredient`,
+image: `cooking-oil`,
+},
+{
+name: `All-Purpose Flour`,
+amount: `3 Cups`,
+tagalog: null,
+type: `Dough Ingredient`,
+image: `flour`,
+},
+{
+name: `Cold Unsalted Butter`,
+amount: `1/2 Cup`,
+tagalog: null,
+type: `Dough Ingredient | Cut into 8 parts.`,
+image: `butter`,
+},
+{
+name: `Baking Powder`,
+amount: `1/2 Teaspoon`,
+tagalog: null,
+type: `Dough Ingredient`,
+image: `baking-powder`,
+},
+{
+name: `Salt`,
+amount: `1/2 Teaspoon`,
+tagalog: `Asin`,
+type: `Dough Ingredient`,
+image: `salt`,
+},
+{
+name: `Granulated White Sugar`,
+amount: `3 Tablespoons`,
+tagalog: `Asukal`,
+type: `Dough Ingredient`,
+image: `sugar`,
+},
+{
+name: `Cold Water`,
+amount: `6 Tablespoons`,
+tagalog: `Malamig na Tubig`,
+type: `Dough Ingredient | Ice Cold`,
+image: `water`,
+},
+{
+name: `Cooking Oil`,
+amount: `3 Cups`,
+tagalog: `Mantika`,
+type: `Dough Ingredient | For frying.`,
+image: `cooking-oil`,
+},
+],
+instructions: [
 `Make the filing by heating 2 tablespoons of cooking oil in a pan.`,
 `Saute the onion and then add the ground black pepper.`,
 `Put-in the beef and then cook for 5 minutes.`,
@@ -13365,31 +13365,14 @@ image: require(`./images/food/000000097.jpg`),
 `Remove from the cooking pot and then arrange in a plate lined with paper towels. Let the excess oil drip-off.`,
 `Transfer to a serving plate.`,
 `Serve. Share and enjoy!`,
-  ],
-  nutrition: [
-  { name: 'Serving', amount: '5g' },
-  { name: 'Calories', amount: '650kcal' },
-  { name: 'Carbohydrates', amount: '10g' },
-  { name: 'Protein', amount: '37g' },
-  { name: 'Fat', amount: '51g' },
-  { name: 'Saturated Fat', amount: '16g' },
-  { name: 'Polyunsaturated Fat', amount: '6g' },
-  { name: 'Monounsaturated Fat', amount: '25g' },
-  { name: 'Trans Fat', amount: '1g' },
-  { name: 'Cholesterol', amount: '196mg' },
-  { name: 'Sodium', amount: '868mg' },
-  { name: 'Potassium', amount: '888mg' },
-  { name: 'Fiber', amount: '3g' },
-  { name: 'Sugar', amount: '5g' },
-  { name: 'Vitamin A', amount: '5187IU' },
-  { name: 'Vitamin C', amount: '57mg' },
-  { name: 'Calcium', amount: '59mg' },
-  { name: 'Iron', amount: '4mg' },
-  ],
-  },
-  video: null,
-  image: require(`./images/food/000000098.jpg`),
-  },
+],
+nutrition: [
+{ name: 'Serving', amount: '4g' },
+],
+},
+video: null,
+image: require(`./images/food/000000098.jpg`),
+},
 ];
 
 
