@@ -13198,10 +13198,7 @@ image: require(`./images/food/000000097.jpg`),
   description: `Beef Empanadas (also called empanadas) is a type of ground beef turnover. Empanada is of Hispanic influence which was adopted by the colonies and prepared according to the local preference. For example, the empanada in Spain is not exactly the same as those in Latin American countries, and even in the Philippines. This Beef Empanadas Recipe will give you a straightforward explanation of  what an empanada should be.`,
   link: `https://panlasangpinoy.com/beef-empanadas-recipe/`,
   author: `Vanjo Merano`,
-  information: null,
-  recipe: {
-  details: {
-  description: [
+  information: [
     {
     title: `How to Make Beef Empanadas`,
     content: `This recipe consists of three general steps:
@@ -13217,6 +13214,9 @@ image: require(`./images/food/000000097.jpg`),
     The last steps that needs to be done are to seal the filling that you recently made in the dough and fry the beef empanadas. Grab a portion of the dough and flatten it using a rolling pin. One the dough is flat, arrange the filling in the middle and fold the dough to secure the filling. That’s it! All we need to do now is fry the empanadas.`,
     },
     ],
+  recipe: {
+  details: {
+  description: null,
   time: {
   prep: null,
   cook: null,
