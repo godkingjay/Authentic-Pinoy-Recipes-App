@@ -13201,7 +13201,22 @@ image: require(`./images/food/000000097.jpg`),
   information: null,
   recipe: {
   details: {
-  description: null,
+  description: [
+    {
+    title: `How to Make Beef Empanadas`,
+    content: `This recipe consists of three general steps:
+  
+      1. Cook the filling
+      2. Make the dough
+      3. Secure the filling in the dough and fry
+  
+    The filling of the empanadas will be the main factor for the overall taste of your dish; this has to be delicious. We will be using ground beef for this recipe. The beef will be sauteed with the onion, green peas, raisins, and the filling ingredients. Once you are done making the filling, just put it in a plate and let it cool down. You will need it later on when the dough is ready.
+    
+    You will need to make the dough from scratch. The dough needs to be flaky, so we will be using a pastry blender. It is sometime called a pastry cutter. It is a simple tool used to mix solid fat (which is the butter, for this recipe) into the flour mixture. Once all the dough ingredients are combined and well blended, we will need to place it in the refrigerator so that the butter can harden. This helps develop the nice flaky texture.
+    
+    The last steps that needs to be done are to seal the filling that you recently made in the dough and fry the beef empanadas. Grab a portion of the dough and flatten it using a rolling pin. One the dough is flat, arrange the filling in the middle and fold the dough to secure the filling. That’s it! All we need to do now is fry the empanadas.`,
+    },
+    ],
   time: {
   prep: null,
   cook: null,
