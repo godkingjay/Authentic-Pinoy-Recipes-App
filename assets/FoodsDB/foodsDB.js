@@ -13463,7 +13463,12 @@ image: require(`./images/food/000000098.jpg`),
                 },
   ],
   instructions: [
-  
+`Prepare the gata by combining Knorr Ginataang Gulay Recipe Mix with 5 cups water. Stir until the powder completely dilutes.`,
+`Arrange pork, garlic, onion, and ginger in a pot. Pour 3 ½ cups gata. Put on a stovetop and apply heat. Continue to cook for 10 minutes after the liquid boils.`,
+`Add dried taro leaves. Cover the pot and continue to cook until the liquid is almost gone.`,
+`Add chili peppers and then pour remaining coconut milk. Stir and continue to cook until the liquid completely evaporates.`,
+`Transfer to a serving plate. Serve with rice!`,
+`Share and enjoy!`,
   ],
   nutrition: [
   { name: 'Serving', amount: '5g' },
