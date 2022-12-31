@@ -13395,14 +13395,14 @@ image: require(`./images/food/000000098.jpg`),
   information: null,
   recipe: {
   details: {
-  description: null,
+  description: `This is a recipe for Filipino Laing (taro leaves cooked in coconut milk)`,
   time: {
-  prep: null,
-  cook: null,
-  total: null,
+  prep: `5 Minutes`,
+  cook: `1 Hour`,
+  total: `1 Hour 5 Minutes`,
   },
-  servings: null,
-  calories: null,
+  servings: `6 People`,
+  calories: `12 kcal`,
   },
   ingredients: [
   {
