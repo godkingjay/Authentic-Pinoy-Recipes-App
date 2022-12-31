@@ -552,6 +552,10 @@ const Ingredients = [
     image: require('./images/ingredient/taro-gabi.png'),
   },
   {
+    name: 'taro-leaves',
+    image: require('./images/ingredient/taro-leaves.png'),
+  },
+  {
     name: 'tartar',
     image: require('./images/ingredient/tartar.png'),
   },
