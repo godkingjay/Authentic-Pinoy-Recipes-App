@@ -13373,6 +13373,78 @@ nutrition: [
 video: null,
 image: require(`./images/food/000000098.jpg`),
 },
+{
+  id: 99,
+  name: `Laing na Gabi`,
+  tagalog: `Laing na Gabi`,
+  type: [
+  `Vegetable Dish`,
+  `Main Course`,
+  ],
+  special: null,
+  keywords: [
+    `Bicol laing`,
+    `how to cook laing`,
+    `laing recipe`,
+  ],
+  description: `Laing is considered to be a staple in most Bicolano homes. This laing recipe is simple-to-follow and uses readily-available ingredients from the grocery. Making it at home is easy and fuss-free! You could adjust the taste accordingly by adding more shrimp paste or chili peppers. Substituting the pork slices with dried fish is also a healthy alternative to this dish.
+
+  Laing is primarily made up of dried taro (gabi) leaves simmered slowly in coconut milk. Remember to cook this dish low and slow so that all the flavors can come together. This dish is typically enjoyed with a serving of rice but puto or toasted bread works, too!`,
+  link: `https://panlasangpinoy.com/laing-na-gabi-recipe/`,
+  author: `Vanjo Merano`,
+  information: [
+  {
+  title: null,
+  content: null,
+  },
+  ],
+  recipe: {
+  details: {
+  description: null,
+  time: {
+  prep: null,
+  cook: null,
+  total: null,
+  },
+  servings: null,
+  calories: null,
+  },
+  ingredients: [
+  {
+  name: null,
+  amount: null,
+  tagalog: null,
+  type: null,
+  image: null,
+  },
+  ],
+  instructions: [
+  
+  ],
+  nutrition: [
+  { name: 'Serving', amount: '5g' },
+  { name: 'Calories', amount: '650kcal' },
+  { name: 'Carbohydrates', amount: '10g' },
+  { name: 'Protein', amount: '37g' },
+  { name: 'Fat', amount: '51g' },
+  { name: 'Saturated Fat', amount: '16g' },
+  { name: 'Polyunsaturated Fat', amount: '6g' },
+  { name: 'Monounsaturated Fat', amount: '25g' },
+  { name: 'Trans Fat', amount: '1g' },
+  { name: 'Cholesterol', amount: '196mg' },
+  { name: 'Sodium', amount: '868mg' },
+  { name: 'Potassium', amount: '888mg' },
+  { name: 'Fiber', amount: '3g' },
+  { name: 'Sugar', amount: '5g' },
+  { name: 'Vitamin A', amount: '5187IU' },
+  { name: 'Vitamin C', amount: '57mg' },
+  { name: 'Calcium', amount: '59mg' },
+  { name: 'Iron', amount: '4mg' },
+  ],
+  },
+  video: `https://youtu.be/igh6iitJaYo`,
+  image: require(`./images/food/000000099.jpg`),
+  },
 ];
 
 
@@ -13389,6 +13461,9 @@ type: [
 
 ],
 special: [
+
+],
+keywords: [
 
 ],
 description: null,
@@ -13548,6 +13623,7 @@ List:
 96. Chicken Empanada
 97. Pork Empanada
 98. Beef Empanada
+99. Laing na Gabi
 
 **************************************************************************************************************/
 
