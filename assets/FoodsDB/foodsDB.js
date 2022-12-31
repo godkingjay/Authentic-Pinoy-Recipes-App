@@ -13392,12 +13392,7 @@ image: require(`./images/food/000000098.jpg`),
   Laing is primarily made up of dried taro (gabi) leaves simmered slowly in coconut milk. Remember to cook this dish low and slow so that all the flavors can come together. This dish is typically enjoyed with a serving of rice but puto or toasted bread works, too!`,
   link: `https://panlasangpinoy.com/laing-na-gabi-recipe/`,
   author: `Vanjo Merano`,
-  information: [
-  {
-  title: null,
-  content: null,
-  },
-  ],
+  information: null,
   recipe: {
   details: {
   description: null,
