@@ -6,6 +6,13 @@ tagalog: 'Pansit Canton',
 type: [
 'Noodle Dish'
 ],
+special: [
+`Celebration`,
+],
+keywords: [
+`filipino pancit`,
+`pansit`,
+],
 description: `Pancit Canton it is a type of Lo Mein or tossed noodles known as flour sticks. This dish is often served during birthdays and special occasions to symbolize long life. It is prepared using a variety of ingredients, which makes it look festive. There is also a combination of different flavors that make it delicious.`,
 link: 'https://panlasangpinoy.com/pancit-canton-recipe/',
 author: 'Vanjo Merano',
@@ -235,6 +242,13 @@ type: [
 'Noodle Dish',
 `Street Food`,
 ],
+special: [
+`Celebration`,
+],
+keywords: [
+`filipino pancit`,
+`pansit`,
+],
 description: `Pancit Bihon or Pancit Guisado is a Filipino noodle dish and is a staple second to rice.This was brought by the chinese and was localized since then. This Pancit Bihon Recipe uses “Bihon” or rice sticks mixed with pork, chicken, and vegetables. This dish is always served during Fiesta, birthday parties, and other special occasions.`,
 link: 'https://panlasangpinoy.com/pancit-guisado/',
 author: 'Vanjo Merano',
@@ -361,6 +375,13 @@ name: 'Pancit Palabok',
 tagalog: 'Pansit Palabok',
 type: [
 'Noodle Dish'
+],
+special: [
+`Celebration`,
+],
+keywords: [
+`filipino pancit`,
+`pansit`,
 ],
 description: `A favorite at workplace parties, birthdays, and other celebrations, Pancit Palabok is one of the staple noodles in Filipino cuisine. Tasty and filling, this pancit contains a savory sauce that will make your mouth water. It has become so popular that one of our most frequented fast food chains, Jollibee, has taken it as one of their offerings!`,
 link: 'https://panlasangpinoy.com/asian-filipino-food-noodles-pansit-pancit-palabok-recipe/',
@@ -581,6 +602,13 @@ tagalog: "Pansit Malabon",
 type: [
 `Noodle Dish`
 ],
+special: [
+`Celebration`,
+],
+keywords: [
+`filipino pancit`,
+`pansit`,
+],
 description: `Pancit Malabon is type of Filipino noodle dish. It is composed of thick rice noodles with an orangey-red sauce. There are a variety of components in the sauce. It is made-up of chopped boiled pork, smoked fish flakes, crushed pork rinds, fish sauce, and annatto oil. The color of the sauce is attributed to the oil, which is made by combining cooking oil and annatto seeds. This noodle dish has generous seafood toppings, which are (but not limited to) shrimp, squid, and oysters. In addition to these toppings, sliced boiled eggs, blanched Napa cabbage, chopped scallions, and more crushed pork rinds are also added.`,
 link: `https://panlasangpinoy.com/pancit-malabon/`,
 author: `Vanjo Merano`,
@@ -772,6 +800,10 @@ special: [
 `Hot Food`,
 `Supper`,
 ],
+keywords: [
+`filipino pancit`,
+`pansit`,
+],
 description: `Pork Lomi is a type of Filipino noodle dish wherein boiled pork slices, chorizo, and vegetables along with fresh round noodles are cooked in a rich and thick soup base. A piece of egg is added towards the end of the cooking process.
 
 Lomi can be enjoyed anytime of the day. It is usually consumed for breakfast on a cold day. Typically, lomi is served during mid-afternoon as a form of heavy snack, or late at night after consuming beer or spirits.`,
@@ -924,6 +956,10 @@ type: [
 `Noodle Dish`,
 ],
 special: null,
+keywords: [
+`filipino pancit`,
+`pansit`,
+],
 description: `Pancit habhab or pancit Lucban is a traditional Filipino type of pancit originating from the Quezon province. The dish is usually made with a combination of dried flour noodles (miki Lucban), pork belly slices, beef stock, shrimp, pig liver, bok choy, peas, carrots, onions, garlic, soy sauce, oil, and black pepper.
 
 The ingredients are sautéed and stir-fried until everything is tender, and the dish is then served on a banana leaf and topped with shrimp and vegetables. Lime wedges are often served on the side. Pancit habhab is enjoyed without utensils – you pick up the banana leaf and eat the noodle dish like a sandwich, just don't eat the banana leaf wrapper.`,
@@ -1081,6 +1117,10 @@ special: [
 `Fiesta`,
 `Birthday`,
 ],
+keywords: [
+`filipino pancit`,
+`pansit`,
+],
 description: `Pancit sotanghon is a traditional type of pancit originating from the Philippines. The dish is usually made with a combination of sotanghon (cellophane or glass) noodles, shredded chicken meat, Chinese sausage, pork slices, parsley, soy sauce, carrots, snap peas, cabbage, onions, garlic, salt, pepper, and oil.
 
 This type of pancit is made in a wok or a large pan, and all ingredients are sautéed and stir-fried until everything becomes tender and fully cooked. This noodle dish is typically served straight out of the pan, while still hot, and it's traditionally accompanied by lemon or calamansi wedges on the side.`,
@@ -1229,6 +1269,10 @@ special: [
 `Celebration`,
 `Fiesta`,
 `Birthday`,
+],
+keywords: [
+`filipino pancit`,
+`pansit`,
 ],
 description: `Pancit Cabagan is a traditional Filipino type of pancit originating from Cabagan. The dish is usually made with a combination of lechon carajay (crispy pork belly that's boiled with spices and deep-fried), egg noodles, quail eggs, carrots, bell peppers, parsley, pork shoulder, cabbage, garlic, beef stock, soy sauce, fish sauce, scallions, oil, and black pepper.
 
