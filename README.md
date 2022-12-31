@@ -22,7 +22,7 @@ Features include:
 # Download
 Get the app from the [releases page](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases).
 
-# Issues, Feature Requests and Contributing
+# Issues and Feature Requests
 
 Please make sure to read the full guidelines. Your issue may be closed without warning if you do not.
 
