@@ -2237,6 +2237,13 @@ type: [
 `Meat Dish`,
 ],
 special: null,
+keywords: [
+`adobo`,
+`adobong turmeric`,
+`turmeric adobo`,
+`filipino adobo`,
+`how to cook turmeric adobo`,
+],
 description: `Adobong dilaw is a traditional stew originating from the Philippines. This type of adobo is usually made with a combination of turmeric, vinegar, pork or chicken, potatoes, garlic, sugar, salt, oil, peppercorns, bay leaves, and water. The meat is seasoned with salt and browned in oil.
 
 The potatoes are deep-fried until golden brown, and the garlic is sautéed in oil over low heat. The vinegar, peppercorns, bay leaves, sugar, and water are simmered into a sauce, then mixed with the meat and potatoes. The stew is cooked until everything is tender and the sauce is almost fully absorbed.
