@@ -2705,6 +2705,18 @@ type: [
 `Street Food`,
 `Appetizer`,
 ],
+special: [
+`Celebration`,
+`New Year`,
+`Birthday`,
+`Christmas`,
+`Fiesta`,
+],
+keywords: [
+`eggroll`,
+`lumpia`,
+`lumpiang shanghai`,
+],
 description: `Lumpia or Lumpiang Shanghai is a Filipino egg roll dish. The filling or meat mixture is mainly composed of ground pork, minced carrots, and minced onion. Spices and seasonings are added into the mixture. It is then wrapped and rolled individually in thin flour sheets known as lumpia wrappers.
 
 Each piece of lumpia is deep fried until golden brown. This makes it crunchy and more enjoyable to eat. It is served with either sweet and sour sauce, or with banana ketchup.
