@@ -1437,11 +1437,11 @@ type: [
 ],
 special: null,
 keywords: [
-  `filipino sisig`,
-  `how to cook sisig`,
-  `pork sisig`,
-  `Sisig`,
-  `sisig recipe`,
+`filipino sisig`,
+`how to cook sisig`,
+`pork sisig`,
+`Sisig`,
+`sisig recipe`,
 ],
 description: `Sisig refers to a finely chopped pork dish of Filipino origin. This recipe uses pork belly and maskara (pig face). It is popular in the Philippines and is now gaining popularity worldwide. It can be consumed as an appetizer and a main dish.`,
 link: 'https://panlasangpinoy.com/sisig-recipe-knr-kls/',
@@ -1615,6 +1615,14 @@ type: [
 "Chicken Dish",
 "Meat Dish",
 `Main Course`,
+],
+special: null,
+keywords: [
+`adobo`,
+`adobong manok`,
+`chicken adobo`,
+`filipino adobo`,
+`how to cook chicken adobo`
 ],
 description: `Chicken Adobo is a type of Filipino chicken stew. Chicken pieces are marinated in soy sauce and spices, pan-fried, and stewed until tender. The dish gained popularity because of its delicious taste and ease in preparation.
 
