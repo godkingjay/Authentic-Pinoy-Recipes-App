@@ -2372,6 +2372,13 @@ type: [
 `Seafood Dish`,
 ],
 special: null,
+keywords: [
+`adobo`,
+`adobong hipo`,
+`shrimp adobo`,
+`filipino adobo`,
+`how to cook shrimp adobo`,
+],
 description: `Adobong hipon is a traditional dish originating from the Philippines. This type of Filipino adobo is made with a combination of shrimps, soy sauce, vinegar, garlic, peppercorns, oil, and salt. The shrimps are peeled and left with their tails and heads intact, and then marinated in a mixture of crushed garlic, soy sauce, vinegar, and peppercorns.
 
 Once marinated, the shrimps are stir-fried in hot oil and then shortly simmered in a mixture of leftover marinade and water. If desired, onions, scallions, or chili peppers can also be added to this adobo. Adobong hipon is often served with rice on the side.`,
