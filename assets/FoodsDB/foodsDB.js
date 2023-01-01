@@ -1929,6 +1929,13 @@ type: [
 `Main Course`,
 ],
 special: null,
+keywords: [
+`adobo`,
+`adobong baboy`,
+`pork adobo`,
+`filipino adobo`,
+`how to cook pork adobo`,
+],
 description: `Adobong baboy is a traditional stew originating from the Philippines. This type of Filipino adobo is made with a combination of pork belly, garlic, soy sauce, vinegar, sugar, bay leaves, peppercorns, and salt. The pork is marinated in a combination of garlic and soy sauce, and it's then browned in a pan over high heat.
 
 The rest of the ingredients are added to the pan (except the vinegar), and the dish is simmered for a few minutes before the vinegar, salt, and water or soy sauce are added to the pan. Once fully cooked, this pork stew is served hot with the thick sauce and white rice on the side.`,
