@@ -2716,7 +2716,7 @@ keywords: [
 `eggroll`,
 `lumpia`,
 `lumpiang shanghai`,
-`spring roll`
+`spring roll`,
 ],
 description: `Lumpia or Lumpiang Shanghai is a Filipino egg roll dish. The filling or meat mixture is mainly composed of ground pork, minced carrots, and minced onion. Spices and seasonings are added into the mixture. It is then wrapped and rolled individually in thin flour sheets known as lumpia wrappers.
 
@@ -2886,6 +2886,19 @@ type: [
 `Stew`,
 `Meat Dish`,
 `Pork Dish`
+],
+special: [
+`Celebration`,
+`Fiesta`,
+`Christmas`,
+`Event`,
+`New Year`,
+],
+keywords: [
+`kaldereta`,
+`caldereta`,
+`stew`,
+`pork stew`,
 ],
 description: `Pork Caldereta is a Filipino tomato based stew. It is composed of cubed pork , potato, carrots, tomato sauce,andliver spread. There are also regions in the Philippines that makes use of peanut butter.
 
