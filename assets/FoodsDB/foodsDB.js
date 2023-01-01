@@ -1784,6 +1784,14 @@ type: [
 `Stew`,
 `Main Course`,
 ],
+special: null,
+keywords: [
+`adobo`,
+`adobong pusit`,
+`squid adobo`,
+`filipino adobo`,
+`how to cook squid adobo`,
+],
 description: `Adobong pusit is a traditional Filipino dish that's a part of the famous adobo group of dishes. The dish is prepared with a combination of fresh squid and its ink, soy sauce, vinegar, garlic, salt, sugar, oil, onions, and tomatoes. The squid is first boiled in a mixture of soy sauce and vinegar, and it's then sautéed in a combination of garlic, onions, and tomatoes.
 
 It's important not to overcook the squid as its texture will become rubbery. This simple squid stew with robust flavors is sometimes accompanied by vegetable-based dishes on the side.`,
