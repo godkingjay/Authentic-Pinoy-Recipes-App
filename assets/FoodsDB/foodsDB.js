@@ -2716,6 +2716,7 @@ keywords: [
 `eggroll`,
 `lumpia`,
 `lumpiang shanghai`,
+`spring roll`
 ],
 description: `Lumpia or Lumpiang Shanghai is a Filipino egg roll dish. The filling or meat mixture is mainly composed of ground pork, minced carrots, and minced onion. Spices and seasonings are added into the mixture. It is then wrapped and rolled individually in thin flour sheets known as lumpia wrappers.
 
