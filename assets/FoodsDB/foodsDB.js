@@ -2060,6 +2060,13 @@ type: [
 `Stew`
 ],
 special: null,
+keywords: [
+`adobo`,
+`adobong kangkong`,
+`spinach adobo`,
+`filipino adobo`,
+`how to cook spinach adobo`,
+],
 description: `Adobong kangkong is a classic dish you can find in several Filipino homes. This humble dish is a combination of several ingredients that are inexpensive and easily accessible. We already know how much Filipinos love adobo––but with kangkong especially, it’s so hard not to love!`,
 link: `https://panlasangpinoy.com/adobong-kangkong/`,
 author: `Vanjo Merano`,
