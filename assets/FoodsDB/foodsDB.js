@@ -2546,6 +2546,18 @@ type: [
 `Street Food`,
 `Appetizer`,
 ],
+special: [
+`Celebration`,
+`Birthday`,
+`Christmas`,
+`New Year`,
+`Fiesta`,
+],
+keywords: [
+`eggroll`,
+`lumpia`,
+`lumpiang shanghai`,
+],
 description: `Lumpia or Lumpiang Shanghai is a type of Filipino egg roll. The basic filling is composed of ground pork along with minced onions, carrots, and seasonings such as salt and ground black pepper. This recipe post is all about how to make basic lumpia. Feel free to use this as a baseline.`,
 link: `https://panlasangpinoy.com/filipino-lumpia-recipe/`,
 author: `Vanjo Merano`,
