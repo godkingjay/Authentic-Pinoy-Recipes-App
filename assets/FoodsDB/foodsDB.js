@@ -3263,7 +3263,15 @@ id: 22,
 name: `Eggplant Omelet`,
 tagalog: `Tortang Talong`,
 type: [
-'Egg Dish'
+'Egg Dish',
+`Egg Dish`,
+],
+special: null,
+keywords: [
+`talong`,
+`torta`,
+`ensalada`,
+`ensaladang talong`,
 ],
 description: `Beating an egg can make for a great ingredient in several recipes around the world. From baked goods to classic omelettes, it is endlessly versatile, and goes with both sweet and savory dishes. But who knew that some beaten eggs, eggplant, and the right seasonings could create the ever useful and delicious Tortang Talong?
 
