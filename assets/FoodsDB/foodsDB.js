@@ -4118,6 +4118,15 @@ type: [
 `Deef-Fried Dish`,
 `Meat Dish`
 ],
+special: [
+`Celebration`,
+`Fiesta`,
+`New Year`,
+`Christmas`,
+],
+keywords: [
+`pata`,
+],
 description: `Crispy Pata or crispy pork leg is a popular Filipino pork dish. This dish can be eaten as a main dish along with rice and atcharang papaya. People also consume it as beer food or pulutan. It is best when dipped in a spicy vinegar mixture.`,
 link: `https://panlasangpinoy.com/crispy-pata/`,
 author: `Vanjo Merano`,
