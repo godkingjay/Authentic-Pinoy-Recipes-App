@@ -3069,6 +3069,16 @@ type: [
 `Beef Dish`,
 `Meat Dish`
 ],
+special: [
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`filipino kare kare`,
+`kare kare`,
+`kare kare recipe`,
+`how to cook kare kare`,
+],
 description: `Kare Kare is a type of Filipino stew with a rich and thick peanut sauce. It is a popular dish in the Philippines served during special occasions. The traditional recipe is composed of ox tail. There are instances wherein both ox tripe and tail are used. The vegetable components of the dish are string beans, eggplant, bok choy, and banana blossoms. Lightly browned toasted ground rice is used to thicken the sauce.
 
 Palayok or clay pot is used to cook this dish. It also functions as the serving bowl at the same time.The best way to eat kare-kare is to pair it with plain white rice. Bagoong alamang or fermented shrimp paste completes the dish by providing flavor. Simply combine a spoonful of rice and kare-kare with a small portion of bagoong and enjoy!`,
