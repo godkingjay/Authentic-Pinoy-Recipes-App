@@ -3727,6 +3727,20 @@ type: [
 `Dessert`,
 `Custard`
 ],
+special: [
+`Celebration`,
+`Birthday`,
+`Christmas`,
+`New Year`,
+`Fiesta`,
+],
+keywords: [
+`creme brulee`,
+`creme caramel`,
+`filipino flan`,
+`leche flan`,
+`leche flan recipe`,
+],
 description: `Leche Flan is a dessert made-up of eggs and milk with a soft caramel on top. It resembles crème caramel and caramel custard. This delicious dessert is known throughout the world.It has been a regular item in themenu of most restaurants because of its taste, ease in preparation and long shelf life. It can also be added as a component to build other great tasting dessert creations.`,
 link: `https://panlasangpinoy.com/leche-flan/`,
 author: `Vanjo Merano`,
