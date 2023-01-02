@@ -3967,6 +3967,12 @@ type: [
 `Pork Dish`,
 `Breakfast`
 ],
+special: null,
+keywords: [
+`pork tocino`,
+`tocino`,
+`tosilog`,
+],
 description: `Tocino is a cured meat product native to the Philippines. It is sometimes referred to as sweet red pork. The curing preparation for this pork dish is similar to that of ham and bacon, except that red food coloring is needed to for this Filipino cured meat.
 
 It was said to be named after the Spanish word “tocino”, which is used to describe cured meats.`,
