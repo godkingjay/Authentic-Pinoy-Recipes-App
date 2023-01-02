@@ -3862,6 +3862,12 @@ type: [
 `Deep-Fried Dessert`,
 `Deep-Fried Dish`
 ],
+special: null,
+keywords: [
+`turon`,
+`banana lumpia`,
+`banana`,
+],
 description: `Turon is a type of Filipino snack. It is also called deep-fried banana rolls or banana lumpia. A typical Filipino meryenda and dessert, Turon has gained popularity throughout the years.
 
 This sweet snack can usually be seen on the streets being peddled along with bananacue or even vegetable lumpia. It is easy to make and the ingredients are inexpensive.`,
