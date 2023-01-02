@@ -4227,6 +4227,18 @@ type: [
 `Pork Dish`,
 `Deep-Fried Dish`
 ],
+special: [
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`lechon`,
+`lechong baboy`,
+`cooking`,
+`crispy pork belly`,
+`deep fried pork belly`,
+`lechon kawali`,
+],
 description: `Lechon kawali with a cup of rice please! This is my regular order at least once a week when I was in high school. Our school canteen serves one of the best versions of this dish. I like it best when the pork just got out of the pot. It is super crispy and hot.`,
 link: `https://panlasangpinoy.com/lechon-kawali/`,
 author: `Vanjo Merano`,
