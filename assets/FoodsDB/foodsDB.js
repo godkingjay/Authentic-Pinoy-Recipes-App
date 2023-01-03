@@ -4586,6 +4586,12 @@ type: [
 `Breakfast`,
 `Egg Dish`,
 ],
+special: null,
+keywords: [
+`silog`,
+`hotdog`,
+`itlog`,
+],
 description: `Hotsilog is a traditional dish originating from the Philippines, consisting of garlic fried rice, fried eggs, and hot dogs. The Filipino-style hot dogs are red and juicy, usually slightly cut on the sides. They're boiled, then fried in oil and arranged on a plate with garlic fried rice and sunny-side-up fried eggs.
 
 Hotsilog is traditionally served for breakfast and it's accompanied by banana ketchup, atchara (pickled shredded papaya), and tomato slices on the side.`,
