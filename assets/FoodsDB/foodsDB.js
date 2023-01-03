@@ -3263,8 +3263,8 @@ id: 22,
 name: `Eggplant Omelet`,
 tagalog: `Tortang Talong`,
 type: [
-'Egg Dish',
 `Egg Dish`,
+`Breakfast`,
 ],
 special: null,
 keywords: [
@@ -4425,6 +4425,11 @@ type: [
 `Beef Dish`,
 `Breakfast`,
 `Egg Dish`,
+],
+special: null,
+keywords: [
+`beef tapa`,
+`tapa`,
 ],
 description: `Tapsilog is one of my favorite breakfast meal options during big days. These are days wherein I need to complete several tasks. Having this meal gives me the needed energy to perform work and it keeps me full longer. I also enjoy starting my day with a delicious breakfast.`,
 link: `https://panlasangpinoy.com/tapsilog-recipe/`,
