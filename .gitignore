@@ -11,7 +11,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 babel.config.js
-merge_to_main.bat
+*.bat
 package-lock.json
 web-build/
 assets/app_icons/
