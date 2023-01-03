@@ -5111,6 +5111,13 @@ type: [
 `Main Course`,
 `Stew`
 ],
+special: null,
+keywords: [
+`beef recipes`,
+`beef shank`,
+`beef soup`,
+`bulalo batangas`,
+],
 description: `It’s a well known fact that Filipinos love stew and soup dishes. From the sour sinigang to the sweet tinola, there’s guaranteed to be a soup dish for every flavor palate preference –– all great to sip and enjoy, especially during long, cool nights. But one of the most popular, and arguably most delicious, soups out there, is the classic Bulalo, or beef shank stew.`,
 link: `https://panlasangpinoy.com/bulalo-stewed-beef-shank/`,
 author: `Vanjo Merano`,
