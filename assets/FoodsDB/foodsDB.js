@@ -4773,6 +4773,14 @@ type: [
 `Breakfast`,
 `Egg Dish`,
 ],
+special: null,
+keywords: [
+`silog`,
+`longganisa`,
+`itlog`,
+`sinangag`,
+`fried rice`,
+],
 description:`Longsilog is a traditional Filipino dish that's served for breakfast. The dish and its name consist of a combination of longganisa sausage, sinangag (garlic rice), and itlog (fried eggs). The Filipino-style sausages (pork, garlic, vinegar, salt, sugar) are boiled and fried in their own fat until crispy, while the garlic rice and the eggs are fried in oil.
 
 When served, longsilog is traditionally accompanied by freshly sliced tomatoes or cucumbers.`,
