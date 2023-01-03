@@ -5264,6 +5264,13 @@ type: [
 `Chicken Dish`,
 `Meat Dish`
 ],
+special: null,
+keywords: [
+`tinola`,
+`manok`,
+`chicken`,
+`chicken soup`,
+],
 description: `Tinolang manok or chicken tinola is a nourishing Filipino chicken soup. It can consist of various chicken cuts and internal organs cooked in a flavorful broth alongside green papaya and chili pepper or malunggay leaves. The broth is usually generously seasoned with ginger, garlic, and fish sauce, and the soup is often served over plain white rice.
 
 Chicken tinola is a staple in every Filipino household and can be enjoyed as a starter or a hearty main course.`,
