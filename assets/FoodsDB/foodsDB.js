@@ -4430,6 +4430,9 @@ special: null,
 keywords: [
 `beef tapa`,
 `tapa`,
+`sinangag`,
+`itlog`,
+`fried rice`,
 ],
 description: `Tapsilog is one of my favorite breakfast meal options during big days. These are days wherein I need to complete several tasks. Having this meal gives me the needed energy to perform work and it keeps me full longer. I also enjoy starting my day with a delicious breakfast.`,
 link: `https://panlasangpinoy.com/tapsilog-recipe/`,
@@ -4591,6 +4594,8 @@ keywords: [
 `silog`,
 `hotdog`,
 `itlog`,
+`sinangag`,
+`fried rice`,
 ],
 description: `Hotsilog is a traditional dish originating from the Philippines, consisting of garlic fried rice, fried eggs, and hot dogs. The Filipino-style hot dogs are red and juicy, usually slightly cut on the sides. They're boiled, then fried in oil and arranged on a plate with garlic fried rice and sunny-side-up fried eggs.
 
@@ -4679,6 +4684,14 @@ tagalog: `Tosilog`,
 type: [
 `Breakfast`,
 `Egg Dish`,
+],
+special: null,
+keywords: [
+`silog`,
+`tocino`,
+`itlog`,
+`sinangag`,
+`fried rice`,
 ],
 description: `Tosilog is a popular Filipino breakfast meal. The name tosilog was derived from the different components of the meal which are: Tocino (cured pork), Sinangag (Filipino garlic fried rice), and Sunny-side up egg. Tosilog is best eaten with a spicy vinegar dip.`,
 link: `https://panlasangpinoy.com/tosilog-recipe/`,
