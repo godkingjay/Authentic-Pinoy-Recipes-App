@@ -5795,6 +5795,10 @@ type: [
 `Street Food`,
 `Breakfast`,
 ],
+special: null,
+keywords: [
+`bibingka`
+],
 description: `In its simplest form, bibingka is a simple Filipino cake that consists of rice flour and water. It was initially prepared in clay pots that were lined with banana leaves, which would impart a distinctive, smoky flavor to the dish. Bibinka is believed to have appeared under the foreign culinary influence, and the first written reference describing a similar cake dates back to 1751.
 
 Through history, bibinka was adapted with additional ingredients, and nowadays it is typically prepared with milk, eggs, coconut milk, sugar, and butter, while modern variations may include anything from grated cheese, salted duck eggs or grated coconut, and a variety of different sweet and savory toppings.
