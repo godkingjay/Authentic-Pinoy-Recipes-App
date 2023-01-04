@@ -6610,6 +6610,14 @@ type: [
 `Meat Dish`,
 `Main Course`,
 ],
+special: [
+`Celebration`,
+`Birthday`,
+`Fiesta`,
+],
+keywords: [
+`mechado`,
+],
 special: null,
 description: `Chicken mechado is stewed in tomato sauce, soy sauce, bell pepper, potatoes, carrots, laurel leaf, onions and garlic cook over slow fire until the meat becomes tender. This results to flavorful and tender chicken meat and vegetables with rich brown sauce developed during the time of cooking.`,
 link: `https://panlasangpinoy.com/chicken-mechado/`,
