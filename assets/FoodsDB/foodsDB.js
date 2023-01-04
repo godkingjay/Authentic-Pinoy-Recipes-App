@@ -6081,6 +6081,13 @@ type: [
 `Sweets`,
 `Breakfast`
 ],
+special: null,
+keywords: [
+`tofu`,
+`sago`,
+`arnibal`,
+`soft tofu`,
+],
 description: `Taho is a sweet Filipino dessert which consists of fresh soft tofu doused in arnibal syrup and sprinkled with plump sago pearls. Similar desserts can be found in numerous Asian countries, and most of them call for the usage of the softest tofu variety, known as silky tofu, which has a tender and creamy texture and an incredibly soft consistency.
 
 Shortly heated or steamed, it is covered in sweet arnibal syrup (made with melted brown sugar) and enriched with mild vanilla flavors. Usually, the dessert is topped with chewy sago pearls which are similar in appearance and texture to tapioca. Taho is usually sold by street vendors who sell this traditional delicacy in the early morning as a sweet, protein-packed breakfast.`,
