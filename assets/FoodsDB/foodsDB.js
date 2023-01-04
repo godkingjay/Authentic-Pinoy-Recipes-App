@@ -5423,6 +5423,12 @@ type: [
 `Dessert`,
 `Ice Cream`
 ],
+special: null,
+keywords: [
+`halo-halo`,
+`ice`,
+`yelo`,
+],
 description: `The Halo-Halo Recipe is truly a Pinoy dessert which contains shaved ice, evaporated milk, sugar or some syrup, sweet beans, sweet banana, nata de coco, garbanzos, jelly, macapuno, sago, gulaman, sweet jackfruit, ube halaya and leche flan although it doesn’t necessarily mean you need to have all ingredients to make it but the shaved ice, evaporated milk and sugar needs to be there all the time. This is the best way to do it if you want to know how to make Halo-Halo.`,
 link: `https://pilipinasrecipes.com/halo-halo-recipe/`,
 author: `@pilipinasrecipes`,
