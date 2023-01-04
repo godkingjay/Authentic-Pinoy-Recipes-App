@@ -5648,6 +5648,14 @@ type: [
 `Barbeque`,
 `Meat Dish`
 ],
+special: null,
+keywords: [
+`inasal`,
+`manok`,
+`barbeque`,
+`inihaw na manok`,
+`roasted chicken`
+],
 description: `Chicken Inasal is a grilled chicken dish and one of the well known Ilonggo dishes. This is done by marinating chicken pieces in a unique blend of spices and grilling them until done. Sounds like a simple grilled chicken recipe, isn’t it? Well, it might sound like one; however, the special marinade and basting sauce makes this Ilonggo version of the grilled chicken extra special.`,
 link: `https://panlasangpinoy.com/grilled-chicken-inasal-recipe/`,
 author: `Vanjo Merano`,
