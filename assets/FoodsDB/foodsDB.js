@@ -6290,6 +6290,13 @@ type: [
 `Main Course`,
 `Pork Dish`
 ],
+special: null,
+keywords: [
+`dugp`,
+`blood stew`,
+`dinuguan`,
+`tidtad`
+],
 description: `Dinuguan is the Filipino version of blood stew. Pork slices are sautéed in onion and garlic and cooked with pork blood. Sometimes, pork innards such as the small and large intestines along with other internal parts of the pig are added.`,
 link: `https://panlasangpinoy.com/dinuguan-blood-stew/`,
 author: `Vanjo Merano`,
