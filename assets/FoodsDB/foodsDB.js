@@ -5975,7 +5975,7 @@ keywords: [
 `fried fish`,
 `pritong isda`,
 `dried fish`,
-,`binilad na isda`
+`binilad na isda`,
 ],
 description: `Daing is a Filipino term which refers to a vast category of marinated or salted sun-dried fish. Depending on the region and the technique, daing can be produced with various types of fish that may differ in texture and moisture levels. Marinated or dried fish is used in numerous Filipino dishes as an ingredient, side dish, topping, or a condiment which gives flavor to various stewed or stir-fried dishes.
 
