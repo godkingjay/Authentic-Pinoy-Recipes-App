@@ -6200,6 +6200,12 @@ type: [
 `Snack`,
 `Dessert`
 ],
+special: null,
+keywords: [
+`buchi`,
+`linga`,
+`balls`,
+],
 description: `Butsi balls are the Filipino version of traditional Chinese jian dui sweets. They are made with glutinous rice flour that is formed in small round shapes and stuffed with a variety of sweet fillings such as sweetened mung bean, creamy lotus, red bean paste, or shredded coconut. Butsi are usually coated in sesame seeds and fried until golden.
 
 Even though they originated as a traditional Chinese delicacy, their Filipino adaptation has become incredibly popular. With their crispy shell, chewy texture, and creamy filling, they can be enjoyed as a satisfying dessert or a quick sweet snack.`,
