@@ -7411,6 +7411,15 @@ type: [
 `Side Dish`,
 `Snack`
 ],
+special: [
+`Fiesta`,
+`Birthday`,
+`Celebration`,
+],
+keywords: [
+`how to cook puto recipe`,
+`how to cook cheese puto recipe`,
+],
 description: `The lightly sweetened puto are popular Filipino steamed rice cakes traditionally consisting of finely ground soaked rice that is steamed in round containers and served sliced. The popularity of these versatile cakes has caused the development of many modern puto varieties, which often vary in texture, color, shape, size, and flavor.
 
 Because of their neutral flavor, they can be enjoyed as a quick snack or a dessert, but they are also served as an accompaniment to savory dishes such as hearty Filipino stews.`,
