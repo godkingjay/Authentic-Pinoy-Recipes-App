@@ -7650,6 +7650,18 @@ type: [
 `Pork Dish`,
 `Meat Dish`
 ],
+special: [
+`Celebration`,
+`Birthday`,
+`Fiesta`
+],
+keywords: [
+`how to cook pork stew recipe`,
+`how to cook stew recipe`,
+`how to cook pork menudo recipe`,
+`how to cook menudo recipe`,
+`how to cook pork recipe`,
+],
 description: `This comforting Filipino stew usually combines diced marinated pork, carrots, potatoes, and pork's liver with a creamy tomato sauce. Since it is one of the national Filipino dishes, numerous regional varieties often employ raisins, bell peppers, garbanzo beans, and sausages.
 
 The name menudo probably stems from menudencias, meaning offal, which might suggest that the dish used to include other innards, though pork liver is the most common option nowadays. It can also refer to small or tiny, possibly referring to the size of the ingredients.
