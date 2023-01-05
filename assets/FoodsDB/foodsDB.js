@@ -6801,7 +6801,15 @@ type: [
 `Meat Dish`,
 `Beef Dish`,
 ],
-special: null,
+special: [
+`Celebration`,
+`Birthday`,
+`Fiesta`
+],
+keywords: [
+`how to cook mechado recipe`,
+`how to cook beef stew`,
+],
 description: `Beef Mechado is a delicious tomato-based stew that pairs perfectly with a warm cup of rice. It is hearty and filling, and its taste can bring back the comfort of home. The sauce can be made from chopped ripe tomato or canned tomato sauce. This dish is prepared mostly during weekends or special occasions.`,
 link: `https://panlasangpinoy.com/filipino-pinoy-food-tomato-sauce-beef-mechado-recipe/`,
 author: `Vanjo Merano`,
