@@ -7865,6 +7865,16 @@ type: [
 `Meat Dish`,
 `Noodle Dish`
 ],
+special: null,
+keywords: [
+`how to cook soup recipe`,
+`how to cook meat soup recipe`,
+`how to cook pork soup recipe`,
+`how to cook meat recipe`,
+`how to cook pork recipe`,
+`how to cook noodle recipe`,
+`how to cook noodle soup recipe`,
+],
 description: `Batchoy is a soup dish composed of sliced pork, pig’s innards, and miki noodles.This dish originated from the district of La Paz in Iloilo City — in the island of Panay. Throughout the years, batchoy gained popularity and has been a favorite soup dish along with beef mami, beef pares, and bulalo. The miki noodles used in this recipe refers to fresh egg noodles. This type of noodle is often used in soup dishes. Since the noodles are fresh, it requires minimal cooking time. Sometimes, pouring hot broth over the noodles is enough to cook it.`,
 link: `https://panlasangpinoy.com/batchoy/`,
 author: `Vanjo Merano`,
