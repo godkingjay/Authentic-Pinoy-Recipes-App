@@ -7514,6 +7514,10 @@ type: [
 `Pickling`,
 `Side Dish`
 ],
+special: null,
+keywords: [
+`how to cook atchara recipe`,
+],
 description: `Atchara or Atcharang Papaya is an appetizer made from pickled green papaya. Julienned or grated green papaya are placed in airtight containers and soaked for a week in cooked vinegar and sugar mixture with onions, garlic, ginger, peppercorn, and red bell pepper.
 
 This is probably the most famous appetizer in the Philippines because every region seems to have their own version. This sweet and sour tasting appetizer is usually served with fried dishes such as crispy pata, longganisa, tocino, and even lechon manok. In addition, this can also give life to dull dishes.`,
