@@ -7107,6 +7107,11 @@ type: [
 `Porridge`,
 `Snack`
 ],
+special: null,
+keywords: [
+`how to cook porridge recipe`,
+`how to cook arroz caldo recipe`,
+],
 description: `Arroz Caldo literally means warm rice. This congee that closely resembles risotto has been a favorite Filipino snack. What goes with arroz caldo? I enjoy pairing it with tokwat baboy, which is a combination of boiled pork slices and fried tofu soaked in a vinegar mixture.
 
 Although arroz caldo is of Chinese origin, the name was actually given by the Spaniards because of pronunciation issues.`,
