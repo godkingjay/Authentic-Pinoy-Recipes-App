@@ -8118,6 +8118,11 @@ type: [
 `Breakfast`,
 `Pudding`
 ],
+special: null,
+keywords: [
+`how to cook porridge recipe`,
+`how to cook champorado recipe`,
+],
 description: `Champorado is a thick Filipino rice pudding. Originally prepared with chocolate, nowadays it is usually made with cooked glutinous rice blended with sugar and cocoa powder. The origins of the dish derive from a Mexican chocolate-based drink known as champurrado, which was introduced during the colonial period.
 
 Usually enjoyed as a hearty breakfast or a sweet afternoon snack, Filipino champorado can be served hot or cold, drizzled with condensed milk, or accompanied by salted dry fish.`,
