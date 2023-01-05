@@ -8011,6 +8011,13 @@ type: [
 `Street Food`,
 `Deep-Fried Dish`
 ],
+special: null,
+keywords: [
+`how to cook egg recipe`,
+`how to cook kwek-kwek recipe`,
+`how to cook kwek kwek recipe`,
+`how to cook street food recipe`,
+],
 description: `Kwek Kwek or Orange eggs are boiled quailed eggs coated with an orange batter and deep-fried until the batter is crispy. This is categorized as a street food and are sold along with fish balls, squid balls, and chicken balls.`,
 link: `https://panlasangpinoy.com/pinoy-street-food-orange-egg-tokneneng-qwek-kwek-kwek-recipe/`,
 author: `Vanjo Merano`,
