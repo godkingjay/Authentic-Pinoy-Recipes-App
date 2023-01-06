@@ -9065,6 +9065,13 @@ type: [
 `Snack`,
 `Street Food`,
 ],
+special: null,
+keywords: [
+`how to cook espasol recipe`,
+`how to cook dessert recipe`,
+`how to cook snack recipe`,
+`how to cook street food recipe`,
+],
 description: `Espasol is a soft, chewy Filipino rice cake prepared with a combination of toasted glutinous rice flour and grated green coconut that is slowly cooked in coconut milk. The mixture turns into soft, pliable dough that is shaped into long cylinders or triangles before each cake is coated in rice flour.
 
 Espasol is associated with the Laguna region, where it is a hailed as a local specialty that is usually bought at various restaurants, stores, and street stalls.`,
