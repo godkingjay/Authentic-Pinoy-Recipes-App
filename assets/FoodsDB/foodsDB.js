@@ -9356,6 +9356,15 @@ type: [
 `Dessert`,
 `Snack`,
 ],
+special: [
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`how to cook dessert recipe`,
+`how to cook maja blanca recipe`,
+`how to cook snack recipe`,
+],
 description: `Light and creamy maja blanca is a popular Filipino dessert which consists of coconut milk thickened with cornstarch and blended with whole corn kernels. Many modern varieties of this classic incorporate condensed or plain milk, cream, or diced cheese and are traditionally garnished with toasted coconut flakes or coconut latik.
 
 As the name suggests, this refreshing delicacy is the authentic Filipino variation of the popular manjar blanco, the creamy milk-based dessert found in numerous Spanish speaking countries. In the Philippines, maja blanca is a staple holiday dessert served on many special occasions.`,
