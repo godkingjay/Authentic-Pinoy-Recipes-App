@@ -8920,6 +8920,14 @@ type: [
 `Meat Dish`,
 `Beef Dish`
 ],
+special: null,
+keywords: [
+`how to cook beef recipe`,
+`how to cook picadillo recipe`,
+`how to cook beef picadillo recipe`,
+`how to cook giniling recipe`,
+`how to cook meat recipe`,
+],
 description: `Picadillo is a spicy dish consisting of ground meat, tomatoes, and onions in its basic version. It is popular throughout Latin America, Spain, and the Philippines, where it is known as giniling. The dish is usually served with a side of rice or tortillas, although it is used just as often as a filling for numerous wraps and tacos.
 
 In Cuba, the cooks like to add raisins for sweetness and olives for salt, in the Philippines, potatoes are often added to the dish, while the Mexican version incorporates additional lime juice, honey, or chili peppers. The name of the dish is derived from the Spanish word picar, meaning to chop or mince, referring to picadillo's key ingredient, ground meat.`,
