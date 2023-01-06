@@ -9176,6 +9176,11 @@ type: [
 `Desset`,
 `Snack`
 ],
+special: null,
+keywords: [
+`how to cook palitaw recipe`,
+`how to cook dessert recipe`,
+],
 description: `Palitaw is a popular Filipino boiled rice cake. These rice cakes were traditionally prepared with pounded rice, but today there are mainly made with a combination of glutinous rice flour and water. Characterized by their round and flat shape, they are boiled in water, then rolled in grated coconut and sweetened sesame seeds.
 
 The name is derived from the Filipino word litaw, which means to float, referring to the preparation method in which the cakes are boiled until they start floating on the surface. Just like other rice cakes in the Philippines, palitaw is enjoyed as a dessert, but it also makes for a satisfying afternoon treat.`,
