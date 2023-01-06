@@ -94,15 +94,15 @@ export default function FoodRecipe({ recipe }) {
         />
         <ExpandingDot
           data={recipe.instructions}
-          expandingDotWidth={ 32 }
           scrollX={ scrollX }
           inActiveDotOpacity={ 0.2 }
           activeDotColor={ '#36C464' }
           dotStyle={{
-              width: 10,
-              height: 10,
-              borderRadius: 100,
-              marginHorizontal: 5,
+            flex: 1,
+            maxHeight: 10,
+            maxWidth: 10,
+            borderRadius: 100,
+            marginHorizontal: 5,
           }}
           slidingIndicatorStyle={{
             zIndex: 99,
@@ -111,11 +111,11 @@ export default function FoodRecipe({ recipe }) {
             alignSelf: 'center'
           }}
           containerStyle={{
-              bottom: 0,
-              padding: 8,
-              width: '100%',
-              alignItems: 'center',
-              justifyContent: 'center',
+            bottom: 0,
+            padding: 8,
+            width: '100%',
+            alignItems: 'center',
+            justifyContent: 'center',
           }}
         />
       </View>

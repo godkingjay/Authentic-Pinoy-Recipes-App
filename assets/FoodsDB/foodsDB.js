@@ -12844,7 +12844,7 @@ nutrition: [
 ],
 },
 video: `https://youtu.be/gdw3n1iJyEU`,
-image: required(`./images/food/000000092.jpg`),
+image: require(`./images/food/000000092.jpg`),
 },
 {
 id: 93,
