@@ -8832,6 +8832,13 @@ type: [
 `Cake`,
 `Snack`
 ],
+special: [
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`how to cook kutsinta recipe`,
+],
 description: `Kutsinta or kuchinta or even brown rice cake is a type of “kakanin” that uses lye water as an ingredient. Kutsinta is somewhat sticky yet chewey (thats what lye water does) at the same time and is best eaten with grated coconut on top.`,
 link: `https://panlasangpinoy.com/filipino-food-kakanin-cuchinta-kutsinta-recipe/`,
 author: `Vanjo Merano`,
