@@ -9259,6 +9259,11 @@ tagalog: `Brazo de Mercedes`,
 type: [
 `Dessert`,
 ],
+special: null,
+keywords: [
+`how to cook dessert recipe`,
+`how to cook brazo de mercedes recipe`,
+],
 description: `Brazo de Mercedes is a traditional rolled cake originating from the Philippines and dating back to Spanish colonial times. The dessert consists of a sheet of fluffy meringue that's filled with custard. The custard ingredients usually include egg yolks, vanilla, condensed milk, and lime or lemon zest, while the meringue is made with egg whites, cream of tartar, and sugar.
 
 The meringue is baked, the custard is spread over the meringue, and the cake is then rolled with the filling rolled inward. Brazo de Mercedes is often served on large serving platters and then sliced into smaller pieces.`,
