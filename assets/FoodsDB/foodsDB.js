@@ -8342,6 +8342,13 @@ type: [
 `Sweet Pie`,
 `Dessert`
 ],
+special: null,
+keywords: [
+`how to cook buko recipe`,
+`how to cook buko pie recipe`,
+`how to cook pie recipe`,
+`how to cook dessert recipe`,
+],
 description: `Buko pie is a traditional Filipino dessert which consists of a flaky pie crust combined with creamy coconut filling. It is prepared with buko, the young coconut flesh which is cooked alongside plain or condensed milk, cream, and sugar until it transforms into a thick and creamy custard.
 
 According to popular belief, it was invented by Soledad Pahud, a native Filipino who spent some time working in the United States. After she had returned, she wanted to adapt the traditional American apple pie with locally available ingredients. Together with her family, she invented buko pie, a dessert which soon became a favorite throughout the country.
