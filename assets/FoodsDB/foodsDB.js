@@ -8609,6 +8609,19 @@ type: [
 `Pork Dish`,
 `Appetizer`,
 ],
+special: [
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`how to cook bopis recipe`,
+`how to cook offal stew recipe`,
+`how to cook stew recipe`,
+`how to cook offal recipe`,
+`how to cook appetizer recipe`,
+`how to cook pork recipe`,
+`how to cook pork stew recipe`,
+],
 description: `Bopis is a spicy Filipino dish made from minced pig’s lungs and heart. This can be served as an appetizer for beer and alcoholic beverages; it is also considered as a main dish and is best served with steamed white rice.
 
 The recipe of bopis has continually evolved throughout the years. There are recipes with a little bit of sauce in it, while there are others that require to let all the liquid evaporate.`,
