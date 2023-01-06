@@ -8200,6 +8200,17 @@ type: [
 `Meat Dish`,
 `Beef Dish`
 ],
+special: [
+`Celebration`,
+`Event`,
+`Wedding`,
+],
+keywords: [
+`how to cook morcon recipe`,
+`how to cook beef morcon recipe`,
+`how to cook beef recipe`,
+`how to cook meat recipe`,
+],
 description: `Morcon are delicious Filipino stuffed meat rolls. They usually consist of thin slices of pork or beef wrapped around neatly arranged sausages, carrots, pickles, and hard-boiled eggs. The rolls are shortly braised, then usually served sliced alongside thick sauces based on tomatoes or soy.
 
 Morcon is a dish prepared on various special occasions and is commonly enjoyed on New Year’s Day, since many Filipinos believe that eating round-shaped food will ensure prosperity in the following year.`,
