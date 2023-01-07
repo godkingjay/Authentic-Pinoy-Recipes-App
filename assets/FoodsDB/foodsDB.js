@@ -10435,6 +10435,16 @@ special: [
 `Special Occassion`,
 `Wedding`,
 ],
+keywords: [
+`how to cook beef recipe`,
+`how to cook caldereta recipe`,
+`how to cook kaldereta recipe`,
+`how to cook beef caldereta recipe`,
+`how to cook stew recipe`,
+`how to cook beef stew recipe`,
+`how to cook kalderetang baka recipe`,
+`how to cook meat recipe`,
+],
 description: `Beef Kaldereta is a main stay in any Filipino Kitchen. It is a type of beef stew cooked with tomato sauce and liver spread. Ingredients such as potato, carrots, bell peppers, and olives are also utilized when cooking this dish.
 
 This is a popular dish is served during special occasions. It is a regular item in every Filipino cookbook. Some consider kaldereta as the Philippines most famous beef stew.`,
