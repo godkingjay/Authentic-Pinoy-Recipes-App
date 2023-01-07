@@ -10016,6 +10016,13 @@ type: [
 `Soup`
 ],
 special: null,
+keywords: [
+`how to cook papaitan recipe`,
+`how to cook offal recipe`,
+`how to cook soup recipe`,
+`how to cook offal soup recipe`,
+],
+special: null,
 description: `Papaitan is a famous Ilocano soup dish mostly composed of cow or goat innards. The name of this dish was derived from the Filipino word “Pait”, which means “bitter”. The bitter taste of this soup comes from the bile. This is a bitter juice extracted by the liver and stored in the gallbladder to aid digestion.
 
 Although this soup is popular, one needs to develop and acquired taste to enjoy it. Once an acquired taste has developed, you will surely appreciate this dish without minding its components.`,
