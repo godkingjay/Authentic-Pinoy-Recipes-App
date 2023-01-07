@@ -10639,6 +10639,17 @@ special: [
 `Special Occassion`,
 `Wedding`,
 ],
+keywords: [
+`how to cook goat recipe`,
+`how to cook caldereta recipe`,
+`how to cook goat caldereta recipe`,
+`how to cook kaldereta recipe`,
+`how to cook kambing recipe`,
+`how to cook kalderetang kambing recipe`,
+`how to cook meat recipe`,
+`how to cook stew recipe`,
+`how to cook goat stew recipe`,
+],
 description: `Kalderetang Kambing is a rich, spicy, and hearty tomato-based stew made with goat meat, potatoes, and carrots. This classic Filipino dish is sure to be a crowd favorite at any special occasion or dinner party. Delicious as an appetizer with alcoholic drinks or a main dish with steamed rice!
 
 Kalderetang Kambing is a specialty dish of the Central and Northern Luzon. It’s made with adult goat meat (chevon) braised in spicy tomato sauce and liver paste with potatoes, carrots, olives, and bell peppers.`,
