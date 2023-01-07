@@ -10316,6 +10316,14 @@ type: [
 `Deep-Fried Dish`,
 ],
 special: null,
+keywords: [
+`how to cook toknenent recipe`,
+`how to cook kwek-kwek recipe`,
+`how to cook kwek kwek recipe`,
+`how to cook street food recipe`,
+`how to cook egg recipe`,
+],
+special: null,
 description: `Tokneneng is a traditional Filipino dish that's sold as a street food snack. It consists of hard-boiled eggs that are dipped in an orange-colored batter, then deep-fried. The dish is traditionally made with duck eggs, but chicken eggs can also be used.
 
 The batter is made with a combination of flour, water, salt, pepper, and annatto powder (or red and yellow food coloring). Once deep-fried, these eggs are traditionally served with a spiced vinegar-based dip on the side. There's also a variation on the dish called kwek kwek, made with quail eggs. `,
