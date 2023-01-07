@@ -9486,6 +9486,13 @@ type: [
 `Meat Dish`,
 `Beef Dish`,
 ],
+special: null,
+keywords: [
+`how to cook tapa recipe`,
+`how to cook beef tapa recipe`,
+`how to cook beef recipe`,
+`how to cook meat recipe`,
+],
 description: `In Filipino cuisine, tapa most commonly denotes thinly sliced beef sirloin that is traditionally placed in a sweet, salty, and tangy marinade made with calamansi lemonade and soy sauce, flavored with sugar and minced garlic. Other meats used to make tapa include mutton, venison, wild boar, horse, deer, and also the meat of carabao - a swamp-type domestic water buffalo native to the Philippines.
 
 Tapa is typically either grilled or pan-fried, and it is best enjoyed when served as a part of the so-called tapsilog, which is a portmanteau of the Filipino words tapa and sinangag, meaning garlic-fried rice, and itlog, meaning eggs.
