@@ -9747,6 +9747,15 @@ type: [
 `Beef Dish`,
 `Meat Dish`,
 ],
+special: null,
+keywords: [
+`how to cook pares recipe`,
+`how to cook beef pares recipe`,
+`how to cook beef stew recipe`,
+`how to cook stew recipe`,
+`how to cook beef recipe`,
+`how to cook meat recipe`,
+],
 description: `Pares is a Filipino term that typically refers to a standard combination of beef stew, beef soup, and rice. The star is the stew consisting of beef chunks that are slowly braised in a flavorful stock infused with garlic, soy sauce, star anise, sugar, and a variety of other spices and condiments.
 
 The thick, rich, and slightly sweet sauce and tender meat make pares one of the most popular beef dishes in the country. The term pares translates as pairs and stems from the traditional practice of serving this satisfying stew along with fried or steamed rice and a bowl of nourishing beef stock.
