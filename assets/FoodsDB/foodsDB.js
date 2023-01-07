@@ -9579,6 +9579,12 @@ type: [
 `Meat Dish`,
 `Main Course`,
 ],
+special: null,
+keywords: [
+`how to cook bicol express recipe`,
+`how to cook pork recipe`,
+`how to cook meat recipe`,
+],
 description: `Bicol express is a popular Filipino dish consisting of sliced pork that is doused in a creamy coconut-based sauce and seasoned with shrimp paste and spicy chili peppers. According to popular belief, Cely Kalaw invented the dish in her Manila restaurant.
 
 She was inspired by the traditional Bicolano coconut-infused dishes and named the new invention after a Filipino train service operating from Manila to the Bicol region. Creamy and spicy Bicol express is usually served with plain steamed rice on the side.`,
