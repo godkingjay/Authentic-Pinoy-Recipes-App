@@ -9937,8 +9937,11 @@ type: [
 `Breakfast`,
 `Snack`,
 ],
-special: [
-`Noche Buena`,
+special: null,
+keywords: [
+`how to cook lugaw recipe`,
+`how to cook porridge recipe`,
+`how to cook rice recipe`,
 ],
 description: `Lugaw is a Filipino rice porridge that is traditionally thought of as soft food for sick people, due to the fact that it doesn't require much chewing. Warm, filling, and mushy, the dish acts as an ideal base for any type of meat and seasonings, just like a congee.
 
