@@ -11382,6 +11382,18 @@ type: [
 `Noodle Dish`,
 ],
 special: [
+`Celebration`,
+`Birthday`,
+`Fiesta`,
+`New Year`,
+`Christmas`,
+`Event`,
+],
+keywords: [
+`how to cook spaghetti recipe`,
+`how to cook noodle recipe`,
+],
+special: [
 `Birthday`,
 `Celebration`,
 `Fiesta`,
