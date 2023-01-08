@@ -11751,7 +11751,24 @@ type: [
 `Meat Dish`,
 `Main Course`,
 ],
-special: null,
+special: [
+`Celebration`,
+`Fiesta`,
+`Christmas`,
+`New Year`,
+`Main Course`,
+],
+keywords: [
+`how to cook pork recipe`,
+`how to cook pork afritada recipe`,
+`how to cook afritada recipe`,
+`how to cook baboy recipe`,
+`how to cook afritadang baboy recipe`,
+`how to cook meat recipe`,
+`how to cook meat stew recipe`,
+`how to cook pork stew recipe`,
+`how to cook stew recipe`,
+],
 description: `Pork Afritada is a Filipino pork stew that resembles pork menudo. It is composed of pork shoulder that are cut into 1 inch cubes, carrot, potato, and tomato sauce. This step-up recipe also includes green pea, freshly chopped tomato, and bay leaves.
 
 A warm and inviting stew, afritada is as bright in flavor as it is in appearance! One glance of that vibrant red-orange sauce, and you definitely know you’re in for a treat. Afritada brims with flavor, which you can tell quite plainly from its equally mouthwatering aroma. When it wafts through the air, it’s impossible to resist. Indeed, whether it be through sight, smell, or taste, this Filipino favorite is a festival for all your senses! With a combination of tender pork that both falls off the bone and melts in your mouth, as well as fresh and chunky vegetables, what’s not to love about pork afritada?`,
