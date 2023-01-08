@@ -12365,6 +12365,19 @@ type: [
 ],
 special: [
 `Ilocano`,
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`how to cook pork recipe`,
+`how to cook pork igado recipe`,
+`how to cook igado recipe`,
+`how to cook stew recipe`,
+`how to cook pork stew recipe`,
+`how to cook offal recipe`,
+`how to cook meat recipe`,
+`how to cook meat stew recipe`,
+`how to cook offal stew recipe`,
 ],
 description: `Pork Igado is an Ilocano stew made of strips of liver and pork tenderloin braised in a tangy and savory soy sauce-vinegar mixture along with spices such as garlic, onions, and bay leaves.
 
