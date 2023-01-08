@@ -12092,6 +12092,12 @@ type: [
 `Noodle Dish`,
 ],
 special: null,
+keywords: [
+`how to cook pansit recipe`,
+`how to cook pancit recipe`,
+`how to cook noodle recipe`,
+],
+special: null,
 description: `Pancit Batil Patung is a popular noodle dish in Tuguegarao City, Cagayan. It is composed of two parts: the noodles with toppings, and the sauce which looks like an egg drop soup. Poached egg along with sautéed meats and vegetables are topped over the fresh miki noodles, while a piece of egg is cracked and stirred-in simmering beef stock and poured in a bowl. Both components should be present when eating this dish to experience optimal flavor. The sauce is gradually poured over the noodles and meat and it is further enhanced by adding a tablespoonful or two of the chopped onion and vinegar dip.`,
 link: `https://panlasangpinoy.com/pancit-batil-patung-recipe/`,
 author: `Vanjo Merano`,
