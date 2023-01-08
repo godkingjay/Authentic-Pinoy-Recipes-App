@@ -12572,7 +12572,22 @@ type: [
 `Meat Dish`,
 `Main Course`,
 ],
-special: null,
+special: [
+`Ilocano`,
+`Celebration`,
+`Fiesta`,
+],
+keywords: [
+`how to cook chicken recipe`,
+`how to cook chicken igado recipe`,
+`how to cook igado recipe`,
+`how to cook stew recipe`,
+`how to cook chicken stew recipe`,
+`how to cook offal recipe`,
+`how to cook meat recipe`,
+`how to cook meat stew recipe`,
+`how to cook offal stew recipe`,
+],
 description: `Igado, a famous Ilocano dish, has long made waves as a uniquely delicious recipe. It’s got a lovely mix of pork liver, pork tenderloin, and bay leaves, among many other spices. After all, part of what makes this recipe so great is its masterful combination of seasonings.
 
 The taste of liver tends to be off-putting to others with its more gummy texture and stronger flavor. But in this dish, it blends perfectly with the savory notes of its seasonings. And it also collaborates well with the refreshing textures of vegetables like bell peppers and carrots. This way, it doesn’t overpower, nor does it shy away from the spotlight as a deliciously salty ingredient.`,
