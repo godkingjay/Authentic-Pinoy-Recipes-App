@@ -11951,6 +11951,11 @@ type: [
 `Meat Dish`,
 ],
 special: null,
+keywords: [
+`how to cook pata recipe`,
+`how to cook pork recipe`,
+`how to cook meat recipe`,
+],
 description: `Pata tim is a traditional Filipino dish with Chinese influences, made with a combination of pata (pork leg), seasoning cube, bok choy, shiitake mushrooms, brown sugar, soy sauce, sesame oil, cornstarch, peppercorns, and star anise. The pork leg is broiled, boiled, drained, washed, then arranged in a cooking pot with soy sauce, sesame oil, water, and peppercorns.
 
 The combination is simmered until the pata becomes tender. The other ingredients are then added to the pot and cooked a bit more until the sauce thickens. The sauce should be mild and slightly sweet, while the pork leg should be as tender as possible.
