@@ -12290,6 +12290,11 @@ type: [
 `Appetizer`,
 ],
 special: null,
+keywords: [
+`how to cook hipon recipe`,
+`how to cook shrimp recipe`,
+`how to cook seafood recipe`,
+],
 description: `Halabos na hipon is a traditional dish originating from the Philippines. This simple dish is usually made with a combination of fresh shrimp, water, and sea salt. The shrimps are gently tossed with salt in a big pan or a wok over medium to high heat.
 
 Water is added, and the shrimps are stirred and cooked until the liquid evaporates. Once done, halabos na hipon is served hot on a large plate. If desired, a bit of garlic powder, butter, or red chili flakes can be added to the dish while it's cooking.
