@@ -14112,9 +14112,10 @@ type: [
 ],
 special: null,
 keywords: [
-`Bicol laing`,
-`how to cook laing`,
-`laing recipe`,
+`how to cook bicol laing recipe`,
+`how to cook laing recipe`,
+`how to cook vegetable recipe`,
+`how to cook gabi recipe`,
 ],
 description: `Laing is considered to be a staple in most Bicolano homes. This laing recipe is simple-to-follow and uses readily-available ingredients from the grocery. Making it at home is easy and fuss-free! You could adjust the taste accordingly by adding more shrimp paste or chili peppers. Substituting the pork slices with dried fish is also a healthy alternative to this dish.
 
