@@ -13059,7 +13059,15 @@ tagalog: `Ube Halaya`,
 type: [
 `Dessert`,
 ],
-special: null,
+special: [
+`Fiesta`
+],
+keywords: [
+`how to cook ube recipe`,
+`how to cook halaya recipe`,
+`how to cook ube halaya recipe`,
+`how to cook dessert recipe`,
+],
 description: `Ube Halaya is a type of Filipino Dessert made from purple yam. There are quite a few ways of preparing this dish. Some Ube halaya version makes use of condensed milk to cook the yam with, while others depend on coconut milk. This version only uses 3 major ingredients: purple yam, coconut milk, and sugar. Although it sounds really simple to prepare (which is true), the outcome is something that you should look forward to.`,
 link: `https://panlasangpinoy.com/simple-ube-halaya-recipe/`,
 author: `Vanjo Merano`,
