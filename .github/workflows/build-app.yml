@@ -1,0 +1,28 @@
+name: Expo CI CD
+
+on:
+  push :
+    branches : master
+
+jobs:
+  Build-for-android:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          java-package: jdk
+          architecture: x64
+      - uses: expo/expo-github-action@v7
+        with:
+          expo-version: latest
+          expo-username: ${{ secrets.EXPO_CLI_USERNAME }}
+          expo-password: ${{ secrets.EXPO_CLI_PASSWORD }}
+      - name: Install dependencies
+        run: npm install
+      - name: Build Android APK Bundle
+        run: expo build:android
