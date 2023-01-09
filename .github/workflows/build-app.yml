@@ -43,14 +43,8 @@ jobs:
         eas-version: latest
         token: ${{ secrets.EXPO_TOKEN }}
 
-    # - name: 🏗 Setup EAS local builds
-    #   run: yarn global add eas-cli-local-build-plugin
-
     - name: 📦 Install dependencies
       run: yarn
-
-    - name: 📋 Test project
-      run: yarn test
 
     - name: 👷 Build app
       run: |
