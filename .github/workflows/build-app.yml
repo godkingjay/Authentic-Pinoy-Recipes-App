@@ -48,14 +48,6 @@ jobs:
 
     - name: 👷 Build app
       run: |
-        eas build --local \
-          --non-interactive \
-          --output=./app-build \
+        eas build --non-interactive \
           --platform=${{ github.event.inputs.platform }} \
           --profile=${{ github.event.inputs.profile }}
-
-    - name: 📱 Upload binary
-      uses: actions/upload-artifact@v3
-      with:
-        name: app-${{ github.event.inputs.platform }}
-        path: app-build
