@@ -13367,6 +13367,12 @@ type: [
 `Seafood Dish`,
 ],
 special: null,
+keywords: [
+`how to cook paksiw recipe`,
+`how to cook bangus recipe`,
+`how to cook fish recipe`,
+`how to cook seafood recipe`,
+],
 description: `Paksiw is a Filipino cooking technique that refers to various dishes that are simmered in vinegar. The method is used in the preparation of fish or meat-based dishes which can also incorporate additional ingredients such as garlic, vegetables, seasonings, and various spices.
 
 The most popular dishes that fall into this category include pork-based paksiw na baboy and paksiw na isda that employs fish as the main ingredient. Paksiw dishes are usually served with rice on the side.`,
