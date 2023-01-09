@@ -12768,6 +12768,11 @@ type: [
 `Meat Dish`,
 ],
 special: null,
+keywords: [
+`how to cook bistek recipe`,
+`how to cook beef recipe`,
+`how to cook meat recipe`,
+],
 description: `Bistek Tagalog is a traditional meat dish originating from the Philippines. It consists of thinly sliced beef that's marinated and braised in a combination of citrus juice (usually from lemon, lime, or calamansi fruit), onions, garlic, soy sauce, and pepper.
 
 It is believed that the dish was derived after the Spanish bistec encebollado. When properly prepared, the flavors should be savory, salty, and tangy. It's important to use only the freshest beef and the most tender cuts such as top round and sirloin.
