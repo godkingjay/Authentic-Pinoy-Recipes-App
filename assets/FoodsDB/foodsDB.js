@@ -13137,6 +13137,11 @@ type: [
 `Cookie`,
 ],
 special: null,
+keywords: [
+`how to cook silvanas recipe`,
+`how to cook snack recipe`,
+`how to cook cookie recipe`,
+],
 description: `Silvanas are the snack version of a traditional Filipino dessert known as sans rival. These frozen cookie sandwiches are made with two cashew-meringue wafers that are held together with a thick layer of buttercream and are generously coated in cashew crumbs.
 
 Although plain versions are the most common, silvanas occasionally come in various flavors such as chocolate, strawberry, mocha, or mango. Popular throughout the country, these cookies have to be refrigerated and are best served well-chilled or frozen.`,
