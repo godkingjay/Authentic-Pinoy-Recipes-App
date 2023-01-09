@@ -1,0 +1,32 @@
+name: Expo Build
+
+on:
+  push:
+    branches: master
+
+jobs:
+  build:
+    name: Build Android
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+
+      - name: Setup Expo an EAS
+        uses: expo/expo-github-action@v7
+        with:
+          expo-version: latest
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Install dependencies
+        run: yarn install
+        
+      - name: Build Android APK Bundle
+        run: eas build --platform android
