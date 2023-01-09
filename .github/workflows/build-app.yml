@@ -21,12 +21,12 @@ on:
           - development
           - preview
           - production
+
 jobs:
   build:
     runs-on: ${{ github.event.inputs.os }}
     strategy:
-      matrix:
-        node: [18.x]
+
     steps:
     - name: 🏗 Checkout repo
       uses: actions/checkout@v3
@@ -34,7 +34,7 @@ jobs:
     - name: 🏗 Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node }}
+        node-version: 18.x
         cache: yarn
 
     - name: 🏗 Setup Expo and EAS
