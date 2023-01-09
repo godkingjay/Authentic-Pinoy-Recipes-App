@@ -21,7 +21,11 @@ function compareStrings(a, b) {
 function findMatches(wordToMatch, foods) {
   return foods.filter(food => {
     const regex = new RegExp(wordToMatch, 'gi');
-    return food.name.match(regex) || food.tagalog.match(regex) || matchType(wordToMatch, food.type);
+    if (food.name.match(regex) || food.tagalog.match(regex)) return true;
+    else if (matchType(wordToMatch, food.type)) return true;
+    else if (matchSpecial(wordToMatch, food.special)) return true;
+    else if (matchKeywords(wordToMatch, food.keywords)) return true;
+    else return false;
   });
 }
 
@@ -34,14 +38,39 @@ function matchType(wordToMatch, type){
   }
 }
 
+function matchSpecial(wordToMatch, special){
+  if(special == null) return false;
+  const regex = new RegExp(wordToMatch, 'gi');
+  for(let i = 0; i < special.length; i++) {
+    if(special[i].match(regex)){
+      return true;
+    }
+  }
+}
+
+function matchKeywords(wordToMatch, keywords){
+  if(keywords == null) return false;
+  const regex = new RegExp(wordToMatch, 'gi');
+  for(let i = 0; i < keywords.length; i++) {
+    if(keywords[i].match(regex)){
+      return true;
+    }
+  }
+}
+
 export default function Search({ navigation, route }) {
-  const [foods, setFoods] = useState(PinoyFoods);
+  const [foods, setFoods] = useState(PinoyFoods.sort((a, b) => {
+    return compareStrings(a.name, b.name);
+  }));
   const [searchText, setSearchText] = useState(null);
 
   const onChange = (string) => {
     let word = string.replace(/[^a-zA-Z -]/g, '');
     setSearchText(word);
-    setFoods(findMatches(word, PinoyFoods));
+    if(word.length > 0) setFoods(findMatches(word, PinoyFoods));
+    else setFoods(PinoyFoods.sort((a, b) => {
+      return compareStrings(a.name, b.name);
+    }));
   };
 
   React.useLayoutEffect(() => {
@@ -67,10 +96,6 @@ export default function Search({ navigation, route }) {
       ),
     });
   }, [navigation, searchText]);
-
-  foods.sort(function(a, b) {
-    return compareStrings(a.name, b.name);
-  });
 
   return(
     <View style={ globalStyles.screen }>
