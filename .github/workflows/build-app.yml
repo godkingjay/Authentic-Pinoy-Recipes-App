@@ -25,7 +25,6 @@ on:
 jobs:
   build:
     runs-on: ${{ github.event.inputs.os }}
-    strategy:
 
     steps:
     - name: 🏗 Checkout repo
