@@ -1,9 +1,16 @@
 {
   "build": {
-    "preview": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "production": {
       "android": {
         "buildType": "apk"
       }
+    },
+    "preview": {
+      "distribution": "internal"
     },
     "preview2": {
       "android": {
@@ -12,7 +19,9 @@
     },
     "preview3": {
       "developmentClient": true
-    },
+    }
+  },
+  "submit": {
     "production": {}
   }
 }

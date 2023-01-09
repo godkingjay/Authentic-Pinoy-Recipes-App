@@ -1,4 +1,4 @@
-name: Build
+name: Build App
 
 on:
   push:
@@ -29,4 +29,4 @@ jobs:
         run: yarn install
         
       - name: Build Android APK Bundle
-        run: eas build --platform android
+        run: eas build --profile production --platform android
