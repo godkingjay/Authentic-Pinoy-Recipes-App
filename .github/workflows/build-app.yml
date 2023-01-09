@@ -22,12 +22,13 @@ jobs:
         with:
           expo-version: latest
           eas-version: latest
-          username: ${{ secrets.EXPO_CLI_USERNAME }}
-          password: ${{ secrets.EXPO_CLI_PASSWORD }}
           token: ${{ secrets.EXPO_TOKEN }}
+      
+      - name: Install Expo-CLI
+        run: npm install expo-cli
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
         
       - name: Build Android APK Bundle
         run: eas build --platform android
