@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 18.x
 
       - name: Setup Expo and EAS
         uses: expo/expo-github-action@v7
@@ -23,12 +23,9 @@ jobs:
           expo-version: latest
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
-      
-      - name: Install Expo-CLI
-        run: npm install expo-cli
 
       - name: Install dependencies
-        run: npm install
+        run: npm i
         
       - name: Build Android APK Bundle
         run: eas build --platform android
