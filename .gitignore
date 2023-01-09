@@ -15,6 +15,7 @@ babel.config.js
 package-lock.json
 web-build/
 assets/app_icons/
+.github/workflows/
 
 # macOS
 .DS_Store
