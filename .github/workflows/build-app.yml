@@ -1,4 +1,4 @@
-name: Expo Build
+name: Build
 
 on:
   push:
@@ -16,12 +16,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
+        
+      - name: Install Expo and EAS
+        run: npm install expo expo-cli eas-cli
 
       - name: Setup Expo and EAS
         uses: expo/expo-github-action@v7
         with:
           expo-version: latest
           eas-version: latest
+          username: ${{ secrets.EXPO_CLI_USERNAME }}
+          password: ${{ secrets.EXPO_CLI_PASSWORD }}
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Install dependencies
