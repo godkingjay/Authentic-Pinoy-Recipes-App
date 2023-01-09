@@ -12887,7 +12887,7 @@ image: require(`./images/food/000000091.jpg`),
 },
 {
 id: 92,
-name: `BeefNilaga`,
+name: `Beef Nilaga`,
 tagalog: `Nilagang Baka`,
 type: [
 `Soup`,
@@ -12896,6 +12896,16 @@ type: [
 `Beef Dish`,
 ],
 special: null,
+keywords: [
+`how to cook beef recipe`,
+`how to cook nilaga recipe`,
+`how to cook beef nilaga recipe`,
+`how to cook beef soup recipe`,
+`how to cook meat soup recipe`,
+`how to cook meat recipe`,
+`how to cook beef soup recipe`,
+`how to cook soup recipe`,
+],
 description: `Nilagang baka is a traditional soup originating from the Philippines. Although there are many variations, it's usually prepared with a combination of onions, beef broth, cubed beef, baby bok choy, cabbage, plantains, potatoes, celery, star anise, salt, and pepper.
 
 The soup is simmered until the beef becomes tender and the vegetables are fully cooked. Nilagang baka is especially popular on cold or rainy days, and it's always served hot. Traditionally, it's accompanied by steamed rice and fish sauce (patis). Sometimes, an extra helping of the broth is served in a separate bowl on the side.`,
