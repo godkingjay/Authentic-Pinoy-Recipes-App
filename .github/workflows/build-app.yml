@@ -1,32 +1,68 @@
 name: Build App
-
 on:
-  push:
-    branches: master
-
+  workflow_dispatch:
+    inputs:
+      os:
+        type: choice
+        description: OS to build on. Ubuntu is faster, MacOS supports iOS builds, Windows is unsupported
+        options:
+          - macos-latest
+          - ubuntu-latest
+      platform:
+        type: choice
+        description: Platform to build for
+        options:
+          - android
+          - ios
+      profile:
+        type: choice
+        description: Build profile to use
+        options:
+          - development
+          - preview
+          - production
 jobs:
   build:
-    name: Build Android
-    runs-on: ubuntu-latest
+    runs-on: ${{ github.event.inputs.os }}
+    strategy:
+      matrix:
+        node: 18.x
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-        
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-          cache: yarn
+    - name: 🏗 Setup repo
+      uses: actions/checkout@v2
 
-      - name: Setup Expo and EAS
-        uses: expo/expo-github-action@v7
-        with:
-          expo-version: latest
-          eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
+    - name: 🏗 Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node }}
+        cache: yarn
 
-      - name: Install dependencies
-        run: yarn install
-        
-      - name: Build Android APK Bundle
-        run: eas build --profile production --platform android
+    - name: 🏗 Setup Expo and EAS
+      uses: expo/expo-github-action@v7
+      with:
+        token: ${{ secrets.EXPO_TOKEN }}
+        expo-version: latest
+        eas-version: latest
+
+    - name: 🏗 Setup EAS local builds
+      run: yarn global add eas-cli-local-build-plugin
+
+    - name: 📦 Install dependencies
+      run: yarn
+
+    - name: 📋 Test project
+      run: yarn test
+
+    - name: 👷 Build app
+      run: |
+        eas build --local \
+          --non-interactive \
+          --output=./app-build \
+          --platform=${{ github.event.inputs.platform }} \
+          --profile=${{ github.event.inputs.profile }}
+
+    - name: 📱 Upload binary
+      uses: actions/upload-artifact@v2
+      with:
+        name: app-${{ github.event.inputs.platform }}
+        path: app-build
