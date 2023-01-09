@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.x
+          cache: yarn
 
       - name: Setup Expo and EAS
         uses: expo/expo-github-action@v7
@@ -25,7 +26,7 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: yarn install
         
       - name: Build Android APK Bundle
         run: eas build --platform android
