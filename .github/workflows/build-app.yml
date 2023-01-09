@@ -24,8 +24,8 @@ on:
 
 jobs:
   build:
+    name: Build - ${{ github.event.inputs.platform }} - ${{ github.event.inputs.profile }}
     runs-on: ${{ github.event.inputs.os }}
-
     steps:
     - name: 🏗 Checkout repo
       uses: actions/checkout@v3
@@ -50,6 +50,7 @@ jobs:
       run: |
         eas build --local \
           --non-interactive \
+          --output=./app-build \
           --platform=${{ github.event.inputs.platform }} \
           --profile=${{ github.event.inputs.profile }}
 
