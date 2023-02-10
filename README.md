@@ -14,7 +14,7 @@
 
 # Authentic Pinoy Recipes
 
-Authentic Pinoy Recipes is a personal project meant to be submitted as an educational project for the subject Mobile System Development to complete the said subject.
+Authentic Pinoy Recipes is a personal project to be submitted to complete the Mobile System Development Course.
 
 # Features
 
