@@ -1,20 +1,49 @@
-![app icon](./assets/icon.png)
+<div align="center">
+    <img src="./assets/icon.png" alt="APP LOGO" width="50%"/>
+</div>
 
-[![Status](https://img.shields.io/badge/status-stable-blue.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/tree/master)
-[![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/tree/master)
-[![Release](https://img.shields.io/github/release/godkingjay/Authentic-Pinoy-Recipes-App.svg?maxAge=3600&label=download)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/godkingjay/Authentic-Pinoy-Recipes-App/total?style=flat-square)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases/latest)
-[![Stars](https://img.shields.io/github/stars/godkingjay/Authentic-Pinoy-Recipes-App.svg?style=social&label=Stars)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/stargazers)
+<br>
 
-[![Last Commit](https://img.shields.io/github/last-commit/godkingjay/Authentic-Pinoy-Recipes-App.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/commits)
-[![Issues Open](https://img.shields.io/github/issues/godkingjay/Authentic-Pinoy-Recipes-App.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/issues)
-[![Issues Closed](https://img.shields.io/github/issues-closed/godkingjay/Authentic-Pinoy-Recipes-App.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/issues?q=is%3Aissue+is%3Aclosed)
-[![Code Size](https://img.shields.io/github/languages/code-size/godkingjay/Authentic-Pinoy-Recipes-App.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App)
-[![Repo Size](https://img.shields.io/github/repo-size/godkingjay/Authentic-Pinoy-Recipes-App.svg)](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App)
+<div align="center">
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/tree/master" target="_blank">
+        <img src="https://img.shields.io/badge/status-stable-blue.svg" alt="Status"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/tree/master" target="_blank">
+        <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases/latest" target="_blank">
+        <img src="https://img.shields.io/github/release/godkingjay/Authentic-Pinoy-Recipes-App.svg?maxAge=3600&label=download" alt="Release"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases/latest" target="_blank">
+        <img src="https://img.shields.io/github/downloads/godkingjay/Authentic-Pinoy-Recipes-App/total?style=flat-square" alt="Downloads"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/stargazers" target="_blank">
+        <img src="https://img.shields.io/github/stars/godkingjay/Authentic-Pinoy-Recipes-App.svg?style=social&label=Stars" alt="Stars"/>
+    </a>
+    <br>
+    <br>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/commits" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/godkingjay/Authentic-Pinoy-Recipes-App.svg" alt="Last Commit"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/issues" target="_blank">
+        <img src="https://img.shields.io/github/issues/godkingjay/Authentic-Pinoy-Recipes-App.svg" alt="Issues Open"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/issues?q=is%3Aissue+is%3Aclosed" target="_blank">
+        <img src="https://img.shields.io/github/issues-closed/godkingjay/Authentic-Pinoy-Recipes-App.svg" alt="Issues Closed"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App" target="_blank">
+        <img src="https://img.shields.io/github/languages/code-size/godkingjay/Authentic-Pinoy-Recipes-App.svg" alt="Code Size"/>
+    </a>
+    <a href="https://github.com/godkingjay/Authentic-Pinoy-Recipes-App" target="_blank">
+        <img src="https://img.shields.io/github/repo-size/godkingjay/Authentic-Pinoy-Recipes-App.svg" alt="Repo Size"/>
+    </a>
+</div>
+
+<h2></h2>
 
 # Authentic Pinoy Recipes
 
-Authentic Pinoy Recipes is a personal project meant to be submitted as an educational project for the subject Mobile System Development to complete the said subject.
+Authentic Pinoy Recipes is a personal project to be submitted to complete the Mobile System Development Course.
 
 # Features
 
