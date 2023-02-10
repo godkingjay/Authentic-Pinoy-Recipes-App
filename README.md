@@ -45,17 +45,24 @@
 
 Authentic Pinoy Recipes is a personal project to be submitted to complete the Mobile System Development Course.
 
+- [Authentic Pinoy Recipes](#authentic-pinoy-recipes)
+- [Features](#features)
+- [Download](#download)
+- [Issues and Feature Requests](#issues-and-feature-requests)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+
 # Features
 
-Features include:
-
-* Pinoy Foods Recipes.
-* Pinoy Foods Categories.
-* Food Searching.
-* Food Category Searching.
-* Favorite Foods List.
+**Features includes:**
+- Pinoy Foods Recipes.
+- Pinoy Foods Categories.
+- Food Searching.
+- Food Category Searching.
+- Favorite Foods List.
 
 # Download
+
 Get the app from the [releases page](https://github.com/godkingjay/Authentic-Pinoy-Recipes-App/releases).
 
 # Issues and Feature Requests
@@ -70,19 +77,19 @@ Please make sure to read the full guidelines. Your issue may be closed without w
 
 <details><summary>Bugs</summary>
 
-* Include version (More → About → Version)
- * If not latest, try updating, it may have already been solved
-* Include steps to reproduce (if not obvious from description)
-* Include screenshot (if needed)
-* If it could be device-dependent, try reproducing on another device (if possible)
-* Don't group unrelated requests into one issue
+- Include version (More → About → Version)
+- If not latest, try updating, it may have already been solved
+- Include steps to reproduce (if not obvious from description)
+- Include screenshot (if needed)
+- If it could be device-dependent, try reproducing on another device (if possible)
+- Don't group unrelated requests into one issue
 
 </details>
 
 <details><summary>Feature Requests</summary>
 
-* Write a detailed issue, explaining what it should do or how. Avoid writing just "like X app does"
-* Include screenshot (if needed)
+- Write a detailed issue, explaining what it should do or how. Avoid writing just "like X app does"
+- Include screenshot (if needed)
 
 </details>
 
