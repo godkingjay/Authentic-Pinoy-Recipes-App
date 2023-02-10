@@ -20,7 +20,7 @@
     "native-base": "^3.4.17",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-native": "0.69.6",
+    "react-native": "0.71.2",
     "react-native-animated-pagination-dots": "^0.1.73",
     "react-native-elements": "^3.4.2",
     "react-native-flash-message": "^0.3.1",
