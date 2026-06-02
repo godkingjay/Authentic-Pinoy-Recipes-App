@@ -7404,9 +7404,9 @@ react-native-elements@^3.4.2:
     react-native-size-matters "^0.3.1"
 
 react-native-flash-message@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-native-flash-message/-/react-native-flash-message-0.4.0.tgz#22781a8d3c4d12498fb5ff778efeda2044cf6040"
-  integrity sha512-ZCVnQj+82cQnWqBtkIVPxMEJxwzWqq8WQcIulUqc9UiCdvWQJRLN0Pe0PvzFs/l/GM2ek6zXSck7LJzUq8pahQ==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/react-native-flash-message/-/react-native-flash-message-0.4.2.tgz#ed8ffe60c532bc1274c3b49a60dd0bd2fca59c50"
+  integrity sha512-YvdXRW9AGMTI99S3DJZhLO0mbk/ehKv/UQf4/Df+3dtGi8DlkidRbyqCQZk1WMtZ7rN85PMTGr/xEI9CF9z0YA==
   dependencies:
     prop-types "^15.8.1"
     react-native-iphone-screen-helper "^2.0.2"
@@ -7417,9 +7417,9 @@ react-native-gradle-plugin@^0.71.14:
   integrity sha512-nnLawTZEPPRAKq92UqDkzoGgCBl9aa9zAihFHMwmwzn4WRVdK4O6Cd4XYiyoNOiQzx3Hh9k5WOckHE80C92ivQ==
 
 react-native-iphone-screen-helper@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-iphone-screen-helper/-/react-native-iphone-screen-helper-2.0.3.tgz#6bc6d19db5e4691d6204e9e996be9214c117c846"
-  integrity sha512-gbSnV0iYWQ3hne3inYoueatSJL/Un49biIkHLGKsm7J7QjFhL+/WSPB1sZhQ87lNIANwFh33nvxcjixxR4T+NQ==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-iphone-screen-helper/-/react-native-iphone-screen-helper-2.2.1.tgz#34125de16426f1011ecec595be01876be9ccf2bf"
+  integrity sha512-gMHawcFa9O8St9rJ6zugW55O/sM3UUTLqc4MDaZQewBTIDjfvHzLmk2A/+PxySl5ZTfv6fyIV5g+2ozLRW5kcw==
 
 react-native-ratings@8.0.4:
   version "8.0.4"
